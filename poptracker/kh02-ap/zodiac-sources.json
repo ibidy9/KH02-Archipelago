@@ -1,0 +1,113 @@
+{
+  "source": "Supported Steam package; identities joined to RebellisItemData KEY_ITEM_SIGN entries",
+  "assets": [
+    {
+      "name": "Aries Relic",
+      "item_id": 131619,
+      "path": "images/zodiacs/131619.png",
+      "native_icon": "item901",
+      "header_offset": 2915303424,
+      "export_offset": 2915304057,
+      "sha256": "48f613b1afce2e011d7696fa13a069e02793d47d0dcce3bd5e5ee8003f2139d4"
+    },
+    {
+      "name": "Taurus Relic",
+      "item_id": 131620,
+      "path": "images/zodiacs/131620.png",
+      "native_icon": "item902",
+      "header_offset": 2915399680,
+      "export_offset": 2915400313,
+      "sha256": "ec172c3ffa4e41e070ccb128d520489fc7c43d1f47f0aaf77d4a4ebbab4994d3"
+    },
+    {
+      "name": "Gemini Relic",
+      "item_id": 131621,
+      "path": "images/zodiacs/131621.png",
+      "native_icon": "item903",
+      "header_offset": 2915497984,
+      "export_offset": 2915498619,
+      "sha256": "32b2d3148c5ef76e64778df48125f916b235a4b04e6e38b3da4a7ee89dd47b08"
+    },
+    {
+      "name": "Cancer Relic",
+      "item_id": 131622,
+      "path": "images/zodiacs/131622.png",
+      "native_icon": "item904",
+      "header_offset": 2915596288,
+      "export_offset": 2915596922,
+      "sha256": "3476e21c9961a4dbf268f3f20a1fff66f173eb3f39c2fbb916be6f827b853a23"
+    },
+    {
+      "name": "Leo Relic",
+      "item_id": 131623,
+      "path": "images/zodiacs/131623.png",
+      "native_icon": "item905",
+      "header_offset": 2915694592,
+      "export_offset": 2915695225,
+      "sha256": "5cda10e525396115f6c7ea3e643af1db60fbc681f7e885b20e4bd2099a35b794"
+    },
+    {
+      "name": "Virgo Relic",
+      "item_id": 131624,
+      "path": "images/zodiacs/131624.png",
+      "native_icon": "item906",
+      "header_offset": 2915788800,
+      "export_offset": 2915789433,
+      "sha256": "4af7430375c79e40e8231dcfff9606065613afdcd3bb309ba7489768b97321ab"
+    },
+    {
+      "name": "Libra Relic",
+      "item_id": 131625,
+      "path": "images/zodiacs/131625.png",
+      "native_icon": "item907",
+      "header_offset": 2915883008,
+      "export_offset": 2915883642,
+      "sha256": "348e0966a852498830565847a4f39fde99fda6357bd9ce7c9ffc0c0fef0ada73"
+    },
+    {
+      "name": "Scorpio Relic",
+      "item_id": 131626,
+      "path": "images/zodiacs/131626.png",
+      "native_icon": "item908",
+      "header_offset": 2915981312,
+      "export_offset": 2915981946,
+      "sha256": "e76fcf4a282ac1879a03c412e378a659c25037cfe2eee8c1970f50c35ee818a7"
+    },
+    {
+      "name": "Sagittarius Relic",
+      "item_id": 131627,
+      "path": "images/zodiacs/131627.png",
+      "native_icon": "item909",
+      "header_offset": 2916081664,
+      "export_offset": 2916082298,
+      "sha256": "d998fc01cf59cee0ef416539e13e927c022c57e06aa53acda7eadbccd4dc1416"
+    },
+    {
+      "name": "Capricorn Relic",
+      "item_id": 131628,
+      "path": "images/zodiacs/131628.png",
+      "native_icon": "item910",
+      "header_offset": 2916177920,
+      "export_offset": 2916178554,
+      "sha256": "98b6c92ab54991b9b2de80be8901b73f17396411c617967d18336c8f8a963f0d"
+    },
+    {
+      "name": "Aquarius Relic",
+      "item_id": 131629,
+      "path": "images/zodiacs/131629.png",
+      "native_icon": "item911",
+      "header_offset": 2916274176,
+      "export_offset": 2916274810,
+      "sha256": "e212b2ed7b6f04fd85581df34d8df4da3f6b8fa48eff394bb60d788d7e7fa482"
+    },
+    {
+      "name": "Pisces Relic",
+      "item_id": 131630,
+      "path": "images/zodiacs/131630.png",
+      "native_icon": "item912",
+      "header_offset": 2916370432,
+      "export_offset": 2916371066,
+      "sha256": "9e364c6aff8074bc19dbb3dcc2e75846f188b42fcc4d9498bd0bfeff821fe192"
+    }
+  ]
+}

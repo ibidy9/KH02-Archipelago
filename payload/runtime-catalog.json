@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "runtimes": [
+    {
+      "mode": "fresh",
+      "starting_world": "Castle Town",
+      "offline_validated": true,
+      "live_proven": false,
+      "version": "v27701",
+      "prototype": {
+        "path": "assets/KH02_AP_RestartPrototype_P.pak",
+        "sha256": "d03ec86706d3d5ec53ddd434afed99061b058c1cc69e6ce99c626917a27d434a"
+      },
+      "menu": {
+        "path": "assets/TresGame-WindowsNoEditor_99_P.pak",
+        "sha256": "b6223c647e03d4d017863e7310d302be14b553ed4be89f867015d0a7293373e1"
+      },
+      "startup": {
+        "path": "runtime/v18701/dinput8.dll",
+        "sha256": "8dc6028b2060a13ffa55161f44b3f01a9b51d390ed898537780a4a6ad13fd85e"
+      },
+      "transport": {
+        "path": "runtime/v27701/Kh02FreshTransport.dll",
+        "sha256": "fc84aa3a226f5a0f8fa37479310b8271f71f247f1b6c7be74a6898af70484d22"
+      }
+    },
+    {
+      "mode": "fresh",
+      "starting_world": "The World Within",
+      "offline_validated": true,
+      "live_proven": false,
+      "version": "v27702",
+      "prototype": {
+        "path": "assets/KH02_AP_RestartPrototype_P.pak",
+        "sha256": "d03ec86706d3d5ec53ddd434afed99061b058c1cc69e6ce99c626917a27d434a"
+      },
+      "menu": {
+        "path": "assets/TresGame-WindowsNoEditor_99_P.pak",
+        "sha256": "b6223c647e03d4d017863e7310d302be14b553ed4be89f867015d0a7293373e1"
+      },
+      "startup": {
+        "path": "runtime/v18702/dinput8.dll",
+        "sha256": "b5d6642f34ffc06e544f5b9fd3b5c0c255af9a23f66e78ce6b45c20daedfafa8"
+      },
+      "transport": {
+        "path": "runtime/v27702/Kh02FreshTransport.dll",
+        "sha256": "cde618f7c63a0ffa05e8053212b782a09723fa020ef255fa6ee7a1246937384e"
+      }
+    },
+    {
+      "mode": "fresh",
+      "starting_world": "Forest of Thorns",
+      "offline_validated": true,
+      "live_proven": false,
+      "version": "v27703",
+      "prototype": {
+        "path": "assets/KH02_AP_RestartPrototype_P.pak",
+        "sha256": "d03ec86706d3d5ec53ddd434afed99061b058c1cc69e6ce99c626917a27d434a"
+      },
+      "menu": {
+        "path": "assets/TresGame-WindowsNoEditor_99_P.pak",
+        "sha256": "b6223c647e03d4d017863e7310d302be14b553ed4be89f867015d0a7293373e1"
+      },
+      "startup": {
+        "path": "runtime/v18703/dinput8.dll",
+        "sha256": "fe828c89dc20da8a49c0b912fd7944f0dc59889845ecfe68352ab1d5e3ddd98e"
+      },
+      "transport": {
+        "path": "runtime/v27703/Kh02FreshTransport.dll",
+        "sha256": "d719abbf89f33a0b471c24e0c3fc7b4c21a0c3197c73d69b05729dfe14ea2a82"
+      }
+    },
+    {
+      "mode": "fresh",
+      "starting_world": "Depths of Darkness",
+      "offline_validated": true,
+      "live_proven": false,
+      "version": "v27704",
+      "prototype": {
+        "path": "assets/KH02_AP_RestartPrototype_P.pak",
+        "sha256": "d03ec86706d3d5ec53ddd434afed99061b058c1cc69e6ce99c626917a27d434a"
+      },
+      "menu": {
+        "path": "assets/TresGame-WindowsNoEditor_99_P.pak",
+        "sha256": "b6223c647e03d4d017863e7310d302be14b553ed4be89f867015d0a7293373e1"
+      },
+      "startup": {
+        "path": "runtime/v18704/dinput8.dll",
+        "sha256": "72cb8b38981d85f251e4dd6549a6f14566575b98fc4dccd8ccb185eec0795cc4"
+      },
+      "transport": {
+        "path": "runtime/v27704/Kh02FreshTransport.dll",
+        "sha256": "06218a0e521159c412736c8c098729f1bc478933c7b920e6c9b8e7dc9314cd2a"
+      }
+    },
+    {
+      "mode": "resume",
+      "starting_world": "Castle Town",
+      "offline_validated": true,
+      "live_proven": false,
+      "version": "v27705",
+      "prototype": {
+        "path": "assets/KH02_AP_RestartPrototype_P.pak",
+        "sha256": "d03ec86706d3d5ec53ddd434afed99061b058c1cc69e6ce99c626917a27d434a"
+      },
+      "menu": {
+        "path": "assets/TresGame-WindowsNoEditor_99_P.pak",
+        "sha256": "b6223c647e03d4d017863e7310d302be14b553ed4be89f867015d0a7293373e1"
+      },
+      "startup": {
+        "path": "runtime/v18705/dinput8.dll",
+        "sha256": "d0bc9ccc9af7c744c6830d86cb880ce75ebdcd7503a40a34c2d54391dbad8094"
+      },
+      "transport": {
+        "path": "runtime/v27705/Kh02FreshTransport.dll",
+        "sha256": "3fe9087c31e9bcdbf483ec10cfb887c85040ef278ce955fe9522e72aa2e02448"
+      }
+    },
+    {
+      "mode": "resume",
+      "starting_world": "The World Within",
+      "offline_validated": true,
+      "live_proven": false,
+      "version": "v27706",
+      "prototype": {
+        "path": "assets/KH02_AP_RestartPrototype_P.pak",
+        "sha256": "d03ec86706d3d5ec53ddd434afed99061b058c1cc69e6ce99c626917a27d434a"
+      },
+      "menu": {
+        "path": "assets/TresGame-WindowsNoEditor_99_P.pak",
+        "sha256": "b6223c647e03d4d017863e7310d302be14b553ed4be89f867015d0a7293373e1"
+      },
+      "startup": {
+        "path": "runtime/v18706/dinput8.dll",
+        "sha256": "70500c44db9d8058368f49db4d2c9adfa745e5ea1d4798d604a16adf2aa56ba2"
+      },
+      "transport": {
+        "path": "runtime/v27706/Kh02FreshTransport.dll",
+        "sha256": "dea0a033537217481c030cfca559e7d117854f8786c6d8cb2db5cc61f05d1499"
+      }
+    },
+    {
+      "mode": "resume",
+      "starting_world": "Forest of Thorns",
+      "offline_validated": true,
+      "live_proven": false,
+      "version": "v27707",
+      "prototype": {
+        "path": "assets/KH02_AP_RestartPrototype_P.pak",
+        "sha256": "d03ec86706d3d5ec53ddd434afed99061b058c1cc69e6ce99c626917a27d434a"
+      },
+      "menu": {
+        "path": "assets/TresGame-WindowsNoEditor_99_P.pak",
+        "sha256": "b6223c647e03d4d017863e7310d302be14b553ed4be89f867015d0a7293373e1"
+      },
+      "startup": {
+        "path": "runtime/v18707/dinput8.dll",
+        "sha256": "8e52090dbeeb7ab59c9fd9056cd03362ac8154629769e02f2d42d4b24c0a2aae"
+      },
+      "transport": {
+        "path": "runtime/v27707/Kh02FreshTransport.dll",
+        "sha256": "5a1b5ce7d0cc23880cf239e23c3e074730abaf56da6315e904ac8fc832cd7edc"
+      }
+    },
+    {
+      "mode": "resume",
+      "starting_world": "Depths of Darkness",
+      "offline_validated": true,
+      "live_proven": false,
+      "version": "v27708",
+      "prototype": {
+        "path": "assets/KH02_AP_RestartPrototype_P.pak",
+        "sha256": "d03ec86706d3d5ec53ddd434afed99061b058c1cc69e6ce99c626917a27d434a"
+      },
+      "menu": {
+        "path": "assets/TresGame-WindowsNoEditor_99_P.pak",
+        "sha256": "b6223c647e03d4d017863e7310d302be14b553ed4be89f867015d0a7293373e1"
+      },
+      "startup": {
+        "path": "runtime/v18708/dinput8.dll",
+        "sha256": "31a974f34a01ee835bbac90a7394485c583f02e99093c4aab41233fe04886d5d"
+      },
+      "transport": {
+        "path": "runtime/v27708/Kh02FreshTransport.dll",
+        "sha256": "b2aebe769d9a939855f9a73c3f631ca8afcd090ad41c03ddfa1895665a1eeead"
+      }
+    }
+  ]
+}

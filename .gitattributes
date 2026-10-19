@@ -1,0 +1,4 @@
+# Preserve the accepted source bytes and manifest hashes across checkouts.
+* -text
+*.png binary
+*.jpg binary

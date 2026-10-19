@@ -1,0 +1,716 @@
+{
+  "tracker_default": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Overview",
+        "content": {
+          "type": "layout",
+          "key": "overview"
+        }
+      },
+      {
+        "title": "Objectives",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "1\u201325",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Objectives 1\u201325"
+                ]
+              }
+            },
+            {
+              "title": "26\u201350",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Objectives 26\u201350"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Wardrobe",
+        "content": {
+          "type": "array",
+          "orientation": "horizontal",
+          "content": [
+            {
+              "type": "text",
+              "text": ""
+            },
+            {
+              "type": "canvas",
+              "width": 630,
+              "height": 576,
+              "margin": 0,
+              "content": [
+                {
+                  "type": "item",
+                  "item": "wardrobe_label_head",
+                  "canvas_left": 11,
+                  "canvas_top": 4,
+                  "width": 188,
+                  "height": 28,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131840",
+                  "canvas_left": 11,
+                  "canvas_top": 46,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131841",
+                  "canvas_left": 81,
+                  "canvas_top": 46,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131842",
+                  "canvas_left": 151,
+                  "canvas_top": 46,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131843",
+                  "canvas_left": 11,
+                  "canvas_top": 118,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131844",
+                  "canvas_left": 81,
+                  "canvas_top": 118,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131845",
+                  "canvas_left": 151,
+                  "canvas_top": 118,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131846",
+                  "canvas_left": 11,
+                  "canvas_top": 190,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131847",
+                  "canvas_left": 81,
+                  "canvas_top": 190,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131848",
+                  "canvas_left": 151,
+                  "canvas_top": 190,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131849",
+                  "canvas_left": 11,
+                  "canvas_top": 262,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131850",
+                  "canvas_left": 81,
+                  "canvas_top": 262,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131851",
+                  "canvas_left": 151,
+                  "canvas_top": 262,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "wardrobe_label_arms",
+                  "canvas_left": 221,
+                  "canvas_top": 4,
+                  "width": 188,
+                  "height": 28,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131861",
+                  "canvas_left": 221,
+                  "canvas_top": 46,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131862",
+                  "canvas_left": 291,
+                  "canvas_top": 46,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131863",
+                  "canvas_left": 361,
+                  "canvas_top": 46,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131864",
+                  "canvas_left": 221,
+                  "canvas_top": 118,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131865",
+                  "canvas_left": 291,
+                  "canvas_top": 118,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131866",
+                  "canvas_left": 361,
+                  "canvas_top": 118,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131867",
+                  "canvas_left": 221,
+                  "canvas_top": 190,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131868",
+                  "canvas_left": 291,
+                  "canvas_top": 190,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131869",
+                  "canvas_left": 361,
+                  "canvas_top": 190,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "wardrobe_label_back",
+                  "canvas_left": 431,
+                  "canvas_top": 4,
+                  "width": 188,
+                  "height": 28,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131852",
+                  "canvas_left": 431,
+                  "canvas_top": 46,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131853",
+                  "canvas_left": 501,
+                  "canvas_top": 46,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131854",
+                  "canvas_left": 571,
+                  "canvas_top": 46,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131855",
+                  "canvas_left": 431,
+                  "canvas_top": 118,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131856",
+                  "canvas_left": 501,
+                  "canvas_top": 118,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131857",
+                  "canvas_left": 571,
+                  "canvas_top": 118,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131858",
+                  "canvas_left": 431,
+                  "canvas_top": 190,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131859",
+                  "canvas_left": 501,
+                  "canvas_top": 190,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131860",
+                  "canvas_left": 571,
+                  "canvas_top": 190,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "wardrobe_label_pattern",
+                  "canvas_left": 0,
+                  "canvas_top": 336,
+                  "width": 630,
+                  "height": 28,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131870",
+                  "canvas_left": 45,
+                  "canvas_top": 378,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131871",
+                  "canvas_left": 45,
+                  "canvas_top": 446,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131872",
+                  "canvas_left": 45,
+                  "canvas_top": 514,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131873",
+                  "canvas_left": 127,
+                  "canvas_top": 378,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131874",
+                  "canvas_left": 127,
+                  "canvas_top": 446,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131875",
+                  "canvas_left": 127,
+                  "canvas_top": 514,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131876",
+                  "canvas_left": 209,
+                  "canvas_top": 378,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131877",
+                  "canvas_left": 209,
+                  "canvas_top": 446,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131878",
+                  "canvas_left": 209,
+                  "canvas_top": 514,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131879",
+                  "canvas_left": 291,
+                  "canvas_top": 378,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131880",
+                  "canvas_left": 291,
+                  "canvas_top": 446,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131881",
+                  "canvas_left": 291,
+                  "canvas_top": 514,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131882",
+                  "canvas_left": 373,
+                  "canvas_top": 378,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131883",
+                  "canvas_left": 373,
+                  "canvas_top": 446,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131884",
+                  "canvas_left": 373,
+                  "canvas_top": 514,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131886",
+                  "canvas_left": 455,
+                  "canvas_top": 378,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131887",
+                  "canvas_left": 455,
+                  "canvas_top": 446,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131890",
+                  "canvas_left": 455,
+                  "canvas_top": 514,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131888",
+                  "canvas_left": 537,
+                  "canvas_top": 378,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131889",
+                  "canvas_left": 537,
+                  "canvas_top": 446,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                },
+                {
+                  "type": "item",
+                  "item": "i131891",
+                  "canvas_left": 537,
+                  "canvas_top": 514,
+                  "width": 48,
+                  "height": 48,
+                  "item_h_alignment": "center",
+                  "item_v_alignment": "center",
+                  "margin": 0
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ""
+            }
+          ],
+          "v_alignment": "top"
+        }
+      },
+      {
+        "title": "Overworld",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Overworld"
+          ]
+        }
+      },
+      {
+        "title": "Castle Town",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Castle Town"
+          ]
+        }
+      },
+      {
+        "title": "WW",
+        "content": {
+          "type": "map",
+          "maps": [
+            "The World Within"
+          ]
+        }
+      },
+      {
+        "title": "Forest",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Forest of Thorns"
+          ]
+        }
+      },
+      {
+        "title": "Depths",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Depths of Darkness"
+          ]
+        }
+      }
+    ]
+  }
+}

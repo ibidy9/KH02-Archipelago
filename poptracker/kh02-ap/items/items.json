@@ -1,0 +1,648 @@
+[
+  {
+    "name": "Fire Magic",
+    "type": "toggle",
+    "codes": "i131585",
+    "img": "images/icons/fire-v4.png"
+  },
+  {
+    "name": "Blizzard Magic",
+    "type": "toggle",
+    "codes": "i131586",
+    "img": "images/icons/blizzard-v4.png"
+  },
+  {
+    "name": "Thunder Magic",
+    "type": "toggle",
+    "codes": "i131587",
+    "img": "images/icons/thunder-v4.png"
+  },
+  {
+    "name": "Cure Magic",
+    "type": "toggle",
+    "codes": "i131588",
+    "img": "images/icons/cure-v4.png"
+  },
+  {
+    "name": "Doubleflight",
+    "type": "toggle",
+    "codes": "i131589",
+    "img": "images/icons/aqua-doubleflight-v3.png"
+  },
+  {
+    "name": "Air Slide",
+    "type": "toggle",
+    "codes": "i131590",
+    "img": "images/icons/aqua-airslide-v3.png"
+  },
+  {
+    "name": "Shotlock",
+    "type": "toggle",
+    "codes": "i131591",
+    "img": "images/icons/aqua-shotlock-v3.png"
+  },
+  {
+    "name": "Spellweaver",
+    "type": "toggle",
+    "codes": "i131592",
+    "img": "images/icons/aqua-spellweaver-v3.png"
+  },
+  {
+    "name": "Potion",
+    "type": "consumable",
+    "codes": "i131593",
+    "img": "images/badges/020209.png",
+    "min_quantity": 0,
+    "max_quantity": 9999
+  },
+  {
+    "name": "Ether",
+    "type": "consumable",
+    "codes": "i131594",
+    "img": "images/badges/02020a.png",
+    "min_quantity": 0,
+    "max_quantity": 9999
+  },
+  {
+    "name": "Max HP Increase",
+    "type": "consumable",
+    "codes": "i131595",
+    "img": "images/icons/hp-v4.png",
+    "min_quantity": 0,
+    "max_quantity": 9999
+  },
+  {
+    "name": "Max MP Increase",
+    "type": "consumable",
+    "codes": "i131596",
+    "img": "images/icons/native-131596.png",
+    "min_quantity": 0,
+    "max_quantity": 9999
+  },
+  {
+    "name": "Hi-Potion",
+    "type": "consumable",
+    "codes": "i131597",
+    "img": "images/badges/02020d.png",
+    "min_quantity": 0,
+    "max_quantity": 9999
+  },
+  {
+    "name": "Mega-Potion",
+    "type": "consumable",
+    "codes": "i131598",
+    "img": "images/badges/02020e.png",
+    "min_quantity": 0,
+    "max_quantity": 9999
+  },
+  {
+    "name": "Mega-Ether",
+    "type": "consumable",
+    "codes": "i131599",
+    "img": "images/badges/02020f.png",
+    "min_quantity": 0,
+    "max_quantity": 9999
+  },
+  {
+    "name": "Elixir",
+    "type": "consumable",
+    "codes": "i131600",
+    "img": "images/badges/020210.png",
+    "min_quantity": 0,
+    "max_quantity": 9999
+  },
+  {
+    "name": "Megalixir",
+    "type": "consumable",
+    "codes": "i131601",
+    "img": "images/badges/020211.png",
+    "min_quantity": 0,
+    "max_quantity": 9999
+  },
+  {
+    "name": "Castle Town Access",
+    "type": "toggle",
+    "codes": "i131602",
+    "img": "images/icons/native-131602.png",
+    "disabled_img_mods": "saturation|0|bt601,brightness|0.25"
+  },
+  {
+    "name": "The World Within Access",
+    "type": "toggle",
+    "codes": "i131603",
+    "img": "images/icons/native-131603.png",
+    "disabled_img_mods": "saturation|0|bt601,brightness|0.25"
+  },
+  {
+    "name": "Forest of Thorns Access",
+    "type": "toggle",
+    "codes": "i131604",
+    "img": "images/icons/native-131604.png",
+    "disabled_img_mods": "saturation|0|bt601,brightness|0.25"
+  },
+  {
+    "name": "Depths of Darkness Access",
+    "type": "toggle",
+    "codes": "i131605",
+    "img": "images/icons/native-131605.png",
+    "disabled_img_mods": "saturation|0|bt601,brightness|0.25"
+  },
+  {
+    "name": "Cartwheel",
+    "type": "toggle",
+    "codes": "i131606",
+    "img": "images/icons/aqua-cartwheel-v3.png"
+  },
+  {
+    "name": "Barrier",
+    "type": "toggle",
+    "codes": "i131607",
+    "img": "images/icons/aqua-barrier-v3.png"
+  },
+  {
+    "name": "Counter Blast",
+    "type": "toggle",
+    "codes": "i131608",
+    "img": "images/icons/aqua-counterblast-v3.png"
+  },
+  {
+    "name": "Aerial Recovery",
+    "type": "toggle",
+    "codes": "i131609",
+    "img": "images/icons/aqua-aerialrecovery-v3.png"
+  },
+  {
+    "name": "Progressive Fire",
+    "type": "consumable",
+    "codes": "i131613",
+    "img": "images/icons/fire-v4.png",
+    "min_quantity": 0,
+    "max_quantity": 2
+  },
+  {
+    "name": "Progressive Blizzard",
+    "type": "consumable",
+    "codes": "i131614",
+    "img": "images/icons/blizzard-v4.png",
+    "min_quantity": 0,
+    "max_quantity": 2
+  },
+  {
+    "name": "Progressive Thunder",
+    "type": "consumable",
+    "codes": "i131615",
+    "img": "images/icons/thunder-v4.png",
+    "min_quantity": 0,
+    "max_quantity": 2
+  },
+  {
+    "name": "Terra's Wayfinder",
+    "type": "toggle",
+    "codes": "i131616",
+    "img": "images/wayfinders/020220.png"
+  },
+  {
+    "name": "Aqua's Wayfinder",
+    "type": "toggle",
+    "codes": "i131617",
+    "img": "images/wayfinders/020221.png"
+  },
+  {
+    "name": "Ventus's Wayfinder",
+    "type": "toggle",
+    "codes": "i131618",
+    "img": "images/wayfinders/020222.png"
+  },
+  {
+    "name": "Aries Relic",
+    "type": "toggle",
+    "codes": "i131619",
+    "img": "images/zodiacs/131619.png"
+  },
+  {
+    "name": "Taurus Relic",
+    "type": "toggle",
+    "codes": "i131620",
+    "img": "images/zodiacs/131620.png"
+  },
+  {
+    "name": "Gemini Relic",
+    "type": "toggle",
+    "codes": "i131621",
+    "img": "images/zodiacs/131621.png"
+  },
+  {
+    "name": "Cancer Relic",
+    "type": "toggle",
+    "codes": "i131622",
+    "img": "images/zodiacs/131622.png"
+  },
+  {
+    "name": "Leo Relic",
+    "type": "toggle",
+    "codes": "i131623",
+    "img": "images/zodiacs/131623.png"
+  },
+  {
+    "name": "Virgo Relic",
+    "type": "toggle",
+    "codes": "i131624",
+    "img": "images/zodiacs/131624.png"
+  },
+  {
+    "name": "Libra Relic",
+    "type": "toggle",
+    "codes": "i131625",
+    "img": "images/zodiacs/131625.png"
+  },
+  {
+    "name": "Scorpio Relic",
+    "type": "toggle",
+    "codes": "i131626",
+    "img": "images/zodiacs/131626.png"
+  },
+  {
+    "name": "Sagittarius Relic",
+    "type": "toggle",
+    "codes": "i131627",
+    "img": "images/zodiacs/131627.png"
+  },
+  {
+    "name": "Capricorn Relic",
+    "type": "toggle",
+    "codes": "i131628",
+    "img": "images/zodiacs/131628.png"
+  },
+  {
+    "name": "Aquarius Relic",
+    "type": "toggle",
+    "codes": "i131629",
+    "img": "images/zodiacs/131629.png"
+  },
+  {
+    "name": "Pisces Relic",
+    "type": "toggle",
+    "codes": "i131630",
+    "img": "images/zodiacs/131630.png"
+  },
+  {
+    "name": "Castle Town Area Map",
+    "type": "toggle",
+    "codes": "i131631",
+    "img": "images/icons/map-v4.png"
+  },
+  {
+    "name": "The World Within Area Map",
+    "type": "toggle",
+    "codes": "i131632",
+    "img": "images/icons/map-v4.png"
+  },
+  {
+    "name": "Forest of Thorns Area Map",
+    "type": "toggle",
+    "codes": "i131633",
+    "img": "images/icons/map-v4.png"
+  },
+  {
+    "name": "Depths of Darkness Area Map",
+    "type": "toggle",
+    "codes": "i131634",
+    "img": "images/icons/map-v4.png"
+  },
+  {
+    "name": "Tiara",
+    "type": "toggle",
+    "codes": "i131840",
+    "img": "images/wardrobe/020300.png"
+  },
+  {
+    "name": "Royal Tiara",
+    "type": "toggle",
+    "codes": "i131841",
+    "img": "images/wardrobe/020301.png"
+  },
+  {
+    "name": "Venus's Tiara",
+    "type": "toggle",
+    "codes": "i131842",
+    "img": "images/wardrobe/020302.png"
+  },
+  {
+    "name": "Antennae",
+    "type": "toggle",
+    "codes": "i131843",
+    "img": "images/wardrobe/020303.png"
+  },
+  {
+    "name": "Pulse Antennae",
+    "type": "toggle",
+    "codes": "i131844",
+    "img": "images/wardrobe/020304.png"
+  },
+  {
+    "name": "Cyber Antennae",
+    "type": "toggle",
+    "codes": "i131845",
+    "img": "images/wardrobe/020305.png"
+  },
+  {
+    "name": "Marie",
+    "type": "toggle",
+    "codes": "i131846",
+    "img": "images/wardrobe/020306.png"
+  },
+  {
+    "name": "Figaro",
+    "type": "toggle",
+    "codes": "i131847",
+    "img": "images/wardrobe/020307.png"
+  },
+  {
+    "name": "Cheshire Cat",
+    "type": "toggle",
+    "codes": "i131848",
+    "img": "images/wardrobe/020308.png"
+  },
+  {
+    "name": "Minnie Ears (Red Bow)",
+    "type": "toggle",
+    "codes": "i131849",
+    "img": "images/wardrobe/020309.png"
+  },
+  {
+    "name": "Minnie Ears (Blue Bow)",
+    "type": "toggle",
+    "codes": "i131850",
+    "img": "images/wardrobe/02030a.png"
+  },
+  {
+    "name": "Minnie Ears (White Bow)",
+    "type": "toggle",
+    "codes": "i131851",
+    "img": "images/wardrobe/02030b.png"
+  },
+  {
+    "name": "Iron Ornament",
+    "type": "toggle",
+    "codes": "i131852",
+    "img": "images/wardrobe/02030c.png"
+  },
+  {
+    "name": "Radiant Ornament",
+    "type": "toggle",
+    "codes": "i131853",
+    "img": "images/wardrobe/02030d.png"
+  },
+  {
+    "name": "Astral Ornament",
+    "type": "toggle",
+    "codes": "i131854",
+    "img": "images/wardrobe/02030e.png"
+  },
+  {
+    "name": "Blades",
+    "type": "toggle",
+    "codes": "i131855",
+    "img": "images/wardrobe/02030f.png"
+  },
+  {
+    "name": "Pulse Blades",
+    "type": "toggle",
+    "codes": "i131856",
+    "img": "images/wardrobe/020310.png"
+  },
+  {
+    "name": "Cyber Blades",
+    "type": "toggle",
+    "codes": "i131857",
+    "img": "images/wardrobe/020311.png"
+  },
+  {
+    "name": "Wings",
+    "type": "toggle",
+    "codes": "i131858",
+    "img": "images/wardrobe/020312.png"
+  },
+  {
+    "name": "Lustrous Wings",
+    "type": "toggle",
+    "codes": "i131859",
+    "img": "images/wardrobe/020313.png"
+  },
+  {
+    "name": "Flawless Wings",
+    "type": "toggle",
+    "codes": "i131860",
+    "img": "images/wardrobe/020314.png"
+  },
+  {
+    "name": "Pauldron",
+    "type": "toggle",
+    "codes": "i131861",
+    "img": "images/wardrobe/020315.png"
+  },
+  {
+    "name": "Mystic Pauldron",
+    "type": "toggle",
+    "codes": "i131862",
+    "img": "images/wardrobe/020316.png"
+  },
+  {
+    "name": "Royal Pauldron",
+    "type": "toggle",
+    "codes": "i131863",
+    "img": "images/wardrobe/020317.png"
+  },
+  {
+    "name": "Arm Plate",
+    "type": "toggle",
+    "codes": "i131864",
+    "img": "images/wardrobe/020318.png"
+  },
+  {
+    "name": "Warrior's Arm Plate",
+    "type": "toggle",
+    "codes": "i131865",
+    "img": "images/wardrobe/020319.png"
+  },
+  {
+    "name": "Voltaic Arm Plate",
+    "type": "toggle",
+    "codes": "i131866",
+    "img": "images/wardrobe/02031a.png"
+  },
+  {
+    "name": "Arm Guards",
+    "type": "toggle",
+    "codes": "i131867",
+    "img": "images/wardrobe/02031b.png"
+  },
+  {
+    "name": "Lustrous Arm Guards",
+    "type": "toggle",
+    "codes": "i131868",
+    "img": "images/wardrobe/02031c.png"
+  },
+  {
+    "name": "Flawless Arm Guards",
+    "type": "toggle",
+    "codes": "i131869",
+    "img": "images/wardrobe/02031d.png"
+  },
+  {
+    "name": "Classy (Yellow)",
+    "type": "toggle",
+    "codes": "i131870",
+    "img": "images/wardrobe/02031e.png"
+  },
+  {
+    "name": "Classy (Blue)",
+    "type": "toggle",
+    "codes": "i131871",
+    "img": "images/wardrobe/02031f.png"
+  },
+  {
+    "name": "Classy (White)",
+    "type": "toggle",
+    "codes": "i131872",
+    "img": "images/wardrobe/020320.png"
+  },
+  {
+    "name": "Mecha (Pink)",
+    "type": "toggle",
+    "codes": "i131873",
+    "img": "images/wardrobe/020321.png"
+  },
+  {
+    "name": "Mecha (Yellow)",
+    "type": "toggle",
+    "codes": "i131874",
+    "img": "images/wardrobe/020322.png"
+  },
+  {
+    "name": "Mecha (Blue)",
+    "type": "toggle",
+    "codes": "i131875",
+    "img": "images/wardrobe/020323.png"
+  },
+  {
+    "name": "Grace (Blue)",
+    "type": "toggle",
+    "codes": "i131876",
+    "img": "images/wardrobe/020324.png"
+  },
+  {
+    "name": "Grace (Purple)",
+    "type": "toggle",
+    "codes": "i131877",
+    "img": "images/wardrobe/020325.png"
+  },
+  {
+    "name": "Grace (Pink)",
+    "type": "toggle",
+    "codes": "i131878",
+    "img": "images/wardrobe/020326.png"
+  },
+  {
+    "name": "Diamond (White)",
+    "type": "toggle",
+    "codes": "i131879",
+    "img": "images/wardrobe/020327.png"
+  },
+  {
+    "name": "Diamond (Blue)",
+    "type": "toggle",
+    "codes": "i131880",
+    "img": "images/wardrobe/020328.png"
+  },
+  {
+    "name": "Diamond (Green)",
+    "type": "toggle",
+    "codes": "i131881",
+    "img": "images/wardrobe/020329.png"
+  },
+  {
+    "name": "Coil (White)",
+    "type": "toggle",
+    "codes": "i131882",
+    "img": "images/wardrobe/02032a.png"
+  },
+  {
+    "name": "Coil (Yellow)",
+    "type": "toggle",
+    "codes": "i131883",
+    "img": "images/wardrobe/02032b.png"
+  },
+  {
+    "name": "Coil (Pink)",
+    "type": "toggle",
+    "codes": "i131884",
+    "img": "images/wardrobe/02032c.png"
+  },
+  {
+    "name": "Stitching",
+    "type": "toggle",
+    "codes": "i131886",
+    "img": "images/wardrobe/02032e.png"
+  },
+  {
+    "name": "Crisscross",
+    "type": "toggle",
+    "codes": "i131887",
+    "img": "images/wardrobe/02032f.png"
+  },
+  {
+    "name": "Lace (Crystal)",
+    "type": "toggle",
+    "codes": "i131888",
+    "img": "images/wardrobe/020330.png"
+  },
+  {
+    "name": "Lace (Floral)",
+    "type": "toggle",
+    "codes": "i131889",
+    "img": "images/wardrobe/020331.png"
+  },
+  {
+    "name": "Polka Dots",
+    "type": "toggle",
+    "codes": "i131890",
+    "img": "images/wardrobe/020332.png"
+  },
+  {
+    "name": "Ribbons",
+    "type": "toggle",
+    "codes": "i131891",
+    "img": "images/wardrobe/020333.png"
+  },
+  {
+    "name": "Mickey",
+    "type": "toggle",
+    "codes": "i131635",
+    "img": "images/icons/Mickey.png"
+  },
+  {
+    "name": "Head",
+    "type": "static",
+    "codes": "wardrobe_label_head",
+    "img": "images/badges/wardrobe-head-label.png"
+  },
+  {
+    "name": "Arms",
+    "type": "static",
+    "codes": "wardrobe_label_arms",
+    "img": "images/badges/wardrobe-arms-label.png"
+  },
+  {
+    "name": "Back",
+    "type": "static",
+    "codes": "wardrobe_label_back",
+    "img": "images/badges/wardrobe-back-label.png"
+  },
+  {
+    "name": "Pattern",
+    "type": "static",
+    "codes": "wardrobe_label_pattern",
+    "img": "images/badges/wardrobe-pattern-label.png"
+  }
+]

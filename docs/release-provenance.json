@@ -1,0 +1,16 @@
+{
+  "release": "Steam public beta 2026-10-19",
+  "apworld_sha256": "d292eaa0a7ff66b33fcb6ded9c6903129385839cd599d130dc50cd18572748ad",
+  "native_transport": "v27701 through v27708",
+  "native_startup": "v18701 through v18708",
+  "menu_assets": "v279",
+  "client_and_world": "v280",
+  "note": "Versioned filenames are retained to preserve tested imports. Historical payload contracts contain superseded acceptance statuses; see RELEASE-NOTES.md and docs/BUILDING.md.",
+  "tested_tracker_sha256_before_documentation_cleanup": "525a9b790946da466d7fb45be6798db7884e4aebc18ad3e4a30e16f3ec64448f",
+  "tracker_sha256": "4d88f6a05b9cd5ada6d9de6a2b6e8cd806d6a120f364221ca3ff699a9c9fd7a4",
+  "tracker_documentation_cleanup": [
+    "aqua-action-sources.json",
+    "README.md",
+    "v04-icon-sources.json"
+  ]
+}

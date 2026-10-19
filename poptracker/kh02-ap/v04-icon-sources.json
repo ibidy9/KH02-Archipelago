@@ -1,0 +1,43 @@
+{
+  "tool": "Built-in image_gen.imagegen",
+  "artwork_type": "New spell/map illustrations and an HP color edit",
+  "assets": [
+    {
+      "key": "Fire",
+      "prompt": "Single square fantasy game tracker icon, polished crisp cel-shaded illustration matching Kingdom Hearts-inspired UI artwork. Readable at 60 pixels, strong silhouette, restrained fine detail, fully transparent background, centered with a little padding, no border, no lettering, no characters. A vivid orange-red magical fireball with a white-hot golden core and three elegant curling flame tongues streaming around it. Rich shading and luminous flame edges; dynamic spell artwork, not a flat geometric flame symbol.",
+      "path": "images/icons/fire-v4.png",
+      "sha256": "6fa90061b52594fdf1ccaafff0d242f2449740ac4cd957ab39b786accfbd8d29"
+    },
+    {
+      "key": "Blizzard",
+      "prompt": "Single square fantasy game tracker icon, polished crisp cel-shaded illustration matching Kingdom Hearts-inspired UI artwork. Readable at 60 pixels, strong silhouette, restrained fine detail, fully transparent background, centered with a little padding, no border, no lettering, no characters. Three translucent icy-blue crystal shards bursting upward out of a compact swirling frost ring, bright cyan edges and white frosty sparkles. Dynamic ice magic artwork with dimensional facets, not a flat snowflake symbol.",
+      "path": "images/icons/blizzard-v4.png",
+      "sha256": "0d4ae6588ccc203fe9ec3fb46dd9d6c5e3382928e93b614cb19413e5b7295368"
+    },
+    {
+      "key": "Thunder",
+      "prompt": "Single square fantasy game tracker icon, polished crisp cel-shaded illustration matching Kingdom Hearts-inspired UI artwork. Readable at 60 pixels, strong silhouette, restrained fine detail, fully transparent background, centered with a little padding, no border, no lettering, no characters. A dramatic forked golden lightning strike surrounded by two curling violet electrical arcs and a compact radiant violet-blue glow. Bold angular spell energy, strong yellow versus purple contrast, not a flat lightning bolt symbol.",
+      "path": "images/icons/thunder-v4.png",
+      "sha256": "4f7ac2a5c12a80b5219db8cd470e3aa21dbd08e0f1d1534d786ca8a71b7af664"
+    },
+    {
+      "key": "Cure",
+      "prompt": "Single square fantasy game tracker icon, polished crisp cel-shaded illustration matching Kingdom Hearts-inspired UI artwork. Readable at 60 pixels, strong silhouette, restrained fine detail, fully transparent background, centered with a little padding, no border, no lettering, no characters. A graceful swirling emerald-green healing spell, two small luminous leaves orbit a bright mint-white magical core, a few four-point green-gold sparkles. Dimensional glowing magic artwork, not a single flat leaf symbol.",
+      "path": "images/icons/cure-v4.png",
+      "sha256": "0415d6c410343e86712cb84701a9b64808765c832dce781b75a37c4d45c5a337"
+    },
+    {
+      "key": "Map",
+      "prompt": "Single square fantasy game tracker icon, polished crisp cel-shaded illustration matching Kingdom Hearts-inspired UI artwork. Readable at 60 pixels, strong silhouette, restrained fine detail, fully transparent background, centered with a little padding, no border, no lettering, no characters. An unmistakable old pirate treasure map on warm tan parchment, partly unrolled with curled cylindrical paper rolls at the top and bottom. Large irregular island silhouettes drawn in dark brown, a short dashed winding route leading to a red X, and a tiny compass rose. Angled slightly in perspective. Broad open parchment surface, curled aged edges. No modern accordion folds, no roads, no literal text.",
+      "path": "images/icons/map-v4.png",
+      "sha256": "901835ac3699131be03ef3922ac64044f50848d4813db45592340a144e15f85e"
+    },
+    {
+      "key": "HP",
+      "prompt": "Edit this small UI HP icon: change only the white/light-gray HP letter faces to bright health-bar green, keeping the exact HP lettering, font shape, black outline/shadow, centered position, transparent padding and transparent background. Do not add sparkles, backgrounds, characters, gradients or other symbols. This should match the existing native block-letter icon, with green letters instead of white.",
+      "reference": "images/icons/native-131595.png",
+      "path": "images/icons/hp-v4.png",
+      "sha256": "58432d8ac93162eefa82dd49000daab98bb36178946f722234c8954993ec14cd"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+Kingdom Hearts 0.2 — Archipelago Steam public beta
+
+For the Windows Steam version of Kingdom Hearts HD 2.8 Final Chapter Prologue.
+Epic Games Store support is planned separately.
+
+SETUP
+
+1. Install kh02.apworld through Archipelago, then restart the Archipelago Launcher.
+2. Generate a Kingdom Hearts 0.2 YAML with Archipelago's Options Creator. Choose
+   your settings and include it when generating your multiworld. Existing seeds
+   retain their original item placements and generation rules.
+3. Put kh02-poptracker-0.4.11.zip in PopTracker's packs folder and select it.
+   Connect PopTracker to your AP room when you want automatic tracking.
+
+PLAY
+
+1. Open Steam and sign into the account you use for the game. Keep 0.2 closed.
+2. Open "KH 0.2 Client" from the Archipelago Launcher.
+3. Connect using your AP server address and player name.
+4. Wait for "AP is prepared" before launching 2.8 and selecting 0.2.
+5. Wait for the client to attach, then start a new game or load this seed's AP save.
+
+The client includes and temporarily installs the required mod. You do not need
+to install a separate mod or enter your Steam ID. AP saves are kept separately
+from vanilla saves and other seeds. If you see your vanilla saves, stop and check
+that the client prepared and attached before loading anything.
+
+END A SESSION
+
+Close the game normally, then close the client. The client restores normal
+startup automatically; you do not need to remove the mod manually.
+
+If you close the client first, it waits for the game to close before finishing
+cleanup. Close the game normally and let the client finish. Avoid force-ending
+the client. If cleanup reports an error, retain the message and recovery files.
+
+Open a fresh KH client window for each new game session. Reconnecting the old
+window is not enough to prepare another launch.
+
+USEFUL COMMANDS
+
+/help
+/difficulty status
+/difficulty beginner
+/difficulty standard
+/difficulty proud
+/difficulty critical
+
+After choosing a difficulty, reload your AP save for the change to apply.
+
+PUBLIC TESTING
+
+This build includes the completed seeded playthrough fixes. Please report your
+AP settings, location, what happened, what you expected, and any client errors.
+For problems after loading or traveling, include the save slot and destination.
+
+Mickey's movement outside Depths can be imperfect. He can catch up by warping,
+and may remain outside some boss barriers while still assisting. This behavior
+depends on the Mickey option you selected.
+
+Player downloads: kh02.apworld, PopTracker 0.4.11, and these instructions.
+Archipelago 0.6.7 was used for the installed-client acceptance test.

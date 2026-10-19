@@ -1,0 +1,27 @@
+{
+  "source_page": "https://www.khwiki.com/Wayfinder",
+  "attribution": "Kingdom Hearts Wiki; game artwork Disney / Square Enix",
+  "assets": [
+    {
+      "name": "Terra's Wayfinder",
+      "item_id": 131616,
+      "path": "images/wayfinders/020220.png",
+      "url": "https://kh.wiki.gallery/images/thumb/4/43/Wayfinder_%28Terra%29_KHBBS.png/120px-Wayfinder_%28Terra%29_KHBBS.png",
+      "sha256": "e832b805d31e5e2722c444120b797991903d55993bcfa056992b0e5d7292ed50"
+    },
+    {
+      "name": "Ventus's Wayfinder",
+      "item_id": 131618,
+      "path": "images/wayfinders/020222.png",
+      "url": "https://kh.wiki.gallery/images/thumb/3/3a/Wayfinder_%28Ventus%29_KHBBS.png/120px-Wayfinder_%28Ventus%29_KHBBS.png",
+      "sha256": "5ce62471d49d3075697bd87bed59b560e56c512828d70d8a8de28bea59e61295"
+    },
+    {
+      "name": "Aqua's Wayfinder",
+      "item_id": 131617,
+      "path": "images/wayfinders/020221.png",
+      "url": "https://kh.wiki.gallery/images/thumb/2/26/Wayfinder_%28Aqua%29_KHBBS.png/120px-Wayfinder_%28Aqua%29_KHBBS.png",
+      "sha256": "307dc72cd06b9e064c8c2b7893112e5c22a2ea97f1a7b6506f9cda3c61b4c885"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "preserve": [
+    "treasures",
+    "objectives",
+    "ap_location_history",
+    "inventory",
+    "levels_and_stats",
+    "wardrobe",
+    "native_reward_history",
+    "unrelated_world_progress"
+  ],
+  "destinations": [
+    {
+      "id": "retry_castle_demon_tower",
+      "label": "Retry Castle Town Demon Tower",
+      "ui_priority": 90,
+      "world": "castle_town",
+      "unlock": {
+        "kind": "world_complete",
+        "world": "castle_town"
+      },
+      "story_candidate": 150,
+      "map": "/Game/Levels/dw/dw_02/dw_02",
+      "spawn": "dw_02_Lv_Retry_01",
+      "route_capture_required": false,
+      "switch_reset": {
+        "offset": "0x3015",
+        "clear_mask": "0x04"
+      },
+      "suppress_native_reward": "max_hp_10",
+      "reset_scope": [
+        "castle_demon_tower_event",
+        "castle_demon_tower_completion"
+      ],
+      "preserve_scope": [
+        "castle_gears",
+        "castle_save_ownership"
+      ],
+      "story_evidence": "docs/handoff-ready-2026-09-07.md; tools/Kh02WorldRestartTest.cs retry-castle-demon-tower"
+    },
+    {
+      "id": "retry_forest_darkside",
+      "label": "Retry Forest Darkside",
+      "ui_priority": 93,
+      "world": "forest_of_thorns",
+      "unlock": {
+        "kind": "boss_defeated",
+        "boss": "forest_darkside"
+      },
+      "story_candidate": 340,
+      "map": "/Game/Levels/dw/dw_08/dw_08",
+      "spawn": "dw_08_Lv_Retry_02",
+      "route_capture_required": false,
+      "switch_reset": {
+        "offset": "0x3015",
+        "clear_mask": "0x20"
+      },
+      "reset_scope": [
+        "forest_darkside_cutscene",
+        "forest_darkside_battle"
+      ],
+      "preserve_scope": [
+        "forest_apparitions",
+        "forest_optional_darksides",
+        "forest_save_ownership"
+      ]
+    },
+    {
+      "id": "retry_phantom_aqua_3",
+      "label": "Retry Phantom Aqua 3",
+      "ui_priority": 91,
+      "world": "the_world_within",
+      "unlock": {
+        "kind": "boss_defeated",
+        "boss": "phantom_aqua_3"
+      },
+      "story_candidate": 250,
+      "map": "/Game/Levels/dw/dw_07/dw_07",
+      "spawn": "dw_07_Lv_Start_01",
+      "route_capture_required": false,
+      "synthetic_route": "endless_stairs_direct_arena",
+      "temporary_switch_candidate": {
+        "offset": "0x3012",
+        "low_nibble": "0x01"
+      },
+      "switch_reset": {
+        "offset": "0x3015",
+        "clear_mask": "0x08"
+      },
+      "suppress_native_reward": "max_mp_10",
+      "reset_scope": [
+        "phantom_aqua_3_battle",
+        "phantom_return_route"
+      ],
+      "preserve_scope": [
+        "mirror_permanent_state",
+        "phantom_aqua_1_2_history"
+      ]
+    },
+    {
+      "id": "retry_forest_rail",
+      "label": "Retry Forest Ivy Rail",
+      "ui_priority": 92,
+      "world": "forest_of_thorns",
+      "unlock": {
+        "kind": "save_point_available",
+        "save_point": "forest_rocky_path"
+      },
+      "story_candidate": 321,
+      "map": "/Game/Levels/dw/dw_08/dw_08",
+      "spawn": "dw_08_Lv_Autosave_06",
+      "route_capture_required": false,
+      "application_timing": "after_teleportation_menu_open_before_confirm",
+      "observed_pre_rail_transform_evidence": {
+        "position": [
+          53.7949219,
+          -1498.77734,
+          -346.003418
+        ],
+        "rotation": [
+          -1.785133,
+          -93.7937927,
+          3.51425505
+        ]
+      },
+      "objective_success_fields_observed": [
+        "0x15D4",
+        "0x15D8",
+        "0x162C",
+        "0x1630"
+      ],
+      "reset_scope": [
+        "forest_rail_attempt"
+      ],
+      "preserve_scope": [
+        "forest_story",
+        "forest_apparitions",
+        "forest_darksides",
+        "forest_save_ownership"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "kh02-wardrobe-goal-sets-v1",
+  "source": "User-specified matching sets",
+  "requirement": "Own every piece of at least one set in each category",
+  "requires_equipped": false,
+  "native_identity_mapping_verified": false,
+  "categories": {
+    "head": [
+      ["Tiara", "Royal Tiara", "Venus's Tiara"],
+      ["Antennae", "Pulse Antennae", "Cyber Antennae"],
+      ["Marie", "Figaro", "Cheshire Cat"],
+      ["Minnie Ears (Red Bow)", "Minnie Ears (Blue Bow)", "Minnie Ears (White Bow)"]
+    ],
+    "arms": [
+      ["Pauldron", "Mystic Pauldron", "Royal Pauldron"],
+      ["Arm Plate", "Warrior's Arm Plate", "Voltaic Arm Plate"],
+      ["Arm Guards", "Lustrous Arm Guards", "Flawless Arm Guards"]
+    ],
+    "back": [
+      ["Iron Ornament", "Radiant Ornament", "Astral Ornament"],
+      ["Blades", "Pulse Blades", "Cyber Blades"],
+      ["Wings", "Lustrous Wings", "Flawless Wings"]
+    ],
+    "pattern": [
+      ["Classy (Yellow)", "Classy (Blue)", "Classy (White)"],
+      ["Mecha (Pink)", "Mecha (Yellow)", "Mecha (Blue)"],
+      ["Grace (Blue)", "Grace (Purple)", "Grace (Pink)"],
+      ["Diamond (White)", "Diamond (Blue)", "Diamond (Green)"],
+      ["Coil (White)", "Coil (Yellow)", "Coil (Pink)"],
+      ["Stitching", "Crisscross", "Polka Dots"],
+      ["Lace (Crystal)", "Lace (Floral)", "Ribbons"]
+    ]
+  }
+}

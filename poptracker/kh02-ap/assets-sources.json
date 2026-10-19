@@ -1,0 +1,363 @@
+{
+  "source_page": "https://www.khwiki.com/Wardrobe_(KH0.2)",
+  "attribution": "Kingdom Hearts Wiki; underlying game artwork Disney / Square Enix. Not original pack artwork.",
+  "assets": [
+    {
+      "name": "Antennae",
+      "item_id": 131843,
+      "path": "images/wardrobe/020303.png",
+      "url": "https://kh.wiki.gallery/images/thumb/5/59/Head_-_Antennae_KH0.2.png/64px-Head_-_Antennae_KH0.2.png",
+      "sha256": "48e82af0c3a6a1cf75e5c2e40a87125c06d4f2f8d0af2c9336fba7ac3283d248"
+    },
+    {
+      "name": "Arm Guards",
+      "item_id": 131867,
+      "path": "images/wardrobe/02031b.png",
+      "url": "https://kh.wiki.gallery/images/thumb/2/2f/Arm_-_Arm_Guards_KH0.2.png/64px-Arm_-_Arm_Guards_KH0.2.png",
+      "sha256": "6f60a8ccccb77a37e95cde3e1c160d336589a63ba445e3b735cc86025d5036cf"
+    },
+    {
+      "name": "Arm Plate",
+      "item_id": 131864,
+      "path": "images/wardrobe/020318.png",
+      "url": "https://kh.wiki.gallery/images/thumb/5/5d/Arm_-_Arm_Plate_KH0.2.png/38px-Arm_-_Arm_Plate_KH0.2.png",
+      "sha256": "72d5d60cb3e26e2a9727f0b3dc0369a872966b6ce34d26116baa3c7925b42bce"
+    },
+    {
+      "name": "Astral Ornament",
+      "item_id": 131854,
+      "path": "images/wardrobe/02030e.png",
+      "url": "https://kh.wiki.gallery/images/thumb/5/54/Back_-_Astral_Ornament_KH0.2.png/59px-Back_-_Astral_Ornament_KH0.2.png",
+      "sha256": "682c64068417f870f78475456c13965d2c9ca9d8a4bd09540038a917a1656ee1"
+    },
+    {
+      "name": "Blades",
+      "item_id": 131855,
+      "path": "images/wardrobe/02030f.png",
+      "url": "https://kh.wiki.gallery/images/thumb/9/9a/Back_-_Blades_KH0.2.png/56px-Back_-_Blades_KH0.2.png",
+      "sha256": "3f06551e70552409265b99eaeb674a90b300d17bcefcc55cfdc8da418448ba87"
+    },
+    {
+      "name": "Cheshire Cat",
+      "item_id": 131848,
+      "path": "images/wardrobe/020308.png",
+      "url": "https://kh.wiki.gallery/images/thumb/d/d0/Head_-_Cheshire_Cat_KH0.2.png/64px-Head_-_Cheshire_Cat_KH0.2.png",
+      "sha256": "8383e68508d15e0a1872c52c5d2aa2002282d8315a581fff2636b79952e49963"
+    },
+    {
+      "name": "Classy (Blue)",
+      "item_id": 131871,
+      "path": "images/wardrobe/02031f.png",
+      "url": "https://kh.wiki.gallery/images/thumb/3/3e/Pattern_-_Classy_%28Blue%29_KH0.2.png/64px-Pattern_-_Classy_%28Blue%29_KH0.2.png",
+      "sha256": "952c1e2e4c55a391da28bbf3bc1ec495273e0122212c40cb8eafc27812918b24"
+    },
+    {
+      "name": "Classy (White)",
+      "item_id": 131872,
+      "path": "images/wardrobe/020320.png",
+      "url": "https://kh.wiki.gallery/images/thumb/7/73/Pattern_-_Classy_%28White%29_KH0.2.png/64px-Pattern_-_Classy_%28White%29_KH0.2.png",
+      "sha256": "e9862ea003ea91850d1458098a63baceaea55fe89d5e2647fb4bb7c6543a9aa3"
+    },
+    {
+      "name": "Classy (Yellow)",
+      "item_id": 131870,
+      "path": "images/wardrobe/02031e.png",
+      "url": "https://kh.wiki.gallery/images/thumb/7/7c/Pattern_-_Classy_%28Yellow%29_KH0.2.png/64px-Pattern_-_Classy_%28Yellow%29_KH0.2.png",
+      "sha256": "9c4a7a586fb2826cab0425034b0dabc57c888b115c5e1d88add16b779bbadecf"
+    },
+    {
+      "name": "Coil (Pink)",
+      "item_id": 131884,
+      "path": "images/wardrobe/02032c.png",
+      "url": "https://kh.wiki.gallery/images/thumb/9/9f/Pattern_-_Coil_%28Pink%29_KH0.2.png/64px-Pattern_-_Coil_%28Pink%29_KH0.2.png",
+      "sha256": "62a58060ee1fa78a0cf804b2ff72748adc76077b0681eacc18e9a963a49e33fe"
+    },
+    {
+      "name": "Coil (White)",
+      "item_id": 131882,
+      "path": "images/wardrobe/02032a.png",
+      "url": "https://kh.wiki.gallery/images/thumb/4/47/Pattern_-_Coil_%28White%29_KH0.2.png/64px-Pattern_-_Coil_%28White%29_KH0.2.png",
+      "sha256": "3490ae388c85ed8437b39a9103dd779779c87e46627db3b74144e44c6449b88d"
+    },
+    {
+      "name": "Coil (Yellow)",
+      "item_id": 131883,
+      "path": "images/wardrobe/02032b.png",
+      "url": "https://kh.wiki.gallery/images/thumb/c/c3/Pattern_-_Coil_%28Yellow%29_KH0.2.png/64px-Pattern_-_Coil_%28Yellow%29_KH0.2.png",
+      "sha256": "a818f233e4e99bd61416edf31917224a32b7912f501c5582bd808672626125f1"
+    },
+    {
+      "name": "Crisscross",
+      "item_id": 131887,
+      "path": "images/wardrobe/02032f.png",
+      "url": "https://kh.wiki.gallery/images/thumb/a/aa/Pattern_-_Crisscross_KH0.2.png/64px-Pattern_-_Crisscross_KH0.2.png",
+      "sha256": "f1e90f87038ff97b6e0ed293033ddae937cbdc296edd110172931f6d18960174"
+    },
+    {
+      "name": "Cyber Antennae",
+      "item_id": 131845,
+      "path": "images/wardrobe/020305.png",
+      "url": "https://kh.wiki.gallery/images/thumb/a/ab/Head_-_Cyber_Antennae_KH0.2.png/64px-Head_-_Cyber_Antennae_KH0.2.png",
+      "sha256": "9604db0fc09f358de529e375ff1841a54f6301e9a397329f7e9cca9d03c6f0b0"
+    },
+    {
+      "name": "Cyber Blades",
+      "item_id": 131857,
+      "path": "images/wardrobe/020311.png",
+      "url": "https://kh.wiki.gallery/images/thumb/f/f1/Back_-_Cyber_Blades_KH0.2.png/56px-Back_-_Cyber_Blades_KH0.2.png",
+      "sha256": "c2adbe303b02345eb127aa34dfd53e2e142f9aef9913bacb54437c4a096a0c94"
+    },
+    {
+      "name": "Diamond (Blue)",
+      "item_id": 131880,
+      "path": "images/wardrobe/020328.png",
+      "url": "https://kh.wiki.gallery/images/thumb/d/d2/Pattern_-_Diamond_%28Blue%29_KH0.2.png/64px-Pattern_-_Diamond_%28Blue%29_KH0.2.png",
+      "sha256": "c2a51aa5bf4b512c2a918b2d6e5dc80fd0bc245355424c0885998e14389c9da1"
+    },
+    {
+      "name": "Diamond (Green)",
+      "item_id": 131881,
+      "path": "images/wardrobe/020329.png",
+      "url": "https://kh.wiki.gallery/images/thumb/6/6a/Pattern_-_Diamond_%28Green%29_KH0.2.png/64px-Pattern_-_Diamond_%28Green%29_KH0.2.png",
+      "sha256": "b97aee77071a993f134c66cced54d0f97ca1d1fa38c4061ddae2720f07c33768"
+    },
+    {
+      "name": "Diamond (White)",
+      "item_id": 131879,
+      "path": "images/wardrobe/020327.png",
+      "url": "https://kh.wiki.gallery/images/thumb/7/7c/Pattern_-_Diamond_%28White%29_KH0.2.png/64px-Pattern_-_Diamond_%28White%29_KH0.2.png",
+      "sha256": "6793499cc976370ab9b58e6de82af2bd5760707250027518e03c384317637800"
+    },
+    {
+      "name": "Figaro",
+      "item_id": 131847,
+      "path": "images/wardrobe/020307.png",
+      "url": "https://kh.wiki.gallery/images/thumb/3/3f/Head_-_Figaro_KH0.2.png/64px-Head_-_Figaro_KH0.2.png",
+      "sha256": "93839fc8ce1f78b92a2807304b7e201ae616c7a8654d11405151f7c5b9291757"
+    },
+    {
+      "name": "Flawless Arm Guards",
+      "item_id": 131869,
+      "path": "images/wardrobe/02031d.png",
+      "url": "https://kh.wiki.gallery/images/thumb/2/2a/Arm_-_Flawless_Arm_Guards_KH0.2.png/64px-Arm_-_Flawless_Arm_Guards_KH0.2.png",
+      "sha256": "4ec80e90bd1be4a567d95ab2c12d55caa5a17e036341aeb32ed0078e73178e52"
+    },
+    {
+      "name": "Flawless Wings",
+      "item_id": 131860,
+      "path": "images/wardrobe/020314.png",
+      "url": "https://kh.wiki.gallery/images/thumb/0/0b/Back_-_Flawless_Wings_KH0.2.png/53px-Back_-_Flawless_Wings_KH0.2.png",
+      "sha256": "c53a2a6e9cc560370c6773766c3442dca2cc266c00f6ddbdcfb3b216738e7bdd"
+    },
+    {
+      "name": "Grace (Blue)",
+      "item_id": 131876,
+      "path": "images/wardrobe/020324.png",
+      "url": "https://kh.wiki.gallery/images/thumb/3/31/Pattern_-_Grace_%28Blue%29_KH0.2.png/64px-Pattern_-_Grace_%28Blue%29_KH0.2.png",
+      "sha256": "6f11965b7b7e8ccc3cb3b486218089d1afaeda400ea61ef5016b87fa79a6690e"
+    },
+    {
+      "name": "Grace (Pink)",
+      "item_id": 131878,
+      "path": "images/wardrobe/020326.png",
+      "url": "https://kh.wiki.gallery/images/thumb/f/f2/Pattern_-_Grace_%28Pink%29_KH0.2.png/64px-Pattern_-_Grace_%28Pink%29_KH0.2.png",
+      "sha256": "b7422ad4b713f38aeb141e6694f0e8ee1301d413222f4f12dc9fee4399b25826"
+    },
+    {
+      "name": "Grace (Purple)",
+      "item_id": 131877,
+      "path": "images/wardrobe/020325.png",
+      "url": "https://kh.wiki.gallery/images/thumb/0/05/Pattern_-_Grace_%28Purple%29_KH0.2.png/64px-Pattern_-_Grace_%28Purple%29_KH0.2.png",
+      "sha256": "a7b80c581f4574c52567b4d5d60a872c96e8624dede24480cc185c8fdd5d80e5"
+    },
+    {
+      "name": "Iron Ornament",
+      "item_id": 131852,
+      "path": "images/wardrobe/02030c.png",
+      "url": "https://kh.wiki.gallery/images/thumb/6/62/Back_-_Iron_Ornament_KH0.2.png/59px-Back_-_Iron_Ornament_KH0.2.png",
+      "sha256": "e3feab8b7efcf13d9c649711f236a3d483bdde05791474f162b762132e6d531b"
+    },
+    {
+      "name": "Lace (Crystal)",
+      "item_id": 131888,
+      "path": "images/wardrobe/020330.png",
+      "url": "https://kh.wiki.gallery/images/thumb/e/e7/Pattern_-_Lace_%28Crystal%29_KH0.2.png/64px-Pattern_-_Lace_%28Crystal%29_KH0.2.png",
+      "sha256": "3ca3860313d41853e42133fff57c7168ffa9929f2494410e23092e82b0c07715"
+    },
+    {
+      "name": "Lace (Floral)",
+      "item_id": 131889,
+      "path": "images/wardrobe/020331.png",
+      "url": "https://kh.wiki.gallery/images/thumb/f/f9/Pattern_-_Lace_%28Floral%29_KH0.2.png/64px-Pattern_-_Lace_%28Floral%29_KH0.2.png",
+      "sha256": "5d18f5ba81828ce6f1b7c4ab171b4162d406e0497bf272b1d412207e699dfe24"
+    },
+    {
+      "name": "Lustrous Arm Guards",
+      "item_id": 131868,
+      "path": "images/wardrobe/02031c.png",
+      "url": "https://kh.wiki.gallery/images/thumb/3/38/Arm_-_Lustrous_Arm_Guards_KH0.2.png/64px-Arm_-_Lustrous_Arm_Guards_KH0.2.png",
+      "sha256": "92b0c9f43b5018d12474f035db97044adbbc8d77984a02859cbfaa4593d90eec"
+    },
+    {
+      "name": "Lustrous Wings",
+      "item_id": 131859,
+      "path": "images/wardrobe/020313.png",
+      "url": "https://kh.wiki.gallery/images/thumb/9/93/Back_-_Lustrous_Wings_KH0.2.png/53px-Back_-_Lustrous_Wings_KH0.2.png",
+      "sha256": "9a3c8495bfdbf8b8e3749aad6ed30fbee3a89d2c427a1d22a69e6288854e4cf8"
+    },
+    {
+      "name": "Marie",
+      "item_id": 131846,
+      "path": "images/wardrobe/020306.png",
+      "url": "https://kh.wiki.gallery/images/thumb/d/d3/Head_-_Marie_KH0.2.png/64px-Head_-_Marie_KH0.2.png",
+      "sha256": "af65f2fe473de8183fd4cf212bb45cb997f3bff45765eebc1ae41a779e2711ee"
+    },
+    {
+      "name": "Mecha (Blue)",
+      "item_id": 131875,
+      "path": "images/wardrobe/020323.png",
+      "url": "https://kh.wiki.gallery/images/thumb/f/f3/Pattern_-_Mecha_%28Blue%29_KH0.2.png/64px-Pattern_-_Mecha_%28Blue%29_KH0.2.png",
+      "sha256": "6a32ba30dc33e1d36c5c3d9485a27106d3ff581cc7e759e0d6824442a0a656b6"
+    },
+    {
+      "name": "Mecha (Pink)",
+      "item_id": 131873,
+      "path": "images/wardrobe/020321.png",
+      "url": "https://kh.wiki.gallery/images/thumb/4/4b/Pattern_-_Mecha_%28Pink%29_KH0.2.png/64px-Pattern_-_Mecha_%28Pink%29_KH0.2.png",
+      "sha256": "24650ccdc9a46f61ed4bfcb7f24953185c6654d65702779f302cd718c4850ee2"
+    },
+    {
+      "name": "Mecha (Yellow)",
+      "item_id": 131874,
+      "path": "images/wardrobe/020322.png",
+      "url": "https://kh.wiki.gallery/images/thumb/5/53/Pattern_-_Mecha_%28Yellow%29_KH0.2.png/64px-Pattern_-_Mecha_%28Yellow%29_KH0.2.png",
+      "sha256": "61b6650186337cc7d5e2db3fe778725c15b46a602a1cf27b2384166d1f40c94a"
+    },
+    {
+      "name": "Minnie Ears (Blue Bow)",
+      "item_id": 131850,
+      "path": "images/wardrobe/02030a.png",
+      "url": "https://kh.wiki.gallery/images/thumb/b/b1/Head_-_Minnie_Ears_%28Blue_Bow%29_KH0.2.png/64px-Head_-_Minnie_Ears_%28Blue_Bow%29_KH0.2.png",
+      "sha256": "9d36fd346ea67903295c6925a2d6f4b1b4938bef0137dc301711e657bd58e2e1"
+    },
+    {
+      "name": "Minnie Ears (Red Bow)",
+      "item_id": 131849,
+      "path": "images/wardrobe/020309.png",
+      "url": "https://kh.wiki.gallery/images/thumb/b/b6/Head_-_Minnie_Ears_%28Red_Bow%29_KH0.2.png/64px-Head_-_Minnie_Ears_%28Red_Bow%29_KH0.2.png",
+      "sha256": "69669a031681fbd825567bd518d83eb76a629f6a313bcd262610292fdaa3032b"
+    },
+    {
+      "name": "Minnie Ears (White Bow)",
+      "item_id": 131851,
+      "path": "images/wardrobe/02030b.png",
+      "url": "https://kh.wiki.gallery/images/thumb/5/5b/Head_-_Minnie_Ears_%28White_Bow%29_KH0.2.png/64px-Head_-_Minnie_Ears_%28White_Bow%29_KH0.2.png",
+      "sha256": "d2cc68ea4416dc3d9339f6415d8a7d2b49b9540a2d2a8768ec98858a37499b9b"
+    },
+    {
+      "name": "Mystic Pauldron",
+      "item_id": 131862,
+      "path": "images/wardrobe/020316.png",
+      "url": "https://kh.wiki.gallery/images/thumb/e/e8/Arm_-_Mystic_Pauldron_KH0.2.png/43px-Arm_-_Mystic_Pauldron_KH0.2.png",
+      "sha256": "8e861bfef3e597313ddb215c34462fc8cf4c9132332ddd38dbbe601250304612"
+    },
+    {
+      "name": "Pauldron",
+      "item_id": 131861,
+      "path": "images/wardrobe/020315.png",
+      "url": "https://kh.wiki.gallery/images/thumb/8/8d/Arm_-_Pauldron_KH0.2.png/43px-Arm_-_Pauldron_KH0.2.png",
+      "sha256": "5dba6dfe71fc4f6826a06a3392c263095c6fd741c5a0ef5aa17cafc87049b9e3"
+    },
+    {
+      "name": "Polka Dots",
+      "item_id": 131890,
+      "path": "images/wardrobe/020332.png",
+      "url": "https://kh.wiki.gallery/images/thumb/3/3e/Pattern_-_Polka_Dots_KH0.2.png/64px-Pattern_-_Polka_Dots_KH0.2.png",
+      "sha256": "b18b34543605bf414916dfcca2e07027622ca93bed80ff9c931b35546234e06a"
+    },
+    {
+      "name": "Pulse Antennae",
+      "item_id": 131844,
+      "path": "images/wardrobe/020304.png",
+      "url": "https://kh.wiki.gallery/images/thumb/e/e9/Head_-_Pulse_Antennae_KH0.2.png/64px-Head_-_Pulse_Antennae_KH0.2.png",
+      "sha256": "6ca8ccb5afdafaf019786ca4924afe735bebe554caddea2b4c517399b047b423"
+    },
+    {
+      "name": "Pulse Blades",
+      "item_id": 131856,
+      "path": "images/wardrobe/020310.png",
+      "url": "https://kh.wiki.gallery/images/thumb/6/65/Back_-_Pulse_Blades_KH0.2.png/56px-Back_-_Pulse_Blades_KH0.2.png",
+      "sha256": "5fd9fc1533d484733e4d3e6333f1f3fdc428d8b8cdf18c8cdf21993cd2ab909c"
+    },
+    {
+      "name": "Radiant Ornament",
+      "item_id": 131853,
+      "path": "images/wardrobe/02030d.png",
+      "url": "https://kh.wiki.gallery/images/thumb/9/91/Back_-_Radiant_Ornament_KH0.2.png/59px-Back_-_Radiant_Ornament_KH0.2.png",
+      "sha256": "8021df368be0327ccc9e3b5834458e934881db49c3db50c3ab0d31c8ef80f6d5"
+    },
+    {
+      "name": "Ribbons",
+      "item_id": 131891,
+      "path": "images/wardrobe/020333.png",
+      "url": "https://kh.wiki.gallery/images/thumb/7/74/Pattern_-_Ribbons_KH0.2.png/64px-Pattern_-_Ribbons_KH0.2.png",
+      "sha256": "d3e4300e097843d26d38b980ea5bcfd2f776827d9fbb65e6ab88fef029dffd9f"
+    },
+    {
+      "name": "Royal Pauldron",
+      "item_id": 131863,
+      "path": "images/wardrobe/020317.png",
+      "url": "https://kh.wiki.gallery/images/thumb/5/5b/Arm_-_Royal_Pauldron_KH0.2.png/43px-Arm_-_Royal_Pauldron_KH0.2.png",
+      "sha256": "0e61021652cbf619916f1d762f4c468e6fc6a059fde323291f1731e107abe0e5"
+    },
+    {
+      "name": "Royal Tiara",
+      "item_id": 131841,
+      "path": "images/wardrobe/020301.png",
+      "url": "https://kh.wiki.gallery/images/thumb/2/25/Head_-_Royal_Tiara_KH0.2.png/64px-Head_-_Royal_Tiara_KH0.2.png",
+      "sha256": "c71736ed5c9ea10d57b01275c03e0045eb1f09e0e472ef32c758fab8ccac38a8"
+    },
+    {
+      "name": "Stitching",
+      "item_id": 131886,
+      "path": "images/wardrobe/02032e.png",
+      "url": "https://kh.wiki.gallery/images/thumb/2/26/Pattern_-_Stitching_KH0.2.png/64px-Pattern_-_Stitching_KH0.2.png",
+      "sha256": "bfa8a73e088b57577e9a0e29acaf9bbad61856413731316ac1cf5461df2ff0c1"
+    },
+    {
+      "name": "Tiara",
+      "item_id": 131840,
+      "path": "images/wardrobe/020300.png",
+      "url": "https://kh.wiki.gallery/images/thumb/6/65/Head_-_Tiara_KH0.2.png/64px-Head_-_Tiara_KH0.2.png",
+      "sha256": "2710b1ab34e9f2044bf174d13e5c1b2c2a834b95f8fd0ddb06791da92ac13b08"
+    },
+    {
+      "name": "Venus's Tiara",
+      "item_id": 131842,
+      "path": "images/wardrobe/020302.png",
+      "url": "https://kh.wiki.gallery/images/thumb/2/22/Head_-_Venus%27s_Tiara_KH0.2.png/64px-Head_-_Venus%27s_Tiara_KH0.2.png",
+      "sha256": "9fa69e5f399a7f918d49d8b8197235251e9d4ad80a1b7bbed1a7b9fbc21f8955"
+    },
+    {
+      "name": "Voltaic Arm Plate",
+      "item_id": 131866,
+      "path": "images/wardrobe/02031a.png",
+      "url": "https://kh.wiki.gallery/images/thumb/a/a8/Arm_-_Voltaic_Arm_Plate_KH0.2.png/38px-Arm_-_Voltaic_Arm_Plate_KH0.2.png",
+      "sha256": "68ae14d99bbf265165a39fc2910ccf190eda0b22d1e3052f609d1c7fc9ff53cc"
+    },
+    {
+      "name": "Warrior's Arm Plate",
+      "item_id": 131865,
+      "path": "images/wardrobe/020319.png",
+      "url": "https://kh.wiki.gallery/images/thumb/2/2d/Arm_-_Warrior%27s_Arm_Plate_KH0.2.png/38px-Arm_-_Warrior%27s_Arm_Plate_KH0.2.png",
+      "sha256": "5187495e757ae37a2ea7a5fd15dcdfcfe4293202550c87053b4106263429b727"
+    },
+    {
+      "name": "Wings",
+      "item_id": 131858,
+      "path": "images/wardrobe/020312.png",
+      "url": "https://kh.wiki.gallery/images/thumb/f/f1/Back_-_Wings_KH0.2.png/53px-Back_-_Wings_KH0.2.png",
+      "sha256": "246c9d015db3c0bdb1f1ec3e32381b119b3095a7bfed2b959c384f634ed9d031"
+    }
+  ]
+}

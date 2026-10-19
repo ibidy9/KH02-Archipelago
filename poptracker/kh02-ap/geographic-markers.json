@@ -1,0 +1,1112 @@
+{
+  "method": "Native actor coordinates minus NaviMapData origin, multiplied by native scale; map layer selected against drawn geometry.",
+  "markers": [
+    {
+      "ap_id": 131587,
+      "native_id": "DW_BOX003",
+      "source": "dw_02_treasure",
+      "map_texture": "Map_dw02_02",
+      "x": 468.2659284914371,
+      "y": 573.3686209835469,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -4116.6904296875,
+        "Y": -13332.2314453125,
+        "Z": -1899.2213134765625
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131586,
+      "native_id": "DW_BOX004",
+      "source": "dw_02_treasure",
+      "map_texture": "Map_dw02_02",
+      "x": 662.4000314623117,
+      "y": 578.0800274573267,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 1950.0,
+        "Y": -13185.0,
+        "Z": -1899.868896484375
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131588,
+      "native_id": "DW_BOX006",
+      "source": "dw_02_treasure",
+      "map_texture": "Map_dw02_01",
+      "x": 250.64920721769795,
+      "y": 250.56132440102374,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 970.287353515625,
+        "Y": -17982.458984375,
+        "Z": 336.03521728515625
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131589,
+      "native_id": "DW_BOX007",
+      "source": "dw_02_treasure",
+      "map_texture": "Map_dw02_01",
+      "x": 244.84393545758735,
+      "y": 191.7219466063034,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 788.8726196289062,
+        "Y": -19821.189453125,
+        "Z": -2431.352783203125
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131585,
+      "native_id": "DW_LBOX01",
+      "source": "dw_02_treasure",
+      "map_texture": "Map_dw02_02",
+      "x": 620.6036173677137,
+      "y": 973.578895851889,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 643.8621215820312,
+        "Y": -825.6609497070312,
+        "Z": -3090.054931640625
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131614,
+      "native_id": "DW_BOX036",
+      "source": "dw_02_treasure_After_clearing",
+      "map_texture": "Map_dw02_02",
+      "x": 505.6866880813277,
+      "y": 517.0859933102656,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -2947.291748046875,
+        "Y": -15091.0634765625,
+        "Z": -1172.9307861328125
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131616,
+      "native_id": "DW_BOX002",
+      "source": "dw_02_treasure_After_clearing",
+      "map_texture": "Map_dw02_02",
+      "x": 676.4622430677309,
+      "y": 594.1755594718234,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 2389.444091796875,
+        "Y": -12682.0146484375,
+        "Z": 3675.32373046875
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131615,
+      "native_id": "DW_BOX005",
+      "source": "dw_02_treasure_After_clearing",
+      "map_texture": "Map_dw02_02",
+      "x": 622.7291584842965,
+      "y": 514.610899442705,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 710.2852783203125,
+        "Y": -15168.41015625,
+        "Z": -1224.869873046875
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131617,
+      "native_id": "DW_BOX031",
+      "source": "dw_02_treasure_After_clearing",
+      "map_texture": "Map_dw02_02",
+      "x": 442.2765210070065,
+      "y": 567.1792456895673,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -4928.859375,
+        "Y": -13525.6494140625,
+        "Z": -1427.1435546875
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131591,
+      "native_id": "DW_BOX008",
+      "source": "dw_03_treasure",
+      "map_texture": "Map_dw03_01",
+      "x": 293.74905545623704,
+      "y": 360.10914210426563,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -195.3424530029297,
+        "Y": -48121.58984375,
+        "Z": 2180.8779296875
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131590,
+      "native_id": "DW_LBOX02",
+      "source": "dw_03_treasure",
+      "map_texture": "Map_dw03_01",
+      "x": 314.6032952162915,
+      "y": 469.99177232341026,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 456.3525085449219,
+        "Y": -44687.7578125,
+        "Z": 1.3289718627929688
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131618,
+      "native_id": "DW_BOX010",
+      "source": "dw_03_treasure_After_clearing",
+      "map_texture": "Map_dw03_01",
+      "x": 300.5823313545307,
+      "y": 199.21675946228788,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 18.19740867614746,
+        "Y": -53149.4765625,
+        "Z": 1.1340140104293823
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131596,
+      "native_id": "DW_BOX015",
+      "source": "dw_06_treasure",
+      "map_texture": "Map_dw06_01",
+      "x": 1077.5769261821551,
+      "y": 180.88400859152898,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -47575.72265625,
+        "Y": -100597.375,
+        "Z": 5782.1669921875
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131597,
+      "native_id": "DW_BOX016",
+      "source": "dw_06_treasure",
+      "map_texture": "Map_dw06_01",
+      "x": 1260.9608098924218,
+      "y": 465.3810221044114,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -41844.9765625,
+        "Y": -91706.84375,
+        "Z": 5813.0732421875
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131621,
+      "native_id": "DW_BOX014",
+      "source": "dw_06_treasure_After_clearing",
+      "map_texture": "Map_dw06_01",
+      "x": 246.76626172076794,
+      "y": 447.0567712340562,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -73538.5546875,
+        "Y": -92279.4765625,
+        "Z": 2845.14599609375
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131622,
+      "native_id": "DW_BOX037",
+      "source": "dw_06_treasure_After_clearing",
+      "map_texture": "Map_dw06_01",
+      "x": 761.5650361723965,
+      "y": 383.90476823449717,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -57451.09375,
+        "Y": -94252.9765625,
+        "Z": 5796.40478515625
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131606,
+      "native_id": "DW_BOX025",
+      "source": "dw_08_treasure",
+      "map_texture": "Map_dw08_03",
+      "x": 372.7023145774092,
+      "y": 219.99076044899994,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -7103.05322265625,
+        "Y": -80625.2890625,
+        "Z": 5160.3349609375
+      },
+      "overlapping_map_views": true
+    },
+    {
+      "ap_id": 131606,
+      "native_id": "DW_BOX025",
+      "source": "dw_08_treasure",
+      "map_texture": "Map_dw08_04",
+      "x": 372.7023145774092,
+      "y": 1019.990798446961,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -7103.05322265625,
+        "Y": -80625.2890625,
+        "Z": 5160.3349609375
+      },
+      "overlapping_map_views": true
+    },
+    {
+      "ap_id": 131599,
+      "native_id": "DW_BOX017",
+      "source": "dw_08_treasure",
+      "map_texture": "Map_dw08_01",
+      "x": 648.985085512636,
+      "y": 629.1777486343381,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 1530.782958984375,
+        "Y": -11588.1962890625,
+        "Z": 4437.67578125
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131600,
+      "native_id": "DW_BOX018",
+      "source": "dw_08_treasure",
+      "map_texture": "Map_dw08_03",
+      "x": 507.4442116023056,
+      "y": 943.3265448056045,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -2892.369140625,
+        "Y": -58021.046875,
+        "Z": 3397.958251953125
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131601,
+      "native_id": "DW_BOX019",
+      "source": "dw_08_treasure",
+      "map_texture": "Map_dw08_03",
+      "x": 548.3779322965529,
+      "y": 671.5177818953816,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -1613.1904296875,
+        "Y": -66515.0703125,
+        "Z": 6871.6103515625
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131602,
+      "native_id": "DW_BOX020",
+      "source": "dw_08_treasure",
+      "map_texture": "Map_dw08_03",
+      "x": 509.6191179556081,
+      "y": 443.3482710579119,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -2824.4033203125,
+        "Y": -73645.3671875,
+        "Z": 6704.68505859375
+      },
+      "overlapping_map_views": true
+    },
+    {
+      "ap_id": 131602,
+      "native_id": "DW_BOX020",
+      "source": "dw_08_treasure",
+      "map_texture": "Map_dw08_04",
+      "x": 509.6191179556081,
+      "y": 1243.348309055873,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -2824.4033203125,
+        "Y": -73645.3671875,
+        "Z": 6704.68505859375
+      },
+      "overlapping_map_views": true
+    },
+    {
+      "ap_id": 131603,
+      "native_id": "DW_BOX021",
+      "source": "dw_08_treasure",
+      "map_texture": "Map_dw08_03",
+      "x": 318.7547963900397,
+      "y": 431.64052050182363,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -8788.9130859375,
+        "Y": -74011.234375,
+        "Z": 6431.8203125
+      },
+      "overlapping_map_views": true
+    },
+    {
+      "ap_id": 131603,
+      "native_id": "DW_BOX021",
+      "source": "dw_08_treasure",
+      "map_texture": "Map_dw08_04",
+      "x": 318.7547963900397,
+      "y": 1231.6405584997847,
+      "geometry_distance_pixels": 3,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -8788.9130859375,
+        "Y": -74011.234375,
+        "Z": 6431.8203125
+      },
+      "overlapping_map_views": true
+    },
+    {
+      "ap_id": 131604,
+      "native_id": "DW_BOX022",
+      "source": "dw_08_treasure",
+      "map_texture": "Map_dw08_03",
+      "x": 636.2531435016513,
+      "y": 384.57301826623734,
+      "geometry_distance_pixels": 4,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 1132.9097900390625,
+        "Y": -75482.09375,
+        "Z": 7845.29833984375
+      },
+      "overlapping_map_views": true
+    },
+    {
+      "ap_id": 131604,
+      "native_id": "DW_BOX022",
+      "source": "dw_08_treasure",
+      "map_texture": "Map_dw08_04",
+      "x": 636.2531435016513,
+      "y": 1184.5730562641984,
+      "geometry_distance_pixels": 4,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 1132.9097900390625,
+        "Y": -75482.09375,
+        "Z": 7845.29833984375
+      },
+      "overlapping_map_views": true
+    },
+    {
+      "ap_id": 131605,
+      "native_id": "DW_BOX023",
+      "source": "dw_08_treasure",
+      "map_texture": "Map_dw08_03",
+      "x": 535.4274316814372,
+      "y": 337.39726602550945,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -2017.8935546875,
+        "Y": -76956.3359375,
+        "Z": 6605.97412109375
+      },
+      "overlapping_map_views": true
+    },
+    {
+      "ap_id": 131605,
+      "native_id": "DW_BOX023",
+      "source": "dw_08_treasure",
+      "map_texture": "Map_dw08_04",
+      "x": 535.4274316814372,
+      "y": 1137.3973040234705,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -2017.8935546875,
+        "Y": -76956.3359375,
+        "Z": 6605.97412109375
+      },
+      "overlapping_map_views": true
+    },
+    {
+      "ap_id": 131607,
+      "native_id": "DW_BOX024",
+      "source": "dw_08_treasure",
+      "map_texture": "Map_dw08_03",
+      "x": 779.2002088850222,
+      "y": 228.39801084832288,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 5600.00537109375,
+        "Y": -80362.5625,
+        "Z": 8372.640625
+      },
+      "overlapping_map_views": true
+    },
+    {
+      "ap_id": 131607,
+      "native_id": "DW_BOX024",
+      "source": "dw_08_treasure",
+      "map_texture": "Map_dw08_04",
+      "x": 779.2002088850222,
+      "y": 1028.398048846284,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 5600.00537109375,
+        "Y": -80362.5625,
+        "Z": 8372.640625
+      },
+      "overlapping_map_views": true
+    },
+    {
+      "ap_id": 131598,
+      "native_id": "DW_LBOX03",
+      "source": "dw_08_treasure",
+      "map_texture": "Map_dw08_01",
+      "x": 740.9628320688444,
+      "y": 761.5171299201211,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 4405.08740234375,
+        "Y": -7452.5908203125,
+        "Z": 261.1729736328125
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131623,
+      "native_id": "DW_BOX034",
+      "source": "dw_08_treasure_After_clearing",
+      "map_texture": "Map_dw08_01",
+      "x": 707.8732211221723,
+      "y": 707.326533596206,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 3371.037109375,
+        "Y": -9146.046875,
+        "Z": -292.75433349609375
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131624,
+      "native_id": "DW_BOX035",
+      "source": "dw_08_treasure_After_clearing",
+      "map_texture": "Map_dw08_01",
+      "x": 350.88507916614617,
+      "y": 472.0623349217567,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -7784.841796875,
+        "Y": -16498.052734375,
+        "Z": 365.15643310546875
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131609,
+      "native_id": "DW_BOX026",
+      "source": "dw_09_treasure",
+      "map_texture": "Map_dw09_02",
+      "x": 415.5064259854953,
+      "y": 259.16545371594793,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 6734.5751953125,
+        "Y": -1276.0799560546875,
+        "Z": -1672.5384521484375
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131610,
+      "native_id": "DW_BOX027",
+      "source": "dw_09_treasure",
+      "map_texture": "Map_dw09_01",
+      "x": 504.8845161682266,
+      "y": 1221.0704329977307,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -2972.359619140625,
+        "Y": -8716.55078125,
+        "Z": 965.7863159179688
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131611,
+      "native_id": "DW_BOX028",
+      "source": "dw_09_treasure",
+      "map_texture": "Map_dw09_01",
+      "x": 501.7070785173064,
+      "y": 1050.2869873859527,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -3071.654541015625,
+        "Y": -14053.533203125,
+        "Z": -137.4696044921875
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131612,
+      "native_id": "DW_BOX029",
+      "source": "dw_09_treasure",
+      "map_texture": "Map_dw09_01",
+      "x": 771.1388960021304,
+      "y": 438.293895817842,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 5348.08935546875,
+        "Y": -33178.31640625,
+        "Z": -1900.53515625
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131608,
+      "native_id": "DW_LBOX04",
+      "source": "dw_09_treasure",
+      "map_texture": "Map_dw09_01",
+      "x": 762.5428018438379,
+      "y": 1394.2348162225971,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 5079.46142578125,
+        "Y": -3305.1640625,
+        "Z": 1152.4864501953125
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 131625,
+      "native_id": "DW_BOX030",
+      "source": "dw_09_treasure_After_clearing",
+      "map_texture": "Map_dw09_01",
+      "x": 934.2047318723417,
+      "y": 560.1980266079772,
+      "geometry_distance_pixels": 0,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 10443.896484375,
+        "Y": -29368.8125,
+        "Z": -1384.662109375
+      },
+      "overlapping_map_views": false
+    },
+    {
+      "ap_id": 132149,
+      "map_texture": "Map_dw03_01",
+      "x": 412.69531647697477,
+      "y": 187.30550889653387,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 3521.72802734375,
+        "Y": -53521.703125,
+        "Z": 431.3232116699219
+      },
+      "source": "dw_03_gimmick",
+      "native_actor": "g_dw_Mirror_Corridor_NEW"
+    },
+    {
+      "ap_id": 132144,
+      "map_texture": "Map_dw03_01",
+      "x": 407.41339435109694,
+      "y": 407.41214435103757,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 3356.66796875,
+        "Y": -46643.37109375,
+        "Z": 222.70639038085938
+      },
+      "source": "dw_03_gimmick",
+      "native_actor": "g_dw_Mirror_Go_BattleArea01_NEW"
+    },
+    {
+      "ap_id": 132146,
+      "map_texture": "Map_dw03_01",
+      "x": 197.7189234536445,
+      "y": 402.28314410742314,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -3196.283935546875,
+        "Y": -46803.65234375,
+        "Z": 140.4428253173828
+      },
+      "source": "dw_03_gimmick",
+      "native_actor": "g_dw_Mirror_Go_BattleArea02_NEW"
+    },
+    {
+      "ap_id": 132145,
+      "map_texture": "Map_dw03_01",
+      "x": 210.9866506463277,
+      "y": 210.94638501941517,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -2781.66748046875,
+        "Y": -52782.92578125,
+        "Z": 252.09278869628906
+      },
+      "source": "dw_03_gimmick",
+      "native_actor": "g_dw_Mirror_Go_BattleArea03_NEW"
+    },
+    {
+      "ap_id": 132147,
+      "map_texture": "Map_dw03_01",
+      "x": 400.65869871776613,
+      "y": 299.99251424887916,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 3145.583740234375,
+        "Y": -50000.234375,
+        "Z": 132.67739868164062
+      },
+      "source": "dw_03_gimmick",
+      "native_actor": "g_dw_Mirror_Go_BattleArea04_NEW"
+    },
+    {
+      "ap_id": 132150,
+      "map_texture": "Map_dw03_01",
+      "x": 300.00197274542217,
+      "y": 205.32363475234888,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 0.0612030029296875,
+        "Y": -52958.63671875,
+        "Z": 144.98561096191406
+      },
+      "source": "dw_03_gimmick",
+      "native_actor": "g_dw_Mirror_Stairs_NEW"
+    },
+    {
+      "ap_id": 132148,
+      "map_texture": "Map_dw03_01",
+      "x": 194.59470455525206,
+      "y": 299.9923892488732,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -3293.915771484375,
+        "Y": -50000.23828125,
+        "Z": 121.07041931152344
+      },
+      "source": "dw_03_gimmick",
+      "native_actor": "g_dw_Mirror_Tunnel_NEW"
+    },
+    {
+      "ap_id": 131592,
+      "native_id": "DW_BOX009",
+      "represented_at_room_entrance": true,
+      "map_texture": "Map_dw03_01",
+      "x": 400.65869871776613,
+      "y": 299.99251424887916,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 3145.583740234375,
+        "Y": -50000.234375,
+        "Z": 132.67739868164062
+      },
+      "source": "dw_03_gimmick",
+      "native_actor": "g_dw_Mirror_Go_BattleArea04_NEW"
+    },
+    {
+      "ap_id": 131595,
+      "native_id": "DW_BOX011",
+      "represented_at_room_entrance": true,
+      "map_texture": "Map_dw03_01",
+      "x": 300.00197274542217,
+      "y": 205.32363475234888,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 0.0612030029296875,
+        "Y": -52958.63671875,
+        "Z": 144.98561096191406
+      },
+      "source": "dw_03_gimmick",
+      "native_actor": "g_dw_Mirror_Stairs_NEW"
+    },
+    {
+      "ap_id": 131619,
+      "native_id": "DW_BOX032",
+      "represented_at_room_entrance": true,
+      "map_texture": "Map_dw03_01",
+      "x": 300.00197274542217,
+      "y": 205.32363475234888,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 0.0612030029296875,
+        "Y": -52958.63671875,
+        "Z": 144.98561096191406
+      },
+      "source": "dw_03_gimmick",
+      "native_actor": "g_dw_Mirror_Stairs_NEW"
+    },
+    {
+      "ap_id": 131593,
+      "native_id": "DW_BOX013",
+      "represented_at_room_entrance": true,
+      "map_texture": "Map_dw03_01",
+      "x": 412.69531647697477,
+      "y": 187.30550889653387,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 3521.72802734375,
+        "Y": -53521.703125,
+        "Z": 431.3232116699219
+      },
+      "source": "dw_03_gimmick",
+      "native_actor": "g_dw_Mirror_Corridor_NEW"
+    },
+    {
+      "ap_id": 131593,
+      "native_id": "DW_BOX013",
+      "represented_at_room_entrance": true,
+      "map_texture": "Map_dw03_01",
+      "x": 412.69531647697477,
+      "y": 187.30550889653387,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 3521.72802734375,
+        "Y": -53521.703125,
+        "Z": 431.3232116699219
+      },
+      "source": "dw_03_gimmick",
+      "native_actor": "g_dw_Mirror_Corridor_NEW"
+    },
+    {
+      "ap_id": 131594,
+      "native_id": "DW_BOX033",
+      "represented_at_room_entrance": true,
+      "map_texture": "Map_dw03_01",
+      "x": 412.69531647697477,
+      "y": 187.30550889653387,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 3521.72802734375,
+        "Y": -53521.703125,
+        "Z": 431.3232116699219
+      },
+      "source": "dw_03_gimmick",
+      "native_actor": "g_dw_Mirror_Corridor_NEW"
+    },
+    {
+      "ap_id": 131594,
+      "native_id": "DW_BOX033",
+      "represented_at_room_entrance": true,
+      "map_texture": "Map_dw03_01",
+      "x": 412.69531647697477,
+      "y": 187.30550889653387,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 3521.72802734375,
+        "Y": -53521.703125,
+        "Z": 431.3232116699219
+      },
+      "source": "dw_03_gimmick",
+      "native_actor": "g_dw_Mirror_Corridor_NEW"
+    },
+    {
+      "ap_id": 131620,
+      "native_id": "DW_BOX012",
+      "represented_at_room_entrance": true,
+      "map_texture": "Map_dw03_01",
+      "x": 412.69531647697477,
+      "y": 187.30550889653387,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 3521.72802734375,
+        "Y": -53521.703125,
+        "Z": 431.3232116699219
+      },
+      "source": "dw_03_gimmick",
+      "native_actor": "g_dw_Mirror_Corridor_NEW"
+    },
+    {
+      "ap_id": 131620,
+      "native_id": "DW_BOX012",
+      "represented_at_room_entrance": true,
+      "map_texture": "Map_dw03_01",
+      "x": 412.69531647697477,
+      "y": 187.30550889653387,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 3521.72802734375,
+        "Y": -53521.703125,
+        "Z": 431.3232116699219
+      },
+      "source": "dw_03_gimmick",
+      "native_actor": "g_dw_Mirror_Corridor_NEW"
+    },
+    {
+      "ap_id": 132129,
+      "map_texture": "Map_dw02_02",
+      "x": 423.3462076078649,
+      "y": 601.2542785580445,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -5520.431640625,
+        "Y": -12460.8046875,
+        "Z": -810.0
+      },
+      "source": "dw_02_gimmick",
+      "native_actor": "g_dw_Gear_C_2",
+      "binding_status": "Actor delegate Gear01..04 to manual gear checks; needs visual review"
+    },
+    {
+      "ap_id": 132130,
+      "map_texture": "Map_dw02_02",
+      "x": 670.3417662145239,
+      "y": 470.8663973649527,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 2198.17919921875,
+        "Y": -16535.42578125,
+        "Z": -997.1904296875
+      },
+      "source": "dw_02_gimmick",
+      "native_actor": "g_dw_Gear_C_3",
+      "binding_status": "Actor delegate Gear01..04 to manual gear checks; needs visual review"
+    },
+    {
+      "ap_id": 132131,
+      "map_texture": "Map_dw02_02",
+      "x": 817.7341638402868,
+      "y": 457.2882717200264,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 6804.19140625,
+        "Y": -16959.7421875,
+        "Z": 3670.0
+      },
+      "source": "dw_02_gimmick",
+      "native_actor": "g_dw_Gear_C_5",
+      "binding_status": "Actor delegate Gear01..04 to manual gear checks; needs visual review"
+    },
+    {
+      "ap_id": 132132,
+      "map_texture": "Map_dw02_02",
+      "x": 616.3005683352048,
+      "y": 487.95049192640363,
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 509.391845703125,
+        "Y": -16001.5478515625,
+        "Z": -2935.127197265625
+      },
+      "source": "dw_02_gimmick",
+      "native_actor": "g_dw_Gear_C_7",
+      "binding_status": "Actor delegate Gear01..04 to manual gear checks; needs visual review"
+    },
+    {
+      "ap_id": 132192,
+      "map_texture": "Map_dw03_01",
+      "x": 300.0000142492354,
+      "y": 300.0000142492354,
+      "native_actor": "g_dw_Mirror_Challenge",
+      "source": "dw_03_challenge",
+      "represented_at_room_entrance": true
+    },
+    {
+      "ap_id": 132193,
+      "map_texture": "Map_dw03_01",
+      "x": 300.0000142492354,
+      "y": 300.0000142492354,
+      "native_actor": "g_dw_Mirror_Challenge",
+      "source": "dw_03_challenge",
+      "represented_at_room_entrance": true
+    },
+    {
+      "ap_id": 132194,
+      "map_texture": "Map_dw03_01",
+      "x": 300.0000142492354,
+      "y": 300.0000142492354,
+      "native_actor": "g_dw_Mirror_Challenge",
+      "source": "dw_03_challenge",
+      "represented_at_room_entrance": true
+    },
+    {
+      "ap_id": 132195,
+      "map_texture": "Map_dw03_01",
+      "x": 300.0000142492354,
+      "y": 300.0000142492354,
+      "native_actor": "g_dw_Mirror_Challenge",
+      "source": "dw_03_challenge",
+      "represented_at_room_entrance": true
+    },
+    {
+      "ap_id": 132196,
+      "map_texture": "Map_dw03_01",
+      "x": 300.0000142492354,
+      "y": 300.0000142492354,
+      "native_actor": "g_dw_Mirror_Challenge",
+      "source": "dw_03_challenge",
+      "represented_at_room_entrance": true
+    },
+    {
+      "ap_id": 131755,
+      "map_texture": "Map_dw03_01",
+      "x": 300.0000142492354,
+      "y": 300.0000142492354,
+      "native_actor": "g_dw_Mirror_Challenge",
+      "source": "dw_03_challenge",
+      "represented_at_room_entrance": true
+    },
+    {
+      "ap_id": 132180,
+      "map_texture": "Map_dw08_01",
+      "x": 586.0141723654283,
+      "y": 50.932377419158,
+      "source": "research/optional-darkside-v142-static/paired/enemy-candidate-2eb7e000.json",
+      "native_actor": "e_dw407_Pawn1445",
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -437.0579833984375,
+        "Y": -29658.36328125,
+        "Z": 991.7421875
+      }
+    },
+    {
+      "ap_id": 132208,
+      "map_texture": "Map_dw08_03",
+      "x": 547.2809595881995,
+      "y": 721.6517842766189,
+      "source": "research/optional-darkside-v142-static/paired/enemy-candidate-2eb7e000.json",
+      "native_actor": "e_dw407a_Pawn_s0_Preview_e_dw407a_Pawn_s0_Preview_e_dw407a_Pawn_s0_d0_Preview_e_dw407a_Pawn_s0_d0",
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -1647.4708251953125,
+        "Y": -64948.3828125,
+        "Z": 5497.27978515625
+      }
+    },
+    {
+      "ap_id": 132209,
+      "map_texture": "Map_dw08_03",
+      "x": 520.3931106548453,
+      "y": 489.7510232619243,
+      "source": "research/optional-darkside-v142-static/paired/enemy-candidate-2eb7e000.json",
+      "native_actor": "e_dw407a_Pawn_s1_Preview_e_dw407a_Pawn_s1_d0_Preview_e_dw407a_Pawn_s1_d0",
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -2487.716064453125,
+        "Y": -72195.28125,
+        "Z": 5610.693359375
+      }
+    },
+    {
+      "ap_id": 132210,
+      "map_texture": "Map_dw08_03",
+      "x": 348.97986032565314,
+      "y": 434.2690206266707,
+      "source": "research/optional-darkside-v142-static/paired/enemy-candidate-2eb7e000.json",
+      "native_actor": "e_dw407a_Pawn_s2_Preview_e_dw407a_Pawn_s2_d0_Preview_e_dw407a_Pawn_s2_d0",
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": -7844.3798828125,
+        "Y": -73929.09375,
+        "Z": 6389.41845703125
+      }
+    },
+    {
+      "ap_id": 132181,
+      "map_texture": "Map_dw08_04",
+      "x": 702.4000333622098,
+      "y": 348.800016567111,
+      "source": "research/optional-darkside-v142-static/paired/enemy-candidate-2eb7e000.json",
+      "native_actor": "e_dw407b_Pawn161",
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 3200.0,
+        "Y": -101600.0,
+        "Z": 11273.7509765625
+      }
+    },
+    {
+      "ap_id": 132176,
+      "map_texture": "Map_dw02_02",
+      "x": 605.7600287720561,
+      "y": 904.3200429528952,
+      "source": "research/poptracker-game-assets/placement-levels/boss-2e81e800.json",
+      "native_actor": "e_dw402_Pawn_E32707",
+      "world_coordinates": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 180.0,
+        "Y": -2990.0,
+        "Z": -3020.0
+      }
+    },
+    {
+      "ap_id": 132182,
+      "map_texture": "Map_dw09_01",
+      "x": 633.280030079186,
+      "y": 1781.9200846366584,
+      "source": "research/poptracker-game-assets/placement-levels/boss-2f0bb800.json",
+      "native_actor": "e_dw402_Pawn547",
+      "world_coordinates": {
+        "X": 1040,
+        "Y": 8810,
+        "Z": 274.4664611816406
+      }
+    }
+  ],
+  "unresolved": [
+    {
+      "source": "dw_01_treasure",
+      "id": "DW_BOX001",
+      "xyz": {
+        "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+        "X": 3200.0,
+        "Y": 52330.0,
+        "Z": 4170.1298828125
+      },
+      "ap_id": 131613,
+      "reason": "Separate mirror room or unavailable map layer"
+    }
+  ]
+}

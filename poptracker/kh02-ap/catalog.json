@@ -1,0 +1,1468 @@
+{
+  "schema": "kh02-poptracker-catalog-v1",
+  "game": "Kingdom Hearts 0.2 Birth by Sleep",
+  "slot_schema": 3,
+  "item_schema": 5,
+  "items": {
+    "Fire Magic": 131585,
+    "Blizzard Magic": 131586,
+    "Thunder Magic": 131587,
+    "Cure Magic": 131588,
+    "Doubleflight": 131589,
+    "Air Slide": 131590,
+    "Shotlock": 131591,
+    "Spellweaver": 131592,
+    "Potion": 131593,
+    "Ether": 131594,
+    "Max HP Increase": 131595,
+    "Max MP Increase": 131596,
+    "Hi-Potion": 131597,
+    "Mega-Potion": 131598,
+    "Mega-Ether": 131599,
+    "Elixir": 131600,
+    "Megalixir": 131601,
+    "Castle Town Access": 131602,
+    "The World Within Access": 131603,
+    "Forest of Thorns Access": 131604,
+    "Depths of Darkness Access": 131605,
+    "Cartwheel": 131606,
+    "Barrier": 131607,
+    "Counter Blast": 131608,
+    "Aerial Recovery": 131609,
+    "Progressive Fire": 131613,
+    "Progressive Blizzard": 131614,
+    "Progressive Thunder": 131615,
+    "Terra's Wayfinder": 131616,
+    "Aqua's Wayfinder": 131617,
+    "Ventus's Wayfinder": 131618,
+    "Aries Relic": 131619,
+    "Taurus Relic": 131620,
+    "Gemini Relic": 131621,
+    "Cancer Relic": 131622,
+    "Leo Relic": 131623,
+    "Virgo Relic": 131624,
+    "Libra Relic": 131625,
+    "Scorpio Relic": 131626,
+    "Sagittarius Relic": 131627,
+    "Capricorn Relic": 131628,
+    "Aquarius Relic": 131629,
+    "Pisces Relic": 131630,
+    "Castle Town Area Map": 131631,
+    "The World Within Area Map": 131632,
+    "Forest of Thorns Area Map": 131633,
+    "Depths of Darkness Area Map": 131634,
+    "Tiara": 131840,
+    "Royal Tiara": 131841,
+    "Venus's Tiara": 131842,
+    "Antennae": 131843,
+    "Pulse Antennae": 131844,
+    "Cyber Antennae": 131845,
+    "Marie": 131846,
+    "Figaro": 131847,
+    "Cheshire Cat": 131848,
+    "Minnie Ears (Red Bow)": 131849,
+    "Minnie Ears (Blue Bow)": 131850,
+    "Minnie Ears (White Bow)": 131851,
+    "Iron Ornament": 131852,
+    "Radiant Ornament": 131853,
+    "Astral Ornament": 131854,
+    "Blades": 131855,
+    "Pulse Blades": 131856,
+    "Cyber Blades": 131857,
+    "Wings": 131858,
+    "Lustrous Wings": 131859,
+    "Flawless Wings": 131860,
+    "Pauldron": 131861,
+    "Mystic Pauldron": 131862,
+    "Royal Pauldron": 131863,
+    "Arm Plate": 131864,
+    "Warrior's Arm Plate": 131865,
+    "Voltaic Arm Plate": 131866,
+    "Arm Guards": 131867,
+    "Lustrous Arm Guards": 131868,
+    "Flawless Arm Guards": 131869,
+    "Classy (Yellow)": 131870,
+    "Classy (Blue)": 131871,
+    "Classy (White)": 131872,
+    "Mecha (Pink)": 131873,
+    "Mecha (Yellow)": 131874,
+    "Mecha (Blue)": 131875,
+    "Grace (Blue)": 131876,
+    "Grace (Purple)": 131877,
+    "Grace (Pink)": 131878,
+    "Diamond (White)": 131879,
+    "Diamond (Blue)": 131880,
+    "Diamond (Green)": 131881,
+    "Coil (White)": 131882,
+    "Coil (Yellow)": 131883,
+    "Coil (Pink)": 131884,
+    "Stitching": 131886,
+    "Crisscross": 131887,
+    "Lace (Crystal)": 131888,
+    "Lace (Floral)": 131889,
+    "Polka Dots": 131890,
+    "Ribbons": 131891,
+    "Mickey": 131635
+  },
+  "locations": [
+    {
+      "id": 131585,
+      "name": "Castle Town Chest 1",
+      "family": "chest",
+      "world": "Castle Town",
+      "reward": "Castle Town Area Map",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131586,
+      "name": "Castle Town Chest 2",
+      "family": "chest",
+      "world": "Castle Town",
+      "reward": "Ether",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131587,
+      "name": "Castle Town Chest 3",
+      "family": "chest",
+      "world": "Castle Town",
+      "reward": "Potion",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131588,
+      "name": "Castle Town Chest 4",
+      "family": "chest",
+      "world": "Castle Town",
+      "reward": "Potion",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131589,
+      "name": "Castle Town Chest 5",
+      "family": "chest",
+      "world": "Castle Town",
+      "reward": "Ether",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131590,
+      "name": "The World Within Chest 1",
+      "family": "chest",
+      "world": "The World Within",
+      "reward": "The World Within Area Map",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131591,
+      "name": "The World Within Chest 2",
+      "family": "chest",
+      "world": "The World Within",
+      "reward": "Mega-Potion",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131592,
+      "name": "The World Within Chest 3",
+      "family": "chest",
+      "world": "The World Within",
+      "reward": "Mega-Ether",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131593,
+      "name": "The World Within Chest 4",
+      "family": "chest",
+      "world": "The World Within",
+      "reward": "Potion",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131594,
+      "name": "The World Within Chest 5",
+      "family": "chest",
+      "world": "The World Within",
+      "reward": "Hi-Potion",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131595,
+      "name": "The World Within Chest 6",
+      "family": "chest",
+      "world": "The World Within",
+      "reward": "Hi-Potion",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131596,
+      "name": "The World Within Chest 7",
+      "family": "chest",
+      "world": "The World Within",
+      "reward": "Megalixir",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131597,
+      "name": "The World Within Chest 8",
+      "family": "chest",
+      "world": "The World Within",
+      "reward": "Hi-Potion",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131598,
+      "name": "Forest of Thorns Chest 1",
+      "family": "chest",
+      "world": "Forest of Thorns",
+      "reward": "Forest of Thorns Area Map",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131599,
+      "name": "Forest of Thorns Chest 2",
+      "family": "chest",
+      "world": "Forest of Thorns",
+      "reward": "Mega-Potion",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131600,
+      "name": "Forest of Thorns Chest 3",
+      "family": "chest",
+      "world": "Forest of Thorns",
+      "reward": "Ether",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131601,
+      "name": "Forest of Thorns Chest 4",
+      "family": "chest",
+      "world": "Forest of Thorns",
+      "reward": "Potion",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131602,
+      "name": "Forest of Thorns Chest 5",
+      "family": "chest",
+      "world": "Forest of Thorns",
+      "reward": "Ether",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131603,
+      "name": "Forest of Thorns Chest 6",
+      "family": "chest",
+      "world": "Forest of Thorns",
+      "reward": "Hi-Potion",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131604,
+      "name": "Forest of Thorns Chest 7",
+      "family": "chest",
+      "world": "Forest of Thorns",
+      "reward": "Hi-Potion",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131605,
+      "name": "Forest of Thorns Chest 8",
+      "family": "chest",
+      "world": "Forest of Thorns",
+      "reward": "Potion",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131606,
+      "name": "Forest of Thorns Chest 9",
+      "family": "chest",
+      "world": "Forest of Thorns",
+      "reward": "Potion",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131607,
+      "name": "Forest of Thorns Chest 10",
+      "family": "chest",
+      "world": "Forest of Thorns",
+      "reward": "Mega-Potion",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131608,
+      "name": "Depths of Darkness Chest 1",
+      "family": "chest",
+      "world": "Depths of Darkness",
+      "reward": "Depths of Darkness Area Map",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131609,
+      "name": "Depths of Darkness Chest 2",
+      "family": "chest",
+      "world": "Depths of Darkness",
+      "reward": "Mega-Ether",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131610,
+      "name": "Depths of Darkness Chest 3",
+      "family": "chest",
+      "world": "Depths of Darkness",
+      "reward": "Hi-Potion",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131611,
+      "name": "Depths of Darkness Chest 4",
+      "family": "chest",
+      "world": "Depths of Darkness",
+      "reward": "Mega-Ether",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131612,
+      "name": "Depths of Darkness Chest 5",
+      "family": "chest",
+      "world": "Depths of Darkness",
+      "reward": "Elixir",
+      "native_binding": "existing"
+    },
+    {
+      "id": 131613,
+      "name": "Main Road Chest 1",
+      "family": "chest",
+      "world": "Castle Town",
+      "reward": "Potion",
+      "native_binding": "pending"
+    },
+    {
+      "id": 131614,
+      "name": "Castle Town Chest 6",
+      "family": "chest",
+      "world": "Castle Town",
+      "reward": "Virgo Relic",
+      "native_binding": "pending"
+    },
+    {
+      "id": 131615,
+      "name": "Castle Town Chest 7",
+      "family": "chest",
+      "world": "Castle Town",
+      "reward": "Aries Relic",
+      "native_binding": "pending"
+    },
+    {
+      "id": 131616,
+      "name": "Castle Town Chest 8",
+      "family": "chest",
+      "world": "Castle Town",
+      "reward": "Sagittarius Relic",
+      "native_binding": "pending"
+    },
+    {
+      "id": 131617,
+      "name": "Castle Town Chest 9",
+      "family": "chest",
+      "world": "Castle Town",
+      "reward": "Aquarius Relic",
+      "native_binding": "pending"
+    },
+    {
+      "id": 131618,
+      "name": "The World Within Chest 9",
+      "family": "chest",
+      "world": "The World Within",
+      "reward": "Cancer Relic",
+      "native_binding": "pending"
+    },
+    {
+      "id": 131619,
+      "name": "The World Within Chest 10",
+      "family": "chest",
+      "world": "The World Within",
+      "reward": "Pisces Relic",
+      "native_binding": "pending"
+    },
+    {
+      "id": 131620,
+      "name": "The World Within Chest 11",
+      "family": "chest",
+      "world": "The World Within",
+      "reward": "Gemini Relic",
+      "native_binding": "pending"
+    },
+    {
+      "id": 131621,
+      "name": "The World Within Chest 12",
+      "family": "chest",
+      "world": "The World Within",
+      "reward": "Leo Relic",
+      "native_binding": "pending"
+    },
+    {
+      "id": 131622,
+      "name": "The World Within Chest 13",
+      "family": "chest",
+      "world": "The World Within",
+      "reward": "Libra Relic",
+      "native_binding": "pending"
+    },
+    {
+      "id": 131623,
+      "name": "Forest of Thorns Chest 11",
+      "family": "chest",
+      "world": "Forest of Thorns",
+      "reward": "Taurus Relic",
+      "native_binding": "pending"
+    },
+    {
+      "id": 131624,
+      "name": "Forest of Thorns Chest 12",
+      "family": "chest",
+      "world": "Forest of Thorns",
+      "reward": "Scorpio Relic",
+      "native_binding": "pending"
+    },
+    {
+      "id": 131625,
+      "name": "Depths of Darkness Chest 6",
+      "family": "chest",
+      "world": "Depths of Darkness",
+      "reward": "Capricorn Relic",
+      "native_binding": "pending"
+    },
+    {
+      "id": 131713,
+      "name": "Objective 1 - Defeat the Shadows",
+      "family": "objective",
+      "number": 1,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Dark World"
+    },
+    {
+      "id": 131714,
+      "name": "Objective 2 - Defeat the Flutterings",
+      "family": "objective",
+      "number": 2,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Dark World"
+    },
+    {
+      "id": 131715,
+      "name": "Objective 3 - Defeat the Flame Cores",
+      "family": "objective",
+      "number": 3,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Dark World"
+    },
+    {
+      "id": 131716,
+      "name": "Objective 4 - Defeat the Neoshadows",
+      "family": "objective",
+      "number": 4,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Dark World"
+    },
+    {
+      "id": 131717,
+      "name": "Objective 5 - Defeat the Water Cores",
+      "family": "objective",
+      "number": 5,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Dark World"
+    },
+    {
+      "id": 131718,
+      "name": "Objective 6 - Defeat the Earth Cores",
+      "family": "objective",
+      "number": 6,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Dark World"
+    },
+    {
+      "id": 131719,
+      "name": "Objective 7 - Test of Strength I",
+      "family": "objective",
+      "number": 7,
+      "minimum_level": 60,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Dark World"
+    },
+    {
+      "id": 131720,
+      "name": "Objective 8 - Test of Strength II",
+      "family": "objective",
+      "number": 8,
+      "minimum_level": 70,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Dark World"
+    },
+    {
+      "id": 131721,
+      "name": "Objective 9 - Test of Strength III",
+      "family": "objective",
+      "number": 9,
+      "minimum_level": 80,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Dark World"
+    },
+    {
+      "id": 131722,
+      "name": "Objective 10 - Master of Counters",
+      "family": "objective",
+      "number": 10,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Dark World"
+    },
+    {
+      "id": 131723,
+      "name": "Objective 11 - Master of Fire",
+      "family": "objective",
+      "number": 11,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Dark World"
+    },
+    {
+      "id": 131724,
+      "name": "Objective 12 - Master of Ice",
+      "family": "objective",
+      "number": 12,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Dark World"
+    },
+    {
+      "id": 131725,
+      "name": "Objective 13 - Master of Lightning",
+      "family": "objective",
+      "number": 13,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Dark World"
+    },
+    {
+      "id": 131726,
+      "name": "Objective 14 - Frozen Rail Raid",
+      "family": "objective",
+      "number": 14,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Dark World"
+    },
+    {
+      "id": 131727,
+      "name": "Objective 15 - Ice Breaker",
+      "family": "objective",
+      "number": 15,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Dark World"
+    },
+    {
+      "id": 131728,
+      "name": "Objective 16 - Magic Advantage",
+      "family": "objective",
+      "number": 16,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Dark World"
+    },
+    {
+      "id": 131729,
+      "name": "Objective 17 - Fight and Flight",
+      "family": "objective",
+      "number": 17,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Dark World"
+    },
+    {
+      "id": 131730,
+      "name": "Objective 18 - Excellent Aim",
+      "family": "objective",
+      "number": 18,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Dark World"
+    },
+    {
+      "id": 131731,
+      "name": "Objective 19 - Stylish Moves",
+      "family": "objective",
+      "number": 19,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Dark World"
+    },
+    {
+      "id": 131732,
+      "name": "Objective 20 - A Fine Finish",
+      "family": "objective",
+      "number": 20,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Dark World"
+    },
+    {
+      "id": 131733,
+      "name": "Objective 21 - Wardrobe Weaver",
+      "family": "objective",
+      "number": 21,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Dark World"
+    },
+    {
+      "id": 131734,
+      "name": "Objective 22 - Trendsetter",
+      "family": "objective",
+      "number": 22,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Dark World"
+    },
+    {
+      "id": 131735,
+      "name": "Objective 23 - Streetlamp Striker",
+      "family": "objective",
+      "number": 23,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Castle Town"
+    },
+    {
+      "id": 131736,
+      "name": "Objective 24 - Top of the Town",
+      "family": "objective",
+      "number": 24,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Castle Town"
+    },
+    {
+      "id": 131737,
+      "name": "Objective 25 - Starlit Wish",
+      "family": "objective",
+      "number": 25,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Castle Town"
+    },
+    {
+      "id": 131738,
+      "name": "Objective 26 - Heartless That Dwell",
+      "family": "objective",
+      "number": 26,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "The World Within"
+    },
+    {
+      "id": 131739,
+      "name": "Objective 27 - Mystery Within",
+      "family": "objective",
+      "number": 27,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "The World Within"
+    },
+    {
+      "id": 131740,
+      "name": "Objective 28 - Treasure Within",
+      "family": "objective",
+      "number": 28,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "The World Within"
+    },
+    {
+      "id": 131741,
+      "name": "Objective 29 - Gem Gatherer",
+      "family": "objective",
+      "number": 29,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "The World Within"
+    },
+    {
+      "id": 131742,
+      "name": "Objective 30 - Connected",
+      "family": "objective",
+      "number": 30,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "The World Within"
+    },
+    {
+      "id": 131743,
+      "name": "Objective 31 - Queen of the Rink",
+      "family": "objective",
+      "number": 31,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "The World Within"
+    },
+    {
+      "id": 131744,
+      "name": "Objective 32 - Defeat the Darksides",
+      "family": "objective",
+      "number": 32,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Forest of Thorns"
+    },
+    {
+      "id": 131745,
+      "name": "Objective 33 - Prickly Problems",
+      "family": "objective",
+      "number": 33,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Forest of Thorns"
+    },
+    {
+      "id": 131746,
+      "name": "Objective 34 - Fairy Bouquet",
+      "family": "objective",
+      "number": 34,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Forest of Thorns"
+    },
+    {
+      "id": 131747,
+      "name": "Objective 35 - Work Together with King Mickey",
+      "family": "objective",
+      "number": 35,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Depths of Darkness"
+    },
+    {
+      "id": 131748,
+      "name": "Objective 36 - Turn the Tide",
+      "family": "objective",
+      "number": 36,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Castle Town"
+    },
+    {
+      "id": 131749,
+      "name": "Objective 37 - Treasure Hunt in the Castle Town",
+      "family": "objective",
+      "number": 37,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Castle Town"
+    },
+    {
+      "id": 131750,
+      "name": "Objective 38 - Lingering Memories in the Castle Town",
+      "family": "objective",
+      "number": 38,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Castle Town"
+    },
+    {
+      "id": 131751,
+      "name": "Objective 39 - Treasure Hunt in the World Within",
+      "family": "objective",
+      "number": 39,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "The World Within"
+    },
+    {
+      "id": 131752,
+      "name": "Objective 40 - Lingering Memories in the World Within",
+      "family": "objective",
+      "number": 40,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "The World Within"
+    },
+    {
+      "id": 131753,
+      "name": "Objective 41 - Flawless Victory",
+      "family": "objective",
+      "number": 41,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "The World Within"
+    },
+    {
+      "id": 131754,
+      "name": "Objective 42 - In the Mirror",
+      "family": "objective",
+      "number": 42,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide"
+      ],
+      "display_world": "The World Within"
+    },
+    {
+      "id": 131755,
+      "name": "Objective 43 - Quest for the Zodiac",
+      "family": "objective",
+      "number": 43,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "The World Within"
+    },
+    {
+      "id": 131756,
+      "name": "Objective 44 - Treasure Hunt in the Forest of Thorns",
+      "family": "objective",
+      "number": 44,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Forest of Thorns"
+    },
+    {
+      "id": 131757,
+      "name": "Objective 45 - Lingering Memories in the Forest of Thorns",
+      "family": "objective",
+      "number": 45,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Forest of Thorns"
+    },
+    {
+      "id": 131758,
+      "name": "Objective 46 - Slide Along the Ivy Rails",
+      "family": "objective",
+      "number": 46,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Forest of Thorns"
+    },
+    {
+      "id": 131759,
+      "name": "Objective 47 - Keeper of the Orb",
+      "family": "objective",
+      "number": 47,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Forest of Thorns"
+    },
+    {
+      "id": 131760,
+      "name": "Objective 48 - Treasure Hunt in the Depths of Darkness",
+      "family": "objective",
+      "number": 48,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Depths of Darkness"
+    },
+    {
+      "id": 131761,
+      "name": "Objective 49 - Lingering Memories in the Depths of Darkness",
+      "family": "objective",
+      "number": 49,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Depths of Darkness"
+    },
+    {
+      "id": 131762,
+      "name": "Objective 50 - Combined Strength",
+      "family": "objective",
+      "number": 50,
+      "minimum_level": null,
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ],
+      "display_world": "Depths of Darkness"
+    },
+    {
+      "id": 132096,
+      "name": "Reach Level 51",
+      "family": "level",
+      "minimum_level": 51
+    },
+    {
+      "id": 132097,
+      "name": "Reach Level 52",
+      "family": "level",
+      "minimum_level": 52
+    },
+    {
+      "id": 132098,
+      "name": "Reach Level 53",
+      "family": "level",
+      "minimum_level": 53
+    },
+    {
+      "id": 132099,
+      "name": "Reach Level 54",
+      "family": "level",
+      "minimum_level": 54
+    },
+    {
+      "id": 132100,
+      "name": "Reach Level 55",
+      "family": "level",
+      "minimum_level": 55
+    },
+    {
+      "id": 132101,
+      "name": "Reach Level 56",
+      "family": "level",
+      "minimum_level": 56
+    },
+    {
+      "id": 132102,
+      "name": "Reach Level 57",
+      "family": "level",
+      "minimum_level": 57
+    },
+    {
+      "id": 132103,
+      "name": "Reach Level 58",
+      "family": "level",
+      "minimum_level": 58
+    },
+    {
+      "id": 132104,
+      "name": "Reach Level 59",
+      "family": "level",
+      "minimum_level": 59
+    },
+    {
+      "id": 132105,
+      "name": "Reach Level 60",
+      "family": "level",
+      "minimum_level": 60
+    },
+    {
+      "id": 132106,
+      "name": "Reach Level 61",
+      "family": "level",
+      "minimum_level": 61
+    },
+    {
+      "id": 132107,
+      "name": "Reach Level 62",
+      "family": "level",
+      "minimum_level": 62
+    },
+    {
+      "id": 132108,
+      "name": "Reach Level 63",
+      "family": "level",
+      "minimum_level": 63
+    },
+    {
+      "id": 132109,
+      "name": "Reach Level 64",
+      "family": "level",
+      "minimum_level": 64
+    },
+    {
+      "id": 132110,
+      "name": "Reach Level 65",
+      "family": "level",
+      "minimum_level": 65
+    },
+    {
+      "id": 132111,
+      "name": "Reach Level 66",
+      "family": "level",
+      "minimum_level": 66
+    },
+    {
+      "id": 132112,
+      "name": "Reach Level 67",
+      "family": "level",
+      "minimum_level": 67
+    },
+    {
+      "id": 132113,
+      "name": "Reach Level 68",
+      "family": "level",
+      "minimum_level": 68
+    },
+    {
+      "id": 132114,
+      "name": "Reach Level 69",
+      "family": "level",
+      "minimum_level": 69
+    },
+    {
+      "id": 132115,
+      "name": "Reach Level 70",
+      "family": "level",
+      "minimum_level": 70
+    },
+    {
+      "id": 132128,
+      "name": "Castle Town Gear 1",
+      "family": "gear",
+      "world": "Castle Town"
+    },
+    {
+      "id": 132129,
+      "name": "Castle Town Gear 2",
+      "family": "gear",
+      "world": "Castle Town"
+    },
+    {
+      "id": 132130,
+      "name": "Castle Town Gear 3",
+      "family": "gear",
+      "world": "Castle Town"
+    },
+    {
+      "id": 132131,
+      "name": "Castle Town Gear 4",
+      "family": "gear",
+      "world": "Castle Town"
+    },
+    {
+      "id": 132132,
+      "name": "Castle Town Gear 5",
+      "family": "gear",
+      "world": "Castle Town"
+    },
+    {
+      "id": 132144,
+      "name": "Shatter Mirror - Water Cores and Flutterings",
+      "family": "mirror",
+      "world": "The World Within"
+    },
+    {
+      "id": 132145,
+      "name": "Shatter Mirror - Flame Core and Shadows",
+      "family": "mirror",
+      "world": "The World Within"
+    },
+    {
+      "id": 132146,
+      "name": "Shatter Mirror - Candle Room",
+      "family": "mirror",
+      "world": "The World Within"
+    },
+    {
+      "id": 132147,
+      "name": "Shatter Mirror - Correct Chest Room",
+      "family": "mirror",
+      "world": "The World Within"
+    },
+    {
+      "id": 132148,
+      "name": "Shatter Mirror - Mines",
+      "family": "mirror",
+      "world": "The World Within"
+    },
+    {
+      "id": 132149,
+      "name": "Shatter Mirror - Labyrinth",
+      "family": "mirror",
+      "world": "The World Within"
+    },
+    {
+      "id": 132150,
+      "name": "Shatter Mirror - Endless Stairs",
+      "family": "mirror",
+      "world": "The World Within"
+    },
+    {
+      "id": 132160,
+      "name": "Activate Castle Town Exit",
+      "family": "world_end",
+      "world": "Castle Town",
+      "trigger": "end route activation, including either Depths choice"
+    },
+    {
+      "id": 132161,
+      "name": "Activate The World Within Exit",
+      "family": "world_end",
+      "world": "The World Within",
+      "trigger": "end route activation, including either Depths choice"
+    },
+    {
+      "id": 132162,
+      "name": "Activate Forest of Thorns Exit",
+      "family": "world_end",
+      "world": "Forest of Thorns",
+      "trigger": "end route activation, including either Depths choice"
+    },
+    {
+      "id": 132163,
+      "name": "Activate Depths of Darkness Exit",
+      "family": "world_end",
+      "world": "Depths of Darkness",
+      "trigger": "end route activation, including either Depths choice"
+    },
+    {
+      "id": 132176,
+      "name": "Defeat Castle Town Demon Tower",
+      "family": "story_boss",
+      "world": "Castle Town"
+    },
+    {
+      "id": 132177,
+      "name": "Defeat Phantom Aqua 1",
+      "family": "story_boss",
+      "world": "The World Within"
+    },
+    {
+      "id": 132178,
+      "name": "Defeat Phantom Aqua 2",
+      "family": "story_boss",
+      "world": "The World Within"
+    },
+    {
+      "id": 132179,
+      "name": "Defeat Phantom Aqua 3",
+      "family": "story_boss",
+      "world": "The World Within"
+    },
+    {
+      "id": 132180,
+      "name": "Defeat Forest First Darkside",
+      "family": "story_boss",
+      "world": "Forest of Thorns"
+    },
+    {
+      "id": 132181,
+      "name": "Defeat Forest Final Darkside",
+      "family": "story_boss",
+      "world": "Forest of Thorns"
+    },
+    {
+      "id": 132182,
+      "name": "Defeat Depths Demon Tower",
+      "family": "story_boss",
+      "world": "Depths of Darkness"
+    },
+    {
+      "id": 132192,
+      "name": "Boss Rush Round 1 - Darkside",
+      "family": "rush_round",
+      "world": "The World Within",
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ]
+    },
+    {
+      "id": 132193,
+      "name": "Boss Rush Round 2 - Elemental Heartless",
+      "family": "rush_round",
+      "world": "The World Within",
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ]
+    },
+    {
+      "id": 132194,
+      "name": "Boss Rush Round 3 - Shadows Neoshadows and Flutterings",
+      "family": "rush_round",
+      "world": "The World Within",
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ]
+    },
+    {
+      "id": 132195,
+      "name": "Boss Rush Round 4 - Demon Tower",
+      "family": "rush_round",
+      "world": "The World Within",
+      "goals": [
+        "demon_tide",
+        "boss_rush"
+      ]
+    },
+    {
+      "id": 132196,
+      "name": "Boss Rush Round 5 - Zodiac Phantom",
+      "family": "rush_round",
+      "world": "The World Within",
+      "goals": [
+        "demon_tide"
+      ]
+    },
+    {
+      "id": 132208,
+      "name": "Rocky Path Darkside 1",
+      "family": "optional_darkside",
+      "world": "Forest of Thorns",
+      "native_binding": "individual defeat identities pending"
+    },
+    {
+      "id": 132209,
+      "name": "Rocky Path Darkside 2",
+      "family": "optional_darkside",
+      "world": "Forest of Thorns",
+      "native_binding": "individual defeat identities pending"
+    },
+    {
+      "id": 132210,
+      "name": "Rocky Path Darkside 3",
+      "family": "optional_darkside",
+      "world": "Forest of Thorns",
+      "native_binding": "individual defeat identities pending"
+    }
+  ],
+  "wardrobe_sets": {
+    "head": [
+      [
+        "Tiara",
+        "Royal Tiara",
+        "Venus's Tiara"
+      ],
+      [
+        "Antennae",
+        "Pulse Antennae",
+        "Cyber Antennae"
+      ],
+      [
+        "Marie",
+        "Figaro",
+        "Cheshire Cat"
+      ],
+      [
+        "Minnie Ears (Red Bow)",
+        "Minnie Ears (Blue Bow)",
+        "Minnie Ears (White Bow)"
+      ]
+    ],
+    "arms": [
+      [
+        "Pauldron",
+        "Mystic Pauldron",
+        "Royal Pauldron"
+      ],
+      [
+        "Arm Plate",
+        "Warrior's Arm Plate",
+        "Voltaic Arm Plate"
+      ],
+      [
+        "Arm Guards",
+        "Lustrous Arm Guards",
+        "Flawless Arm Guards"
+      ]
+    ],
+    "back": [
+      [
+        "Iron Ornament",
+        "Radiant Ornament",
+        "Astral Ornament"
+      ],
+      [
+        "Blades",
+        "Pulse Blades",
+        "Cyber Blades"
+      ],
+      [
+        "Wings",
+        "Lustrous Wings",
+        "Flawless Wings"
+      ]
+    ],
+    "pattern": [
+      [
+        "Classy (Yellow)",
+        "Classy (Blue)",
+        "Classy (White)"
+      ],
+      [
+        "Mecha (Pink)",
+        "Mecha (Yellow)",
+        "Mecha (Blue)"
+      ],
+      [
+        "Grace (Blue)",
+        "Grace (Purple)",
+        "Grace (Pink)"
+      ],
+      [
+        "Diamond (White)",
+        "Diamond (Blue)",
+        "Diamond (Green)"
+      ],
+      [
+        "Coil (White)",
+        "Coil (Yellow)",
+        "Coil (Pink)"
+      ],
+      [
+        "Stitching",
+        "Crisscross",
+        "Polka Dots"
+      ],
+      [
+        "Lace (Crystal)",
+        "Lace (Floral)",
+        "Ribbons"
+      ]
+    ]
+  },
+  "limitations": [
+    "Catalog matches the full candidate, not the old public prototype World.",
+    "Exact map images and chest coordinates are not yet bound.",
+    "Track collected checks; do not claim accessibility until rules match release generation."
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "version": 271,
+  "live_proven": false,
+  "release_approved": false,
+  "uniform_native_delta": "v231/v232/v235 plus v240 retry/cycle/postgame integration in all eight selections",
+  "delivery_history_only": "v234",
+  "assets": "v237 dispatch plus exact v139 WW ending plus eighteen-row menu",
+  "preserved": [
+    "v14 Critical",
+    "minimal clear",
+    "storage isolation",
+    "shared owner",
+    "v218 movement/resources/menu",
+    "v219 music",
+    "v230 Mickey modes",
+    "XP and repeatable drops"
+  ],
+  "offline_integration_gaps": [],
+  "live_acceptance_pending": [
+    "Normal seed empty-history game startup",
+    "Full seeded playthrough"
+  ],
+  "selected": [
+    {
+      "version": "v27101",
+      "mode": "fresh",
+      "world": "Castle Town",
+      "preparation": true
+    },
+    {
+      "version": "v27102",
+      "mode": "fresh",
+      "world": "The World Within",
+      "preparation": true
+    },
+    {
+      "version": "v27103",
+      "mode": "fresh",
+      "world": "Forest of Thorns",
+      "preparation": true
+    },
+    {
+      "version": "v27104",
+      "mode": "fresh",
+      "world": "Depths of Darkness",
+      "preparation": true
+    },
+    {
+      "version": "v27105",
+      "mode": "resume",
+      "world": "Castle Town",
+      "preparation": true
+    },
+    {
+      "version": "v27106",
+      "mode": "resume",
+      "world": "The World Within",
+      "preparation": true
+    },
+    {
+      "version": "v27107",
+      "mode": "resume",
+      "world": "Forest of Thorns",
+      "preparation": true
+    },
+    {
+      "version": "v27108",
+      "mode": "resume",
+      "world": "Depths of Darkness",
+      "preparation": true
+    }
+  ],
+  "ap_icon": {
+    "live_variant": "v24106",
+    "offline_variants": 8,
+    "scope": "outgoing notices only"
+  },
+  "prior_targeted_evidence": [
+    "research/integration-v240-live-1",
+    "research/integration-v240-live-2",
+    "research/integration-v240-live-4"
+  ],
+  "first_load_admission": "Any authenticated current-seed slot; exact record membership still required"
+}

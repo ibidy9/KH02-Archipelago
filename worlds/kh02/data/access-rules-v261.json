@@ -1,0 +1,1598 @@
+{
+  "version": 272,
+  "locations": {
+    "131585": {
+      "name": "Castle Town Chest 1",
+      "rule": [
+        "world",
+        "Castle Town"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131586": {
+      "name": "Castle Town Chest 2",
+      "rule": [
+        "world",
+        "Castle Town"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131587": {
+      "name": "Castle Town Chest 3",
+      "rule": [
+        "world",
+        "Castle Town"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131588": {
+      "name": "Castle Town Chest 4",
+      "rule": [
+        "world",
+        "Castle Town"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131589": {
+      "name": "Castle Town Chest 5",
+      "rule": [
+        "world",
+        "Castle Town"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131590": {
+      "name": "The World Within Chest 1",
+      "rule": [
+        "world",
+        "The World Within"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131591": {
+      "name": "The World Within Chest 2",
+      "rule": [
+        "all",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "item",
+          "Doubleflight"
+        ]
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131592": {
+      "name": "The World Within Chest 3",
+      "rule": [
+        "world",
+        "The World Within"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131593": {
+      "name": "The World Within Chest 4",
+      "rule": [
+        "world",
+        "The World Within"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131594": {
+      "name": "The World Within Chest 5",
+      "rule": [
+        "world",
+        "The World Within"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131595": {
+      "name": "The World Within Chest 6",
+      "rule": [
+        "world",
+        "The World Within"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131596": {
+      "name": "The World Within Chest 7",
+      "rule": [
+        "all",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "item",
+          "Doubleflight"
+        ]
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131597": {
+      "name": "The World Within Chest 8",
+      "rule": [
+        "all",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "item",
+          "Doubleflight"
+        ]
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131598": {
+      "name": "Forest of Thorns Chest 1",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131599": {
+      "name": "Forest of Thorns Chest 2",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131600": {
+      "name": "Forest of Thorns Chest 3",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131601": {
+      "name": "Forest of Thorns Chest 4",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md",
+      "green": [
+        "all",
+        [
+          "world",
+          "Forest of Thorns"
+        ],
+        [
+          "item",
+          "Doubleflight"
+        ]
+      ],
+      "yellow": [
+        "world",
+        "Forest of Thorns"
+      ]
+    },
+    "131602": {
+      "name": "Forest of Thorns Chest 5",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131603": {
+      "name": "Forest of Thorns Chest 6",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131604": {
+      "name": "Forest of Thorns Chest 7",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131605": {
+      "name": "Forest of Thorns Chest 8",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131606": {
+      "name": "Forest of Thorns Chest 9",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131607": {
+      "name": "Forest of Thorns Chest 10",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131608": {
+      "name": "Depths of Darkness Chest 1",
+      "rule": [
+        "world",
+        "Depths of Darkness"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131609": {
+      "name": "Depths of Darkness Chest 2",
+      "rule": [
+        "world",
+        "Depths of Darkness"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131610": {
+      "name": "Depths of Darkness Chest 3",
+      "rule": [
+        "world",
+        "Depths of Darkness"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131611": {
+      "name": "Depths of Darkness Chest 4",
+      "rule": [
+        "world",
+        "Depths of Darkness"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131612": {
+      "name": "Depths of Darkness Chest 5",
+      "rule": [
+        "world",
+        "Depths of Darkness"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131613": {
+      "name": "Main Road Chest 1",
+      "rule": [
+        "world",
+        "Castle Town"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "131614": {
+      "name": "Castle Town Chest 6",
+      "rule": [
+        "world",
+        "Castle Town"
+      ],
+      "evidence": "User correction 2026-10-16: no blanket movement gate for Zodiac chests; vanilla reward is not an access rule."
+    },
+    "131615": {
+      "name": "Castle Town Chest 7",
+      "rule": [
+        "world",
+        "Castle Town"
+      ],
+      "evidence": "User correction 2026-10-16: no blanket movement gate for Zodiac chests; vanilla reward is not an access rule."
+    },
+    "131616": {
+      "name": "Castle Town Chest 8",
+      "rule": [
+        "world",
+        "Castle Town"
+      ],
+      "evidence": "User correction 2026-10-16: no blanket movement gate for Zodiac chests; vanilla reward is not an access rule."
+    },
+    "131617": {
+      "name": "Castle Town Chest 9",
+      "rule": [
+        "world",
+        "Castle Town"
+      ],
+      "evidence": "User correction 2026-10-16: no blanket movement gate for Zodiac chests; vanilla reward is not an access rule."
+    },
+    "131618": {
+      "name": "The World Within Chest 9",
+      "rule": [
+        "world",
+        "The World Within"
+      ],
+      "evidence": "User correction 2026-10-16: no blanket movement gate for Zodiac chests; vanilla reward is not an access rule."
+    },
+    "131619": {
+      "name": "The World Within Chest 10",
+      "rule": [
+        "world",
+        "The World Within"
+      ],
+      "evidence": "User correction 2026-10-16: no blanket movement gate for Zodiac chests; vanilla reward is not an access rule."
+    },
+    "131620": {
+      "name": "The World Within Chest 11",
+      "rule": [
+        "world",
+        "The World Within"
+      ],
+      "evidence": "User correction 2026-10-16: no blanket movement gate for Zodiac chests; vanilla reward is not an access rule."
+    },
+    "131621": {
+      "name": "The World Within Chest 12",
+      "rule": [
+        "world",
+        "The World Within"
+      ],
+      "evidence": "User correction 2026-10-16: no blanket movement gate for Zodiac chests; vanilla reward is not an access rule."
+    },
+    "131622": {
+      "name": "The World Within Chest 13",
+      "rule": [
+        "world",
+        "The World Within"
+      ],
+      "evidence": "User correction 2026-10-16: no blanket movement gate for Zodiac chests; vanilla reward is not an access rule."
+    },
+    "131623": {
+      "name": "Forest of Thorns Chest 11",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "User correction 2026-10-16: no blanket movement gate for Zodiac chests; vanilla reward is not an access rule."
+    },
+    "131624": {
+      "name": "Forest of Thorns Chest 12",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "User correction 2026-10-16: no blanket movement gate for Zodiac chests; vanilla reward is not an access rule."
+    },
+    "131625": {
+      "name": "Depths of Darkness Chest 6",
+      "rule": [
+        "world",
+        "Depths of Darkness"
+      ],
+      "evidence": "User correction 2026-10-16: no blanket movement gate for Zodiac chests; vanilla reward is not an access rule."
+    },
+    "131713": {
+      "name": "Objective 1 - Defeat the Shadows",
+      "rule": [
+        "any",
+        [
+          "world",
+          "Castle Town"
+        ],
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "world",
+          "Forest of Thorns"
+        ],
+        [
+          "world",
+          "Depths of Darkness"
+        ]
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131714": {
+      "name": "Objective 2 - Defeat the Flutterings",
+      "rule": [
+        "any",
+        [
+          "world",
+          "Castle Town"
+        ],
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "world",
+          "Forest of Thorns"
+        ],
+        [
+          "world",
+          "Depths of Darkness"
+        ]
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131715": {
+      "name": "Objective 3 - Defeat the Flame Cores",
+      "rule": [
+        "any",
+        [
+          "world",
+          "Castle Town"
+        ],
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "world",
+          "Forest of Thorns"
+        ],
+        [
+          "world",
+          "Depths of Darkness"
+        ]
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131716": {
+      "name": "Objective 4 - Defeat the Neoshadows",
+      "rule": [
+        "any",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "world",
+          "Forest of Thorns"
+        ],
+        [
+          "world",
+          "Depths of Darkness"
+        ]
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131717": {
+      "name": "Objective 5 - Defeat the Water Cores",
+      "rule": [
+        "any",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "world",
+          "Forest of Thorns"
+        ],
+        [
+          "world",
+          "Depths of Darkness"
+        ]
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131718": {
+      "name": "Objective 6 - Defeat the Earth Cores",
+      "rule": [
+        "any",
+        [
+          "world",
+          "Depths of Darkness"
+        ],
+        [
+          "all",
+          [
+            "world",
+            "The World Within"
+          ],
+          [
+            "rush_unlock"
+          ]
+        ]
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131719": {
+      "name": "Objective 7 - Test of Strength I",
+      "rule": true,
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131720": {
+      "name": "Objective 8 - Test of Strength II",
+      "rule": true,
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131721": {
+      "name": "Objective 9 - Test of Strength III",
+      "rule": true,
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131722": {
+      "name": "Objective 10 - Master of Counters",
+      "rule": [
+        "all",
+        [
+          "item",
+          "Barrier"
+        ],
+        [
+          "item",
+          "Counter Blast"
+        ]
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131723": {
+      "name": "Objective 11 - Master of Fire",
+      "rule": [
+        "item",
+        "Progressive Fire"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131724": {
+      "name": "Objective 12 - Master of Ice",
+      "rule": [
+        "item",
+        "Progressive Blizzard"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131725": {
+      "name": "Objective 13 - Master of Lightning",
+      "rule": [
+        "item",
+        "Progressive Thunder"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131726": {
+      "name": "Objective 14 - Frozen Rail Raid",
+      "rule": [
+        "all",
+        [
+          "any",
+          [
+            "world",
+            "Castle Town"
+          ],
+          [
+            "world",
+            "The World Within"
+          ],
+          [
+            "world",
+            "Depths of Darkness"
+          ]
+        ],
+        [
+          "item",
+          "Progressive Blizzard"
+        ]
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131727": {
+      "name": "Objective 15 - Ice Breaker",
+      "rule": [
+        "item",
+        "Progressive Blizzard"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131728": {
+      "name": "Objective 16 - Magic Advantage",
+      "rule": [
+        "any",
+        [
+          "all",
+          [
+            "item",
+            "Progressive Blizzard"
+          ],
+          [
+            "any",
+            [
+              "world",
+              "Castle Town"
+            ],
+            [
+              "world",
+              "The World Within"
+            ],
+            [
+              "world",
+              "Forest of Thorns"
+            ],
+            [
+              "world",
+              "Depths of Darkness"
+            ]
+          ]
+        ],
+        [
+          "all",
+          [
+            "item",
+            "Progressive Fire"
+          ],
+          [
+            "any",
+            [
+              "world",
+              "The World Within"
+            ],
+            [
+              "world",
+              "Forest of Thorns"
+            ],
+            [
+              "world",
+              "Depths of Darkness"
+            ]
+          ]
+        ]
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131729": {
+      "name": "Objective 17 - Fight and Flight",
+      "rule": true,
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131730": {
+      "name": "Objective 18 - Excellent Aim",
+      "rule": [
+        "item",
+        "Shotlock"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131731": {
+      "name": "Objective 19 - Stylish Moves",
+      "rule": [
+        "item",
+        "Spellweaver"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131732": {
+      "name": "Objective 20 - A Fine Finish",
+      "rule": [
+        "item",
+        "Spellweaver"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131733": {
+      "name": "Objective 21 - Wardrobe Weaver",
+      "rule": [
+        "all",
+        [
+          "item",
+          "Spellweaver"
+        ],
+        [
+          "wardrobe_categories"
+        ]
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131734": {
+      "name": "Objective 22 - Trendsetter",
+      "rule": [
+        "wardrobe_any"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131735": {
+      "name": "Objective 23 - Streetlamp Striker",
+      "rule": [
+        "world",
+        "Castle Town"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131736": {
+      "name": "Objective 24 - Top of the Town",
+      "rule": [
+        "world",
+        "Castle Town"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131737": {
+      "name": "Objective 25 - Starlit Wish",
+      "rule": [
+        "world",
+        "Castle Town"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131738": {
+      "name": "Objective 26 - Heartless That Dwell",
+      "rule": [
+        "world",
+        "The World Within"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131739": {
+      "name": "Objective 27 - Mystery Within",
+      "rule": [
+        "world",
+        "The World Within"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131740": {
+      "name": "Objective 28 - Treasure Within",
+      "rule": [
+        "world",
+        "The World Within"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131741": {
+      "name": "Objective 29 - Gem Gatherer",
+      "rule": [
+        "all",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "item",
+          "Doubleflight"
+        ]
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131742": {
+      "name": "Objective 30 - Connected",
+      "rule": [
+        "all",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "item",
+          "Doubleflight"
+        ]
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131743": {
+      "name": "Objective 31 - Queen of the Rink",
+      "rule": [
+        "all",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "item",
+          "Spellweaver"
+        ]
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131744": {
+      "name": "Objective 32 - Defeat the Darksides",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131745": {
+      "name": "Objective 33 - Prickly Problems",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131746": {
+      "name": "Objective 34 - Fairy Bouquet",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131747": {
+      "name": "Objective 35 - Work Together with King Mickey",
+      "rule": [
+        "all",
+        [
+          "mickey"
+        ],
+        [
+          "any",
+          [
+            "world",
+            "Depths of Darkness"
+          ],
+          [
+            "all",
+            [
+              "mickey_all_worlds"
+            ],
+            [
+              "any",
+              [
+                "world",
+                "Castle Town"
+              ],
+              [
+                "world",
+                "The World Within"
+              ],
+              [
+                "world",
+                "Forest of Thorns"
+              ],
+              [
+                "world",
+                "Depths of Darkness"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131748": {
+      "name": "Objective 36 - Turn the Tide",
+      "rule": [
+        "all",
+        [
+          "world",
+          "Castle Town"
+        ],
+        [
+          "item",
+          "Spellweaver"
+        ]
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131749": {
+      "name": "Objective 37 - Treasure Hunt in the Castle Town",
+      "rule": [
+        "world",
+        "Castle Town"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131750": {
+      "name": "Objective 38 - Lingering Memories in the Castle Town",
+      "rule": [
+        "world",
+        "Castle Town"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131751": {
+      "name": "Objective 39 - Treasure Hunt in the World Within",
+      "rule": [
+        "all",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "item",
+          "Doubleflight"
+        ]
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131752": {
+      "name": "Objective 40 - Lingering Memories in the World Within",
+      "rule": [
+        "world",
+        "The World Within"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131753": {
+      "name": "Objective 41 - Flawless Victory",
+      "rule": [
+        "all",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "item",
+          "Doubleflight"
+        ],
+        [
+          "item",
+          "Barrier"
+        ]
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit",
+      "green": [
+        "all",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "item",
+          "Doubleflight"
+        ],
+        [
+          "item",
+          "Barrier"
+        ]
+      ],
+      "yellow": [
+        "all",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "item",
+          "Doubleflight"
+        ]
+      ]
+    },
+    "131754": {
+      "name": "Objective 42 - In the Mirror",
+      "rule": [
+        "all",
+        [
+          "all",
+          [
+            "world",
+            "The World Within"
+          ],
+          [
+            "rush_unlock"
+          ]
+        ],
+        [
+          "all",
+          [
+            "item",
+            "Cartwheel"
+          ],
+          [
+            "item",
+            "Barrier"
+          ]
+        ]
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131755": {
+      "name": "Objective 43 - Quest for the Zodiac",
+      "rule": [
+        "all",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "rush_unlock"
+        ]
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131756": {
+      "name": "Objective 44 - Treasure Hunt in the Forest of Thorns",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131757": {
+      "name": "Objective 45 - Lingering Memories in the Forest of Thorns",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131758": {
+      "name": "Objective 46 - Slide Along the Ivy Rails",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131759": {
+      "name": "Objective 47 - Keeper of the Orb",
+      "rule": [
+        "all",
+        [
+          "world",
+          "Forest of Thorns"
+        ],
+        [
+          "item",
+          "Barrier"
+        ]
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit",
+      "green": [
+        "all",
+        [
+          "world",
+          "Forest of Thorns"
+        ],
+        [
+          "item",
+          "Barrier"
+        ]
+      ],
+      "yellow": [
+        "world",
+        "Forest of Thorns"
+      ]
+    },
+    "131760": {
+      "name": "Objective 48 - Treasure Hunt in the Depths of Darkness",
+      "rule": [
+        "world",
+        "Depths of Darkness"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131761": {
+      "name": "Objective 49 - Lingering Memories in the Depths of Darkness",
+      "rule": [
+        "world",
+        "Depths of Darkness"
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "131762": {
+      "name": "Objective 50 - Combined Strength",
+      "rule": [
+        "all",
+        [
+          "world",
+          "Depths of Darkness"
+        ],
+        [
+          "mickey"
+        ]
+      ],
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+    },
+    "132096": {
+      "name": "Reach Level 51",
+      "rule": true,
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132097": {
+      "name": "Reach Level 52",
+      "rule": true,
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132098": {
+      "name": "Reach Level 53",
+      "rule": true,
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132099": {
+      "name": "Reach Level 54",
+      "rule": true,
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132100": {
+      "name": "Reach Level 55",
+      "rule": true,
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132101": {
+      "name": "Reach Level 56",
+      "rule": true,
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132102": {
+      "name": "Reach Level 57",
+      "rule": true,
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132103": {
+      "name": "Reach Level 58",
+      "rule": true,
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132104": {
+      "name": "Reach Level 59",
+      "rule": true,
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132105": {
+      "name": "Reach Level 60",
+      "rule": true,
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132106": {
+      "name": "Reach Level 61",
+      "rule": true,
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132107": {
+      "name": "Reach Level 62",
+      "rule": true,
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132108": {
+      "name": "Reach Level 63",
+      "rule": true,
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132109": {
+      "name": "Reach Level 64",
+      "rule": true,
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132110": {
+      "name": "Reach Level 65",
+      "rule": true,
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132111": {
+      "name": "Reach Level 66",
+      "rule": true,
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132112": {
+      "name": "Reach Level 67",
+      "rule": true,
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132113": {
+      "name": "Reach Level 68",
+      "rule": true,
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132114": {
+      "name": "Reach Level 69",
+      "rule": true,
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132115": {
+      "name": "Reach Level 70",
+      "rule": true,
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132128": {
+      "name": "Castle Town Gear 1",
+      "rule": [
+        "world",
+        "Castle Town"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132129": {
+      "name": "Castle Town Gear 2",
+      "rule": [
+        "world",
+        "Castle Town"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132130": {
+      "name": "Castle Town Gear 3",
+      "rule": [
+        "world",
+        "Castle Town"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132131": {
+      "name": "Castle Town Gear 4",
+      "rule": [
+        "world",
+        "Castle Town"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132132": {
+      "name": "Castle Town Gear 5",
+      "rule": [
+        "world",
+        "Castle Town"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132144": {
+      "name": "Shatter Mirror - Water Cores and Flutterings",
+      "rule": [
+        "world",
+        "The World Within"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132145": {
+      "name": "Shatter Mirror - Flame Core and Shadows",
+      "rule": [
+        "world",
+        "The World Within"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132146": {
+      "name": "Shatter Mirror - Candle Room",
+      "rule": [
+        "world",
+        "The World Within"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132147": {
+      "name": "Shatter Mirror - Correct Chest Room",
+      "rule": [
+        "world",
+        "The World Within"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132148": {
+      "name": "Shatter Mirror - Mines",
+      "rule": [
+        "all",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "item",
+          "Doubleflight"
+        ]
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132149": {
+      "name": "Shatter Mirror - Labyrinth",
+      "rule": [
+        "world",
+        "The World Within"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132150": {
+      "name": "Shatter Mirror - Endless Stairs",
+      "rule": [
+        "world",
+        "The World Within"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132160": {
+      "name": "Activate Castle Town Exit",
+      "rule": [
+        "world",
+        "Castle Town"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132161": {
+      "name": "Activate The World Within Exit",
+      "rule": [
+        "all",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "item",
+          "Doubleflight"
+        ]
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132162": {
+      "name": "Activate Forest of Thorns Exit",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132163": {
+      "name": "Activate Depths of Darkness Exit",
+      "rule": [
+        "world",
+        "Depths of Darkness"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132176": {
+      "name": "Defeat Castle Town Demon Tower",
+      "rule": [
+        "world",
+        "Castle Town"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132177": {
+      "name": "Defeat Phantom Aqua 1",
+      "rule": [
+        "world",
+        "The World Within"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132178": {
+      "name": "Defeat Phantom Aqua 2",
+      "rule": [
+        "world",
+        "The World Within"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132179": {
+      "name": "Defeat Phantom Aqua 3",
+      "rule": [
+        "all",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "item",
+          "Doubleflight"
+        ]
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132180": {
+      "name": "Defeat Forest First Darkside",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132181": {
+      "name": "Defeat Forest Final Darkside",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132182": {
+      "name": "Defeat Depths Demon Tower",
+      "rule": [
+        "world",
+        "Depths of Darkness"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132192": {
+      "name": "Boss Rush Round 1 - Darkside",
+      "rule": [
+        "all",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "rush_unlock"
+        ]
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132193": {
+      "name": "Boss Rush Round 2 - Elemental Heartless",
+      "rule": [
+        "all",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "rush_unlock"
+        ]
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132194": {
+      "name": "Boss Rush Round 3 - Shadows Neoshadows and Flutterings",
+      "rule": [
+        "all",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "rush_unlock"
+        ]
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132195": {
+      "name": "Boss Rush Round 4 - Demon Tower",
+      "rule": [
+        "all",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "rush_unlock"
+        ]
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132196": {
+      "name": "Boss Rush Round 5 - Zodiac Phantom",
+      "rule": [
+        "all",
+        [
+          "all",
+          [
+            "world",
+            "The World Within"
+          ],
+          [
+            "rush_unlock"
+          ]
+        ],
+        [
+          "all",
+          [
+            "item",
+            "Cartwheel"
+          ],
+          [
+            "item",
+            "Barrier"
+          ]
+        ]
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md",
+      "green": [
+        "all",
+        [
+          "all",
+          [
+            "world",
+            "The World Within"
+          ],
+          [
+            "rush_unlock"
+          ]
+        ],
+        [
+          "all",
+          [
+            "all",
+            [
+              "item",
+              "Cartwheel"
+            ],
+            [
+              "item",
+              "Barrier"
+            ]
+          ],
+          [
+            "item",
+            "Cure Magic"
+          ]
+        ]
+      ],
+      "yellow": [
+        "all",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "rush_unlock"
+        ]
+      ]
+    },
+    "132208": {
+      "name": "Rocky Path Darkside 1",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132209": {
+      "name": "Rocky Path Darkside 2",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    },
+    "132210": {
+      "name": "Rocky Path Darkside 3",
+      "rule": [
+        "world",
+        "Forest of Thorns"
+      ],
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md"
+    }
+  },
+  "phantom_combat": [
+    "all",
+    [
+      "item",
+      "Cartwheel"
+    ],
+    [
+      "item",
+      "Barrier"
+    ]
+  ],
+  "phantom_green": [
+    "all",
+    [
+      "all",
+      [
+        "item",
+        "Cartwheel"
+      ],
+      [
+        "item",
+        "Barrier"
+      ]
+    ],
+    [
+      "item",
+      "Cure Magic"
+    ]
+  ],
+  "goal_demon_tide": [
+    "all",
+    [
+      "world",
+      "Depths of Darkness"
+    ],
+    [
+      "selected_requirement"
+    ]
+  ],
+  "goal_boss_rush": [
+    "all",
+    [
+      "all",
+      [
+        "world",
+        "The World Within"
+      ],
+      [
+        "rush_unlock"
+      ]
+    ],
+    [
+      "all",
+      [
+        "item",
+        "Cartwheel"
+      ],
+      [
+        "item",
+        "Barrier"
+      ]
+    ]
+  ],
+  "notes": [
+    "Yellow: Forest chest4, Zodiac Phantom, Objective41 without Barrier and Objective47 without Barrier.",
+    "Cure is excluded from Phantom-gated rewards; it is a tracker green recommendation, not mandatory generation access.",
+    "Frozen Rail Raid: Castle Town, WW and Depths confirmed; Forest remains excluded.",
+    "Ice Breaker requires Blizzard, without a world restriction.",
+    "Enemy world coverage follows KH Wiki KH0.2 location tables; Earth Cores in WW require boss rush."
+  ]
+}

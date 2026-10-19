@@ -1,0 +1,4669 @@
+[
+  {
+    "name": "Castle Town Chest 1",
+    "visibility_rules": [
+      "$show_check|131585"
+    ],
+    "sections": [
+      {
+        "name": "Castle Town Chest 1",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131585"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131585"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Castle Town",
+        "x": 162,
+        "y": 493,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Castle Town Chest 2",
+    "visibility_rules": [
+      "$show_check|131586"
+    ],
+    "sections": [
+      {
+        "name": "Castle Town Chest 2",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131586"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131586"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Castle Town",
+        "x": 189,
+        "y": 238,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Castle Town Chest 3",
+    "visibility_rules": [
+      "$show_check|131587"
+    ],
+    "sections": [
+      {
+        "name": "Castle Town Chest 3",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131587"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131587"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Castle Town",
+        "x": 64,
+        "y": 235,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Castle Town Chest 4",
+    "visibility_rules": [
+      "$show_check|131588"
+    ],
+    "sections": [
+      {
+        "name": "Castle Town Chest 4",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131588"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131588"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Castle Town",
+        "x": 158,
+        "y": 141,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Castle Town Chest 5",
+    "visibility_rules": [
+      "$show_check|131589"
+    ],
+    "sections": [
+      {
+        "name": "Castle Town Chest 5",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131589"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131589"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Castle Town",
+        "x": 799,
+        "y": 280,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "The World Within Chest 1",
+    "visibility_rules": [
+      "$show_check|131590"
+    ],
+    "sections": [
+      {
+        "name": "The World Within Chest 1",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131590"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131590"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "The World Within",
+        "x": 241,
+        "y": 464,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "The World Within Chest 2",
+    "visibility_rules": [
+      "$show_check|131591"
+    ],
+    "sections": [
+      {
+        "name": "The World Within Chest 2",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131591"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131591"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "The World Within",
+        "x": 217,
+        "y": 339,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "The World Within Chest 3",
+    "visibility_rules": [
+      "$show_check|131592"
+    ],
+    "sections": [
+      {
+        "name": "The World Within Chest 3",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131592"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131592"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The World Within Chest 4",
+    "visibility_rules": [
+      "$show_check|131593"
+    ],
+    "sections": [
+      {
+        "name": "The World Within Chest 4",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131593"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131593"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The World Within Chest 5",
+    "visibility_rules": [
+      "$show_check|131594"
+    ],
+    "sections": [
+      {
+        "name": "The World Within Chest 5",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131594"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131594"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The World Within Chest 6",
+    "visibility_rules": [
+      "$show_check|131595"
+    ],
+    "sections": [
+      {
+        "name": "The World Within Chest 6",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131595"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131595"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The World Within Chest 7",
+    "visibility_rules": [
+      "$show_check|131596"
+    ],
+    "sections": [
+      {
+        "name": "The World Within Chest 7",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131596"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131596"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "The World Within",
+        "x": 857,
+        "y": 254,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "The World Within Chest 8",
+    "visibility_rules": [
+      "$show_check|131597"
+    ],
+    "sections": [
+      {
+        "name": "The World Within Chest 8",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131597"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131597"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "The World Within",
+        "x": 929,
+        "y": 365,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Forest of Thorns Chest 1",
+    "visibility_rules": [
+      "$show_check|131598"
+    ],
+    "sections": [
+      {
+        "name": "Forest of Thorns Chest 1",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131598"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131598"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Forest of Thorns",
+        "x": 220,
+        "y": 477,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Forest of Thorns Chest 2",
+    "visibility_rules": [
+      "$show_check|131599"
+    ],
+    "sections": [
+      {
+        "name": "Forest of Thorns Chest 2",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131599"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131599"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Forest of Thorns",
+        "x": 174,
+        "y": 411,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Forest of Thorns Chest 3",
+    "visibility_rules": [
+      "$show_check|131600"
+    ],
+    "sections": [
+      {
+        "name": "Forest of Thorns Chest 3",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131600"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131600"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Forest of Thorns",
+        "x": 605,
+        "y": 458,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Forest of Thorns Chest 4",
+    "visibility_rules": [
+      "$show_check|131601"
+    ],
+    "sections": [
+      {
+        "name": "Forest of Thorns Chest 4",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131601"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131601"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Forest of Thorns",
+        "x": 620,
+        "y": 361,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Forest of Thorns Chest 5",
+    "visibility_rules": [
+      "$show_check|131602"
+    ],
+    "sections": [
+      {
+        "name": "Forest of Thorns Chest 5",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131602"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131602"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Forest of Thorns",
+        "x": 606,
+        "y": 280,
+        "size": 16
+      },
+      {
+        "map": "Forest of Thorns",
+        "x": 822,
+        "y": 542,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Forest of Thorns Chest 6",
+    "visibility_rules": [
+      "$show_check|131603"
+    ],
+    "sections": [
+      {
+        "name": "Forest of Thorns Chest 6",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131603"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131603"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Forest of Thorns",
+        "x": 538,
+        "y": 276,
+        "size": 16
+      },
+      {
+        "map": "Forest of Thorns",
+        "x": 738,
+        "y": 537,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Forest of Thorns Chest 7",
+    "visibility_rules": [
+      "$show_check|131604"
+    ],
+    "sections": [
+      {
+        "name": "Forest of Thorns Chest 7",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131604"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131604"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Forest of Thorns",
+        "x": 651,
+        "y": 259,
+        "size": 16
+      },
+      {
+        "map": "Forest of Thorns",
+        "x": 878,
+        "y": 517,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Forest of Thorns Chest 8",
+    "visibility_rules": [
+      "$show_check|131605"
+    ],
+    "sections": [
+      {
+        "name": "Forest of Thorns Chest 8",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131605"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131605"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Forest of Thorns",
+        "x": 615,
+        "y": 242,
+        "size": 16
+      },
+      {
+        "map": "Forest of Thorns",
+        "x": 834,
+        "y": 496,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Forest of Thorns Chest 9",
+    "visibility_rules": [
+      "$show_check|131606"
+    ],
+    "sections": [
+      {
+        "name": "Forest of Thorns Chest 9",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131606"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131606"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Forest of Thorns",
+        "x": 557,
+        "y": 200,
+        "size": 16
+      },
+      {
+        "map": "Forest of Thorns",
+        "x": 762,
+        "y": 444,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Forest of Thorns Chest 10",
+    "visibility_rules": [
+      "$show_check|131607"
+    ],
+    "sections": [
+      {
+        "name": "Forest of Thorns Chest 10",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131607"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131607"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Forest of Thorns",
+        "x": 702,
+        "y": 203,
+        "size": 16
+      },
+      {
+        "map": "Forest of Thorns",
+        "x": 941,
+        "y": 448,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Depths of Darkness Chest 1",
+    "visibility_rules": [
+      "$show_check|131608"
+    ],
+    "sections": [
+      {
+        "name": "Depths of Darkness Chest 1",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131608"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131608"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Depths of Darkness",
+        "x": 260,
+        "y": 462,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Depths of Darkness Chest 2",
+    "visibility_rules": [
+      "$show_check|131609"
+    ],
+    "sections": [
+      {
+        "name": "Depths of Darkness Chest 2",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131609"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131609"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Depths of Darkness",
+        "x": 828,
+        "y": 290,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Depths of Darkness Chest 3",
+    "visibility_rules": [
+      "$show_check|131610"
+    ],
+    "sections": [
+      {
+        "name": "Depths of Darkness Chest 3",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131610"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131610"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Depths of Darkness",
+        "x": 164,
+        "y": 399,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Depths of Darkness Chest 4",
+    "visibility_rules": [
+      "$show_check|131611"
+    ],
+    "sections": [
+      {
+        "name": "Depths of Darkness Chest 4",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131611"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131611"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Depths of Darkness",
+        "x": 163,
+        "y": 336,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Depths of Darkness Chest 5",
+    "visibility_rules": [
+      "$show_check|131612"
+    ],
+    "sections": [
+      {
+        "name": "Depths of Darkness Chest 5",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131612"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131612"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Depths of Darkness",
+        "x": 263,
+        "y": 110,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Main Road Chest 1",
+    "visibility_rules": [
+      "$show_check|131613"
+    ],
+    "sections": [
+      {
+        "name": "Main Road Chest 1",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131613"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131613"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Castle Town",
+        "x": 735,
+        "y": 540,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Castle Town Chest 6",
+    "visibility_rules": [
+      "$show_check|131614"
+    ],
+    "sections": [
+      {
+        "name": "Castle Town Chest 6",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131614"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131614"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Castle Town",
+        "x": 88,
+        "y": 199,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Castle Town Chest 7",
+    "visibility_rules": [
+      "$show_check|131615"
+    ],
+    "sections": [
+      {
+        "name": "Castle Town Chest 7",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131615"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131615"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Castle Town",
+        "x": 163,
+        "y": 197,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Castle Town Chest 8",
+    "visibility_rules": [
+      "$show_check|131616"
+    ],
+    "sections": [
+      {
+        "name": "Castle Town Chest 8",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131616"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131616"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Castle Town",
+        "x": 582,
+        "y": 434,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Castle Town Chest 9",
+    "visibility_rules": [
+      "$show_check|131617"
+    ],
+    "sections": [
+      {
+        "name": "Castle Town Chest 9",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131617"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131617"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Castle Town",
+        "x": 47,
+        "y": 231,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "The World Within Chest 9",
+    "visibility_rules": [
+      "$show_check|131618"
+    ],
+    "sections": [
+      {
+        "name": "The World Within Chest 9",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131618"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131618"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "The World Within",
+        "x": 225,
+        "y": 157,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "The World Within Chest 10",
+    "visibility_rules": [
+      "$show_check|131619"
+    ],
+    "sections": [
+      {
+        "name": "The World Within Chest 10",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131619"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131619"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The World Within Chest 11",
+    "visibility_rules": [
+      "$show_check|131620"
+    ],
+    "sections": [
+      {
+        "name": "The World Within Chest 11",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131620"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131620"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The World Within Chest 12",
+    "visibility_rules": [
+      "$show_check|131621"
+    ],
+    "sections": [
+      {
+        "name": "The World Within Chest 12",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131621"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131621"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "The World Within",
+        "x": 531,
+        "y": 358,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "The World Within Chest 13",
+    "visibility_rules": [
+      "$show_check|131622"
+    ],
+    "sections": [
+      {
+        "name": "The World Within Chest 13",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131622"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131622"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "The World Within",
+        "x": 733,
+        "y": 333,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Forest of Thorns Chest 11",
+    "visibility_rules": [
+      "$show_check|131623"
+    ],
+    "sections": [
+      {
+        "name": "Forest of Thorns Chest 11",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131623"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131623"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Forest of Thorns",
+        "x": 203,
+        "y": 450,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Forest of Thorns Chest 12",
+    "visibility_rules": [
+      "$show_check|131624"
+    ],
+    "sections": [
+      {
+        "name": "Forest of Thorns Chest 12",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131624"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131624"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Forest of Thorns",
+        "x": 23,
+        "y": 331,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Depths of Darkness Chest 6",
+    "visibility_rules": [
+      "$show_check|131625"
+    ],
+    "sections": [
+      {
+        "name": "Depths of Darkness Chest 6",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131625"
+        ],
+        "chest_unopened_img": "images/markers/kh-chest.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131625"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Depths of Darkness",
+        "x": 323,
+        "y": 155,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Objective 1 - Defeat the Shadows",
+    "visibility_rules": [
+      "$show_check|131713"
+    ],
+    "sections": [
+      {
+        "name": "Objective 1 - Defeat the Shadows",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131713"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131713"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 2 - Defeat the Flutterings",
+    "visibility_rules": [
+      "$show_check|131714"
+    ],
+    "sections": [
+      {
+        "name": "Objective 2 - Defeat the Flutterings",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131714"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131714"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 3 - Defeat the Flame Cores",
+    "visibility_rules": [
+      "$show_check|131715"
+    ],
+    "sections": [
+      {
+        "name": "Objective 3 - Defeat the Flame Cores",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131715"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131715"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 4 - Defeat the Neoshadows",
+    "visibility_rules": [
+      "$show_check|131716"
+    ],
+    "sections": [
+      {
+        "name": "Objective 4 - Defeat the Neoshadows",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131716"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131716"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 5 - Defeat the Water Cores",
+    "visibility_rules": [
+      "$show_check|131717"
+    ],
+    "sections": [
+      {
+        "name": "Objective 5 - Defeat the Water Cores",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131717"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131717"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 6 - Defeat the Earth Cores",
+    "visibility_rules": [
+      "$show_check|131718"
+    ],
+    "sections": [
+      {
+        "name": "Objective 6 - Defeat the Earth Cores",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131718"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131718"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 7 - Test of Strength I",
+    "visibility_rules": [
+      "$show_check|131719"
+    ],
+    "sections": [
+      {
+        "name": "Objective 7 - Test of Strength I",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131719"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131719"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 8 - Test of Strength II",
+    "visibility_rules": [
+      "$show_check|131720"
+    ],
+    "sections": [
+      {
+        "name": "Objective 8 - Test of Strength II",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131720"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131720"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 9 - Test of Strength III",
+    "visibility_rules": [
+      "$show_check|131721"
+    ],
+    "sections": [
+      {
+        "name": "Objective 9 - Test of Strength III",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131721"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131721"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 10 - Master of Counters",
+    "visibility_rules": [
+      "$show_check|131722"
+    ],
+    "sections": [
+      {
+        "name": "Objective 10 - Master of Counters",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131722"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131722"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 11 - Master of Fire",
+    "visibility_rules": [
+      "$show_check|131723"
+    ],
+    "sections": [
+      {
+        "name": "Objective 11 - Master of Fire",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131723"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131723"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 12 - Master of Ice",
+    "visibility_rules": [
+      "$show_check|131724"
+    ],
+    "sections": [
+      {
+        "name": "Objective 12 - Master of Ice",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131724"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131724"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 13 - Master of Lightning",
+    "visibility_rules": [
+      "$show_check|131725"
+    ],
+    "sections": [
+      {
+        "name": "Objective 13 - Master of Lightning",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131725"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131725"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 14 - Frozen Rail Raid",
+    "visibility_rules": [
+      "$show_check|131726"
+    ],
+    "sections": [
+      {
+        "name": "Objective 14 - Frozen Rail Raid",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131726"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131726"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 15 - Ice Breaker",
+    "visibility_rules": [
+      "$show_check|131727"
+    ],
+    "sections": [
+      {
+        "name": "Objective 15 - Ice Breaker",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131727"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131727"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 16 - Magic Advantage",
+    "visibility_rules": [
+      "$show_check|131728"
+    ],
+    "sections": [
+      {
+        "name": "Objective 16 - Magic Advantage",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131728"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131728"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 17 - Fight and Flight",
+    "visibility_rules": [
+      "$show_check|131729"
+    ],
+    "sections": [
+      {
+        "name": "Objective 17 - Fight and Flight",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131729"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131729"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 18 - Excellent Aim",
+    "visibility_rules": [
+      "$show_check|131730"
+    ],
+    "sections": [
+      {
+        "name": "Objective 18 - Excellent Aim",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131730"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131730"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 19 - Stylish Moves",
+    "visibility_rules": [
+      "$show_check|131731"
+    ],
+    "sections": [
+      {
+        "name": "Objective 19 - Stylish Moves",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131731"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131731"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 20 - A Fine Finish",
+    "visibility_rules": [
+      "$show_check|131732"
+    ],
+    "sections": [
+      {
+        "name": "Objective 20 - A Fine Finish",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131732"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131732"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 21 - Wardrobe Weaver",
+    "visibility_rules": [
+      "$show_check|131733"
+    ],
+    "sections": [
+      {
+        "name": "Objective 21 - Wardrobe Weaver",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131733"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131733"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 22 - Trendsetter",
+    "visibility_rules": [
+      "$show_check|131734"
+    ],
+    "sections": [
+      {
+        "name": "Objective 22 - Trendsetter",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131734"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131734"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 23 - Streetlamp Striker",
+    "visibility_rules": [
+      "$show_check|131735"
+    ],
+    "sections": [
+      {
+        "name": "Objective 23 - Streetlamp Striker",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131735"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131735"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 24 - Top of the Town",
+    "visibility_rules": [
+      "$show_check|131736"
+    ],
+    "sections": [
+      {
+        "name": "Objective 24 - Top of the Town",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131736"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131736"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 25 - Starlit Wish",
+    "visibility_rules": [
+      "$show_check|131737"
+    ],
+    "sections": [
+      {
+        "name": "Objective 25 - Starlit Wish",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131737"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131737"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 26 - Heartless That Dwell",
+    "visibility_rules": [
+      "$show_check|131738"
+    ],
+    "sections": [
+      {
+        "name": "Objective 26 - Heartless That Dwell",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131738"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131738"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 27 - Mystery Within",
+    "visibility_rules": [
+      "$show_check|131739"
+    ],
+    "sections": [
+      {
+        "name": "Objective 27 - Mystery Within",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131739"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131739"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 28 - Treasure Within",
+    "visibility_rules": [
+      "$show_check|131740"
+    ],
+    "sections": [
+      {
+        "name": "Objective 28 - Treasure Within",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131740"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131740"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 29 - Gem Gatherer",
+    "visibility_rules": [
+      "$show_check|131741"
+    ],
+    "sections": [
+      {
+        "name": "Objective 29 - Gem Gatherer",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131741"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131741"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 30 - Connected",
+    "visibility_rules": [
+      "$show_check|131742"
+    ],
+    "sections": [
+      {
+        "name": "Objective 30 - Connected",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131742"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131742"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 31 - Queen of the Rink",
+    "visibility_rules": [
+      "$show_check|131743"
+    ],
+    "sections": [
+      {
+        "name": "Objective 31 - Queen of the Rink",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131743"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131743"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 32 - Defeat the Darksides",
+    "visibility_rules": [
+      "$show_check|131744"
+    ],
+    "sections": [
+      {
+        "name": "Objective 32 - Defeat the Darksides",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131744"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131744"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 33 - Prickly Problems",
+    "visibility_rules": [
+      "$show_check|131745"
+    ],
+    "sections": [
+      {
+        "name": "Objective 33 - Prickly Problems",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131745"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131745"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 34 - Fairy Bouquet",
+    "visibility_rules": [
+      "$show_check|131746"
+    ],
+    "sections": [
+      {
+        "name": "Objective 34 - Fairy Bouquet",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131746"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131746"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 35 - Work Together with King Mickey",
+    "visibility_rules": [
+      "$show_check|131747"
+    ],
+    "sections": [
+      {
+        "name": "Objective 35 - Work Together with King Mickey",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131747"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131747"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 36 - Turn the Tide",
+    "visibility_rules": [
+      "$show_check|131748"
+    ],
+    "sections": [
+      {
+        "name": "Objective 36 - Turn the Tide",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131748"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131748"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 37 - Treasure Hunt in the Castle Town",
+    "visibility_rules": [
+      "$show_check|131749"
+    ],
+    "sections": [
+      {
+        "name": "Objective 37 - Treasure Hunt in the Castle Town",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131749"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131749"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 38 - Lingering Memories in the Castle Town",
+    "visibility_rules": [
+      "$show_check|131750"
+    ],
+    "sections": [
+      {
+        "name": "Objective 38 - Lingering Memories in the Castle Town",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131750"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131750"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 39 - Treasure Hunt in the World Within",
+    "visibility_rules": [
+      "$show_check|131751"
+    ],
+    "sections": [
+      {
+        "name": "Objective 39 - Treasure Hunt in the World Within",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131751"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131751"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 40 - Lingering Memories in the World Within",
+    "visibility_rules": [
+      "$show_check|131752"
+    ],
+    "sections": [
+      {
+        "name": "Objective 40 - Lingering Memories in the World Within",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131752"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131752"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 41 - Flawless Victory",
+    "visibility_rules": [
+      "$show_check|131753"
+    ],
+    "sections": [
+      {
+        "name": "Objective 41 - Flawless Victory",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131753"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131753"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 42 - In the Mirror",
+    "visibility_rules": [
+      "$show_check|131754"
+    ],
+    "sections": [
+      {
+        "name": "Objective 42 - In the Mirror",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131754"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131754"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 43 - Quest for the Zodiac",
+    "visibility_rules": [
+      "$show_check|131755"
+    ],
+    "sections": [
+      {
+        "name": "Objective 43 - Quest for the Zodiac",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131755"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131755"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 44 - Treasure Hunt in the Forest of Thorns",
+    "visibility_rules": [
+      "$show_check|131756"
+    ],
+    "sections": [
+      {
+        "name": "Objective 44 - Treasure Hunt in the Forest of Thorns",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131756"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131756"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 45 - Lingering Memories in the Forest of Thorns",
+    "visibility_rules": [
+      "$show_check|131757"
+    ],
+    "sections": [
+      {
+        "name": "Objective 45 - Lingering Memories in the Forest of Thorns",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131757"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131757"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 46 - Slide Along the Ivy Rails",
+    "visibility_rules": [
+      "$show_check|131758"
+    ],
+    "sections": [
+      {
+        "name": "Objective 46 - Slide Along the Ivy Rails",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131758"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131758"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 47 - Keeper of the Orb",
+    "visibility_rules": [
+      "$show_check|131759"
+    ],
+    "sections": [
+      {
+        "name": "Objective 47 - Keeper of the Orb",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131759"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131759"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 48 - Treasure Hunt in the Depths of Darkness",
+    "visibility_rules": [
+      "$show_check|131760"
+    ],
+    "sections": [
+      {
+        "name": "Objective 48 - Treasure Hunt in the Depths of Darkness",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131760"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131760"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 49 - Lingering Memories in the Depths of Darkness",
+    "visibility_rules": [
+      "$show_check|131761"
+    ],
+    "sections": [
+      {
+        "name": "Objective 49 - Lingering Memories in the Depths of Darkness",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131761"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131761"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objective 50 - Combined Strength",
+    "visibility_rules": [
+      "$show_check|131762"
+    ],
+    "sections": [
+      {
+        "name": "Objective 50 - Combined Strength",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|131762"
+        ],
+        "chest_unopened_img": "images/markers/objective.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|131762"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reach Level 51",
+    "visibility_rules": [
+      "$show_check|132096"
+    ],
+    "sections": [
+      {
+        "name": "Reach Level 51",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132096"
+        ],
+        "chest_unopened_img": "images/markers/level.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132096"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reach Level 52",
+    "visibility_rules": [
+      "$show_check|132097"
+    ],
+    "sections": [
+      {
+        "name": "Reach Level 52",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132097"
+        ],
+        "chest_unopened_img": "images/markers/level.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132097"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reach Level 53",
+    "visibility_rules": [
+      "$show_check|132098"
+    ],
+    "sections": [
+      {
+        "name": "Reach Level 53",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132098"
+        ],
+        "chest_unopened_img": "images/markers/level.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132098"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reach Level 54",
+    "visibility_rules": [
+      "$show_check|132099"
+    ],
+    "sections": [
+      {
+        "name": "Reach Level 54",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132099"
+        ],
+        "chest_unopened_img": "images/markers/level.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132099"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reach Level 55",
+    "visibility_rules": [
+      "$show_check|132100"
+    ],
+    "sections": [
+      {
+        "name": "Reach Level 55",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132100"
+        ],
+        "chest_unopened_img": "images/markers/level.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132100"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reach Level 56",
+    "visibility_rules": [
+      "$show_check|132101"
+    ],
+    "sections": [
+      {
+        "name": "Reach Level 56",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132101"
+        ],
+        "chest_unopened_img": "images/markers/level.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132101"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reach Level 57",
+    "visibility_rules": [
+      "$show_check|132102"
+    ],
+    "sections": [
+      {
+        "name": "Reach Level 57",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132102"
+        ],
+        "chest_unopened_img": "images/markers/level.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132102"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reach Level 58",
+    "visibility_rules": [
+      "$show_check|132103"
+    ],
+    "sections": [
+      {
+        "name": "Reach Level 58",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132103"
+        ],
+        "chest_unopened_img": "images/markers/level.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132103"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reach Level 59",
+    "visibility_rules": [
+      "$show_check|132104"
+    ],
+    "sections": [
+      {
+        "name": "Reach Level 59",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132104"
+        ],
+        "chest_unopened_img": "images/markers/level.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132104"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reach Level 60",
+    "visibility_rules": [
+      "$show_check|132105"
+    ],
+    "sections": [
+      {
+        "name": "Reach Level 60",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132105"
+        ],
+        "chest_unopened_img": "images/markers/level.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132105"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reach Level 61",
+    "visibility_rules": [
+      "$show_check|132106"
+    ],
+    "sections": [
+      {
+        "name": "Reach Level 61",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132106"
+        ],
+        "chest_unopened_img": "images/markers/level.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132106"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reach Level 62",
+    "visibility_rules": [
+      "$show_check|132107"
+    ],
+    "sections": [
+      {
+        "name": "Reach Level 62",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132107"
+        ],
+        "chest_unopened_img": "images/markers/level.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132107"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reach Level 63",
+    "visibility_rules": [
+      "$show_check|132108"
+    ],
+    "sections": [
+      {
+        "name": "Reach Level 63",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132108"
+        ],
+        "chest_unopened_img": "images/markers/level.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132108"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reach Level 64",
+    "visibility_rules": [
+      "$show_check|132109"
+    ],
+    "sections": [
+      {
+        "name": "Reach Level 64",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132109"
+        ],
+        "chest_unopened_img": "images/markers/level.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132109"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reach Level 65",
+    "visibility_rules": [
+      "$show_check|132110"
+    ],
+    "sections": [
+      {
+        "name": "Reach Level 65",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132110"
+        ],
+        "chest_unopened_img": "images/markers/level.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132110"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reach Level 66",
+    "visibility_rules": [
+      "$show_check|132111"
+    ],
+    "sections": [
+      {
+        "name": "Reach Level 66",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132111"
+        ],
+        "chest_unopened_img": "images/markers/level.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132111"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reach Level 67",
+    "visibility_rules": [
+      "$show_check|132112"
+    ],
+    "sections": [
+      {
+        "name": "Reach Level 67",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132112"
+        ],
+        "chest_unopened_img": "images/markers/level.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132112"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reach Level 68",
+    "visibility_rules": [
+      "$show_check|132113"
+    ],
+    "sections": [
+      {
+        "name": "Reach Level 68",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132113"
+        ],
+        "chest_unopened_img": "images/markers/level.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132113"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reach Level 69",
+    "visibility_rules": [
+      "$show_check|132114"
+    ],
+    "sections": [
+      {
+        "name": "Reach Level 69",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132114"
+        ],
+        "chest_unopened_img": "images/markers/level.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132114"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reach Level 70",
+    "visibility_rules": [
+      "$show_check|132115"
+    ],
+    "sections": [
+      {
+        "name": "Reach Level 70",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132115"
+        ],
+        "chest_unopened_img": "images/markers/level.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132115"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Castle Town Gear 1",
+    "visibility_rules": [
+      "$show_check|132128"
+    ],
+    "sections": [
+      {
+        "name": "Castle Town Gear 1",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132128"
+        ],
+        "chest_unopened_img": "images/markers/gear.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132128"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Castle Town Gear 2",
+    "visibility_rules": [
+      "$show_check|132129"
+    ],
+    "sections": [
+      {
+        "name": "Castle Town Gear 2",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132129"
+        ],
+        "chest_unopened_img": "images/markers/gear.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132129"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Castle Town",
+        "x": 35,
+        "y": 253,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Castle Town Gear 3",
+    "visibility_rules": [
+      "$show_check|132130"
+    ],
+    "sections": [
+      {
+        "name": "Castle Town Gear 3",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132130"
+        ],
+        "chest_unopened_img": "images/markers/gear.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132130"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Castle Town",
+        "x": 289,
+        "y": 161,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Castle Town Gear 4",
+    "visibility_rules": [
+      "$show_check|132131"
+    ],
+    "sections": [
+      {
+        "name": "Castle Town Gear 4",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132131"
+        ],
+        "chest_unopened_img": "images/markers/gear.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132131"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Castle Town",
+        "x": 194,
+        "y": 169,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Castle Town Gear 5",
+    "visibility_rules": [
+      "$show_check|132132"
+    ],
+    "sections": [
+      {
+        "name": "Castle Town Gear 5",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132132"
+        ],
+        "chest_unopened_img": "images/markers/gear.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132132"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Castle Town",
+        "x": 792,
+        "y": 386,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Shatter Mirror - Water Cores and Flutterings",
+    "visibility_rules": [
+      "$show_check|132144"
+    ],
+    "sections": [
+      {
+        "name": "Shatter Mirror - Water Cores and Flutterings",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132144"
+        ],
+        "chest_unopened_img": "images/markers/mirror.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132144"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "The World Within",
+        "x": 346,
+        "y": 393,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Shatter Mirror - Flame Core and Shadows",
+    "visibility_rules": [
+      "$show_check|132145"
+    ],
+    "sections": [
+      {
+        "name": "Shatter Mirror - Flame Core and Shadows",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132145"
+        ],
+        "chest_unopened_img": "images/markers/mirror.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132145"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "The World Within",
+        "x": 123,
+        "y": 170,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Shatter Mirror - Candle Room",
+    "visibility_rules": [
+      "$show_check|132146"
+    ],
+    "sections": [
+      {
+        "name": "Shatter Mirror - Candle Room",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132146"
+        ],
+        "chest_unopened_img": "images/markers/mirror.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132146"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "The World Within",
+        "x": 108,
+        "y": 387,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Shatter Mirror - Correct Chest Room",
+    "visibility_rules": [
+      "$show_check|132147"
+    ],
+    "sections": [
+      {
+        "name": "Shatter Mirror - Correct Chest Room",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132147"
+        ],
+        "chest_unopened_img": "images/markers/mirror.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132147"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shatter Mirror - Mines",
+    "visibility_rules": [
+      "$show_check|132148"
+    ],
+    "sections": [
+      {
+        "name": "Shatter Mirror - Mines",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132148"
+        ],
+        "chest_unopened_img": "images/markers/mirror.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132148"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "The World Within",
+        "x": 105,
+        "y": 271,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Shatter Mirror - Labyrinth",
+    "visibility_rules": [
+      "$show_check|132149"
+    ],
+    "sections": [
+      {
+        "name": "Shatter Mirror - Labyrinth",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132149"
+        ],
+        "chest_unopened_img": "images/markers/mirror.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132149"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shatter Mirror - Endless Stairs",
+    "visibility_rules": [
+      "$show_check|132150"
+    ],
+    "sections": [
+      {
+        "name": "Shatter Mirror - Endless Stairs",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132150"
+        ],
+        "chest_unopened_img": "images/markers/mirror.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132150"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Activate Castle Town Exit",
+    "visibility_rules": [
+      "$show_check|132160"
+    ],
+    "sections": [
+      {
+        "name": "Activate Castle Town Exit",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132160"
+        ],
+        "chest_unopened_img": "images/markers/exit.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132160"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Activate The World Within Exit",
+    "visibility_rules": [
+      "$show_check|132161"
+    ],
+    "sections": [
+      {
+        "name": "Activate The World Within Exit",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132161"
+        ],
+        "chest_unopened_img": "images/markers/exit.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132161"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Activate Forest of Thorns Exit",
+    "visibility_rules": [
+      "$show_check|132162"
+    ],
+    "sections": [
+      {
+        "name": "Activate Forest of Thorns Exit",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132162"
+        ],
+        "chest_unopened_img": "images/markers/exit.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132162"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Activate Depths of Darkness Exit",
+    "visibility_rules": [
+      "$show_check|132163"
+    ],
+    "sections": [
+      {
+        "name": "Activate Depths of Darkness Exit",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132163"
+        ],
+        "chest_unopened_img": "images/markers/exit.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132163"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Defeat Castle Town Demon Tower",
+    "visibility_rules": [
+      "$show_check|132176"
+    ],
+    "sections": [
+      {
+        "name": "Defeat Castle Town Demon Tower",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132176"
+        ],
+        "chest_unopened_img": "images/markers/boss.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132176"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Castle Town",
+        "x": 152,
+        "y": 448,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Defeat Phantom Aqua 1",
+    "visibility_rules": [
+      "$show_check|132177"
+    ],
+    "sections": [
+      {
+        "name": "Defeat Phantom Aqua 1",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132177"
+        ],
+        "chest_unopened_img": "images/markers/boss.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132177"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Defeat Phantom Aqua 2",
+    "visibility_rules": [
+      "$show_check|132178"
+    ],
+    "sections": [
+      {
+        "name": "Defeat Phantom Aqua 2",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132178"
+        ],
+        "chest_unopened_img": "images/markers/boss.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132178"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Defeat Phantom Aqua 3",
+    "visibility_rules": [
+      "$show_check|132179"
+    ],
+    "sections": [
+      {
+        "name": "Defeat Phantom Aqua 3",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132179"
+        ],
+        "chest_unopened_img": "images/markers/boss.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132179"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Defeat Forest First Darkside",
+    "visibility_rules": [
+      "$show_check|132180"
+    ],
+    "sections": [
+      {
+        "name": "Defeat Forest First Darkside",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132180"
+        ],
+        "chest_unopened_img": "images/markers/boss.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132180"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Forest of Thorns",
+        "x": 142,
+        "y": 119,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Defeat Forest Final Darkside",
+    "visibility_rules": [
+      "$show_check|132181"
+    ],
+    "sections": [
+      {
+        "name": "Defeat Forest Final Darkside",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132181"
+        ],
+        "chest_unopened_img": "images/markers/boss.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132181"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Forest of Thorns",
+        "x": 907,
+        "y": 148,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Defeat Depths Demon Tower",
+    "visibility_rules": [
+      "$show_check|132182"
+    ],
+    "sections": [
+      {
+        "name": "Defeat Depths Demon Tower",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132182"
+        ],
+        "chest_unopened_img": "images/markers/boss.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132182"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Depths of Darkness",
+        "x": 212,
+        "y": 605,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Boss Rush Round 1 - Darkside",
+    "visibility_rules": [
+      "$show_check|132192"
+    ],
+    "sections": [
+      {
+        "name": "Boss Rush Round 1 - Darkside",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132192"
+        ],
+        "chest_unopened_img": "images/markers/boss.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132192"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Boss Rush Round 2 - Elemental Heartless",
+    "visibility_rules": [
+      "$show_check|132193"
+    ],
+    "sections": [
+      {
+        "name": "Boss Rush Round 2 - Elemental Heartless",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132193"
+        ],
+        "chest_unopened_img": "images/markers/boss.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132193"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Boss Rush Round 3 - Shadows Neoshadows and Flutterings",
+    "visibility_rules": [
+      "$show_check|132194"
+    ],
+    "sections": [
+      {
+        "name": "Boss Rush Round 3 - Shadows Neoshadows and Flutterings",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132194"
+        ],
+        "chest_unopened_img": "images/markers/boss.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132194"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Boss Rush Round 4 - Demon Tower",
+    "visibility_rules": [
+      "$show_check|132195"
+    ],
+    "sections": [
+      {
+        "name": "Boss Rush Round 4 - Demon Tower",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132195"
+        ],
+        "chest_unopened_img": "images/markers/boss.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132195"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Boss Rush Round 5 - Zodiac Phantom",
+    "visibility_rules": [
+      "$show_check|132196"
+    ],
+    "sections": [
+      {
+        "name": "Boss Rush Round 5 - Zodiac Phantom",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132196"
+        ],
+        "chest_unopened_img": "images/markers/boss.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132196"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rocky Path Darkside 1",
+    "visibility_rules": [
+      "$show_check|132208"
+    ],
+    "sections": [
+      {
+        "name": "Rocky Path Darkside 1",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132208"
+        ],
+        "chest_unopened_img": "images/markers/boss.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132208"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Forest of Thorns",
+        "x": 620,
+        "y": 379,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Rocky Path Darkside 2",
+    "visibility_rules": [
+      "$show_check|132209"
+    ],
+    "sections": [
+      {
+        "name": "Rocky Path Darkside 2",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132209"
+        ],
+        "chest_unopened_img": "images/markers/boss.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132209"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Forest of Thorns",
+        "x": 610,
+        "y": 297,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "Rocky Path Darkside 3",
+    "visibility_rules": [
+      "$show_check|132210"
+    ],
+    "sections": [
+      {
+        "name": "Rocky Path Darkside 3",
+        "item_count": 1,
+        "visibility_rules": [
+          "$show_check|132210"
+        ],
+        "chest_unopened_img": "images/markers/boss.png",
+        "chest_opened_img": "images/markers/complete.png",
+        "access_rules": [
+          "^$access_check|132210"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Forest of Thorns",
+        "x": 549,
+        "y": 277,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "World \u2022 Castle Town",
+    "map_locations": [
+      {
+        "map": "Overworld",
+        "x": 43,
+        "y": 219,
+        "size": 24
+      }
+    ],
+    "sections": [
+      {
+        "name": "Main Road Chest 1",
+        "ref": "Main Road Chest 1/Main Road Chest 1"
+      },
+      {
+        "name": "Castle Town Chest 1",
+        "ref": "Castle Town Chest 1/Castle Town Chest 1"
+      },
+      {
+        "name": "Castle Town Chest 2",
+        "ref": "Castle Town Chest 2/Castle Town Chest 2"
+      },
+      {
+        "name": "Castle Town Chest 3",
+        "ref": "Castle Town Chest 3/Castle Town Chest 3"
+      },
+      {
+        "name": "Castle Town Chest 4",
+        "ref": "Castle Town Chest 4/Castle Town Chest 4"
+      },
+      {
+        "name": "Castle Town Chest 5",
+        "ref": "Castle Town Chest 5/Castle Town Chest 5"
+      },
+      {
+        "name": "Castle Town Chest 6",
+        "ref": "Castle Town Chest 6/Castle Town Chest 6"
+      },
+      {
+        "name": "Castle Town Chest 7",
+        "ref": "Castle Town Chest 7/Castle Town Chest 7"
+      },
+      {
+        "name": "Castle Town Chest 8",
+        "ref": "Castle Town Chest 8/Castle Town Chest 8"
+      },
+      {
+        "name": "Castle Town Chest 9",
+        "ref": "Castle Town Chest 9/Castle Town Chest 9"
+      },
+      {
+        "name": "Castle Town Gear 1",
+        "ref": "Castle Town Gear 1/Castle Town Gear 1"
+      },
+      {
+        "name": "Castle Town Gear 2",
+        "ref": "Castle Town Gear 2/Castle Town Gear 2"
+      },
+      {
+        "name": "Castle Town Gear 3",
+        "ref": "Castle Town Gear 3/Castle Town Gear 3"
+      },
+      {
+        "name": "Castle Town Gear 4",
+        "ref": "Castle Town Gear 4/Castle Town Gear 4"
+      },
+      {
+        "name": "Castle Town Gear 5",
+        "ref": "Castle Town Gear 5/Castle Town Gear 5"
+      },
+      {
+        "name": "Defeat Castle Town Demon Tower",
+        "ref": "Defeat Castle Town Demon Tower/Defeat Castle Town Demon Tower"
+      },
+      {
+        "name": "Activate Castle Town Exit",
+        "ref": "Activate Castle Town Exit/Activate Castle Town Exit"
+      }
+    ]
+  },
+  {
+    "name": "World \u2022 The World Within",
+    "map_locations": [
+      {
+        "map": "Overworld",
+        "x": 473,
+        "y": 219,
+        "size": 24
+      }
+    ],
+    "sections": [
+      {
+        "name": "The World Within Chest 1",
+        "ref": "The World Within Chest 1/The World Within Chest 1"
+      },
+      {
+        "name": "The World Within Chest 2",
+        "ref": "The World Within Chest 2/The World Within Chest 2"
+      },
+      {
+        "name": "The World Within Chest 3",
+        "ref": "The World Within Chest 3/The World Within Chest 3"
+      },
+      {
+        "name": "The World Within Chest 4",
+        "ref": "The World Within Chest 4/The World Within Chest 4"
+      },
+      {
+        "name": "The World Within Chest 5",
+        "ref": "The World Within Chest 5/The World Within Chest 5"
+      },
+      {
+        "name": "The World Within Chest 6",
+        "ref": "The World Within Chest 6/The World Within Chest 6"
+      },
+      {
+        "name": "The World Within Chest 7",
+        "ref": "The World Within Chest 7/The World Within Chest 7"
+      },
+      {
+        "name": "The World Within Chest 8",
+        "ref": "The World Within Chest 8/The World Within Chest 8"
+      },
+      {
+        "name": "The World Within Chest 9",
+        "ref": "The World Within Chest 9/The World Within Chest 9"
+      },
+      {
+        "name": "The World Within Chest 10",
+        "ref": "The World Within Chest 10/The World Within Chest 10"
+      },
+      {
+        "name": "The World Within Chest 11",
+        "ref": "The World Within Chest 11/The World Within Chest 11"
+      },
+      {
+        "name": "The World Within Chest 12",
+        "ref": "The World Within Chest 12/The World Within Chest 12"
+      },
+      {
+        "name": "The World Within Chest 13",
+        "ref": "The World Within Chest 13/The World Within Chest 13"
+      },
+      {
+        "name": "Shatter Mirror - Water Cores and Flutterings",
+        "ref": "Shatter Mirror - Water Cores and Flutterings/Shatter Mirror - Water Cores and Flutterings"
+      },
+      {
+        "name": "Shatter Mirror - Flame Core and Shadows",
+        "ref": "Shatter Mirror - Flame Core and Shadows/Shatter Mirror - Flame Core and Shadows"
+      },
+      {
+        "name": "Shatter Mirror - Candle Room",
+        "ref": "Shatter Mirror - Candle Room/Shatter Mirror - Candle Room"
+      },
+      {
+        "name": "Shatter Mirror - Correct Chest Room",
+        "ref": "Shatter Mirror - Correct Chest Room/Shatter Mirror - Correct Chest Room"
+      },
+      {
+        "name": "Shatter Mirror - Mines",
+        "ref": "Shatter Mirror - Mines/Shatter Mirror - Mines"
+      },
+      {
+        "name": "Shatter Mirror - Labyrinth",
+        "ref": "Shatter Mirror - Labyrinth/Shatter Mirror - Labyrinth"
+      },
+      {
+        "name": "Shatter Mirror - Endless Stairs",
+        "ref": "Shatter Mirror - Endless Stairs/Shatter Mirror - Endless Stairs"
+      },
+      {
+        "name": "Defeat Phantom Aqua 1",
+        "ref": "Defeat Phantom Aqua 1/Defeat Phantom Aqua 1"
+      },
+      {
+        "name": "Defeat Phantom Aqua 2",
+        "ref": "Defeat Phantom Aqua 2/Defeat Phantom Aqua 2"
+      },
+      {
+        "name": "Defeat Phantom Aqua 3",
+        "ref": "Defeat Phantom Aqua 3/Defeat Phantom Aqua 3"
+      },
+      {
+        "name": "Activate The World Within Exit",
+        "ref": "Activate The World Within Exit/Activate The World Within Exit"
+      },
+      {
+        "name": "Boss Rush Round 1 - Darkside",
+        "ref": "Boss Rush Round 1 - Darkside/Boss Rush Round 1 - Darkside"
+      },
+      {
+        "name": "Boss Rush Round 2 - Elemental Heartless",
+        "ref": "Boss Rush Round 2 - Elemental Heartless/Boss Rush Round 2 - Elemental Heartless"
+      },
+      {
+        "name": "Boss Rush Round 3 - Shadows Neoshadows and Flutterings",
+        "ref": "Boss Rush Round 3 - Shadows Neoshadows and Flutterings/Boss Rush Round 3 - Shadows Neoshadows and Flutterings"
+      },
+      {
+        "name": "Boss Rush Round 4 - Demon Tower",
+        "ref": "Boss Rush Round 4 - Demon Tower/Boss Rush Round 4 - Demon Tower"
+      },
+      {
+        "name": "Boss Rush Round 5 - Zodiac Phantom",
+        "ref": "Boss Rush Round 5 - Zodiac Phantom/Boss Rush Round 5 - Zodiac Phantom"
+      }
+    ]
+  },
+  {
+    "name": "World \u2022 Forest of Thorns",
+    "map_locations": [
+      {
+        "map": "Overworld",
+        "x": 43,
+        "y": 449,
+        "size": 24
+      }
+    ],
+    "sections": [
+      {
+        "name": "Forest of Thorns Chest 1",
+        "ref": "Forest of Thorns Chest 1/Forest of Thorns Chest 1"
+      },
+      {
+        "name": "Forest of Thorns Chest 2",
+        "ref": "Forest of Thorns Chest 2/Forest of Thorns Chest 2"
+      },
+      {
+        "name": "Forest of Thorns Chest 3",
+        "ref": "Forest of Thorns Chest 3/Forest of Thorns Chest 3"
+      },
+      {
+        "name": "Forest of Thorns Chest 4",
+        "ref": "Forest of Thorns Chest 4/Forest of Thorns Chest 4"
+      },
+      {
+        "name": "Forest of Thorns Chest 5",
+        "ref": "Forest of Thorns Chest 5/Forest of Thorns Chest 5"
+      },
+      {
+        "name": "Forest of Thorns Chest 6",
+        "ref": "Forest of Thorns Chest 6/Forest of Thorns Chest 6"
+      },
+      {
+        "name": "Forest of Thorns Chest 7",
+        "ref": "Forest of Thorns Chest 7/Forest of Thorns Chest 7"
+      },
+      {
+        "name": "Forest of Thorns Chest 8",
+        "ref": "Forest of Thorns Chest 8/Forest of Thorns Chest 8"
+      },
+      {
+        "name": "Forest of Thorns Chest 9",
+        "ref": "Forest of Thorns Chest 9/Forest of Thorns Chest 9"
+      },
+      {
+        "name": "Forest of Thorns Chest 10",
+        "ref": "Forest of Thorns Chest 10/Forest of Thorns Chest 10"
+      },
+      {
+        "name": "Forest of Thorns Chest 11",
+        "ref": "Forest of Thorns Chest 11/Forest of Thorns Chest 11"
+      },
+      {
+        "name": "Forest of Thorns Chest 12",
+        "ref": "Forest of Thorns Chest 12/Forest of Thorns Chest 12"
+      },
+      {
+        "name": "Defeat Forest First Darkside",
+        "ref": "Defeat Forest First Darkside/Defeat Forest First Darkside"
+      },
+      {
+        "name": "Defeat Forest Final Darkside",
+        "ref": "Defeat Forest Final Darkside/Defeat Forest Final Darkside"
+      },
+      {
+        "name": "Rocky Path Darkside 1",
+        "ref": "Rocky Path Darkside 1/Rocky Path Darkside 1"
+      },
+      {
+        "name": "Rocky Path Darkside 2",
+        "ref": "Rocky Path Darkside 2/Rocky Path Darkside 2"
+      },
+      {
+        "name": "Rocky Path Darkside 3",
+        "ref": "Rocky Path Darkside 3/Rocky Path Darkside 3"
+      },
+      {
+        "name": "Activate Forest of Thorns Exit",
+        "ref": "Activate Forest of Thorns Exit/Activate Forest of Thorns Exit"
+      }
+    ]
+  },
+  {
+    "name": "World \u2022 Depths of Darkness",
+    "map_locations": [
+      {
+        "map": "Overworld",
+        "x": 473,
+        "y": 449,
+        "size": 24
+      }
+    ],
+    "sections": [
+      {
+        "name": "Depths of Darkness Chest 1",
+        "ref": "Depths of Darkness Chest 1/Depths of Darkness Chest 1"
+      },
+      {
+        "name": "Depths of Darkness Chest 2",
+        "ref": "Depths of Darkness Chest 2/Depths of Darkness Chest 2"
+      },
+      {
+        "name": "Depths of Darkness Chest 3",
+        "ref": "Depths of Darkness Chest 3/Depths of Darkness Chest 3"
+      },
+      {
+        "name": "Depths of Darkness Chest 4",
+        "ref": "Depths of Darkness Chest 4/Depths of Darkness Chest 4"
+      },
+      {
+        "name": "Depths of Darkness Chest 5",
+        "ref": "Depths of Darkness Chest 5/Depths of Darkness Chest 5"
+      },
+      {
+        "name": "Depths of Darkness Chest 6",
+        "ref": "Depths of Darkness Chest 6/Depths of Darkness Chest 6"
+      },
+      {
+        "name": "Defeat Depths Demon Tower",
+        "ref": "Defeat Depths Demon Tower/Defeat Depths Demon Tower"
+      },
+      {
+        "name": "Activate Depths of Darkness Exit",
+        "ref": "Activate Depths of Darkness Exit/Activate Depths of Darkness Exit"
+      }
+    ]
+  },
+  {
+    "name": "Level ups",
+    "map_locations": [
+      {
+        "map": "Overworld",
+        "x": 83,
+        "y": 534,
+        "size": 24
+      }
+    ],
+    "sections": [
+      {
+        "name": "Reach Level 51",
+        "ref": "Reach Level 51/Reach Level 51"
+      },
+      {
+        "name": "Reach Level 52",
+        "ref": "Reach Level 52/Reach Level 52"
+      },
+      {
+        "name": "Reach Level 53",
+        "ref": "Reach Level 53/Reach Level 53"
+      },
+      {
+        "name": "Reach Level 54",
+        "ref": "Reach Level 54/Reach Level 54"
+      },
+      {
+        "name": "Reach Level 55",
+        "ref": "Reach Level 55/Reach Level 55"
+      },
+      {
+        "name": "Reach Level 56",
+        "ref": "Reach Level 56/Reach Level 56"
+      },
+      {
+        "name": "Reach Level 57",
+        "ref": "Reach Level 57/Reach Level 57"
+      },
+      {
+        "name": "Reach Level 58",
+        "ref": "Reach Level 58/Reach Level 58"
+      },
+      {
+        "name": "Reach Level 59",
+        "ref": "Reach Level 59/Reach Level 59"
+      },
+      {
+        "name": "Reach Level 60",
+        "ref": "Reach Level 60/Reach Level 60"
+      },
+      {
+        "name": "Reach Level 61",
+        "ref": "Reach Level 61/Reach Level 61"
+      },
+      {
+        "name": "Reach Level 62",
+        "ref": "Reach Level 62/Reach Level 62"
+      },
+      {
+        "name": "Reach Level 63",
+        "ref": "Reach Level 63/Reach Level 63"
+      },
+      {
+        "name": "Reach Level 64",
+        "ref": "Reach Level 64/Reach Level 64"
+      },
+      {
+        "name": "Reach Level 65",
+        "ref": "Reach Level 65/Reach Level 65"
+      },
+      {
+        "name": "Reach Level 66",
+        "ref": "Reach Level 66/Reach Level 66"
+      },
+      {
+        "name": "Reach Level 67",
+        "ref": "Reach Level 67/Reach Level 67"
+      },
+      {
+        "name": "Reach Level 68",
+        "ref": "Reach Level 68/Reach Level 68"
+      },
+      {
+        "name": "Reach Level 69",
+        "ref": "Reach Level 69/Reach Level 69"
+      },
+      {
+        "name": "Reach Level 70",
+        "ref": "Reach Level 70/Reach Level 70"
+      }
+    ]
+  },
+  {
+    "name": "Labyrinth",
+    "map_locations": [
+      {
+        "map": "The World Within",
+        "x": 352,
+        "y": 143,
+        "size": 16
+      }
+    ],
+    "sections": [
+      {
+        "name": "Shatter Mirror - Labyrinth",
+        "ref": "Shatter Mirror - Labyrinth/Shatter Mirror - Labyrinth"
+      },
+      {
+        "name": "The World Within Chest 4",
+        "ref": "The World Within Chest 4/The World Within Chest 4"
+      },
+      {
+        "name": "The World Within Chest 5",
+        "ref": "The World Within Chest 5/The World Within Chest 5"
+      },
+      {
+        "name": "The World Within Chest 11",
+        "ref": "The World Within Chest 11/The World Within Chest 11"
+      }
+    ]
+  },
+  {
+    "name": "Correct Chest Room",
+    "map_locations": [
+      {
+        "map": "The World Within",
+        "x": 338,
+        "y": 271,
+        "size": 16
+      }
+    ],
+    "sections": [
+      {
+        "name": "Shatter Mirror - Correct Chest Room",
+        "ref": "Shatter Mirror - Correct Chest Room/Shatter Mirror - Correct Chest Room"
+      },
+      {
+        "name": "The World Within Chest 3",
+        "ref": "The World Within Chest 3/The World Within Chest 3"
+      }
+    ]
+  },
+  {
+    "name": "Endless Stairs",
+    "map_locations": [
+      {
+        "map": "The World Within",
+        "x": 224,
+        "y": 164,
+        "size": 16
+      }
+    ],
+    "sections": [
+      {
+        "name": "Shatter Mirror - Endless Stairs",
+        "ref": "Shatter Mirror - Endless Stairs/Shatter Mirror - Endless Stairs"
+      },
+      {
+        "name": "The World Within Chest 6",
+        "ref": "The World Within Chest 6/The World Within Chest 6"
+      },
+      {
+        "name": "The World Within Chest 10",
+        "ref": "The World Within Chest 10/The World Within Chest 10"
+      }
+    ]
+  },
+  {
+    "name": "Boss Rush",
+    "map_locations": [
+      {
+        "map": "The World Within",
+        "x": 224,
+        "y": 271,
+        "size": 16
+      }
+    ],
+    "sections": [
+      {
+        "name": "Boss Rush Round 1 - Darkside",
+        "ref": "Boss Rush Round 1 - Darkside/Boss Rush Round 1 - Darkside"
+      },
+      {
+        "name": "Boss Rush Round 2 - Elemental Heartless",
+        "ref": "Boss Rush Round 2 - Elemental Heartless/Boss Rush Round 2 - Elemental Heartless"
+      },
+      {
+        "name": "Boss Rush Round 3 - Shadows Neoshadows and Flutterings",
+        "ref": "Boss Rush Round 3 - Shadows Neoshadows and Flutterings/Boss Rush Round 3 - Shadows Neoshadows and Flutterings"
+      },
+      {
+        "name": "Boss Rush Round 4 - Demon Tower",
+        "ref": "Boss Rush Round 4 - Demon Tower/Boss Rush Round 4 - Demon Tower"
+      },
+      {
+        "name": "Boss Rush Round 5 - Zodiac Phantom",
+        "ref": "Boss Rush Round 5 - Zodiac Phantom/Boss Rush Round 5 - Zodiac Phantom"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 1",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 30,
+        "y": 32,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 1 - Defeat the Shadows",
+        "ref": "Objective 1 - Defeat the Shadows/Objective 1 - Defeat the Shadows"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 2",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 30,
+        "y": 76,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 2 - Defeat the Flutterings",
+        "ref": "Objective 2 - Defeat the Flutterings/Objective 2 - Defeat the Flutterings"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 3",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 30,
+        "y": 120,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 3 - Defeat the Flame Cores",
+        "ref": "Objective 3 - Defeat the Flame Cores/Objective 3 - Defeat the Flame Cores"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 4",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 30,
+        "y": 164,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 4 - Defeat the Neoshadows",
+        "ref": "Objective 4 - Defeat the Neoshadows/Objective 4 - Defeat the Neoshadows"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 5",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 30,
+        "y": 208,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 5 - Defeat the Water Cores",
+        "ref": "Objective 5 - Defeat the Water Cores/Objective 5 - Defeat the Water Cores"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 6",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 30,
+        "y": 252,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 6 - Defeat the Earth Cores",
+        "ref": "Objective 6 - Defeat the Earth Cores/Objective 6 - Defeat the Earth Cores"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 7",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 30,
+        "y": 296,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 7 - Test of Strength I",
+        "ref": "Objective 7 - Test of Strength I/Objective 7 - Test of Strength I"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 8",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 30,
+        "y": 340,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 8 - Test of Strength II",
+        "ref": "Objective 8 - Test of Strength II/Objective 8 - Test of Strength II"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 9",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 30,
+        "y": 384,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 9 - Test of Strength III",
+        "ref": "Objective 9 - Test of Strength III/Objective 9 - Test of Strength III"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 10",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 30,
+        "y": 428,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 10 - Master of Counters",
+        "ref": "Objective 10 - Master of Counters/Objective 10 - Master of Counters"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 11",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 30,
+        "y": 472,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 11 - Master of Fire",
+        "ref": "Objective 11 - Master of Fire/Objective 11 - Master of Fire"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 12",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 30,
+        "y": 516,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 12 - Master of Ice",
+        "ref": "Objective 12 - Master of Ice/Objective 12 - Master of Ice"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 13",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 30,
+        "y": 560,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 13 - Master of Lightning",
+        "ref": "Objective 13 - Master of Lightning/Objective 13 - Master of Lightning"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 14",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 510,
+        "y": 32,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 14 - Frozen Rail Raid",
+        "ref": "Objective 14 - Frozen Rail Raid/Objective 14 - Frozen Rail Raid"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 15",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 510,
+        "y": 76,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 15 - Ice Breaker",
+        "ref": "Objective 15 - Ice Breaker/Objective 15 - Ice Breaker"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 16",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 510,
+        "y": 120,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 16 - Magic Advantage",
+        "ref": "Objective 16 - Magic Advantage/Objective 16 - Magic Advantage"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 17",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 510,
+        "y": 164,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 17 - Fight and Flight",
+        "ref": "Objective 17 - Fight and Flight/Objective 17 - Fight and Flight"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 18",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 510,
+        "y": 208,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 18 - Excellent Aim",
+        "ref": "Objective 18 - Excellent Aim/Objective 18 - Excellent Aim"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 19",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 510,
+        "y": 252,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 19 - Stylish Moves",
+        "ref": "Objective 19 - Stylish Moves/Objective 19 - Stylish Moves"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 20",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 510,
+        "y": 296,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 20 - A Fine Finish",
+        "ref": "Objective 20 - A Fine Finish/Objective 20 - A Fine Finish"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 21",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 510,
+        "y": 340,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 21 - Wardrobe Weaver",
+        "ref": "Objective 21 - Wardrobe Weaver/Objective 21 - Wardrobe Weaver"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 22",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 510,
+        "y": 384,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 22 - Trendsetter",
+        "ref": "Objective 22 - Trendsetter/Objective 22 - Trendsetter"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 23",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 510,
+        "y": 428,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 23 - Streetlamp Striker",
+        "ref": "Objective 23 - Streetlamp Striker/Objective 23 - Streetlamp Striker"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 24",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 510,
+        "y": 472,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 24 - Top of the Town",
+        "ref": "Objective 24 - Top of the Town/Objective 24 - Top of the Town"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 25",
+    "map_locations": [
+      {
+        "map": "Objectives 1\u201325",
+        "x": 510,
+        "y": 516,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 25 - Starlit Wish",
+        "ref": "Objective 25 - Starlit Wish/Objective 25 - Starlit Wish"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 26",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 30,
+        "y": 32,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 26 - Heartless That Dwell",
+        "ref": "Objective 26 - Heartless That Dwell/Objective 26 - Heartless That Dwell"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 27",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 30,
+        "y": 76,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 27 - Mystery Within",
+        "ref": "Objective 27 - Mystery Within/Objective 27 - Mystery Within"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 28",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 30,
+        "y": 120,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 28 - Treasure Within",
+        "ref": "Objective 28 - Treasure Within/Objective 28 - Treasure Within"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 29",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 30,
+        "y": 164,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 29 - Gem Gatherer",
+        "ref": "Objective 29 - Gem Gatherer/Objective 29 - Gem Gatherer"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 30",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 30,
+        "y": 208,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 30 - Connected",
+        "ref": "Objective 30 - Connected/Objective 30 - Connected"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 31",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 30,
+        "y": 252,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 31 - Queen of the Rink",
+        "ref": "Objective 31 - Queen of the Rink/Objective 31 - Queen of the Rink"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 32",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 30,
+        "y": 296,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 32 - Defeat the Darksides",
+        "ref": "Objective 32 - Defeat the Darksides/Objective 32 - Defeat the Darksides"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 33",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 30,
+        "y": 340,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 33 - Prickly Problems",
+        "ref": "Objective 33 - Prickly Problems/Objective 33 - Prickly Problems"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 34",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 30,
+        "y": 384,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 34 - Fairy Bouquet",
+        "ref": "Objective 34 - Fairy Bouquet/Objective 34 - Fairy Bouquet"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 35",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 30,
+        "y": 428,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 35 - Work Together with King Mickey",
+        "ref": "Objective 35 - Work Together with King Mickey/Objective 35 - Work Together with King Mickey"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 36",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 30,
+        "y": 472,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 36 - Turn the Tide",
+        "ref": "Objective 36 - Turn the Tide/Objective 36 - Turn the Tide"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 37",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 30,
+        "y": 516,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 37 - Treasure Hunt in the Castle Town",
+        "ref": "Objective 37 - Treasure Hunt in the Castle Town/Objective 37 - Treasure Hunt in the Castle Town"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 38",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 30,
+        "y": 560,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 38 - Lingering Memories in the Castle Town",
+        "ref": "Objective 38 - Lingering Memories in the Castle Town/Objective 38 - Lingering Memories in the Castle Town"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 39",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 510,
+        "y": 32,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 39 - Treasure Hunt in the World Within",
+        "ref": "Objective 39 - Treasure Hunt in the World Within/Objective 39 - Treasure Hunt in the World Within"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 40",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 510,
+        "y": 76,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 40 - Lingering Memories in the World Within",
+        "ref": "Objective 40 - Lingering Memories in the World Within/Objective 40 - Lingering Memories in the World Within"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 41",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 510,
+        "y": 120,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 41 - Flawless Victory",
+        "ref": "Objective 41 - Flawless Victory/Objective 41 - Flawless Victory"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 42",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 510,
+        "y": 164,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 42 - In the Mirror",
+        "ref": "Objective 42 - In the Mirror/Objective 42 - In the Mirror"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 43",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 510,
+        "y": 208,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 43 - Quest for the Zodiac",
+        "ref": "Objective 43 - Quest for the Zodiac/Objective 43 - Quest for the Zodiac"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 44",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 510,
+        "y": 252,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 44 - Treasure Hunt in the Forest of Thorns",
+        "ref": "Objective 44 - Treasure Hunt in the Forest of Thorns/Objective 44 - Treasure Hunt in the Forest of Thorns"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 45",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 510,
+        "y": 296,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 45 - Lingering Memories in the Forest of Thorns",
+        "ref": "Objective 45 - Lingering Memories in the Forest of Thorns/Objective 45 - Lingering Memories in the Forest of Thorns"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 46",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 510,
+        "y": 340,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 46 - Slide Along the Ivy Rails",
+        "ref": "Objective 46 - Slide Along the Ivy Rails/Objective 46 - Slide Along the Ivy Rails"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 47",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 510,
+        "y": 384,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 47 - Keeper of the Orb",
+        "ref": "Objective 47 - Keeper of the Orb/Objective 47 - Keeper of the Orb"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 48",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 510,
+        "y": 428,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 48 - Treasure Hunt in the Depths of Darkness",
+        "ref": "Objective 48 - Treasure Hunt in the Depths of Darkness/Objective 48 - Treasure Hunt in the Depths of Darkness"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 49",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 510,
+        "y": 472,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 49 - Lingering Memories in the Depths of Darkness",
+        "ref": "Objective 49 - Lingering Memories in the Depths of Darkness/Objective 49 - Lingering Memories in the Depths of Darkness"
+      }
+    ]
+  },
+  {
+    "name": "Objectives \u2022 50",
+    "map_locations": [
+      {
+        "map": "Objectives 26\u201350",
+        "x": 510,
+        "y": 524,
+        "size": 17
+      }
+    ],
+    "sections": [
+      {
+        "name": "Objective 50 - Combined Strength",
+        "ref": "Objective 50 - Combined Strength/Objective 50 - Combined Strength"
+      }
+    ]
+  }
+]

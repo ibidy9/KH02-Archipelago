@@ -1,0 +1,54 @@
+{
+  "tool": "Built-in image_gen.imagegen",
+  "artwork_type": "New generated illustrations; not extracted game artwork",
+  "assets": [
+    {
+      "key": "Barrier",
+      "prompt": "Create a single transparent-background small game tracker icon of Aqua from Kingdom Hearts performing this action: standing in a defensive pose enclosed inside a translucent pale blue spherical magical barrier, hands raised defensively. Use the provided reference ONLY for the matching crisp cel-shaded illustration style and Aqua's character design, NOT its cartwheel pose. Whole body, recognizable short blue hair, black sleeveless bodice, crossed pink straps, white detached sleeves, blue skirt panels, black leggings and silver boots. Clear strong silhouette recognizable at 60 pixels. Centered square composition filling 85% of canvas. No text, no border, no scenery, no extra characters. UI icon, not detailed poster.",
+      "path": "images/icons/aqua-barrier-v3.png",
+      "sha256": "1ced251838e343fe1bc3dba668655c683948f9f95d76040bfcbb70dfffd9ff55"
+    },
+    {
+      "key": "Spellweaver",
+      "prompt": "A small square video-game inventory icon of Aqua, the adult blue-haired Keyblade master from Kingdom Hearts, standing upright and casting Spellweaver magic. Use a simplified cel-shaded illustration style. She wears her usual complete game outfit with boots, leggings, blue skirt panels, black top and white detached sleeves. Her blue Keyblade floats upright beside her. A compact blue-white aura and two stars identify the magic. Whole figure visible, strong clean silhouette for a 60-pixel icon. Transparent background, no text, no scenery, no other characters. Normal neutral upright stance.",
+      "path": "images/icons/aqua-spellweaver-v3.png",
+      "sha256": "433e887a750b1e5fab5eebc6d9a0aa866453554e1d7398df4656084ef9769c20"
+    },
+    {
+      "key": "Shotlock",
+      "prompt": "Create a single transparent-background small game tracker icon of Aqua from Kingdom Hearts performing this action: aiming her blue keyblade straight ahead in a focused stance with three small gold targeting reticles in front of her. Use the provided reference ONLY for the matching crisp cel-shaded illustration style and Aqua's character design, NOT its cartwheel pose. Whole body, recognizable short blue hair, black sleeveless bodice, crossed pink straps, white detached sleeves, blue skirt panels, black leggings and silver boots. Clear strong silhouette recognizable at 60 pixels. Centered square composition filling 85% of canvas. No text, no border, no scenery, no extra characters. UI icon, not detailed poster.",
+      "path": "images/icons/aqua-shotlock-v3.png",
+      "sha256": "20c0111c9dd4f6660481a9a4287d2af69e40232fbccd6510f41320767d3b9d85"
+    },
+    {
+      "key": "Cartwheel",
+      "prompt": "Create a single small game tracker icon on a transparent background: Aqua from Kingdom Hearts Birth by Sleep performing a sideways CARTWHEEL, upside down with one hand low and her legs clearly arcing over her head. Recognizable short blue hair, black sleeveless bodice, crossed pink straps, white detached sleeves, blue skirt panels, black leggings and silver boots. Crisp simplified cel-shaded game illustration, whole body, clear strong silhouette at 60 pixels, pale blue short motion arc. Centered square composition filling 85% of the canvas, no text, no border, no scenery, no extra characters. This is a UI icon, not a detailed poster.",
+      "path": "images/icons/aqua-cartwheel-v3.png",
+      "sha256": "d6e23dd37d1972e5cff82570ab41732a091b506f638b0896501ab84fc599358b"
+    },
+    {
+      "key": "Doubleflight",
+      "prompt": "Create a single transparent-background small game tracker icon of Aqua from Kingdom Hearts performing this action: jumping upright a second time in midair, knees gently bent, feet above two luminous blue circular jump rings, clear upward motion. Use the provided reference ONLY for the matching crisp cel-shaded illustration style and Aqua's character design, NOT its cartwheel pose. Whole body, recognizable short blue hair, black sleeveless bodice, crossed pink straps, white detached sleeves, blue skirt panels, black leggings and silver boots. Clear strong silhouette recognizable at 60 pixels. Centered square composition filling 85% of canvas. No text, no border, no scenery, no extra characters. UI icon, not detailed poster.",
+      "path": "images/icons/aqua-doubleflight-v3.png",
+      "sha256": "b93fb722a168aac352b7e4b965bdc1b08360a5c78181cab53e2d20f7fab2097e"
+    },
+    {
+      "key": "AirSlide",
+      "prompt": "Create a single transparent-background small game tracker icon of Aqua from Kingdom Hearts performing this action: air dashing horizontally to the right, body leaning far forward with one leg extended behind, two short blue speed trails. Use the provided reference ONLY for the matching crisp cel-shaded illustration style and Aqua's character design, NOT its cartwheel pose. Whole body, recognizable short blue hair, black sleeveless bodice, crossed pink straps, white detached sleeves, blue skirt panels, black leggings and silver boots. Clear strong silhouette recognizable at 60 pixels. Centered square composition filling 85% of canvas. No text, no border, no scenery, no extra characters. UI icon, not detailed poster.",
+      "path": "images/icons/aqua-airslide-v3.png",
+      "sha256": "27a53241625743be3fdfcf762fe853924b09bf9c8dd96c28ea94c2dfbef7f409"
+    },
+    {
+      "key": "CounterBlast",
+      "prompt": "Create a single transparent-background small game tracker icon of Aqua from Kingdom Hearts performing this action: slamming her blue keyblade downward in a forceful counterattack, a compact golden starburst shockwave spreads from her feet. Use the provided reference ONLY for the matching crisp cel-shaded illustration style and Aqua's character design, NOT its cartwheel pose. Whole body, recognizable short blue hair, black sleeveless bodice, crossed pink straps, white detached sleeves, blue skirt panels, black leggings and silver boots. Clear strong silhouette recognizable at 60 pixels. Centered square composition filling 85% of canvas. No text, no border, no scenery, no extra characters. UI icon, not detailed poster.",
+      "path": "images/icons/aqua-counterblast-v3.png",
+      "sha256": "8fe23ec2a567076252fa216ffb0716b97e54624f997b9c2cc46c01c4279df406"
+    },
+    {
+      "key": "AerialRecovery",
+      "prompt": "Create a single transparent-background small game tracker icon of Aqua from Kingdom Hearts performing this action: righting herself after a hit in midair, knees tucked and torso twisting upright, a small white circular recovery trail behind her. Use the provided reference ONLY for the matching crisp cel-shaded illustration style and Aqua's character design, NOT its cartwheel pose. Whole body, recognizable short blue hair, black sleeveless bodice, crossed pink straps, white detached sleeves, blue skirt panels, black leggings and silver boots. Clear strong silhouette recognizable at 60 pixels. Centered square composition filling 85% of canvas. No text, no border, no scenery, no extra characters. UI icon, not detailed poster.",
+      "path": "images/icons/aqua-aerialrecovery-v3.png",
+      "sha256": "b5cb29dac837229c83b8fd517d709eb2cc6005725876dc76d27b9b62cfbd0eca"
+    }
+  ]
+}

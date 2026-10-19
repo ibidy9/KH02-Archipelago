@@ -1,0 +1,108 @@
+KH 0.2 access-rule review — 2026-10-16, v261
+
+Scope
+All 142 catalog checks, both goals, item classification and placement rules.
+This is an offline logic correction, not new proof of gameplay behavior.
+No native runtime, game asset, save or server seed is modified.
+Earlier generation rules included unsupported restrictions. They were not
+evidence of a gameplay requirement and have been replaced as described below.
+
+Single source
+world-source/kh02/data/access-rules-v261.json defines every check and goal.
+tools/build_access_rules_v261.py exports the same expressions to PopTracker.
+The APWorld and tracker evaluate these expressions independently. Generation
+uses seed-selected progression wardrobe sets/pieces; the tracker intentionally
+recognizes any actual qualifying wardrobe combination, matching the game.
+
+Traversal
+No chest receives a movement requirement because its vanilla reward is a
+Zodiac. All Zodiac chests use their world's access, per the user's correction.
+Doubleflight applies to WW hub chest 2, regular Mines chests 7/8, Mines mirror,
+Phantom 3, WW completion and collecting every WW chest. It does not apply to
+Phantoms 1/2 or the non-Mines mirrors. Air Slide is not a blanket requirement.
+Forest chest 4 remains in generator logic without Doubleflight; the tracker
+shows yellow without it because the alternate route is exceptionally hard.
+Castle traversal/high point and Forest ivy-rail objective use the proven
+movement-free routes. Lingering Memories use world access without movement
+items, following the user's recollection; this was not newly live-tested.
+Evidence: docs/handoff-ready-2026-09-07.md, research/location-catalog.md,
+docs/movement-lock-run.md (earlier conservative entries superseded by handoff).
+
+Objectives
+1–6: replace the all-worlds requirement with sufficient enemy encounter routes.
+These are not an exhaustive map of every place each enemy can occur. Forest
+and WW observations and the five-round boss-rush capture support alternate
+routes; research/objective-catalog.md identifies the enemy needed by each.
+7–9: renewable leveling; no mandatory world set.
+10: Barrier and Counter Blast.
+11–13: corresponding regular elemental spell.
+14: Blizzard plus Castle Town OR WW, both confirmed by user on 2026-10-16.
+    Forest/Depths are UNCONFIRMED alternatives; test later, not required now.
+15: Blizzard; no Castle restriction. Freeze and shatter enemies.
+16: Blizzard with Flame Cores OR Fire with Water Cores; not arbitrary spells.
+17: ordinary airborne defeats, not a Doubleflight unlock requirement.
+18: Shotlock. 19–20: Spellweaver. 21: Spellweaver and wardrobe categories.
+22: any qualifying wardrobe piece (seed-selected for generation).
+23–25: Castle. 26–28: WW without Doubleflight. 29–30: WW with Doubleflight.
+31: WW and Spellweaver; a finisher on Phantom 1/2 suffices.
+32–34: Forest. 35: Depths and Mickey (vanilla or received item).
+36: Castle OR Depths and Spellweaver (both Demon Tower encounters).
+37–40: respective chest completion or Memory; WW all-chests needs Doubleflight.
+41: WW, Doubleflight, and EITHER Cartwheel OR Barrier, per user 2026-10-16.
+42: boss rush access, Cartwheel and Barrier; Cure placement restricted below.
+43: configured boss rush entrance requirement, including non-Zodiac options.
+44–45: Forest. 46: Forest, with the proven ordinary air-combo route.
+47: Forest and Barrier (user correction 2026-10-16; Cartwheel alone does not suffice).
+48–49: Depths. 50: Depths and Mickey.
+51 remains excluded from the AP location pool.
+Objective descriptions: research/objective-catalog.md and
+https://www.destinyislands.com/kh-02-bbs/side-quests/objectives/
+The guide's recommended strategies are not treated as mandatory access rules.
+
+Zodiac Phantom and goals
+User's green tracker kit: Cartwheel + Barrier + Curaga. Yellow if any is
+missing, but only after world and entrance requirements are satisfied.
+Generation requires Cartwheel + Barrier; the prior user instruction allows
+Cure-free completion but forbids placing Cure behind the final Phantom.
+Cure is excluded from round 5 and Objective 42 even when important rewards
+there are enabled. See docs/zodiac-phantom-defensive-logic-2026-09-24.md.
+The first four rush rounds no longer require the entire loadout. Ordinary
+bosses and Demon Tide have no unsupported all-spells/all-abilities gate.
+Difficulty selection and renewable grinding are available; this is not a
+guarantee that every player can win with minimal equipment.
+
+Placement/classification
+Mickey is progression when randomized: his two objectives depend on him.
+World access remains excluded from level checks after 60.
+Zodiac self-lock prevention and the optional final-Phantom important-reward
+setting remain. Item/location IDs and slot-data schema are unchanged.
+
+Presentation and reliability
+Yellow individual checks: Forest chest 4, final Zodiac Phantom, Objective 41
+without Cartwheel/Barrier, and Objective 47 without Barrier. World access
+and Doubleflight for reaching Phantom 3 still apply before yellow is shown.
+Unknown or inaccessible checks remain red. Accepted layout/art are unchanged.
+The prior label cleanup and WW tab rename are included. Client AP status is
+printed only when its state changes, rather than on each observation.
+
+Validation
+generation-verification.json: 72 actual fills, both goals, three requirements,
+four starts and three Mickey modes; beatability and accessibility pass.
+30,456 AP graph/Python/Lua comparisons, plus focused user-correction tests.
+existing-seed-verification.json: user's already-generated 142-check seed and
+goal are reachable under the corrected physical rules. Placements unchanged.
+Package verification checks hashes, reference paths, unchanged native/assets,
+Lua memory after repeated evaluations, and status-message deduplication.
+No new live test or full graphical soak test is claimed.
+
+Recovery
+backups/access-audit-v261/recovery.zip, hashes.json and RESTORE.txt preserve
+the previous source/package and installed tracker/APWorld. Additional bundle
+files are backed up before installation. Previous versions are retained.
+
+Remaining
+Full private playthrough; optional later Frozen Rail Raid venue test; broader
+enemy-route survey if another alternate route is reported. No test is armed.
+
+Enemy matrix and objective venue follow-up: see enemy-objective-review.txt.
+This follow-up supersedes the earlier incomplete enemy routes above.

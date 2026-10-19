@@ -1,0 +1,60 @@
+{
+  "assets": [
+    {
+      "name": "dw02_Save01",
+      "path": "images/icons/dw02_Save01.png",
+      "native_path": "/Game/UI/Icon/rebellis02/AreaSelect/dw02_Save01",
+      "header_offset": 2903414784,
+      "export_offset": 2903415446,
+      "sha256": "3fa1b6d66f8db3ab8b53396d11416dcada89b6636fe8f0fbf09f9e365712953e"
+    },
+    {
+      "name": "dw03_Save01",
+      "path": "images/icons/dw03_Save01.png",
+      "native_path": "/Game/UI/Icon/rebellis02/AreaSelect/dw03_Save01",
+      "header_offset": 2904043520,
+      "export_offset": 2904044182,
+      "sha256": "13a60dd06373866bf50dc3a9e53c730cee6954f3ddf7aa824d7619772713ae9c"
+    },
+    {
+      "name": "dw08_Save01",
+      "path": "images/icons/dw08_Save01.png",
+      "native_path": "/Game/UI/Icon/rebellis02/AreaSelect/dw08_Save01",
+      "header_offset": 2904492032,
+      "export_offset": 2904492695,
+      "sha256": "29bc5f92e41537e341eaa87a8309900eb3f0e950ab6ee42a1728d99bae971a94"
+    },
+    {
+      "name": "dw08_Save02",
+      "path": "images/icons/dw08_Save02.png",
+      "native_path": "/Game/UI/Icon/rebellis02/AreaSelect/dw08_Save02",
+      "header_offset": 2905171968,
+      "export_offset": 2905172628,
+      "sha256": "3fca8f159bcab47fec6ac11bf52d36ab3db91ab9f7a4569e1154e7163e927c2f"
+    },
+    {
+      "name": "dw08_Save03",
+      "path": "images/icons/dw08_Save03.png",
+      "native_path": "/Game/UI/Icon/rebellis02/AreaSelect/dw08_Save03",
+      "header_offset": 2905825280,
+      "export_offset": 2905825942,
+      "sha256": "23aca38b4294f4860921c4afa3cfd3ae965ed42b544ded6fcdb5c800c86bbed0"
+    },
+    {
+      "name": "dw09_Save01",
+      "path": "images/icons/dw09_Save01.png",
+      "native_path": "/Game/UI/Icon/rebellis02/AreaSelect/dw09_Save01",
+      "header_offset": 2906368000,
+      "export_offset": 2906368662,
+      "sha256": "94e41ca6ec78c60bcb5cf81061c44564253065eef9a1477d7127280a8e71ead6"
+    },
+    {
+      "name": "NpcMicky01Face",
+      "path": "images/icons/NpcMicky01Face.png",
+      "native_path": "/Game/UI/Scaleform/01_hud/face/NpcMicky01Face",
+      "header_offset": 2989107200,
+      "export_offset": 2989107844,
+      "sha256": "16278bd46187fb8337f1868dce3dd376db58874434d5de4c82d81dcef1514e62"
+    }
+  ]
+}

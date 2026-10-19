@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Overworld",
+    "img": "images/boards/Overworld.png",
+    "location_size": 18,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "Castle Town",
+    "img": "images/boards/Castle Town.png",
+    "location_size": 18,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "The World Within",
+    "img": "images/boards/The World Within.png",
+    "location_size": 18,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "Forest of Thorns",
+    "img": "images/boards/Forest of Thorns.png",
+    "location_size": 18,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "Depths of Darkness",
+    "img": "images/boards/Depths of Darkness.png",
+    "location_size": 18,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "Objectives 1\u201325",
+    "img": "images/boards/Objectives 1\u201325.png",
+    "location_size": 18,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "Objectives 26\u201350",
+    "img": "images/boards/Objectives 26\u201350.png",
+    "location_size": 18,
+    "location_border_thickness": 2
+  }
+]

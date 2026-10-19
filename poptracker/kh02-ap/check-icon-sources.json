@@ -1,0 +1,44 @@
+{
+  "assets": [
+    {
+      "path": "images/markers/boss.png",
+      "sha256": "28792c907f9a19368113f0e7619f6818d28195635cee65025039b38e32d24aa2",
+      "source": "Original geometric glyph; tools/prepare_poptracker_ui_glyphs.py"
+    },
+    {
+      "path": "images/markers/complete.png",
+      "sha256": "bb8d2b5790d740c2a4351892b2c32444078574dede1357e983df8be1b9041020",
+      "source": "Original geometric glyph; tools/prepare_poptracker_ui_glyphs.py"
+    },
+    {
+      "path": "images/markers/exit.png",
+      "sha256": "4884abe4f891e3dfda442e740f138d3870729fc13bb6ab5d5c7c94fa516458ec",
+      "source": "Original geometric glyph; tools/prepare_poptracker_ui_glyphs.py"
+    },
+    {
+      "path": "images/markers/gear.png",
+      "sha256": "8eb4a5c0f2e3705dd8a9575d6a948f0de03d7ea2070670deafcec81a57576af5",
+      "source": "Original geometric glyph; tools/prepare_poptracker_ui_glyphs.py"
+    },
+    {
+      "path": "images/markers/kh-chest.png",
+      "sha256": "9b354a3496e68bd314688cbc2857d1e8cdf25b1846eb52bb70094caaccad9411",
+      "source": "https://kh.wiki.gallery/images/5/5e/Realm_of_Darkness_Chest_%28small%29_KHBBSFM.png"
+    },
+    {
+      "path": "images/markers/level.png",
+      "sha256": "6b1eb694f9a95d7343c44d551d0ba57260c104ccd14d784ed16bc1bcc60e2961",
+      "source": "Original geometric glyph; tools/prepare_poptracker_ui_glyphs.py"
+    },
+    {
+      "path": "images/markers/mirror.png",
+      "sha256": "0d77ff5bef6ab952a338269846bef9ce25da101947214dc314ef262511e49693",
+      "source": "Original geometric glyph; tools/prepare_poptracker_ui_glyphs.py"
+    },
+    {
+      "path": "images/markers/objective.png",
+      "sha256": "cea0cb2c48148bac0e3fdbc1c86083140af932dec947dd2f24f9ff212e29c9ac",
+      "source": "Original geometric glyph; tools/prepare_poptracker_ui_glyphs.py"
+    }
+  ]
+}

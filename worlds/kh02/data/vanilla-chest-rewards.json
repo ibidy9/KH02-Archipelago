@@ -1,0 +1,35 @@
+{
+  "schema": "kh02-vanilla-chest-rewards-v1",
+  "source_url": "https://www.destinyislands.com/kh-02-bbs/collectables/treasure-chests/",
+  "evidence": "Guide contents in guide numbering order; native reward amounts and missing actor IDs still require verification",
+  "numbering": "One-based within each named area; Main Road is separate from Castle Town",
+  "native_reward_quantities_verified": false,
+  "areas": {
+    "Main Road": ["Potion"],
+    "Castle Town": ["Castle Town Area Map", "Ether", "Potion", "Potion", "Ether", "Virgo Relic", "Aries Relic", "Sagittarius Relic", "Aquarius Relic"],
+    "The World Within": ["The World Within Area Map", "Mega-Potion", "Mega-Ether", "Potion", "Hi-Potion", "Hi-Potion", "Megalixir", "Hi-Potion", "Cancer Relic", "Pisces Relic", "Gemini Relic", "Leo Relic", "Libra Relic"],
+    "Forest of Thorns": ["Forest of Thorns Area Map", "Mega-Potion", "Ether", "Potion", "Ether", "Hi-Potion", "Hi-Potion", "Potion", "Potion", "Mega-Potion", "Taurus Relic", "Scorpio Relic"],
+    "Depths of Darkness": ["Depths of Darkness Area Map", "Mega-Ether", "Hi-Potion", "Mega-Ether", "Elixir", "Capricorn Relic"]
+  },
+  "totals": {
+    "chests": 41,
+    "zodiac_relics": 12,
+    "area_maps": 4,
+    "consumable_rewards": 25,
+    "Potion": 7,
+    "Ether": 4,
+    "Hi-Potion": 6,
+    "Mega-Potion": 3,
+    "Mega-Ether": 3,
+    "Elixir": 1,
+    "Megalixir": 1
+  },
+  "unregistered_in_current_28_location_table": {
+    "Main Road": [1],
+    "Castle Town": [6, 7, 8, 9],
+    "The World Within": [9, 10, 11, 12, 13],
+    "Forest of Thorns": [11, 12],
+    "Depths of Darkness": [6]
+  },
+  "preserve_existing_ap_ids": true
+}

@@ -1,0 +1,1 @@
+Archipelago logo: external/Archipelago/data/icon.png from the repository bundled in this workspace. Resized to 256x256 for the KH UI texture. License: Archipelago-MIT.txt. This candidate is not a public release.

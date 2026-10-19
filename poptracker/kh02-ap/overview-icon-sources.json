@@ -1,0 +1,193 @@
+{
+  "assets": [
+    {
+      "name": "Doubleflight",
+      "item_id": 131589,
+      "path": "images/icons/aqua-doubleflight-v3.png",
+      "sha256": "b93fb722a168aac352b7e4b965bdc1b08360a5c78181cab53e2d20f7fab2097e",
+      "source": "New illustration generated with the built-in image tool; aqua-action-sources.json"
+    },
+    {
+      "name": "Air Slide",
+      "item_id": 131590,
+      "path": "images/icons/aqua-airslide-v3.png",
+      "sha256": "27a53241625743be3fdfcf762fe853924b09bf9c8dd96c28ea94c2dfbef7f409",
+      "source": "New illustration generated with the built-in image tool; aqua-action-sources.json"
+    },
+    {
+      "name": "Cartwheel",
+      "item_id": 131606,
+      "path": "images/icons/aqua-cartwheel-v3.png",
+      "sha256": "d6e23dd37d1972e5cff82570ab41732a091b506f638b0896501ab84fc599358b",
+      "source": "New illustration generated with the built-in image tool; aqua-action-sources.json"
+    },
+    {
+      "name": "Barrier",
+      "item_id": 131607,
+      "path": "images/icons/aqua-barrier-v3.png",
+      "sha256": "1ced251838e343fe1bc3dba668655c683948f9f95d76040bfcbb70dfffd9ff55",
+      "source": "New illustration generated with the built-in image tool; aqua-action-sources.json"
+    },
+    {
+      "name": "Counter Blast",
+      "item_id": 131608,
+      "path": "images/icons/aqua-counterblast-v3.png",
+      "sha256": "8fe23ec2a567076252fa216ffb0716b97e54624f997b9c2cc46c01c4279df406",
+      "source": "New illustration generated with the built-in image tool; aqua-action-sources.json"
+    },
+    {
+      "name": "Aerial Recovery",
+      "item_id": 131609,
+      "path": "images/icons/aqua-aerialrecovery-v3.png",
+      "sha256": "b5cb29dac837229c83b8fd517d709eb2cc6005725876dc76d27b9b62cfbd0eca",
+      "source": "New illustration generated with the built-in image tool; aqua-action-sources.json"
+    },
+    {
+      "name": "Spellweaver",
+      "item_id": 131592,
+      "path": "images/icons/aqua-spellweaver-v3.png",
+      "sha256": "433e887a750b1e5fab5eebc6d9a0aa866453554e1d7398df4656084ef9769c20",
+      "source": "New illustration generated with the built-in image tool; aqua-action-sources.json"
+    },
+    {
+      "name": "Shotlock",
+      "item_id": 131591,
+      "path": "images/icons/aqua-shotlock-v3.png",
+      "sha256": "20c0111c9dd4f6660481a9a4287d2af69e40232fbccd6510f41320767d3b9d85",
+      "source": "New illustration generated with the built-in image tool; aqua-action-sources.json"
+    },
+    {
+      "name": "Mickey",
+      "item_id": 131635,
+      "path": "images/icons/Mickey.png",
+      "sha256": "3f5669c7ee9cb206506abb274145e75426b4b852547790061a645a4e0fe7ca32"
+    },
+    {
+      "name": "Max HP Increase",
+      "item_id": 131595,
+      "path": "images/icons/hp-v4.png",
+      "sha256": "58432d8ac93162eefa82dd49000daab98bb36178946f722234c8954993ec14cd",
+      "source": "Built-in image-generation tool; v04-icon-sources.json"
+    },
+    {
+      "name": "Max MP Increase",
+      "item_id": 131596,
+      "path": "images/icons/native-131596.png",
+      "sha256": "baca72d8e9eb991856d4486079a7cc080e9017cec5ed27075e2edb37c16acabc",
+      "source": "research\\poptracker-game-assets\\ui-review\\HudStatusTxt.png"
+    },
+    {
+      "name": "Progressive Fire",
+      "item_id": 131613,
+      "path": "images/icons/fire-v4.png",
+      "sha256": "6fa90061b52594fdf1ccaafff0d242f2449740ac4cd957ab39b786accfbd8d29",
+      "source": "Built-in image-generation tool; v04-icon-sources.json"
+    },
+    {
+      "name": "Fire Magic",
+      "item_id": 131585,
+      "path": "images/icons/fire-v4.png",
+      "sha256": "6fa90061b52594fdf1ccaafff0d242f2449740ac4cd957ab39b786accfbd8d29",
+      "source": "Built-in image-generation tool; v04-icon-sources.json"
+    },
+    {
+      "name": "Progressive Blizzard",
+      "item_id": 131614,
+      "path": "images/icons/blizzard-v4.png",
+      "sha256": "0d4ae6588ccc203fe9ec3fb46dd9d6c5e3382928e93b614cb19413e5b7295368",
+      "source": "Built-in image-generation tool; v04-icon-sources.json"
+    },
+    {
+      "name": "Blizzard Magic",
+      "item_id": 131586,
+      "path": "images/icons/blizzard-v4.png",
+      "sha256": "0d4ae6588ccc203fe9ec3fb46dd9d6c5e3382928e93b614cb19413e5b7295368",
+      "source": "Built-in image-generation tool; v04-icon-sources.json"
+    },
+    {
+      "name": "Progressive Thunder",
+      "item_id": 131615,
+      "path": "images/icons/thunder-v4.png",
+      "sha256": "4f7ac2a5c12a80b5219db8cd470e3aa21dbd08e0f1d1534d786ca8a71b7af664",
+      "source": "Built-in image-generation tool; v04-icon-sources.json"
+    },
+    {
+      "name": "Thunder Magic",
+      "item_id": 131587,
+      "path": "images/icons/thunder-v4.png",
+      "sha256": "4f7ac2a5c12a80b5219db8cd470e3aa21dbd08e0f1d1534d786ca8a71b7af664",
+      "source": "Built-in image-generation tool; v04-icon-sources.json"
+    },
+    {
+      "name": "Cure Magic",
+      "item_id": 131588,
+      "path": "images/icons/cure-v4.png",
+      "sha256": "0415d6c410343e86712cb84701a9b64808765c832dce781b75a37c4d45c5a337",
+      "source": "Built-in image-generation tool; v04-icon-sources.json"
+    },
+    {
+      "name": "Castle Town Access",
+      "item_id": 131602,
+      "path": "images/icons/native-131602.png",
+      "sha256": "282fd49a4a9c7dea9f9c0f27b1c4a1499aa3dbeefbcdb51616d0c7717efcd30f",
+      "source": "research\\poptracker-game-assets\\ui-review\\mapName_dw02.png"
+    },
+    {
+      "name": "Castle Town Area Map",
+      "item_id": 131631,
+      "path": "images/icons/map-v4.png",
+      "sha256": "901835ac3699131be03ef3922ac64044f50848d4813db45592340a144e15f85e",
+      "source": "Built-in image-generation tool; v04-icon-sources.json"
+    },
+    {
+      "name": "The World Within Access",
+      "item_id": 131603,
+      "path": "images/icons/native-131603.png",
+      "sha256": "866198bcf619466b13389953f8a271fc006d4c4470b4af2d80bd8c1f300cd4c0",
+      "source": "research\\poptracker-game-assets\\ui-review\\mapName_dw03.png"
+    },
+    {
+      "name": "The World Within Area Map",
+      "item_id": 131632,
+      "path": "images/icons/map-v4.png",
+      "sha256": "901835ac3699131be03ef3922ac64044f50848d4813db45592340a144e15f85e",
+      "source": "Built-in image-generation tool; v04-icon-sources.json"
+    },
+    {
+      "name": "Forest of Thorns Access",
+      "item_id": 131604,
+      "path": "images/icons/native-131604.png",
+      "sha256": "da04aef86d36b48232680a78e6d25ce3d6b23dac41066ce0c70c360c47004865",
+      "source": "research\\poptracker-game-assets\\ui-review\\mapName_dw08.png"
+    },
+    {
+      "name": "Forest of Thorns Area Map",
+      "item_id": 131633,
+      "path": "images/icons/map-v4.png",
+      "sha256": "901835ac3699131be03ef3922ac64044f50848d4813db45592340a144e15f85e",
+      "source": "Built-in image-generation tool; v04-icon-sources.json"
+    },
+    {
+      "name": "Depths of Darkness Access",
+      "item_id": 131605,
+      "path": "images/icons/native-131605.png",
+      "sha256": "ce94e1adfb87b4bb87124dd94f0de5e5615f2291c2af94ca199f76a5e316f940",
+      "source": "research\\poptracker-game-assets\\ui-review\\mapName_dw09.png"
+    },
+    {
+      "name": "Depths of Darkness Area Map",
+      "item_id": 131634,
+      "path": "images/icons/map-v4.png",
+      "sha256": "901835ac3699131be03ef3922ac64044f50848d4813db45592340a144e15f85e",
+      "source": "Built-in image-generation tool; v04-icon-sources.json"
+    }
+  ],
+  "credits": {
+    "native": "Mickey portrait cell and AreaSelect textures extracted from supported game, hashes in native-overview-sources.json.",
+    "glyphs": "Original geometric check icons; magic and map illustrations updated in v0.4. HP is a green edit of the native lettering; MP retains its native blue lettering.",
+    "native_ui": "World titles and HP/MP atlas glyphs extracted from supported KH0.2 build; research/poptracker-game-assets/ui-review/sources.json.",
+    "spell_glyphs": "Generated spell illustrations; full prompts and hashes in v04-icon-sources.json.",
+    "aqua_illustrations": "New generated artwork, built-in image tool. Full prompts and hashes in aqua-action-sources.json; not official or extracted game art.",
+    "v04": "Generated parchment map icon; native HP lettering recolored green with the image tool. World title artwork is unchanged."
+  }
+}

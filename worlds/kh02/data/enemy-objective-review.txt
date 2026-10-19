@@ -1,0 +1,52 @@
+Enemy and objective follow-up — 2026-10-16
+
+Published KH0.2 location tables (not KH3 entries):
+Shadow, Fluttering, Flame Core: Castle, WW, Forest, Depths.
+Neoshadow, Water Core: WW, Forest, Depths; not listed in Castle.
+Earth Core: Depths and WW Zodiac Mirror only.
+All six also appear in boss rush. One accessible enemy appearance suffices;
+counts can be accumulated through repeat encounters or world restarts.
+Sources checked:
+https://www.khwiki.com/Shadow
+https://www.khwiki.com/Fluttering
+https://www.khwiki.com/Flame_Core
+https://www.khwiki.com/Neoshadow
+https://www.khwiki.com/Water_Core
+https://www.khwiki.com/Earth_Core
+User independently confirms Castle Flutterings and ordinary WW Neoshadows.
+This is published-source support plus prior observations, not a fresh live census.
+The corrections also propagate to Magic Advantage's elemental enemy access.
+
+User-directed display changes:
+Objective 41: WW + Doubleflight required to reach it. Yellow without either
+Cartwheel or Barrier; green with either. Generation still requires either.
+Objective 47: Forest required. Yellow without Barrier; green with Barrier.
+Generation still requires Barrier. Objective 46 still requires Forest only.
+
+Deferred combined live checks — nothing armed:
+Use an isolated development profile with objectives 14,35,36,50 incomplete.
+Do not reset the user's current playthrough or adopt vanilla saves.
+1. Mickey randomized_all_worlds: perform Wayfinder outside Depths and inspect
+Objective 35 counter before/after. If it increments, verify five uses complete
+it. Only then remove Depths requirement for that Mickey mode; vanilla and
+randomized_depths continue to require Depths.
+2. Frozen Rail Raid: Castle and WW user-confirmed; test suitable Forest/Depths
+rails with Blizzard if practical. Leave current two-world rule until confirmed.
+3. Turn the Tide (36): confirm exact objective completion from Spellweaver
+Finish killing blow on Castle Tower, Depths Tower, and rush Tower separately.
+Need separate incomplete copies/branches; once complete cannot test another
+venue on that same record. Preserve copies, never clear objective flags live.
+4. Combined Strength (50): same venue matrix with Mickey and Wayfinder active
+at the killing blow. Distinguish ordinary attacks during Wayfinder from Finish
+if needed. Arrange copies so 36 and 50 can be tested on the same boss where
+possible, without relying on a shared completed objective record.
+
+Uncertainty:
+https://www.destinyislands.com/kh-02-bbs/side-quests/objectives/
+https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/
+place 36 in Castle and 50 in Depths. A player discussion also suggests 36 may
+be Castle-specific, but does not establish a controlled test:
+https://www.reddit.com/r/KingdomHearts/comments/15vzr5w/kh_02_birth_by_sleep_can_you_get_these_objectives/
+Current code still allows Castle OR Depths for 36 based on prior user guidance;
+Depths is NOT independently live-proven for that objective. Do not label it as
+proven or add boss rush until verified. 35/50 remain Depths pending above tests.

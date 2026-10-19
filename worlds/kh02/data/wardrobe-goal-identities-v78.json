@@ -1,0 +1,565 @@
+{
+  "schema": "kh02-wardrobe-goal-identities-v78",
+  "status": "offline source join; not all English labels individually live-verified",
+  "source_sha256": {
+    "research/objective-catalog.md": "480b9294e9b59d66780ffabbb8c28a721a19c7e247f5d7f8b0d94246f7b61bb1",
+    "research/wardrobe-separation-20260913/objective-cosmetic-catalog.json": "b0dea9e221b67645d06ff71cbb0123e087944494f32ec707a5d3b8b9b39fa98a",
+    "data/wardrobe-goal-sets.json": "5d5089a2a5a110bd23aa72a21f4d16d98bb0b59eefd7864ea488aaefe488cb1f"
+  },
+  "rows": [
+    {
+      "name": "Tiara",
+      "category": "head",
+      "item_id": 131840,
+      "native_code": 1536,
+      "record": 318,
+      "objective_source": 42,
+      "cosmetic": "DEC_ITEM_01"
+    },
+    {
+      "name": "Royal Tiara",
+      "category": "head",
+      "item_id": 131841,
+      "native_code": 1537,
+      "record": 319,
+      "objective_source": 31,
+      "cosmetic": "DEC_ITEM_02"
+    },
+    {
+      "name": "Venus's Tiara",
+      "category": "head",
+      "item_id": 131842,
+      "native_code": 1538,
+      "record": 320,
+      "objective_source": 9,
+      "cosmetic": "DEC_ITEM_03"
+    },
+    {
+      "name": "Antennae",
+      "category": "head",
+      "item_id": 131843,
+      "native_code": 1539,
+      "record": 321,
+      "objective_source": 4,
+      "cosmetic": "DEC_ITEM_04"
+    },
+    {
+      "name": "Pulse Antennae",
+      "category": "head",
+      "item_id": 131844,
+      "native_code": 1540,
+      "record": 322,
+      "objective_source": 45,
+      "cosmetic": "DEC_ITEM_05"
+    },
+    {
+      "name": "Cyber Antennae",
+      "category": "head",
+      "item_id": 131845,
+      "native_code": 1541,
+      "record": 323,
+      "objective_source": 3,
+      "cosmetic": "DEC_ITEM_06"
+    },
+    {
+      "name": "Marie",
+      "category": "head",
+      "item_id": 131846,
+      "native_code": 1542,
+      "record": 324,
+      "objective_source": 29,
+      "cosmetic": "DEC_ITEM_07"
+    },
+    {
+      "name": "Figaro",
+      "category": "head",
+      "item_id": 131847,
+      "native_code": 1543,
+      "record": 325,
+      "objective_source": 1,
+      "cosmetic": "DEC_ITEM_08"
+    },
+    {
+      "name": "Cheshire Cat",
+      "category": "head",
+      "item_id": 131848,
+      "native_code": 1544,
+      "record": 326,
+      "objective_source": 36,
+      "cosmetic": "DEC_ITEM_09"
+    },
+    {
+      "name": "Minnie Ears (Red Bow)",
+      "category": "head",
+      "item_id": 131849,
+      "native_code": 1545,
+      "record": 327,
+      "objective_source": 35,
+      "cosmetic": "DEC_ITEM_10"
+    },
+    {
+      "name": "Minnie Ears (Blue Bow)",
+      "category": "head",
+      "item_id": 131850,
+      "native_code": 1546,
+      "record": 328,
+      "objective_source": 34,
+      "cosmetic": "DEC_ITEM_11"
+    },
+    {
+      "name": "Minnie Ears (White Bow)",
+      "category": "head",
+      "item_id": 131851,
+      "native_code": 1547,
+      "record": 329,
+      "objective_source": 39,
+      "cosmetic": "DEC_ITEM_12"
+    },
+    {
+      "name": "Iron Ornament",
+      "category": "back",
+      "item_id": 131852,
+      "native_code": 1548,
+      "record": 330,
+      "objective_source": 49,
+      "cosmetic": "DEC_ITEM_13"
+    },
+    {
+      "name": "Radiant Ornament",
+      "category": "back",
+      "item_id": 131853,
+      "native_code": 1549,
+      "record": 331,
+      "objective_source": 17,
+      "cosmetic": "DEC_ITEM_14"
+    },
+    {
+      "name": "Astral Ornament",
+      "category": "back",
+      "item_id": 131854,
+      "native_code": 1550,
+      "record": 332,
+      "objective_source": 8,
+      "cosmetic": "DEC_ITEM_15"
+    },
+    {
+      "name": "Blades",
+      "category": "back",
+      "item_id": 131855,
+      "native_code": 1551,
+      "record": 333,
+      "objective_source": 12,
+      "cosmetic": "DEC_ITEM_16"
+    },
+    {
+      "name": "Pulse Blades",
+      "category": "back",
+      "item_id": 131856,
+      "native_code": 1552,
+      "record": 334,
+      "objective_source": 38,
+      "cosmetic": "DEC_ITEM_17"
+    },
+    {
+      "name": "Cyber Blades",
+      "category": "back",
+      "item_id": 131857,
+      "native_code": 1553,
+      "record": 335,
+      "objective_source": 11,
+      "cosmetic": "DEC_ITEM_18"
+    },
+    {
+      "name": "Wings",
+      "category": "back",
+      "item_id": 131858,
+      "native_code": 1554,
+      "record": 336,
+      "objective_source": 24,
+      "cosmetic": "DEC_ITEM_19"
+    },
+    {
+      "name": "Lustrous Wings",
+      "category": "back",
+      "item_id": 131859,
+      "native_code": 1555,
+      "record": 337,
+      "objective_source": 41,
+      "cosmetic": "DEC_ITEM_20"
+    },
+    {
+      "name": "Flawless Wings",
+      "category": "back",
+      "item_id": 131860,
+      "native_code": 1556,
+      "record": 338,
+      "objective_source": 10,
+      "cosmetic": "DEC_ITEM_21"
+    },
+    {
+      "name": "Pauldron",
+      "category": "arms",
+      "item_id": 131861,
+      "native_code": 1557,
+      "record": 339,
+      "objective_source": 43,
+      "cosmetic": "DEC_ITEM_22"
+    },
+    {
+      "name": "Mystic Pauldron",
+      "category": "arms",
+      "item_id": 131862,
+      "native_code": 1558,
+      "record": 340,
+      "objective_source": 13,
+      "cosmetic": "DEC_ITEM_23"
+    },
+    {
+      "name": "Royal Pauldron",
+      "category": "arms",
+      "item_id": 131863,
+      "native_code": 1559,
+      "record": 341,
+      "objective_source": 7,
+      "cosmetic": "DEC_ITEM_24"
+    },
+    {
+      "name": "Arm Plate",
+      "category": "arms",
+      "item_id": 131864,
+      "native_code": 1560,
+      "record": 342,
+      "objective_source": 28,
+      "cosmetic": "DEC_ITEM_25"
+    },
+    {
+      "name": "Warrior's Arm Plate",
+      "category": "arms",
+      "item_id": 131865,
+      "native_code": 1561,
+      "record": 343,
+      "objective_source": 40,
+      "cosmetic": "DEC_ITEM_26"
+    },
+    {
+      "name": "Voltaic Arm Plate",
+      "category": "arms",
+      "item_id": 131866,
+      "native_code": 1562,
+      "record": 344,
+      "objective_source": 16,
+      "cosmetic": "DEC_ITEM_27"
+    },
+    {
+      "name": "Arm Guards",
+      "category": "arms",
+      "item_id": 131867,
+      "native_code": 1563,
+      "record": 345,
+      "objective_source": 25,
+      "cosmetic": "DEC_ITEM_28"
+    },
+    {
+      "name": "Lustrous Arm Guards",
+      "category": "arms",
+      "item_id": 131868,
+      "native_code": 1564,
+      "record": 346,
+      "objective_source": 46,
+      "cosmetic": "DEC_ITEM_29"
+    },
+    {
+      "name": "Flawless Arm Guards",
+      "category": "arms",
+      "item_id": 131869,
+      "native_code": 1565,
+      "record": 347,
+      "objective_source": 14,
+      "cosmetic": "DEC_ITEM_30"
+    },
+    {
+      "name": "Classy (Yellow)",
+      "category": "pattern",
+      "item_id": 131870,
+      "native_code": 1566,
+      "record": 348,
+      "objective_source": 6,
+      "cosmetic": "DEC_ITEM_31"
+    },
+    {
+      "name": "Classy (Blue)",
+      "category": "pattern",
+      "item_id": 131871,
+      "native_code": 1567,
+      "record": 349,
+      "objective_source": 20,
+      "cosmetic": "DEC_ITEM_32"
+    },
+    {
+      "name": "Classy (White)",
+      "category": "pattern",
+      "item_id": 131872,
+      "native_code": 1568,
+      "record": 350,
+      "objective_source": 44,
+      "cosmetic": "DEC_ITEM_33"
+    },
+    {
+      "name": "Mecha (Pink)",
+      "category": "pattern",
+      "item_id": 131873,
+      "native_code": 1569,
+      "record": 351,
+      "objective_source": 22,
+      "cosmetic": "DEC_ITEM_34"
+    },
+    {
+      "name": "Mecha (Yellow)",
+      "category": "pattern",
+      "item_id": 131874,
+      "native_code": 1570,
+      "record": 352,
+      "objective_source": 26,
+      "cosmetic": "DEC_ITEM_35"
+    },
+    {
+      "name": "Mecha (Blue)",
+      "category": "pattern",
+      "item_id": 131875,
+      "native_code": 1571,
+      "record": 353,
+      "objective_source": 5,
+      "cosmetic": "DEC_ITEM_36"
+    },
+    {
+      "name": "Grace (Blue)",
+      "category": "pattern",
+      "item_id": 131876,
+      "native_code": 1572,
+      "record": 354,
+      "objective_source": 23,
+      "cosmetic": "DEC_ITEM_37"
+    },
+    {
+      "name": "Grace (Purple)",
+      "category": "pattern",
+      "item_id": 131877,
+      "native_code": 1573,
+      "record": 355,
+      "objective_source": 15,
+      "cosmetic": "DEC_ITEM_38"
+    },
+    {
+      "name": "Grace (Pink)",
+      "category": "pattern",
+      "item_id": 131878,
+      "native_code": 1574,
+      "record": 356,
+      "objective_source": 48,
+      "cosmetic": "DEC_ITEM_39"
+    },
+    {
+      "name": "Diamond (White)",
+      "category": "pattern",
+      "item_id": 131879,
+      "native_code": 1575,
+      "record": 357,
+      "objective_source": 18,
+      "cosmetic": "DEC_ITEM_40"
+    },
+    {
+      "name": "Diamond (Blue)",
+      "category": "pattern",
+      "item_id": 131880,
+      "native_code": 1576,
+      "record": 358,
+      "objective_source": 32,
+      "cosmetic": "DEC_ITEM_41"
+    },
+    {
+      "name": "Diamond (Green)",
+      "category": "pattern",
+      "item_id": 131881,
+      "native_code": 1577,
+      "record": 359,
+      "objective_source": 19,
+      "cosmetic": "DEC_ITEM_42"
+    },
+    {
+      "name": "Coil (White)",
+      "category": "pattern",
+      "item_id": 131882,
+      "native_code": 1578,
+      "record": 360,
+      "objective_source": 33,
+      "cosmetic": "DEC_ITEM_43"
+    },
+    {
+      "name": "Coil (Yellow)",
+      "category": "pattern",
+      "item_id": 131883,
+      "native_code": 1579,
+      "record": 361,
+      "objective_source": 37,
+      "cosmetic": "DEC_ITEM_44"
+    },
+    {
+      "name": "Coil (Pink)",
+      "category": "pattern",
+      "item_id": 131884,
+      "native_code": 1580,
+      "record": 362,
+      "objective_source": 2,
+      "cosmetic": "DEC_ITEM_45"
+    },
+    {
+      "name": "Stitching",
+      "category": "pattern",
+      "item_id": 131886,
+      "native_code": 1582,
+      "record": 364,
+      "objective_source": 27,
+      "cosmetic": "DEC_ITEM_47"
+    },
+    {
+      "name": "Crisscross",
+      "category": "pattern",
+      "item_id": 131887,
+      "native_code": 1583,
+      "record": 365,
+      "objective_source": 51,
+      "cosmetic": "DEC_ITEM_48"
+    },
+    {
+      "name": "Lace (Crystal)",
+      "category": "pattern",
+      "item_id": 131888,
+      "native_code": 1584,
+      "record": 366,
+      "objective_source": 30,
+      "cosmetic": "DEC_ITEM_49"
+    },
+    {
+      "name": "Lace (Floral)",
+      "category": "pattern",
+      "item_id": 131889,
+      "native_code": 1585,
+      "record": 367,
+      "objective_source": 47,
+      "cosmetic": "DEC_ITEM_50"
+    },
+    {
+      "name": "Polka Dots",
+      "category": "pattern",
+      "item_id": 131890,
+      "native_code": 1586,
+      "record": 368,
+      "objective_source": 50,
+      "cosmetic": "DEC_ITEM_51"
+    },
+    {
+      "name": "Ribbons",
+      "category": "pattern",
+      "item_id": 131891,
+      "native_code": 1587,
+      "record": 369,
+      "objective_source": 21,
+      "cosmetic": "DEC_ITEM_52"
+    }
+  ],
+  "sets": {
+    "head": [
+      [
+        131840,
+        131841,
+        131842
+      ],
+      [
+        131843,
+        131844,
+        131845
+      ],
+      [
+        131846,
+        131847,
+        131848
+      ],
+      [
+        131849,
+        131850,
+        131851
+      ]
+    ],
+    "arms": [
+      [
+        131861,
+        131862,
+        131863
+      ],
+      [
+        131864,
+        131865,
+        131866
+      ],
+      [
+        131867,
+        131868,
+        131869
+      ]
+    ],
+    "back": [
+      [
+        131852,
+        131853,
+        131854
+      ],
+      [
+        131855,
+        131856,
+        131857
+      ],
+      [
+        131858,
+        131859,
+        131860
+      ]
+    ],
+    "pattern": [
+      [
+        131870,
+        131871,
+        131872
+      ],
+      [
+        131873,
+        131874,
+        131875
+      ],
+      [
+        131876,
+        131877,
+        131878
+      ],
+      [
+        131879,
+        131880,
+        131881
+      ],
+      [
+        131882,
+        131883,
+        131884
+      ],
+      [
+        131886,
+        131887,
+        131890
+      ],
+      [
+        131888,
+        131889,
+        131891
+      ]
+    ]
+  }
+}
