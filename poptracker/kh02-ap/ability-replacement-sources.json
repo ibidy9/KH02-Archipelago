@@ -1,0 +1,96 @@
+{
+  "assets": [
+    {
+      "name": "Air Slide",
+      "path": "images/icons/recollection-air-slide.png",
+      "source_url": "https://raw.githubusercontent.com/Televo/kingdom-hearts-recollection/main/Minimal/Key%20Items/Growth/Air%20Slide.png",
+      "sha256": "946ae276b2ad949af865500c9807a408561af877c395a9d51d023f02a8223d51",
+      "credit": "Televo / Kingdom Hearts Re:Collection",
+      "modifications": "None. Original image copied unchanged; displayed at tracker size.",
+      "ownership": "Source credit does not transfer ownership or establish a separate license for underlying artwork."
+    },
+    {
+      "name": "Doubleflight",
+      "path": "images/icons/bbs-doubleflight.png",
+      "source_url": "https://raw.githubusercontent.com/SilentBrow/BBSPopTracker/main/images/items/Doubleflight.png",
+      "sha256": "20b1be859cdd4d6966e463e7760dfbbe8eac9e6d7be131a079d585b695ddc827",
+      "credit": "SilentBrow / BBSPopTracker",
+      "modifications": "None. Original image copied unchanged; displayed at tracker size.",
+      "ownership": "Source credit does not transfer ownership or establish a separate license for underlying artwork."
+    },
+    {
+      "name": "Spellweaver",
+      "path": "images/icons/spellweaver-02.png",
+      "source_url": "https://kh.wiki.gallery/images/0/08/Spellweaver_KH0.2.png",
+      "sha256": "63c0bf80cc8ae0a100b629c98ed7de9f29b191abfec5c1ac4d7c75f3ceb9d4ec",
+      "credit": "Kingdom Hearts 0.2 artwork via KHWiki",
+      "modifications": "None. Original image copied unchanged; displayed at tracker size.",
+      "ownership": "Source credit does not transfer ownership or establish a separate license for underlying artwork."
+    },
+    {
+      "name": "Cartwheel",
+      "path": "images/icons/ddd-movement.png",
+      "sha256": "1e081389b98213c40445057fd7ea93ad81204364e16938ea5b83f2dec3f4e955",
+      "source": "Installed Steam KH2.8 DDD menu/en/camp/icon/bin/icon.l2d/US_icon.dds",
+      "credit": "Kingdom Hearts game artwork, Disney / Square Enix; extracted with OpenKH",
+      "modifications": "DDS decoded to PNG; cropped without upscaling. Symbol repurposed for this tracker ability.",
+      "crop": [
+        400,
+        140,
+        504,
+        244
+      ]
+    },
+    {
+      "name": "Barrier",
+      "path": "images/icons/ddd-defense.png",
+      "sha256": "2d3ff684fcc98687fae6a3160e2f968595b66bbbd19e79e558a1a7d45e9652b5",
+      "source": "Installed Steam KH2.8 DDD menu/en/camp/icon/bin/icon.l2d/US_icon.dds",
+      "credit": "Kingdom Hearts game artwork, Disney / Square Enix; extracted with OpenKH",
+      "modifications": "DDS decoded to PNG; cropped without upscaling. Symbol repurposed for this tracker ability.",
+      "crop": [
+        528,
+        140,
+        632,
+        244
+      ]
+    },
+    {
+      "name": "Counter Blast",
+      "path": "images/icons/ddd-reprisal.png",
+      "sha256": "a549b245a2d6c7e1e8d8d822f75220423fbdd85a5f6138f1b23c57426b07bdb8",
+      "source": "Installed Steam KH2.8 DDD menu/en/camp/icon/bin/icon.l2d/US_icon.dds",
+      "credit": "Kingdom Hearts game artwork, Disney / Square Enix; extracted with OpenKH",
+      "modifications": "DDS decoded to PNG; cropped without upscaling. Symbol repurposed for this tracker ability.",
+      "crop": [
+        656,
+        140,
+        760,
+        244
+      ]
+    },
+    {
+      "name": "Aerial Recovery",
+      "path": "images/icons/ddd-flowmotion.png",
+      "sha256": "bdee3f98112677f42fbfb45fec9f3ab6e206188b47c6a70a842439e38e8fe2cc",
+      "source": "Installed Steam KH2.8 DDD menu/en/camp/icon/bin/icon.l2d/US_icon.dds",
+      "credit": "Kingdom Hearts game artwork, Disney / Square Enix; extracted with OpenKH",
+      "modifications": "DDS decoded to PNG; cropped without upscaling. Symbol repurposed for this tracker ability.",
+      "crop": [
+        780,
+        140,
+        892,
+        244
+      ]
+    },
+    {
+      "name": "Shotlock",
+      "path": "images/icons/bbs-target-reticle.png",
+      "sha256": "9d41e32e4e8d47230279b966ad964bcb4d0bfaddc520fabd80546c31afd72b02",
+      "source": "Installed Steam KH1.5+2.5 BBS arc_en/system/commonGame.arc/US_commonGame_arc0.dds",
+      "credit": "Kingdom Hearts game artwork, Disney / Square Enix; extracted with OpenKH",
+      "modifications": "DDS decoded to PNG; cropped without upscaling. Symbol repurposed for this tracker ability.",
+      "crop": null
+    }
+  ]
+}

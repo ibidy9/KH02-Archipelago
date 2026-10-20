@@ -1,70 +1,442 @@
 {
   "overview": {
-    "type": "itemgrid",
-    "item_width": 60,
-    "item_height": 60,
-    "item_margin": "4, 4",
-    "h_alignment": "center",
-    "v_alignment": "top",
-    "item_h_alignment": "center",
-    "item_v_alignment": "center",
-    "rows": [
-      [
-        "i131589",
-        "i131590",
-        "i131606",
-        "i131607",
-        "i131608",
-        "i131609"
-      ],
-      [
-        "i131613",
-        "i131614",
-        "i131615",
-        "i131588",
-        "i131591",
-        "i131592"
-      ],
-      [
-        "i131602",
-        "i131603",
-        "i131604",
-        "i131605",
-        "i131595",
-        "i131596"
-      ],
-      [
-        "i131631",
-        "i131632",
-        "i131633",
-        "i131634",
-        "",
-        ""
-      ],
-      [
-        "i131619",
-        "i131620",
-        "i131621",
-        "i131622",
-        "i131623",
-        "i131624"
-      ],
-      [
-        "i131625",
-        "i131626",
-        "i131627",
-        "i131628",
-        "i131629",
-        "i131630"
-      ],
-      [
-        "i131616",
-        "i131617",
-        "i131618",
-        "i131635",
-        "",
-        ""
-      ]
+    "type": "array",
+    "orientation": "horizontal",
+    "content": [
+      {
+        "type": "text",
+        "text": ""
+      },
+      {
+        "type": "canvas",
+        "width": 600,
+        "height": 640,
+        "margin": 0,
+        "content": [
+          {
+            "type": "item",
+            "item": "i131589",
+            "canvas_left": 27,
+            "canvas_top": 12,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131590",
+            "canvas_left": 121,
+            "canvas_top": 12,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131606",
+            "canvas_left": 215,
+            "canvas_top": 12,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131607",
+            "canvas_left": 309,
+            "canvas_top": 12,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131608",
+            "canvas_left": 403,
+            "canvas_top": 12,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131609",
+            "canvas_left": 497,
+            "canvas_top": 12,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131613",
+            "canvas_left": 27,
+            "canvas_top": 100,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131614",
+            "canvas_left": 121,
+            "canvas_top": 100,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131615",
+            "canvas_left": 215,
+            "canvas_top": 100,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131588",
+            "canvas_left": 309,
+            "canvas_top": 100,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131591",
+            "canvas_left": 403,
+            "canvas_top": 100,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131592",
+            "canvas_left": 497,
+            "canvas_top": 100,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131602",
+            "canvas_left": 27,
+            "canvas_top": 188,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131603",
+            "canvas_left": 121,
+            "canvas_top": 188,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131604",
+            "canvas_left": 215,
+            "canvas_top": 188,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131605",
+            "canvas_left": 309,
+            "canvas_top": 188,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131595",
+            "canvas_left": 403,
+            "canvas_top": 188,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131596",
+            "canvas_left": 497,
+            "canvas_top": 188,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131631",
+            "canvas_left": 27,
+            "canvas_top": 276,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131632",
+            "canvas_left": 121,
+            "canvas_top": 276,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131633",
+            "canvas_left": 215,
+            "canvas_top": 276,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131634",
+            "canvas_left": 309,
+            "canvas_top": 276,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131619",
+            "canvas_left": 27,
+            "canvas_top": 364,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131620",
+            "canvas_left": 121,
+            "canvas_top": 364,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131621",
+            "canvas_left": 215,
+            "canvas_top": 364,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131622",
+            "canvas_left": 309,
+            "canvas_top": 364,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131623",
+            "canvas_left": 403,
+            "canvas_top": 364,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131624",
+            "canvas_left": 497,
+            "canvas_top": 364,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131625",
+            "canvas_left": 27,
+            "canvas_top": 452,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131626",
+            "canvas_left": 121,
+            "canvas_top": 452,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131627",
+            "canvas_left": 215,
+            "canvas_top": 452,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131628",
+            "canvas_left": 309,
+            "canvas_top": 452,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131629",
+            "canvas_left": 403,
+            "canvas_top": 452,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131630",
+            "canvas_left": 497,
+            "canvas_top": 452,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131616",
+            "canvas_left": 27,
+            "canvas_top": 540,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131617",
+            "canvas_left": 121,
+            "canvas_top": 540,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131618",
+            "canvas_left": 215,
+            "canvas_top": 540,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          },
+          {
+            "type": "item",
+            "item": "i131635",
+            "canvas_left": 309,
+            "canvas_top": 540,
+            "width": 76,
+            "height": 76,
+            "margin": 0,
+            "item_h_alignment": "center",
+            "item_v_alignment": "center"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": ""
+      }
     ]
   }
 }

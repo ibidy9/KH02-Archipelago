@@ -1,0 +1,49 @@
+{
+  "collection": "Kingdom Hearts Re:Collection",
+  "credit": "Televo — asset collection; original Kingdom Hearts artwork belongs to its respective owners.",
+  "website": "https://televo.github.io/kingdom-hearts-recollection/",
+  "upstream_commit": "3a712e83ecbb95e871109a52396d3fda8e7cc67a",
+  "reuse_statement": "The collection README permits public use and welcomes credit. This does not transfer ownership of underlying game artwork.",
+  "assets": [
+    {
+      "name": "Fire",
+      "path": "images/icons/recollection-fire.png",
+      "source_path": "Detailed/Magic/Fire Magic.png",
+      "source_url": "https://github.com/Televo/kingdom-hearts-recollection/blob/3a712e83ecbb95e871109a52396d3fda8e7cc67a/Detailed/Magic/Fire%20Magic.png",
+      "sha256": "9558861c1a53ef9089d0a07377a8f02e1ad0b8972cebb7aa577979efc30b2e76",
+      "modifications": "None; original PNG copied unchanged."
+    },
+    {
+      "name": "Blizzard",
+      "path": "images/icons/recollection-blizzard.png",
+      "source_path": "Detailed/Magic/Blizzard Magic.png",
+      "source_url": "https://github.com/Televo/kingdom-hearts-recollection/blob/3a712e83ecbb95e871109a52396d3fda8e7cc67a/Detailed/Magic/Blizzard%20Magic.png",
+      "sha256": "a6d00a9c46586992f8b831894d71a11070a5f788727074a5489394561da7768e",
+      "modifications": "None; original PNG copied unchanged."
+    },
+    {
+      "name": "Thunder",
+      "path": "images/icons/recollection-thunder.png",
+      "source_path": "Detailed/Magic/Thunder Magic.png",
+      "source_url": "https://github.com/Televo/kingdom-hearts-recollection/blob/3a712e83ecbb95e871109a52396d3fda8e7cc67a/Detailed/Magic/Thunder%20Magic.png",
+      "sha256": "b27a50363f06df02520a6083f2abe10c10ad3072b48702f70a792cc84abb5e8e",
+      "modifications": "None; original PNG copied unchanged."
+    },
+    {
+      "name": "Cure",
+      "path": "images/icons/recollection-cure.png",
+      "source_path": "Detailed/Magic/Cure Magic.png",
+      "source_url": "https://github.com/Televo/kingdom-hearts-recollection/blob/3a712e83ecbb95e871109a52396d3fda8e7cc67a/Detailed/Magic/Cure%20Magic.png",
+      "sha256": "f537f92bb2b1277bd78c2a4aba116bfd00e5a35c75c3232d78526537ad4de273",
+      "modifications": "None; original PNG copied unchanged."
+    },
+    {
+      "name": "Map",
+      "path": "images/icons/recollection-map.png",
+      "source_path": "Minimal/Config/Map.png",
+      "source_url": "https://github.com/Televo/kingdom-hearts-recollection/blob/3a712e83ecbb95e871109a52396d3fda8e7cc67a/Minimal/Config/Map.png",
+      "sha256": "46cbf423f273b53ca75facb492d8dd45b7861f3662ede98720b827295b0c9d4e",
+      "modifications": "None; original PNG copied unchanged."
+    }
+  ]
+}

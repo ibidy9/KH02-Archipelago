@@ -3,58 +3,58 @@
     {
       "name": "Doubleflight",
       "item_id": 131589,
-      "path": "images/icons/aqua-doubleflight-v3.png",
-      "sha256": "b93fb722a168aac352b7e4b965bdc1b08360a5c78181cab53e2d20f7fab2097e",
-      "source": "New illustration generated with the built-in image tool; aqua-action-sources.json"
+      "path": "images/icons/bbs-doubleflight.png",
+      "sha256": "20b1be859cdd4d6966e463e7760dfbbe8eac9e6d7be131a079d585b695ddc827",
+      "source": "See ability-replacement-sources.json"
     },
     {
       "name": "Air Slide",
       "item_id": 131590,
-      "path": "images/icons/aqua-airslide-v3.png",
-      "sha256": "27a53241625743be3fdfcf762fe853924b09bf9c8dd96c28ea94c2dfbef7f409",
-      "source": "New illustration generated with the built-in image tool; aqua-action-sources.json"
+      "path": "images/icons/recollection-air-slide.png",
+      "sha256": "946ae276b2ad949af865500c9807a408561af877c395a9d51d023f02a8223d51",
+      "source": "See ability-replacement-sources.json"
     },
     {
       "name": "Cartwheel",
       "item_id": 131606,
-      "path": "images/icons/aqua-cartwheel-v3.png",
-      "sha256": "d6e23dd37d1972e5cff82570ab41732a091b506f638b0896501ab84fc599358b",
-      "source": "New illustration generated with the built-in image tool; aqua-action-sources.json"
+      "path": "images/icons/ddd-movement.png",
+      "sha256": "1e081389b98213c40445057fd7ea93ad81204364e16938ea5b83f2dec3f4e955",
+      "source": "See ability-replacement-sources.json"
     },
     {
       "name": "Barrier",
       "item_id": 131607,
-      "path": "images/icons/aqua-barrier-v3.png",
-      "sha256": "1ced251838e343fe1bc3dba668655c683948f9f95d76040bfcbb70dfffd9ff55",
-      "source": "New illustration generated with the built-in image tool; aqua-action-sources.json"
+      "path": "images/icons/ddd-defense.png",
+      "sha256": "2d3ff684fcc98687fae6a3160e2f968595b66bbbd19e79e558a1a7d45e9652b5",
+      "source": "See ability-replacement-sources.json"
     },
     {
       "name": "Counter Blast",
       "item_id": 131608,
-      "path": "images/icons/aqua-counterblast-v3.png",
-      "sha256": "8fe23ec2a567076252fa216ffb0716b97e54624f997b9c2cc46c01c4279df406",
-      "source": "New illustration generated with the built-in image tool; aqua-action-sources.json"
+      "path": "images/icons/ddd-reprisal.png",
+      "sha256": "a549b245a2d6c7e1e8d8d822f75220423fbdd85a5f6138f1b23c57426b07bdb8",
+      "source": "See ability-replacement-sources.json"
     },
     {
       "name": "Aerial Recovery",
       "item_id": 131609,
-      "path": "images/icons/aqua-aerialrecovery-v3.png",
-      "sha256": "b5cb29dac837229c83b8fd517d709eb2cc6005725876dc76d27b9b62cfbd0eca",
-      "source": "New illustration generated with the built-in image tool; aqua-action-sources.json"
+      "path": "images/icons/ddd-flowmotion.png",
+      "sha256": "bdee3f98112677f42fbfb45fec9f3ab6e206188b47c6a70a842439e38e8fe2cc",
+      "source": "See ability-replacement-sources.json"
     },
     {
       "name": "Spellweaver",
       "item_id": 131592,
-      "path": "images/icons/aqua-spellweaver-v3.png",
-      "sha256": "433e887a750b1e5fab5eebc6d9a0aa866453554e1d7398df4656084ef9769c20",
-      "source": "New illustration generated with the built-in image tool; aqua-action-sources.json"
+      "path": "images/icons/spellweaver-02.png",
+      "sha256": "63c0bf80cc8ae0a100b629c98ed7de9f29b191abfec5c1ac4d7c75f3ceb9d4ec",
+      "source": "See ability-replacement-sources.json"
     },
     {
       "name": "Shotlock",
       "item_id": 131591,
-      "path": "images/icons/aqua-shotlock-v3.png",
-      "sha256": "20c0111c9dd4f6660481a9a4287d2af69e40232fbccd6510f41320767d3b9d85",
-      "source": "New illustration generated with the built-in image tool; aqua-action-sources.json"
+      "path": "images/icons/bbs-target-reticle.png",
+      "sha256": "9d41e32e4e8d47230279b966ad964bcb4d0bfaddc520fabd80546c31afd72b02",
+      "source": "See ability-replacement-sources.json"
     },
     {
       "name": "Mickey",
@@ -79,51 +79,51 @@
     {
       "name": "Progressive Fire",
       "item_id": 131613,
-      "path": "images/icons/fire-v4.png",
-      "sha256": "6fa90061b52594fdf1ccaafff0d242f2449740ac4cd957ab39b786accfbd8d29",
-      "source": "Built-in image-generation tool; v04-icon-sources.json"
+      "path": "images/icons/recollection-fire.png",
+      "sha256": "9558861c1a53ef9089d0a07377a8f02e1ad0b8972cebb7aa577979efc30b2e76",
+      "source": "Kingdom Hearts Re:Collection (Televo); see recollection-sources.json"
     },
     {
       "name": "Fire Magic",
       "item_id": 131585,
-      "path": "images/icons/fire-v4.png",
-      "sha256": "6fa90061b52594fdf1ccaafff0d242f2449740ac4cd957ab39b786accfbd8d29",
-      "source": "Built-in image-generation tool; v04-icon-sources.json"
+      "path": "images/icons/recollection-fire.png",
+      "sha256": "9558861c1a53ef9089d0a07377a8f02e1ad0b8972cebb7aa577979efc30b2e76",
+      "source": "Kingdom Hearts Re:Collection (Televo); see recollection-sources.json"
     },
     {
       "name": "Progressive Blizzard",
       "item_id": 131614,
-      "path": "images/icons/blizzard-v4.png",
-      "sha256": "0d4ae6588ccc203fe9ec3fb46dd9d6c5e3382928e93b614cb19413e5b7295368",
-      "source": "Built-in image-generation tool; v04-icon-sources.json"
+      "path": "images/icons/recollection-blizzard.png",
+      "sha256": "a6d00a9c46586992f8b831894d71a11070a5f788727074a5489394561da7768e",
+      "source": "Kingdom Hearts Re:Collection (Televo); see recollection-sources.json"
     },
     {
       "name": "Blizzard Magic",
       "item_id": 131586,
-      "path": "images/icons/blizzard-v4.png",
-      "sha256": "0d4ae6588ccc203fe9ec3fb46dd9d6c5e3382928e93b614cb19413e5b7295368",
-      "source": "Built-in image-generation tool; v04-icon-sources.json"
+      "path": "images/icons/recollection-blizzard.png",
+      "sha256": "a6d00a9c46586992f8b831894d71a11070a5f788727074a5489394561da7768e",
+      "source": "Kingdom Hearts Re:Collection (Televo); see recollection-sources.json"
     },
     {
       "name": "Progressive Thunder",
       "item_id": 131615,
-      "path": "images/icons/thunder-v4.png",
-      "sha256": "4f7ac2a5c12a80b5219db8cd470e3aa21dbd08e0f1d1534d786ca8a71b7af664",
-      "source": "Built-in image-generation tool; v04-icon-sources.json"
+      "path": "images/icons/recollection-thunder.png",
+      "sha256": "b27a50363f06df02520a6083f2abe10c10ad3072b48702f70a792cc84abb5e8e",
+      "source": "Kingdom Hearts Re:Collection (Televo); see recollection-sources.json"
     },
     {
       "name": "Thunder Magic",
       "item_id": 131587,
-      "path": "images/icons/thunder-v4.png",
-      "sha256": "4f7ac2a5c12a80b5219db8cd470e3aa21dbd08e0f1d1534d786ca8a71b7af664",
-      "source": "Built-in image-generation tool; v04-icon-sources.json"
+      "path": "images/icons/recollection-thunder.png",
+      "sha256": "b27a50363f06df02520a6083f2abe10c10ad3072b48702f70a792cc84abb5e8e",
+      "source": "Kingdom Hearts Re:Collection (Televo); see recollection-sources.json"
     },
     {
       "name": "Cure Magic",
       "item_id": 131588,
-      "path": "images/icons/cure-v4.png",
-      "sha256": "0415d6c410343e86712cb84701a9b64808765c832dce781b75a37c4d45c5a337",
-      "source": "Built-in image-generation tool; v04-icon-sources.json"
+      "path": "images/icons/recollection-cure.png",
+      "sha256": "f537f92bb2b1277bd78c2a4aba116bfd00e5a35c75c3232d78526537ad4de273",
+      "source": "Kingdom Hearts Re:Collection (Televo); see recollection-sources.json"
     },
     {
       "name": "Castle Town Access",
@@ -135,9 +135,9 @@
     {
       "name": "Castle Town Area Map",
       "item_id": 131631,
-      "path": "images/icons/map-v4.png",
-      "sha256": "901835ac3699131be03ef3922ac64044f50848d4813db45592340a144e15f85e",
-      "source": "Built-in image-generation tool; v04-icon-sources.json"
+      "path": "images/icons/recollection-map.png",
+      "sha256": "46cbf423f273b53ca75facb492d8dd45b7861f3662ede98720b827295b0c9d4e",
+      "source": "Kingdom Hearts Re:Collection (Televo); see recollection-sources.json"
     },
     {
       "name": "The World Within Access",
@@ -149,9 +149,9 @@
     {
       "name": "The World Within Area Map",
       "item_id": 131632,
-      "path": "images/icons/map-v4.png",
-      "sha256": "901835ac3699131be03ef3922ac64044f50848d4813db45592340a144e15f85e",
-      "source": "Built-in image-generation tool; v04-icon-sources.json"
+      "path": "images/icons/recollection-map.png",
+      "sha256": "46cbf423f273b53ca75facb492d8dd45b7861f3662ede98720b827295b0c9d4e",
+      "source": "Kingdom Hearts Re:Collection (Televo); see recollection-sources.json"
     },
     {
       "name": "Forest of Thorns Access",
@@ -163,9 +163,9 @@
     {
       "name": "Forest of Thorns Area Map",
       "item_id": 131633,
-      "path": "images/icons/map-v4.png",
-      "sha256": "901835ac3699131be03ef3922ac64044f50848d4813db45592340a144e15f85e",
-      "source": "Built-in image-generation tool; v04-icon-sources.json"
+      "path": "images/icons/recollection-map.png",
+      "sha256": "46cbf423f273b53ca75facb492d8dd45b7861f3662ede98720b827295b0c9d4e",
+      "source": "Kingdom Hearts Re:Collection (Televo); see recollection-sources.json"
     },
     {
       "name": "Depths of Darkness Access",
@@ -177,9 +177,9 @@
     {
       "name": "Depths of Darkness Area Map",
       "item_id": 131634,
-      "path": "images/icons/map-v4.png",
-      "sha256": "901835ac3699131be03ef3922ac64044f50848d4813db45592340a144e15f85e",
-      "source": "Built-in image-generation tool; v04-icon-sources.json"
+      "path": "images/icons/recollection-map.png",
+      "sha256": "46cbf423f273b53ca75facb492d8dd45b7861f3662ede98720b827295b0c9d4e",
+      "source": "Kingdom Hearts Re:Collection (Televo); see recollection-sources.json"
     }
   ],
   "credits": {

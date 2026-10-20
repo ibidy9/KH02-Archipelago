@@ -3,49 +3,49 @@
     "name": "Fire Magic",
     "type": "toggle",
     "codes": "i131585",
-    "img": "images/icons/fire-v4.png"
+    "img": "images/icons/recollection-fire.png"
   },
   {
     "name": "Blizzard Magic",
     "type": "toggle",
     "codes": "i131586",
-    "img": "images/icons/blizzard-v4.png"
+    "img": "images/icons/recollection-blizzard.png"
   },
   {
     "name": "Thunder Magic",
     "type": "toggle",
     "codes": "i131587",
-    "img": "images/icons/thunder-v4.png"
+    "img": "images/icons/recollection-thunder.png"
   },
   {
     "name": "Cure Magic",
     "type": "toggle",
     "codes": "i131588",
-    "img": "images/icons/cure-v4.png"
+    "img": "images/icons/recollection-cure.png"
   },
   {
     "name": "Doubleflight",
     "type": "toggle",
     "codes": "i131589",
-    "img": "images/icons/aqua-doubleflight-v3.png"
+    "img": "images/icons/bbs-doubleflight.png"
   },
   {
     "name": "Air Slide",
     "type": "toggle",
     "codes": "i131590",
-    "img": "images/icons/aqua-airslide-v3.png"
+    "img": "images/icons/recollection-air-slide.png"
   },
   {
     "name": "Shotlock",
     "type": "toggle",
     "codes": "i131591",
-    "img": "images/icons/aqua-shotlock-v3.png"
+    "img": "images/icons/bbs-target-reticle.png"
   },
   {
     "name": "Spellweaver",
     "type": "toggle",
     "codes": "i131592",
-    "img": "images/icons/aqua-spellweaver-v3.png"
+    "img": "images/icons/spellweaver-02.png"
   },
   {
     "name": "Potion",
@@ -151,31 +151,31 @@
     "name": "Cartwheel",
     "type": "toggle",
     "codes": "i131606",
-    "img": "images/icons/aqua-cartwheel-v3.png"
+    "img": "images/icons/ddd-movement.png"
   },
   {
     "name": "Barrier",
     "type": "toggle",
     "codes": "i131607",
-    "img": "images/icons/aqua-barrier-v3.png"
+    "img": "images/icons/ddd-defense.png"
   },
   {
     "name": "Counter Blast",
     "type": "toggle",
     "codes": "i131608",
-    "img": "images/icons/aqua-counterblast-v3.png"
+    "img": "images/icons/ddd-reprisal.png"
   },
   {
     "name": "Aerial Recovery",
     "type": "toggle",
     "codes": "i131609",
-    "img": "images/icons/aqua-aerialrecovery-v3.png"
+    "img": "images/icons/ddd-flowmotion.png"
   },
   {
     "name": "Progressive Fire",
     "type": "consumable",
     "codes": "i131613",
-    "img": "images/icons/fire-v4.png",
+    "img": "images/icons/recollection-fire.png",
     "min_quantity": 0,
     "max_quantity": 2
   },
@@ -183,7 +183,7 @@
     "name": "Progressive Blizzard",
     "type": "consumable",
     "codes": "i131614",
-    "img": "images/icons/blizzard-v4.png",
+    "img": "images/icons/recollection-blizzard.png",
     "min_quantity": 0,
     "max_quantity": 2
   },
@@ -191,7 +191,7 @@
     "name": "Progressive Thunder",
     "type": "consumable",
     "codes": "i131615",
-    "img": "images/icons/thunder-v4.png",
+    "img": "images/icons/recollection-thunder.png",
     "min_quantity": 0,
     "max_quantity": 2
   },
@@ -289,25 +289,25 @@
     "name": "Castle Town Area Map",
     "type": "toggle",
     "codes": "i131631",
-    "img": "images/icons/map-v4.png"
+    "img": "images/icons/recollection-map.png"
   },
   {
     "name": "The World Within Area Map",
     "type": "toggle",
     "codes": "i131632",
-    "img": "images/icons/map-v4.png"
+    "img": "images/icons/recollection-map.png"
   },
   {
     "name": "Forest of Thorns Area Map",
     "type": "toggle",
     "codes": "i131633",
-    "img": "images/icons/map-v4.png"
+    "img": "images/icons/recollection-map.png"
   },
   {
     "name": "Depths of Darkness Area Map",
     "type": "toggle",
     "codes": "i131634",
-    "img": "images/icons/map-v4.png"
+    "img": "images/icons/recollection-map.png"
   },
   {
     "name": "Tiara",

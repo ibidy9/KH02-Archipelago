@@ -103,6 +103,8 @@ Developed with assistance from OpenAI Codex, with extensive manual in-game testi
 
 Built for [Archipelago](https://archipelago.gg/) and [PopTracker](https://github.com/black-sliver/PopTracker). Wardrobe and Wayfinder reference artwork was sourced from [KHWiki](https://www.khwiki.com/). Kingdom Hearts and its game assets belong to their respective owners. This is an unofficial fan project.
 
+Magic and map icons in PopTracker 0.4.12 are sourced from [Kingdom Hearts Re:Collection](https://televo.github.io/kingdom-hearts-recollection/), maintained by Televo. Individual asset sources are recorded in the pack; underlying game artwork remains the property of its respective owners.
+
 ## License
 
 Original project code is available under the [MIT License](LICENSE). Third-party code retains its own license. Kingdom Hearts artwork, names, and other game assets are not covered by this project's MIT license and remain the property of their respective owners.

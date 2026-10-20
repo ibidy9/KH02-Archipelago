@@ -82,8 +82,11 @@ def build(runtime_dir=None):
     output = ROOT/'dist'
     output.mkdir(exist_ok=True)
     (output/'kh02.apworld').write_bytes(archive({'kh02/'+n:b for n,b in world.items()}))
-    (output/'kh02-poptracker-0.4.11.zip').write_bytes(archive(tree(ROOT/'poptracker/kh02-ap')))
-    print('Built dist/kh02.apworld and dist/kh02-poptracker-0.4.11.zip')
+    tracker = tree(ROOT/'poptracker/kh02-ap')
+    tracker_version = json.loads(tracker['manifest.json'])['package_version']
+    tracker_name = f'kh02-poptracker-{tracker_version}.zip'
+    (output/tracker_name).write_bytes(archive(tracker))
+    print('Built dist/kh02.apworld and dist/'+tracker_name)
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
