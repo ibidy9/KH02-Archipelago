@@ -1,4 +1,4 @@
-# Kingdom Hearts 0.2 Archipelago
+# Kingdom Hearts 0.2 Archipelago Randomizer
 
 An Archipelago multiworld randomizer for **Kingdom Hearts 0.2 Birth by Sleep – A Fragmentary Passage**, included in the Steam version of Kingdom Hearts HD 2.8 Final Chapter Prologue.
 
