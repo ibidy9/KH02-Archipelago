@@ -1,0 +1,137 @@
+{
+  "native/approved_core_hashes.hpp": {
+    "source": "experiments/ue4ss-registration/native/approved_core_hashes.hpp",
+    "sha256": "c8f59ded7e645ea657e02648b154c38303b4c2a8d926fd7184e8407dae128811",
+    "include_paths_only": false
+  },
+  "native/bridge_api.h": {
+    "source": "experiments/ue4ss-registration/native/bridge_api.h",
+    "sha256": "94af837c514d53d8ae379e8ca7bf0c7d4b0388a8db89c9cca3a7a82ec588fe40",
+    "include_paths_only": false
+  },
+  "native/bridge_dispatch.hpp": {
+    "source": "experiments/ue4ss-registration/native/bridge_dispatch.hpp",
+    "sha256": "0f6890367a4b80a1135d0195aeb03f9dcfb31393fe7fcbf4a928de394728b49b",
+    "include_paths_only": false
+  },
+  "native/context_lifetime.hpp": {
+    "source": "experiments/ue4ss-registration/native/context_lifetime.hpp",
+    "sha256": "b152c4834f3faf694d27bb29263dff399ec49c48aa8954b0b9b8914b461709ad",
+    "include_paths_only": false
+  },
+  "native/dispatch_log.hpp": {
+    "source": "experiments/ue4ss-registration/native/dispatch_log.hpp",
+    "sha256": "ec2d5da48cd020848dce96d7f500c28bc25d17443ad22fb0989b70720182d0cd",
+    "include_paths_only": false
+  },
+  "native/host.cpp": {
+    "source": "experiments/ue4ss-registration/native/host.cpp",
+    "sha256": "d87a0e3fa6740a7105d50875133e41fd087229b8dcc793654afc55468f63678d",
+    "include_paths_only": true
+  },
+  "native/registration_api.h": {
+    "source": "experiments/ue4ss-registration/native/registration_api.h",
+    "sha256": "9f50fa3f51916f0ab490ddd57ef0c7b39ba59069f568625aa536e2bf6981dded",
+    "include_paths_only": false
+  },
+  "native/registration_award.inc": {
+    "source": "experiments/ue4ss-registration/native/registration_award.inc",
+    "sha256": "445793a55c2a05baf299e8396c3841681ea38f3648916e558ee477e9a3bf2eea",
+    "include_paths_only": false
+  },
+  "native/registration_catalog.hpp": {
+    "source": "experiments/ue4ss-registration/native/registration_catalog.hpp",
+    "sha256": "875d6673810281860e2cbb02c0058996374be84ca2d156cde0af0affcc483bfd",
+    "include_paths_only": false
+  },
+  "native/registration_host.inc": {
+    "source": "experiments/ue4ss-registration/native/registration_host.inc",
+    "sha256": "f6846e29add2fe9820245e862e1ee9e53de44c644de6b690f5aa97bcc0c3b856",
+    "include_paths_only": false
+  },
+  "native/registration_policy.hpp": {
+    "source": "experiments/ue4ss-registration/native/registration_policy.hpp",
+    "sha256": "5563a14cc734c96758d6fec50c51e124a0965c901bbe9a588692c267814ef833",
+    "include_paths_only": false
+  },
+  "native/registration_transport.c": {
+    "source": "experiments/ue4ss-registration/native/registration_transport.c",
+    "sha256": "5053e68711787afd91ce4e8142c2f1dc666a407d5f8b30f96392e3796505e2fc",
+    "include_paths_only": false
+  },
+  "native/sdk_core_loader.hpp": {
+    "source": "experiments/ue4ss-registration/native/sdk_core_loader.hpp",
+    "sha256": "c20653cb1e04f17b41ff94cd631fa703386cf42ee12082b2c6c8aa894b0c48c1",
+    "include_paths_only": false
+  },
+  "native/sdk_core_pump.inc": {
+    "source": "experiments/ue4ss-registration/native/sdk_core_pump.inc",
+    "sha256": "1c26a497dce91c55365e71d5bdd26cf75db1eb497057e2153739cf88f64579bc",
+    "include_paths_only": false
+  },
+  "native/sdk_owner_pump.hpp": {
+    "source": "experiments/ue4ss-registration/native/sdk_owner_pump.hpp",
+    "sha256": "34f04ed66af65b703e397cd4a9ae0f8e19de27bdcab489ee375f6cc3911318c1",
+    "include_paths_only": false
+  },
+  "native/sdk_pump_api.h": {
+    "source": "experiments/ue4ss-registration/native/sdk_pump_api.h",
+    "sha256": "8bb4ae663ec1ab007e020b32886c3f71061ce4cddd18e643fd6f4943de97477b",
+    "include_paths_only": false
+  },
+  "native/sdk_pump_policy.h": {
+    "source": "experiments/ue4ss-registration/native/sdk_pump_policy.h",
+    "sha256": "929027a2b65c3def8f91dad800effe50836ebc531be2411caa7e4550ee2c567e",
+    "include_paths_only": false
+  },
+  "native/transport_bridge.c": {
+    "source": "experiments/ue4ss-registration/native/transport_bridge.c",
+    "sha256": "50b3c330730e81f33249435a7f3a093fea0ad842ff1e6491d9353d9d880e3084",
+    "include_paths_only": false
+  },
+  "native/transport_bridge.h": {
+    "source": "experiments/ue4ss-registration/native/transport_bridge.h",
+    "sha256": "1848d44a810d24c07f423b5056f58bbdca91f29d2d9c9a9fb60dae04b6c18982",
+    "include_paths_only": false
+  },
+  "native/weak_identity.hpp": {
+    "source": "experiments/ue4ss-registration/native/weak_identity.hpp",
+    "sha256": "61a119abc796299e44fa6bd76623b241c65b2e5bff998d9560153ea86abf3979",
+    "include_paths_only": true
+  },
+  "native/thread_policy.hpp": {
+    "source": "experiments/ue4ss-native-host/native/thread_policy.hpp",
+    "sha256": "ebfb1c07f219b5206c342af735878e391ad652405f9518cfbe244e5590f874c8",
+    "include_paths_only": false
+  },
+  "native/object_path.hpp": {
+    "source": "experiments/ue4ss-native-host/native/object_path.hpp",
+    "sha256": "291571d461d839015a064455227ccfd4c56047f828d6c70f0f3737ae96253d5b",
+    "include_paths_only": false
+  },
+  "native/object_identity.hpp": {
+    "source": "experiments/ue4ss-native-host/native/object_identity.hpp",
+    "sha256": "d61fe87cbe5e9b187c46fe5a445e3a654d74efa8817736d91b32c272f029ec00",
+    "include_paths_only": false
+  },
+  "Scripts/main.lua": {
+    "source": "experiments/ue4ss-registration/Scripts/main.lua",
+    "sha256": "8c0477c3eb783b53a3e7600317846f8491da5b89ae2d80de342e785ba25a421a",
+    "include_paths_only": false
+  },
+  "Scripts/context_reader.lua": {
+    "source": "experiments/ue4ss-adapter/Scripts/context_reader.lua",
+    "sha256": "8f239ceeaba7378dbb69599a5c96ce035251f856ebf56d6ba8057fbe03160bc3",
+    "include_paths_only": false
+  },
+  "Scripts/reflected_reads.lua": {
+    "source": "experiments/ue4ss-adapter/Scripts/reflected_reads.lua",
+    "sha256": "f869d36ac543a3ed46e5ad0b701ef6a94b2bf10e9e4650f2885dc67016f2d119",
+    "include_paths_only": false
+  },
+  "Scripts/map_identity.lua": {
+    "source": "experiments/ue4ss-adapter/Scripts/map_identity.lua",
+    "sha256": "27caa3d7233660f9eb3b67683660d6440955432ff275c1644145c7c7640127de",
+    "include_paths_only": false
+  }
+}

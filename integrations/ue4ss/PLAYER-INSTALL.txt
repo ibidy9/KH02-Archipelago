@@ -1,0 +1,85 @@
+KH 0.2 Archipelago | Steam | Public beta
+
+Install kh02.apworld from Archipelago Launcher and restart the launcher.
+If you already have a KH 0.2 APWorld, keep a copy of your old download.
+
+In Steam, browse the local files for Kingdom Hearts HD 2.8 Final Chapter
+Prologue. Open the KINGDOM HEARTS 0.2 Birth by Sleep folder. You should see
+Binaries and Content inside. With the game closed, extract kh02-steam-mod.zip
+here so those two folders merge with the existing folders. If Windows asks
+to replace an existing file, cancel and check which mod owns that file.
+Keep this zip as your list of AP files.
+
+Generate a player YAML in Archipelago's Options Creator and include it when
+generating your seed, or use the room your host provides. For tracking, put
+kh02-poptracker-0.4.13.zip in PopTracker's packs folder and connect it to
+the same room and slot.
+
+Sign in to Steam. Open KH 0.2 Client from Archipelago Launcher and connect
+with your server address and player name. Wait for "AP is prepared" before
+launching the collection. Select 0.2 and wait at title for "AP is attached".
+For a new seed, choose New Game. On later visits, reopen the KH client,
+connect to the same room and player slot, wait for attachment, then load
+your AP save. If your vanilla saves appear, close the game before playing.
+
+Close the game before closing the client. The mod stays installed between AP
+sessions. Closing the client alone does NOT disable the mod.
+
+SWITCHING TO VANILLA
+
+1. Close KH 0.2 normally, let the client finish cleanup, then close the client.
+2. Open the KINGDOM HEARTS 0.2 Birth by Sleep folder inside the Steam install.
+3. Make a backup folder OUTSIDE the game folder, such as "KH02 AP disabled"
+   on your Desktop. Inside it, make two folders: "paks" and "loaders".
+4. Move these two files from Content\Paks\~mods into your backup's paks folder:
+   - KH02_AP_RestartPrototype_P.pak
+   - TresGame-WindowsNoEditor_99_P.pak
+5. Move these two files from Binaries\Win64 into your backup's loaders folder:
+   - dinput8.dll
+   - dwmapi.dll
+6. Launch the game normally, without opening the KH client. Your vanilla
+   saves should appear.
+
+Move the files; don't delete them. Leave all saves, AP profiles, and other
+files alone. Moving only the paks does not disable the native AP loaders.
+These instructions assume the loaders came from this AP mod; if another mod
+shares them, disabling them may disable that mod too.
+
+TO PLAY AP AGAIN
+
+With the game closed, move the two paks back into Content\Paks\~mods and the
+two loaders back into Binaries\Win64. If a file already exists there, don't
+overwrite it blindly. Then open a fresh KH client, connect to your seed, and
+wait for "AP is prepared" before launching. Your seed's AP saves are retained.
+
+The client keeps AP saves and receipt history in the seed's profile under
+%LOCALAPPDATA%/KH02AP. It creates temporary session files beside the game
+and stages its native transport under %LOCALAPPDATA%/KH02AP/runtime.
+
+REMOVING OLD SEED SAVES
+
+New seeds add profile folders; reconnecting to the same seed reuses its
+folder. The client never deletes old profiles automatically.
+
+1. Close the game normally, wait for cleanup, then close the KH client.
+2. Paste %LOCALAPPDATA%\KH02AP\profiles into File Explorer's address bar.
+3. Folder names start with the seed name, then the player slot (such as P1)
+   and an identifier. Open profile.json in Notepad and check its label for
+   the seed and player name. Don't edit it.
+4. Move the ENTIRE old seed folder elsewhere to keep a backup, or delete
+   that folder if you no longer want its local progress.
+
+Keep saves and receipt history together. Don't delete individual files
+inside a profile to troubleshoot a run you want to keep. This does not
+remove server-side checks, vanilla saves, or other seed profiles.
+To resume a backup, restore the whole folder to its original location with
+the game and client closed. Don't merge it with a newly created profile.
+
+In-game difficulty changes: enter /difficulty beginner, standard, proud or
+critical in the KH client (for example, /difficulty proud), then reload your
+AP save. Use /difficulty status to see the selected setting.
+
+Framework credits: RE-UE4SS and contributors, and ashandarei's KH-compatible
+GoA fork. See KH02-AP-UE4SS-LICENSE.txt.
+https://github.com/UE4SS-RE/RE-UE4SS
+https://github.com/ashandarei/ue4ss-goa

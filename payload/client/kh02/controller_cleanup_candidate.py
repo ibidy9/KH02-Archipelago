@@ -1,9 +1,9 @@
 """Explicit cleanup contract for candidate controllers; legacy wrappers unchanged."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass
 from typing import Protocol
-
 
 MAGIC = 0x4B435254
 VERSION = 1
@@ -24,11 +24,21 @@ class CleanupReceipt:
     in_flight: int
 
     def verified(self, *, cookie: int, generation: int, sequence: int) -> bool:
-        return (0 < cookie < 2**64 and 0 < generation < 2**64 and 0 < sequence < 2**32
-                and self.magic == MAGIC and self.version == VERSION and self.size == RECEIPT_SIZE
-                and self.owner_cookie == cookie and self.generation == generation
-                and self.sequence == sequence and self.status == 1
-                and self.active == 0 and self.entry_restored == 1 and self.in_flight == 0)
+        return (
+            0 < cookie < 2**64
+            and 0 < generation < 2**64
+            and 0 < sequence < 2**32
+            and self.magic == MAGIC
+            and self.version == VERSION
+            and self.size == RECEIPT_SIZE
+            and self.owner_cookie == cookie
+            and self.generation == generation
+            and self.sequence == sequence
+            and self.status == 1
+            and self.active == 0
+            and self.entry_restored == 1
+            and self.in_flight == 0
+        )
 
 
 class CleanupTransport(Protocol):
@@ -56,8 +66,9 @@ class VerifiedControllerCleanup:
     The caller passes the last sequence actually sent, including failed requests.
     """
 
-    def __init__(self, transport: CleanupTransport, *, cookie: int, generation: int,
-                 last_sequence: int):
+    def __init__(
+        self, transport: CleanupTransport, *, cookie: int, generation: int, last_sequence: int
+    ):
         if not 0 < cookie < 2**64 or not 0 < generation < 2**64 or not 0 <= last_sequence < 2**32:
             raise ValueError("Invalid controller cleanup identity")
         self.transport = transport
@@ -75,16 +86,21 @@ class VerifiedControllerCleanup:
             return
         if not self.native_verified:
             if self.sequence == 2**32 - 1:
-                raise CleanupUncertain("Sequence exhausted; retain controller until verified game exit")
+                raise CleanupUncertain(
+                    "Sequence exhausted; retain controller until verified game exit"
+                )
             self.sequence += 1
             receipt = self.transport.disarm(self.sequence)
-            if receipt is None or not receipt.verified(cookie=self.cookie, generation=self.generation,
-                                                       sequence=self.sequence):
+            if receipt is None or not receipt.verified(
+                cookie=self.cookie, generation=self.generation, sequence=self.sequence
+            ):
                 raise CleanupUncertain("Native cleanup unconfirmed; controller resources retained")
             self.native_verified = True
         if not self.transport_removed:
             if not self.transport.remove_message_hook():
-                raise CleanupUncertain("Message-hook removal unconfirmed; controller resources retained")
+                raise CleanupUncertain(
+                    "Message-hook removal unconfirmed; controller resources retained"
+                )
             self.transport_removed = True
         self.transport.release()
         self.closed, self.outcome = True, "verified-native-cleanup"

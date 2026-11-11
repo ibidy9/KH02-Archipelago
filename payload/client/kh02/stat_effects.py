@@ -6,7 +6,6 @@ import json
 import os
 from pathlib import Path
 
-
 HP_PER_ITEM = 5
 MP_PER_ITEM = 10
 STATE_VERSION = 1
@@ -68,7 +67,9 @@ def plan_stat_sync(
     if confirmed_hp_items > received_hp_items or confirmed_mp_items > received_mp_items:
         return StatSyncPlan(SyncAction.REFUSE, previous, "Ledger exceeds received items")
 
-    same_process = previous is not None and previous.identity.process_token == identity.process_token
+    same_process = (
+        previous is not None and previous.identity.process_token == identity.process_token
+    )
     same_object = (
         same_process
         and previous is not None
@@ -127,7 +128,11 @@ def plan_stat_sync(
     target = (state.target_max_hp, state.target_max_mp)
     observed = (observed_max_hp, observed_max_mp)
     action = SyncAction.NO_CHANGE if observed == target else SyncAction.APPLY
-    return StatSyncPlan(action, state, "Stats already match" if action is SyncAction.NO_CHANGE else "Apply absolute targets")
+    return StatSyncPlan(
+        action,
+        state,
+        "Stats already match" if action is SyncAction.NO_CHANGE else "Apply absolute targets",
+    )
 
 
 def load_stat_state(path: Path) -> StatApplicationState | None:

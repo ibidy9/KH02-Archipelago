@@ -5,5 +5,5 @@
 /* Exact structured-state fields only. No process search and no game writes.
    Result: summary[0..2], nonzero collectible-byte count, setting low31 bits,
    success bit63. Caller authenticates the fresh-copy state pointers. */
-KH02_RECEIPT_API uint64_t Kh02ClearLayoutObserve(Kh02BoundedRead,void*,uintptr_t);
+KH02_RECEIPT_API uint64_t Kh02ClearLayoutObserve(Kh02BoundedRead, void *, uintptr_t);
 #endif

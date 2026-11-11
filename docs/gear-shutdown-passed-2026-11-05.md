@@ -1,0 +1,7 @@
+# Automatic gear and shutdown passed
+
+PASS: User started new Castle seed, Main Road active with no premature Gear1 check. Automatic gear1 checked exactly once at18:23:56 LA and Hi-Potion delivered; user saw popup with control before approaching save point. Level51 independently awarded Ether. User saved isolated slot1 and closed game while client stayed open. At18:25:05 client recognized connection end, at18:25:06 normal cleanup completed and Session finished; no attachment/service failure or traceback in successful client log. Shutdown query action not separately recorded; do not claim a particular action was exercised. User playthrough untouched. Installed RC1 restored/hash verified. Helper stop requested. This saved test now has eight receipts; never reuse original empty-history room without reconstruction.
+
+Capture: C:\Users\wease\Documents\ChatGPT\KH 0.2 AP\research\gear-shutdown-live-20261106T022556Z
+
+Accepted package: build/gear-shutdown-20261105/package-encoding-fixed. Do not use package-final: its UE4SS coordinator had a cp1252 source-encoding error detected before game startup; corrected to UTF-8 and all143 packaged Python files compiled before the successful launch. Native binaries and mod unchanged from prior Phantom/Mines passed package. Full test is now complete; no additional live test armed. Next: consolidate accepted candidate and code walkthrough preparation.

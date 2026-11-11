@@ -1,62 +1,85 @@
-Kingdom Hearts 0.2 — Archipelago Steam public beta
+KH 0.2 Archipelago | Steam | Public beta
 
-For the Windows Steam version of Kingdom Hearts HD 2.8 Final Chapter Prologue.
-Epic Games Store support is planned separately.
+Install kh02.apworld from Archipelago Launcher and restart the launcher.
+If you already have a KH 0.2 APWorld, keep a copy of your old download.
 
-SETUP
+In Steam, browse the local files for Kingdom Hearts HD 2.8 Final Chapter
+Prologue. Open the KINGDOM HEARTS 0.2 Birth by Sleep folder. You should see
+Binaries and Content inside. With the game closed, extract kh02-steam-mod.zip
+here so those two folders merge with the existing folders. If Windows asks
+to replace an existing file, cancel and check which mod owns that file.
+Keep this zip as your list of AP files.
 
-1. Install kh02.apworld through Archipelago, then restart the Archipelago Launcher.
-2. Generate a Kingdom Hearts 0.2 YAML with Archipelago's Options Creator. Choose
-   your settings and include it when generating your multiworld. Existing seeds
-   retain their original item placements and generation rules.
-3. Put kh02-poptracker-0.4.11.zip in PopTracker's packs folder and select it.
-   Connect PopTracker to your AP room when you want automatic tracking.
+Generate a player YAML in Archipelago's Options Creator and include it when
+generating your seed, or use the room your host provides. For tracking, put
+kh02-poptracker-0.4.13.zip in PopTracker's packs folder and connect it to
+the same room and slot.
 
-PLAY
+Sign in to Steam. Open KH 0.2 Client from Archipelago Launcher and connect
+with your server address and player name. Wait for "AP is prepared" before
+launching the collection. Select 0.2 and wait at title for "AP is attached".
+For a new seed, choose New Game. On later visits, reopen the KH client,
+connect to the same room and player slot, wait for attachment, then load
+your AP save. If your vanilla saves appear, close the game before playing.
 
-1. Open Steam and sign into the account you use for the game. Keep 0.2 closed.
-2. Open "KH 0.2 Client" from the Archipelago Launcher.
-3. Connect using your AP server address and player name.
-4. Wait for "AP is prepared" before launching 2.8 and selecting 0.2.
-5. Wait for the client to attach, then start a new game or load this seed's AP save.
+Close the game before closing the client. The mod stays installed between AP
+sessions. Closing the client alone does NOT disable the mod.
 
-The client includes and temporarily installs the required mod. You do not need
-to install a separate mod or enter your Steam ID. AP saves are kept separately
-from vanilla saves and other seeds. If you see your vanilla saves, stop and check
-that the client prepared and attached before loading anything.
+SWITCHING TO VANILLA
 
-END A SESSION
+1. Close KH 0.2 normally, let the client finish cleanup, then close the client.
+2. Open the KINGDOM HEARTS 0.2 Birth by Sleep folder inside the Steam install.
+3. Make a backup folder OUTSIDE the game folder, such as "KH02 AP disabled"
+   on your Desktop. Inside it, make two folders: "paks" and "loaders".
+4. Move these two files from Content\Paks\~mods into your backup's paks folder:
+   - KH02_AP_RestartPrototype_P.pak
+   - TresGame-WindowsNoEditor_99_P.pak
+5. Move these two files from Binaries\Win64 into your backup's loaders folder:
+   - dinput8.dll
+   - dwmapi.dll
+6. Launch the game normally, without opening the KH client. Your vanilla
+   saves should appear.
 
-Close the game normally, then close the client. The client restores normal
-startup automatically; you do not need to remove the mod manually.
+Move the files; don't delete them. Leave all saves, AP profiles, and other
+files alone. Moving only the paks does not disable the native AP loaders.
+These instructions assume the loaders came from this AP mod; if another mod
+shares them, disabling them may disable that mod too.
 
-If you close the client first, it waits for the game to close before finishing
-cleanup. Close the game normally and let the client finish. Avoid force-ending
-the client. If cleanup reports an error, retain the message and recovery files.
+TO PLAY AP AGAIN
 
-Open a fresh KH client window for each new game session. Reconnecting the old
-window is not enough to prepare another launch.
+With the game closed, move the two paks back into Content\Paks\~mods and the
+two loaders back into Binaries\Win64. If a file already exists there, don't
+overwrite it blindly. Then open a fresh KH client, connect to your seed, and
+wait for "AP is prepared" before launching. Your seed's AP saves are retained.
 
-USEFUL COMMANDS
+The client keeps AP saves and receipt history in the seed's profile under
+%LOCALAPPDATA%/KH02AP. It creates temporary session files beside the game
+and stages its native transport under %LOCALAPPDATA%/KH02AP/runtime.
 
-/help
-/difficulty status
-/difficulty beginner
-/difficulty standard
-/difficulty proud
-/difficulty critical
+REMOVING OLD SEED SAVES
 
-After choosing a difficulty, reload your AP save for the change to apply.
+New seeds add profile folders; reconnecting to the same seed reuses its
+folder. The client never deletes old profiles automatically.
 
-PUBLIC TESTING
+1. Close the game normally, wait for cleanup, then close the KH client.
+2. Paste %LOCALAPPDATA%\KH02AP\profiles into File Explorer's address bar.
+3. Folder names start with the seed name, then the player slot (such as P1)
+   and an identifier. Open profile.json in Notepad and check its label for
+   the seed and player name. Don't edit it.
+4. Move the ENTIRE old seed folder elsewhere to keep a backup, or delete
+   that folder if you no longer want its local progress.
 
-This build includes the completed seeded playthrough fixes. Please report your
-AP settings, location, what happened, what you expected, and any client errors.
-For problems after loading or traveling, include the save slot and destination.
+Keep saves and receipt history together. Don't delete individual files
+inside a profile to troubleshoot a run you want to keep. This does not
+remove server-side checks, vanilla saves, or other seed profiles.
+To resume a backup, restore the whole folder to its original location with
+the game and client closed. Don't merge it with a newly created profile.
 
-Mickey's movement outside Depths can be imperfect. He can catch up by warping,
-and may remain outside some boss barriers while still assisting. This behavior
-depends on the Mickey option you selected.
+In-game difficulty changes: enter /difficulty beginner, standard, proud or
+critical in the KH client (for example, /difficulty proud), then reload your
+AP save. Use /difficulty status to see the selected setting.
 
-Player downloads: kh02.apworld, PopTracker 0.4.11, and these instructions.
-Archipelago 0.6.7 was used for the installed-client acceptance test.
+Framework credits: RE-UE4SS and contributors, and ashandarei's KH-compatible
+GoA fork. See KH02-AP-UE4SS-LICENSE.txt.
+https://github.com/UE4SS-RE/RE-UE4SS
+https://github.com/ashandarei/ue4ss-goa

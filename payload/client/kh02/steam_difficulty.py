@@ -1,5 +1,9 @@
 """Client difficulty command over the proven next-load preference controller."""
-from .difficulty_preference_candidate import DifficultyPreferenceController, DifficultyPreferenceStore
+
+from .difficulty_preference_candidate import (
+    DifficultyPreferenceController,
+    DifficultyPreferenceStore,
+)
 
 
 class DifficultySession:
@@ -9,14 +13,14 @@ class DifficultySession:
         self.last = None
         self.notify = notify
 
-    def command(self, argument='status'):
-        if argument.strip().lower() in ('', 'status'):
+    def command(self, argument="status"):
+        if argument.strip().lower() in ("", "status"):
             if self.preference is None:
-                return 'No client difficulty override is selected.'
-            return f'Selected difficulty: {self.preference.desired.name.title()}. Changes apply after reloading your AP save.'
+                return "No client difficulty override is selected."
+            return f"Selected difficulty: {self.preference.desired.name.title()}. Changes apply after reloading your AP save."
         self.preference = self.controller.choose(argument)
         self.last = None
-        return f'{self.preference.desired.name.title()} selected. Wait for the client to confirm it is queued, then reload your AP save to apply it.'
+        return f"{self.preference.desired.name.title()} selected. Wait for the client to confirm it is queued, then reload your AP save to apply it."
 
     async def tick(self, owner):
         if self.preference is None:
@@ -30,8 +34,8 @@ class DifficultySession:
             return
         view = await self.controller.reconcile(owner, epoch=epoch)
         if view.current_matches:
-            self.notify(f'Difficulty is now {self.preference.desired.name.title()}.')
+            self.notify(f"Difficulty is now {self.preference.desired.name.title()}.")
             self.last = identity
         elif view.queued:
-            self.notify('Difficulty change queued. Reload your AP save to apply it.')
+            self.notify("Difficulty change queued. Reload your AP save to apply it.")
             self.last = identity

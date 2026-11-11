@@ -3,6 +3,7 @@
 Only the explicit player setting is persisted. Native authority, process
 identity and load epochs are launch-local and are never written to disk.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass, replace
@@ -71,13 +72,29 @@ class DifficultyClientStatus:
         elif self.observed_primary == self.observed_checkpoint:
             observed = self.observed_primary.name.title()
         else:
-            observed = (self.observed_primary.name.title() + " primary / " +
-                        self.observed_checkpoint.name.title() + " checkpoint")
-        state = ("confirmed on the current save" if self.current_matches else
-                 "queued for the next authenticated known load" if self.queued else
-                 "applied; awaiting current checkpoint observation" if self.native_phase==2 and self.applied else
-                 "previously applied, but not observed on the current save" if self.applied else
-                 "not currently confirmed")
+            observed = (
+                self.observed_primary.name.title()
+                + " primary / "
+                + self.observed_checkpoint.name.title()
+                + " checkpoint"
+            )
+        state = (
+            "confirmed on the current save"
+            if self.current_matches
+            else (
+                "queued for the next authenticated known load"
+                if self.queued
+                else (
+                    "applied; awaiting current checkpoint observation"
+                    if self.native_phase == 2 and self.applied
+                    else (
+                        "previously applied, but not observed on the current save"
+                        if self.applied
+                        else "not currently confirmed"
+                    )
+                )
+            )
+        )
         return f"Requested: {requested}; observed: {observed}; {state}."
 
 
@@ -96,9 +113,17 @@ class DifficultyPreferenceStore:
             return None
         value = json.loads(path.read_text(encoding="utf-8"))
         expected = {"version", "seed_name", "team", "slot", "revision", "desired"}
-        if type(value) is not dict or set(value) != expected or value["version"] != PREFERENCE_VERSION:
+        if (
+            type(value) is not dict
+            or set(value) != expected
+            or value["version"] != PREFERENCE_VERSION
+        ):
             raise ValueError("Unsupported difficulty preference")
-        if (value["seed_name"], value["team"], value["slot"]) != (key.seed_name, key.team, key.slot):
+        if (value["seed_name"], value["team"], value["slot"]) != (
+            key.seed_name,
+            key.team,
+            key.slot,
+        ):
             raise ValueError("Difficulty preference belongs to another AP scope")
         revision, desired = value["revision"], value["desired"]
         if type(revision) is not int or not 0 < revision < 2**64 or type(desired) is not int:
@@ -118,13 +143,20 @@ class DifficultyPreferenceStore:
             raise ValueError("Difficulty preference revision exhausted")
         preference = DifficultyPreference(key, revision, desired)
         self.directory.mkdir(parents=True, exist_ok=True)
-        path = self._path(key);temporary = path.with_suffix(path.suffix + ".tmp")
-        payload = {"version": PREFERENCE_VERSION, "seed_name": key.seed_name,
-                   "team": key.team, "slot": key.slot, "revision": revision,
-                   "desired": int(desired)}
+        path = self._path(key)
+        temporary = path.with_suffix(path.suffix + ".tmp")
+        payload = {
+            "version": PREFERENCE_VERSION,
+            "seed_name": key.seed_name,
+            "team": key.team,
+            "slot": key.slot,
+            "revision": revision,
+            "desired": int(desired),
+        }
         with temporary.open("x", encoding="utf-8") as stream:
             stream.write(json.dumps(payload, sort_keys=True, indent=2) + "\n")
-            stream.flush();os.fsync(stream.fileno())
+            stream.flush()
+            os.fsync(stream.fileno())
         try:
             os.replace(temporary, path)
         finally:
@@ -133,29 +165,47 @@ class DifficultyPreferenceStore:
         return preference
 
 
-def request(key: DeliveryKey, desired: Difficulty, *, process_cookie: int,
-            epoch: int, previous: DifficultyPreference | None = None) -> PendingDifficulty:
+def request(
+    key: DeliveryKey,
+    desired: Difficulty,
+    *,
+    process_cookie: int,
+    epoch: int,
+    previous: DifficultyPreference | None = None,
+) -> PendingDifficulty:
     if not isinstance(key, DeliveryKey) or not isinstance(desired, Difficulty):
-        raise ValueError('Explicit scope and difficulty required')
+        raise ValueError("Explicit scope and difficulty required")
     for value in (process_cookie, epoch):
         if type(value) is not int or not 0 < value < 2**64:
-            raise ValueError('Authenticated process and load identity required')
+            raise ValueError("Authenticated process and load identity required")
     if previous is not None and previous.key != key:
-        raise ValueError('Difficulty preference belongs to another AP scope')
+        raise ValueError("Difficulty preference belongs to another AP scope")
     revision = 1 if previous is None else previous.revision + 1
     if not 0 < revision < 2**64:
-        raise ValueError('Difficulty preference revision exhausted')
+        raise ValueError("Difficulty preference revision exhausted")
     return PendingDifficulty(DifficultyPreference(key, revision, desired), process_cookie, epoch)
 
 
-def confirm(pending: PendingDifficulty, *, key: DeliveryKey, process_cookie: int,
-            revision: int, epoch: int, observed: Difficulty) -> PendingDifficulty:
-    if (pending.applied or key != pending.preference.key or
-            process_cookie != pending.process_cookie or
-            revision != pending.preference.revision or
-            type(epoch) is not int or not pending.requested_epoch < epoch < 2**64 or
-            not isinstance(observed, Difficulty) or observed != pending.preference.desired):
-        raise ValueError('Difficulty confirmation is stale, foreign, or not applied')
+def confirm(
+    pending: PendingDifficulty,
+    *,
+    key: DeliveryKey,
+    process_cookie: int,
+    revision: int,
+    epoch: int,
+    observed: Difficulty,
+) -> PendingDifficulty:
+    if (
+        pending.applied
+        or key != pending.preference.key
+        or process_cookie != pending.process_cookie
+        or revision != pending.preference.revision
+        or type(epoch) is not int
+        or not pending.requested_epoch < epoch < 2**64
+        or not isinstance(observed, Difficulty)
+        or observed != pending.preference.desired
+    ):
+        raise ValueError("Difficulty confirmation is stale, foreign, or not applied")
     return replace(pending, applied_epoch=epoch)
 
 
@@ -168,8 +218,9 @@ def decode_observed(value: int) -> tuple[Difficulty, Difficulty] | None:
         return None
 
 
-def client_status(preference: DifficultyPreference | None, native: dict,
-                  *, current_epoch: int | None) -> DifficultyClientStatus:
+def client_status(
+    preference: DifficultyPreference | None, native: dict, *, current_epoch: int | None
+) -> DifficultyClientStatus:
     if preference is not None and not isinstance(preference, DifficultyPreference):
         raise ValueError("Typed difficulty preference required")
     if type(native) is not dict or type(native.get("phase")) is not int:
@@ -179,19 +230,33 @@ def client_status(preference: DifficultyPreference | None, native: dict,
     desired = preference.desired if preference is not None else None
     matches = desired is not None and primary == desired and checkpoint == desired
     phase = native["phase"]
-    applied_epoch = native.get("applied_epoch") if type(native.get("applied_epoch")) is int and native.get("applied_epoch") else None
-    same_request=preference is not None and native.get("desired")==int(desired)
-    queued=bool(same_request and phase==1)
-    applied=bool(same_request and phase in (2,3) and applied_epoch is not None)
+    applied_epoch = (
+        native.get("applied_epoch")
+        if type(native.get("applied_epoch")) is int and native.get("applied_epoch")
+        else None
+    )
+    same_request = preference is not None and native.get("desired") == int(desired)
+    queued = bool(same_request and phase == 1)
+    applied = bool(same_request and phase in (2, 3) and applied_epoch is not None)
     # Historical phase3/applied_epoch is not proof for the currently loaded save.
     if current_epoch is not None and (type(current_epoch) is not int or current_epoch <= 0):
         raise ValueError("Current known load epoch required")
-    return DifficultyClientStatus(desired, preference.revision if preference else None,
-        primary, checkpoint, phase, queued, applied, matches, applied_epoch)
+    return DifficultyClientStatus(
+        desired,
+        preference.revision if preference else None,
+        primary,
+        checkpoint,
+        phase,
+        queued,
+        applied,
+        matches,
+        applied_epoch,
+    )
 
 
 class DifficultyPreferenceController:
     """Client-facing selection/status over the already-proven native command."""
+
     def __init__(self, store: DifficultyPreferenceStore, key: DeliveryKey):
         self.store, self.key = store, key
 
@@ -200,15 +265,19 @@ class DifficultyPreferenceController:
         return self.store.choose(self.key, desired)
 
     async def status(self, transport, *, epoch: int) -> DifficultyClientStatus:
-        return client_status(self.store.load(self.key), await transport.query_difficulty(), current_epoch=epoch)
+        return client_status(
+            self.store.load(self.key), await transport.query_difficulty(), current_epoch=epoch
+        )
 
     async def reconcile(self, transport, *, epoch: int) -> DifficultyClientStatus:
-        preference = self.store.load(self.key);native = await transport.query_difficulty()
+        preference = self.store.load(self.key)
+        native = await transport.query_difficulty()
         view = client_status(preference, native, current_epoch=epoch)
         if preference is None or view.current_matches:
             return view
-        same_pending=(native.get("phase") in (1,2) and
-                      native.get("desired")==int(preference.desired))
+        same_pending = native.get("phase") in (1, 2) and native.get("desired") == int(
+            preference.desired
+        )
         if not same_pending:
             native = await transport.queue_difficulty(int(preference.desired), epoch)
             view = client_status(preference, native, current_epoch=epoch)
@@ -223,8 +292,8 @@ class DifficultyPreferenceController:
         """
         if type(argument) is not str:
             raise ValueError("Use difficulty status|beginner|standard|proud|critical")
-        value=argument.strip()
+        value = argument.strip()
         if value.lower() in ("", "status"):
-            return await self.status(transport,epoch=epoch)
+            return await self.status(transport, epoch=epoch)
         self.choose(value)
-        return await self.reconcile(transport,epoch=epoch)
+        return await self.reconcile(transport, epoch=epoch)

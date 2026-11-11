@@ -1,19 +1,21 @@
 """Additive AP item-placement restrictions; no native or location access changes."""
 
-ZODIAC_IDS = frozenset(range(0x020223, 0x02022f))
+ZODIAC_IDS = frozenset(range(0x020223, 0x02022F))
 
 
 def requires_zodiacs(goal, requirement):
-    if goal not in ('demon_tide', 'boss_rush'):
-        raise ValueError('Unknown selected goal')
-    if requirement not in ('wayfinders', 'zodiacs', 'wardrobe_sets'):
-        raise ValueError('Unknown selected requirement')
-    return goal == 'demon_tide' or requirement == 'zodiacs'
+    if goal not in ("demon_tide", "boss_rush"):
+        raise ValueError("Unknown selected goal")
+    if requirement not in ("wayfinders", "zodiacs", "wardrobe_sets"):
+        raise ValueError("Unknown selected requirement")
+    return goal == "demon_tide" or requirement == "zodiacs"
 
 
 def is_rush_location(row):
     # Objective42 completes after the last round in a Demon Tide seed.
-    return row['family'] == 'rush_round' or (row['family'] == 'objective' and row.get('number') == 42)
+    return row["family"] == "rush_round" or (
+        row["family"] == "objective" and row.get("number") == 42
+    )
 
 
 def install(world, rows, *, goal, requirement):
@@ -29,10 +31,14 @@ def install(world, rows, *, goal, requirement):
     for row in rows:
         if not is_rush_location(row):
             continue
-        location = world.get_location(row['name'])
-        if (location.player != world.player or location.address != row['id']
-                or location.address in seen or not callable(location.item_rule)):
-            raise ValueError('Rush location identity differs from catalog')
+        location = world.get_location(row["name"])
+        if (
+            location.player != world.player
+            or location.address != row["id"]
+            or location.address in seen
+            or not callable(location.item_rule)
+        ):
+            raise ValueError("Rush location identity differs from catalog")
         seen.add(location.address)
         targets.append(location)
     if not restricted:

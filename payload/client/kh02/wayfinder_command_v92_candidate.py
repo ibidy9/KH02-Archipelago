@@ -1,13 +1,20 @@
 """Sparse command builder sharing the proven transport's exact ABI types."""
-import ctypes as c
-from .production_policy_command import NativePolicyCommand,NativePolicyWire,MEMBERSHIP_CAP
-from .production_policy import PolicyBinding,POLICY_HEADER,encode_policy
-from .production_schema import PolicySnapshot
-from .receipt_set_candidate import ReceiptSet,encode
 
-def make_policy_command(*, sequence: int, generation: int,
-                        binding: PolicyBinding, policy: PolicySnapshot,
-                        membership: ReceiptSet) -> NativePolicyCommand:
+import ctypes as c
+from .production_policy_command import NativePolicyCommand, NativePolicyWire, MEMBERSHIP_CAP
+from .production_policy import PolicyBinding, POLICY_HEADER, encode_policy
+from .production_schema import PolicySnapshot
+from .receipt_set_candidate import ReceiptSet, encode
+
+
+def make_policy_command(
+    *,
+    sequence: int,
+    generation: int,
+    binding: PolicyBinding,
+    policy: PolicySnapshot,
+    membership: ReceiptSet
+) -> NativePolicyCommand:
     if type(sequence) is not int or not 0 < sequence < 2**64:
         raise ValueError("Nonzero command sequence required")
     if type(generation) is not int or not 0 < generation < 2**64:

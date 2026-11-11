@@ -1,0 +1,13 @@
+# Mixed dispatcher regression passed — 2026-11-01
+
+Closed evidence: `research/ue4ss-receipt-live-20261101T184712652842Z` in the development workspace. Alongside source: `experiments/ue4ss-dispatch-regression`; stage r7. No public update or push.
+
+User confirmed smooth mixed delivery, all supplied movement/defence/magic, Fire/Blizzard locked, Arm Guards, maxima 105/70, ordinary WW travel and Restart WW, and retained kit after actual Phantom boss Retry. One controlled DeathLink caused defeat; the user chose Retry. Late Hi-Potion appeared, inventory became 2, and Sync caused no repeat. Accidental Continue before returning to title was handled: references invalidated and revalidated on the deliberate slot1 load without restarting the test.
+
+Native logs independently show weak context refreshes through the transitions and Retry, a verified pinned core, bootstrap command count fixed at 85 and SDK commands reaching 14049. There was no window-dispatch gameplay fallback. Exact original twelve history identities expanded to 25 with kit and 26 with late item. These are not thirteen separate consumable-style acknowledgements: projected gates/stats/access use their existing projection lanes; Arm Guards has acknowledged native kind2 at index24/epoch3, and Hi-Potion has kind1 at index25/epoch4 with before1/after2/status1. One reflected grant enter/return occurred for the late consumable.
+
+Normal controller cleanup exited successfully. Entire private profile/journals and native log are copied and hashed; copied container decoded read-only. Manual slot1 remains Forest; manual slot2 is WW hub, both saved before the late Hi-Potion, so both contain HiPotion1. History26 retains the later receipt for normal replay; this is expected, not lost delivery. Development KH0.2 container and four of five development files unchanged. Collection system file changed during normal use and was preserved, never restored.
+
+All eleven unchanged owned additions removed after hash verification; existing XInput preserved. Exact prior stable runtime DLL and metadata restored under RuntimeLease; prototype verified unchanged, optional menu absent. Nothing armed/running.
+
+This proves broader coverage of the UE4SS owner dispatch, not conversion of every game hook. Existing native gameplay implementations remain unchanged. Next work: offline migration-seam review, prioritizing reflected equivalents where they simplify existing code without weakening authority or save safety. Early storage/bootstrap and explicit installation remain separate work; do not reconnect an older truncated fixture. Current private history is 26.

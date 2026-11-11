@@ -4,6 +4,7 @@ No item effects, save adoption, connection creation, or automatic retries after
 uncertain native acknowledgement. The future dispatcher must check ready before
 every publication and still supply its native lifetime/authorization checks.
 """
+
 import asyncio
 from .received import DeliveryKey, ReceivedItem
 
@@ -11,12 +12,15 @@ from .received import DeliveryKey, ReceivedItem
 def _items(values):
     values = tuple(values)
     if len(values) > 4096 or any(
-        not isinstance(value, ReceivedItem) or value.index != i or any(
+        not isinstance(value, ReceivedItem)
+        or value.index != i
+        or any(
             type(n) is not int or not 0 <= n < 2**64
             for n in (value.index, value.item_id, value.player)
-        ) for i, value in enumerate(values)
+        )
+        for i, value in enumerate(values)
     ):
-        raise ValueError('Malformed or oversized native history')
+        raise ValueError("Malformed or oversized native history")
     return values
 
 
@@ -31,8 +35,12 @@ class CoordinatedHistory:
 
     @property
     def ready(self):
-        return (not self.faulted and not self._inflight and self._confirmed is not None
-                and self.context.snapshot_is_current(self._confirmed))
+        return (
+            not self.faulted
+            and not self._inflight
+            and self._confirmed is not None
+            and self.context.snapshot_is_current(self._confirmed)
+        )
 
     async def synchronize(self, apply):
         """apply(full_history) awaits the bound native owner-thread coordinator.
@@ -42,7 +50,7 @@ class CoordinatedHistory:
         advances native availability but never authorizes effects on reconnect.
         """
         if self.faulted:
-            raise RuntimeError('History coordination is faulted')
+            raise RuntimeError("History coordination is faulted")
         if self._inflight:
             return False
         self._confirmed = None
@@ -51,8 +59,8 @@ class CoordinatedHistory:
             return False
         try:
             items = _items(snapshot.received_items())
-            if snapshot.key != self.key or items[:len(self.native_history)] != self.native_history:
-                raise ValueError('History scope or acknowledged prefix changed')
+            if snapshot.key != self.key or items[: len(self.native_history)] != self.native_history:
+                raise ValueError("History scope or acknowledged prefix changed")
         except (TypeError, ValueError):
             self.faulted = True
             raise
@@ -60,7 +68,7 @@ class CoordinatedHistory:
         try:
             status = await apply(items)
             if type(status) is not int or status not in (1, 3):
-                raise RuntimeError('Native history update failed')
+                raise RuntimeError("Native history update failed")
             if status == 3:
                 return False
             self.native_history = items

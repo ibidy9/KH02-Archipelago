@@ -1,5 +1,5 @@
 {
-  "version": 272,
+  "version": 273,
   "locations": {
     "131585": {
       "name": "Castle Town Chest 1",
@@ -328,18 +328,32 @@
     "131621": {
       "name": "The World Within Chest 12",
       "rule": [
-        "world",
-        "The World Within"
+        "all",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "item",
+          "Doubleflight"
+        ]
       ],
-      "evidence": "User correction 2026-10-16: no blanket movement gate for Zodiac chests; vanilla reward is not an access rule."
+      "evidence": "User playthrough 2026-11-04: Mines chests 12 and 13 require Doubleflight."
     },
     "131622": {
       "name": "The World Within Chest 13",
       "rule": [
-        "world",
-        "The World Within"
+        "all",
+        [
+          "world",
+          "The World Within"
+        ],
+        [
+          "item",
+          "Doubleflight"
+        ]
       ],
-      "evidence": "User correction 2026-10-16: no blanket movement gate for Zodiac chests; vanilla reward is not an access rule."
+      "evidence": "User playthrough 2026-11-04: Mines chests 12 and 13 require Doubleflight."
     },
     "131623": {
       "name": "Forest of Thorns Chest 11",
@@ -967,10 +981,14 @@
           [
             "item",
             "Barrier"
+          ],
+          [
+            "item",
+            "Cure Magic"
           ]
         ]
       ],
-      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit"
+      "evidence": "docs/objective-venues-live-results-2026-10-16.md and prior v261 audit; Maintainer 2026-11-10: Cure required before Zodiac Phantom, including indirect dependencies."
     },
     "131755": {
       "name": "Objective 43 - Quest for the Zodiac",
@@ -1454,10 +1472,14 @@
           [
             "item",
             "Barrier"
+          ],
+          [
+            "item",
+            "Cure Magic"
           ]
         ]
       ],
-      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md",
+      "evidence": "World ownership; traversal: docs/movement-lock-run.md and docs/handoff-ready-2026-09-07.md; Maintainer 2026-11-10: Cure required before Zodiac Phantom, including indirect dependencies.",
       "green": [
         "all",
         [
@@ -1473,15 +1495,12 @@
         [
           "all",
           [
-            "all",
-            [
-              "item",
-              "Cartwheel"
-            ],
-            [
-              "item",
-              "Barrier"
-            ]
+            "item",
+            "Cartwheel"
+          ],
+          [
+            "item",
+            "Barrier"
           ],
           [
             "item",
@@ -1534,20 +1553,21 @@
     [
       "item",
       "Barrier"
+    ],
+    [
+      "item",
+      "Cure Magic"
     ]
   ],
   "phantom_green": [
     "all",
     [
-      "all",
-      [
-        "item",
-        "Cartwheel"
-      ],
-      [
-        "item",
-        "Barrier"
-      ]
+      "item",
+      "Cartwheel"
+    ],
+    [
+      "item",
+      "Barrier"
     ],
     [
       "item",
@@ -1585,12 +1605,16 @@
       [
         "item",
         "Barrier"
+      ],
+      [
+        "item",
+        "Cure Magic"
       ]
     ]
   ],
   "notes": [
     "Yellow: Forest chest4, Zodiac Phantom, Objective41 without Barrier and Objective47 without Barrier.",
-    "Cure is excluded from Phantom-gated rewards; it is a tracker green recommendation, not mandatory generation access.",
+    "Generation requires Cartwheel, Barrier and Cure before Zodiac Phantom; tracker remains yellow with fight access when any are missing.",
     "Frozen Rail Raid: Castle Town, WW and Depths confirmed; Forest remains excluded.",
     "Ice Breaker requires Blizzard, without a world restriction.",
     "Enemy world coverage follows KH Wiki KH0.2 location tables; Earth Cores in WW require boss rush."

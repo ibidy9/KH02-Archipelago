@@ -16,15 +16,25 @@
 #define KH02_ROUTE_PATCH_SIZE 18u
 
 enum Kh02RouteKind {
-    KH02_START = 1, KH02_WORLD_WITHIN_EXIT = 2, KH02_FOREST_EXIT = 3,
-    KH02_FOREST_POSTGAME = 4, KH02_DEMON_TIDE = 5
+    KH02_START = 1,
+    KH02_WORLD_WITHIN_EXIT = 2,
+    KH02_FOREST_EXIT = 3,
+    KH02_FOREST_POSTGAME = 4,
+    KH02_DEMON_TIDE = 5
 };
+
 enum Kh02Decision { KH02_ALLOW = 0, KH02_REDIRECT = 1, KH02_INVALID = 2, KH02_STALE = 3 };
+
 enum Kh02Status {
-    KH02_OK = 1, KH02_BAD_REQUEST = 2, KH02_BAD_BUILD = 3,
-    KH02_DISABLED = 4, KH02_BUSY = 5, KH02_PATCH_CONFLICT = 6,
+    KH02_OK = 1,
+    KH02_BAD_REQUEST = 2,
+    KH02_BAD_BUILD = 3,
+    KH02_DISABLED = 4,
+    KH02_BUSY = 5,
+    KH02_PATCH_CONFLICT = 6,
     KH02_CLEANUP_UNCERTAIN = 7
 };
+
 enum Kh02Command { KH02_ARM = 1, KH02_DISARM = 2 };
 
 /* FNames are resolved for this process by the adapter, never saved IDs.
@@ -67,9 +77,9 @@ typedef struct Kh02RouteBlock {
 } Kh02RouteBlock;
 
 KH02_EXPORT uint32_t Kh02ValidateRoutePolicy(const Kh02RoutePolicy *policy);
-KH02_EXPORT uint32_t Kh02DecideRoute(const Kh02RoutePolicy *policy,
-    const Kh02RouteRequest *request, Kh02RouteResult *result);
-KH02_EXPORT uint32_t Kh02CleanupVerified(const Kh02CleanupReceipt *receipt,
-    uint64_t cookie, uint64_t generation, uint32_t sequence);
+KH02_EXPORT uint32_t Kh02DecideRoute(const Kh02RoutePolicy *policy, const Kh02RouteRequest *request,
+                                     Kh02RouteResult *result);
+KH02_EXPORT uint32_t Kh02CleanupVerified(const Kh02CleanupReceipt *receipt, uint64_t cookie,
+                                         uint64_t generation, uint32_t sequence);
 KH02_EXPORT uint32_t Kh02CombinedRouteLiveEnabled(void);
 #endif

@@ -26,10 +26,10 @@ static void Kh02GoalWitnessGap(Kh02GoalWitness *state) {
 
 static uint32_t Kh02GoalWitnessStep(Kh02GoalWitness *state, const Kh02GoalFrame *frame) {
     uint32_t phantom, tide;
-    if (!state || !frame) return 0;
-    if (frame->admitted != 1 || !frame->cookie || !frame->epoch ||
-        !frame->load_id || !frame->owner || frame->objective42 > 2 ||
-        frame->tide_bonus > 255 || frame->in_tide > 1 ||
+    if (!state || !frame)
+        return 0;
+    if (frame->admitted != 1 || !frame->cookie || !frame->epoch || !frame->load_id ||
+        !frame->owner || frame->objective42 > 2 || frame->tide_bonus > 255 || frame->in_tide > 1 ||
         (frame->selected_goal != 1 && frame->selected_goal != 2)) {
         Kh02GoalWitnessGap(state);
         return 0;
@@ -39,7 +39,10 @@ static uint32_t Kh02GoalWitnessStep(Kh02GoalWitness *state, const Kh02GoalFrame 
         state->selected_goal != frame->selected_goal) {
         /* A pending proof is never overwritten/relabelled by a new load. Return
          * 2 means journal the ORIGINAL proof; it is not admission of this frame. */
-        if (state->completed) { Kh02GoalWitnessGap(state); return 2; }
+        if (state->completed) {
+            Kh02GoalWitnessGap(state);
+            return 2;
+        }
         memset(state, 0, sizeof(*state));
         state->cookie = frame->cookie;
         state->epoch = frame->epoch;
@@ -55,7 +58,8 @@ static uint32_t Kh02GoalWitnessStep(Kh02GoalWitness *state, const Kh02GoalFrame 
     phantom = frame->objective42;
     tide = (frame->tide_bonus >> 7) & 1;
     if (frame->selected_goal == 1 && !(state->completed & 1)) {
-        if (phantom == 1) state->armed |= 1;
+        if (phantom == 1)
+            state->armed |= 1;
         else {
             if (phantom == 2 && (state->armed & 1)) {
                 state->completed |= 1;
@@ -65,8 +69,10 @@ static uint32_t Kh02GoalWitnessStep(Kh02GoalWitness *state, const Kh02GoalFrame 
         }
     }
     if (frame->selected_goal == 2 && !(state->completed & 2)) {
-        if (!frame->in_tide) state->armed &= ~2u;
-        else if (!tide) state->armed |= 2;
+        if (!frame->in_tide)
+            state->armed &= ~2u;
+        else if (!tide)
+            state->armed |= 2;
         else {
             if (state->armed & 2) {
                 state->completed |= 2;

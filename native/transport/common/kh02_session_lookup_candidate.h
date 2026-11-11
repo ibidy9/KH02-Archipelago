@@ -8,6 +8,7 @@
    normalized for future load admission; AP identity and membership are exact.
    Allocation/conflicting evidence closes admission. No proof is evicted.
    Caller retains/excludes users for the lifetime of the lookup. */
-KH02_RECEIPT_API uint32_t Kh02SessionLookupRemember(Kh02DiskLookup*,uint64_t,
-    const unsigned char*,uint32_t,const unsigned char*,uint32_t);
+KH02_RECEIPT_API uint32_t Kh02SessionLookupRemember(Kh02DiskLookup *, uint64_t,
+                                                    const unsigned char *, uint32_t,
+                                                    const unsigned char *, uint32_t);
 #endif

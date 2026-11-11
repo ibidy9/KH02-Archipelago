@@ -4,6 +4,7 @@ The adapter must prove the loaded checkpoint and drain the previous owner before
 constructing a LoadedBranch. Inventory quantity is deliberately not an input.
 Global audit records are never erased when a previous save is loaded.
 """
+
 from dataclasses import dataclass
 
 from .received import DeliveryKey, ReceivedItem
@@ -31,9 +32,13 @@ class SaveReplayPlan:
     pending: tuple[ReceivedItem, ...] = ()
 
 
-def plan_save_replay(key: DeliveryKey, history: tuple[ReceivedItem, ...],
-                     supported_ids: frozenset[int], branch: LoadedBranch | None,
-                     current_load_token: str) -> SaveReplayPlan:
+def plan_save_replay(
+    key: DeliveryKey,
+    history: tuple[ReceivedItem, ...],
+    supported_ids: frozenset[int],
+    branch: LoadedBranch | None,
+    current_load_token: str,
+) -> SaveReplayPlan:
     """Plan pending consumables in the currently loaded branch only.
 
     Checkpoints are trusted evidence supplied by a future validated save adapter.
@@ -50,16 +55,25 @@ def plan_save_replay(key: DeliveryKey, history: tuple[ReceivedItem, ...],
         return SaveReplayPlan("pause", "Complete original AP history is required")
     included = {}
     for item in checkpoint.included + branch.applied_since_load:
-        if (item.index in included or item.index < 0 or item.index >= len(history)
-                or history[item.index] != item or item.item_id not in supported_ids):
+        if (
+            item.index in included
+            or item.index < 0
+            or item.index >= len(history)
+            or history[item.index] != item
+            or item.item_id not in supported_ids
+        ):
             return SaveReplayPlan("pause", "Save receipt evidence conflicts with AP history")
         included[item.index] = item
     if branch.uncertain_since_load:
         return SaveReplayPlan("pause", "Current branch has an unresolved native effect")
-    pending = tuple(item for item in history
-                    if item.item_id in supported_ids and item.index not in included)
-    return SaveReplayPlan("replay" if pending else "complete",
-                          "Deliver only receipts absent from this save branch", pending)
+    pending = tuple(
+        item for item in history if item.item_id in supported_ids and item.index not in included
+    )
+    return SaveReplayPlan(
+        "replay" if pending else "complete",
+        "Deliver only receipts absent from this save branch",
+        pending,
+    )
 
 
 def checkpoint_for_snapshot(branch: LoadedBranch, snapshot_id: str) -> SaveCheckpoint:
@@ -74,5 +88,6 @@ def checkpoint_for_snapshot(branch: LoadedBranch, snapshot_id: str) -> SaveCheck
     receipts = branch.checkpoint.included + branch.applied_since_load
     if len({item.index for item in receipts}) != len(receipts):
         raise ValueError("Duplicate receipt in save association")
-    return SaveCheckpoint(branch.checkpoint.key, snapshot_id,
-                          tuple(sorted(receipts, key=lambda item: item.index)))
+    return SaveCheckpoint(
+        branch.checkpoint.key, snapshot_id, tuple(sorted(receipts, key=lambda item: item.index))
+    )

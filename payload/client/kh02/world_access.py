@@ -3,7 +3,6 @@ from __future__ import annotations
 from dataclasses import dataclass
 from enum import Enum
 
-
 WORLD_NAMES = (
     "Castle Town",
     "The World Within",
@@ -32,27 +31,39 @@ class NativeDestinationSignature:
 # bounds have been proven.
 NATIVE_DESTINATION_SIGNATURES = (
     NativeDestinationSignature(
-        "castle-town", "Castle Town", "/Game/Levels/dw/dw_02/dw_02",
+        "castle-town",
+        "Castle Town",
+        "/Game/Levels/dw/dw_02/dw_02",
         "dw_02_Lv_Save_01",
     ),
     NativeDestinationSignature(
-        "world-within", "The World Within", "/Game/Levels/dw/dw_03/dw_03",
+        "world-within",
+        "The World Within",
+        "/Game/Levels/dw/dw_03/dw_03",
         "dw_03_Lv_Save_01",
     ),
     NativeDestinationSignature(
-        "forest-uncertain", "Forest of Thorns", "/Game/Levels/dw/dw_08/dw_08",
+        "forest-uncertain",
+        "Forest of Thorns",
+        "/Game/Levels/dw/dw_08/dw_08",
         "dw_08_Lv_Save_01",
     ),
     NativeDestinationSignature(
-        "forest-rocky", "Forest of Thorns", "/Game/Levels/dw/dw_08/dw_08",
+        "forest-rocky",
+        "Forest of Thorns",
+        "/Game/Levels/dw/dw_08/dw_08",
         "dw_08_Lv_Save_02",
     ),
     NativeDestinationSignature(
-        "forest-paths-end", "Forest of Thorns", "/Game/Levels/dw/dw_08/dw_08",
+        "forest-paths-end",
+        "Forest of Thorns",
+        "/Game/Levels/dw/dw_08/dw_08",
         "dw_08_Lv_Save_03",
     ),
     NativeDestinationSignature(
-        "depths", "Depths of Darkness", "/Game/Levels/dw/dw_09/dw_09",
+        "depths",
+        "Depths of Darkness",
+        "/Game/Levels/dw/dw_09/dw_09",
         "dw_09_Lv_Save_01",
     ),
 )
@@ -62,19 +73,27 @@ NATIVE_DESTINATION_SIGNATURES = (
 # major-world item as their normal destination.
 RESTART_DESTINATION_SIGNATURES = (
     NativeDestinationSignature(
-        "restart-castle-town", "Castle Town", "/Game/Levels/dw/dw_01/dw_01",
+        "restart-castle-town",
+        "Castle Town",
+        "/Game/Levels/dw/dw_01/dw_01",
         "dw_01_Lv_Start_01",
     ),
     NativeDestinationSignature(
-        "restart-world-within", "The World Within", "/Game/Levels/dw/dw_03/dw_03",
+        "restart-world-within",
+        "The World Within",
+        "/Game/Levels/dw/dw_03/dw_03",
         "dw_03_Lv_Start_01",
     ),
     NativeDestinationSignature(
-        "restart-forest", "Forest of Thorns", "/Game/Levels/dw/dw_08/dw_08",
+        "restart-forest",
+        "Forest of Thorns",
+        "/Game/Levels/dw/dw_08/dw_08",
         "dw_08_Lv_Start_01",
     ),
     NativeDestinationSignature(
-        "restart-depths", "Depths of Darkness", "/Game/Levels/dw/dw_09/dw_09",
+        "restart-depths",
+        "Depths of Darkness",
+        "/Game/Levels/dw/dw_09/dw_09",
         "dw_09_Lv_Start_01",
     ),
 )
@@ -83,10 +102,12 @@ TELEPORT_ROUTE_SIGNATURES = NATIVE_DESTINATION_SIGNATURES + RESTART_DESTINATION_
 
 
 def native_destination_for_route(
-    map_path: str, spawn_tag: str,
+    map_path: str,
+    spawn_tag: str,
 ) -> NativeDestinationSignature:
     matches = tuple(
-        destination for destination in TELEPORT_ROUTE_SIGNATURES
+        destination
+        for destination in TELEPORT_ROUTE_SIGNATURES
         if destination.map_path == map_path and destination.spawn_tag == spawn_tag
     )
     if len(matches) != 1:
@@ -192,13 +213,12 @@ def filter_teleport_destinations(
     """
     for destination in destinations:
         if destination.world_name not in WORLD_NAMES:
-            raise ValueError(
-                f"Unsupported teleport destination world: {destination.world_name}"
-            )
+            raise ValueError(f"Unsupported teleport destination world: {destination.world_name}")
     if not access.randomized:
         return destinations
     return tuple(
-        destination for destination in destinations
+        destination
+        for destination in destinations
         if destination.is_current or access.owns(destination.world_name)
     )
 
@@ -216,22 +236,22 @@ def gate_teleport_destinations(
     gated = []
     for destination in destinations:
         if destination.world_name not in WORLD_NAMES:
-            raise ValueError(
-                f"Unsupported teleport destination world: {destination.world_name}"
-            )
+            raise ValueError(f"Unsupported teleport destination world: {destination.world_name}")
         ap_available = not access.randomized or access.owns(destination.world_name)
-        gated.append(TeleportDestination(
-            key=destination.key,
-            world_name=destination.world_name,
-            is_current=destination.is_current,
-            native_available=destination.native_available,
-            enabled=(
-                destination.enabled
-                and destination.native_available
-                and ap_available
-                and not destination.is_current
-            ),
-        ))
+        gated.append(
+            TeleportDestination(
+                key=destination.key,
+                world_name=destination.world_name,
+                is_current=destination.is_current,
+                native_available=destination.native_available,
+                enabled=(
+                    destination.enabled
+                    and destination.native_available
+                    and ap_available
+                    and not destination.is_current
+                ),
+            )
+        )
     return tuple(gated)
 
 
@@ -241,14 +261,14 @@ def world_exit_action(*, randomized: bool) -> WorldExitAction:
     Destination/spawn selection intentionally remains outside this pure policy
     until each native first-save record has been captured and verified.
     """
-    return (
-        WorldExitAction.RETURN_TO_COMPLETED_WORLD
-        if randomized else WorldExitAction.VANILLA
-    )
+    return WorldExitAction.RETURN_TO_COMPLETED_WORLD if randomized else WorldExitAction.VANILLA
 
 
 def received_world_access(
-    item_ids, *, randomized: bool, starting_world: str,
+    item_ids,
+    *,
+    randomized: bool,
+    starting_world: str,
 ) -> WorldAccessState:
     if starting_world not in WORLD_NAMES:
         raise ValueError(f"Unsupported starting world: {starting_world}")

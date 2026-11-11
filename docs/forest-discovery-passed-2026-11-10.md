@@ -1,0 +1,5 @@
+# Forest earlier-save access passed — November 10, 2026
+
+Closed capture: research/forest-discovery-passed-20261111 (UTC directory date). Candidate build/forest-discovery-20261111/delivery. Installed APWorld and runtime matched candidate hashes; Forest resume slot1. From WW user confirmed Uncertain Path and Restart Forest replaced Travel to Forest, with Rocky Path and Paths End retained. Selecting Uncertain Path returned to its save with control, without opening replay; later destinations and restart remained available. AP history unchanged. Normal game/client shutdown verified. No save overwrite requested or performed by tooling.
+
+Read-only inferred earlier access is now live-proven for this saved missing-first-discovery case. Cross-world rail previously passed; see research/forest-rail-crossworld-passed-20261111. All planned gameplay checks are complete. Final delivery/source consolidation and release preparation remain; nothing published automatically. Personal tracker excluded from delivery.

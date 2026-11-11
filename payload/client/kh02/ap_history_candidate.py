@@ -4,6 +4,7 @@ The future CommonClient adapter must supply the actual connection object on
 every event, call disconnect on loss, and check snapshot validity immediately
 before publication. A retained snapshot never authorizes a later connection.
 """
+
 from dataclasses import dataclass
 
 from .received import DeliveryKey, ReceivedItem
@@ -25,8 +26,7 @@ class HistorySnapshot:
     items: tuple[NetworkReceipt, ...]
 
     def received_items(self) -> tuple[ReceivedItem, ...]:
-        return tuple(ReceivedItem(i, item.item, item.player)
-                     for i, item in enumerate(self.items))
+        return tuple(ReceivedItem(i, item.item, item.player) for i, item in enumerate(self.items))
 
 
 class HistoryAdmission:
@@ -49,8 +49,7 @@ class HistoryAdmission:
         self._connection = None
         self._revision += 1
 
-    def receive(self, connection: object, index: int,
-                items: tuple[NetworkReceipt, ...]) -> bool:
+    def receive(self, connection: object, index: int, items: tuple[NetworkReceipt, ...]) -> bool:
         """Return False to request Sync; corruption permanently closes admission.
 
         Matches the local CommonClient index-zero replacement / tail-append
@@ -70,15 +69,23 @@ class HistoryAdmission:
             self._ready = False
             self._fault = True
             raise ValueError("Malformed ReceivedItems packet") from None
-        if type(index) is not int or index < 0 or any(
-            not isinstance(item, NetworkReceipt) or any(type(value) is not int for value in
-                (item.item, item.location, item.player, item.flags)) for item in items
+        if (
+            type(index) is not int
+            or index < 0
+            or any(
+                not isinstance(item, NetworkReceipt)
+                or any(
+                    type(value) is not int
+                    for value in (item.item, item.location, item.player, item.flags)
+                )
+                for item in items
+            )
         ):
             self._ready = False
             self._fault = True
             raise ValueError("Malformed ReceivedItems packet")
         if index == 0:
-            if len(items) < len(self._history) or items[:len(self._history)] != self._history:
+            if len(items) < len(self._history) or items[: len(self._history)] != self._history:
                 self._ready = False
                 self._fault = True
                 raise ValueError("AP history shrank or changed identity")
@@ -97,6 +104,12 @@ class HistoryAdmission:
         return HistorySnapshot(self.key, self._connection, self._revision, self._history)
 
     def is_current(self, snapshot: HistorySnapshot) -> bool:
-        return (self._ready and not self._fault and self._connection is not None
-                and snapshot.connection is self._connection and snapshot.key == self.key
-                and snapshot.revision == self._revision and snapshot.items == self._history)
+        return (
+            self._ready
+            and not self._fault
+            and self._connection is not None
+            and snapshot.connection is self._connection
+            and snapshot.key == self.key
+            and snapshot.revision == self._revision
+            and snapshot.items == self._history
+        )

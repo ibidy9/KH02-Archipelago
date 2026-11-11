@@ -1,0 +1,132 @@
+--- original/kh02_fresh_replay_mixed_candidate.c
++++ ue4ss/kh02_fresh_replay_mixed_candidate.c
+@@ -4,6 +4,7 @@
+ #include "kh02_zodiac_catalog_v99.h"
+ #include "kh02_area_map_v101.h"
+ #include "popup_ready_v273.h"
++#include "transport_bridge.h"
+ 
+ typedef struct MixedAttempt {
+     struct MixedAttempt *next;
+@@ -72,6 +73,8 @@
+     Kh02ReceiptGrant packet;
+     Kh02SessionSample sample;
+     MixedAttempt *attempt = NULL;
++    Kh02ReflectedGrantAdapter reflected_adapter;
++    Kh02UE4SSRequest reflected_request;
+     unsigned char *owned = NULL;
+     uint32_t status = KH02_MEMBER_REFUSED;
+     if (!out)
+@@ -126,6 +129,11 @@
+     if (kind == KH02_MIXED_CONSUMABLE) {
+         if (Kh02GameGrantPrepare(&guarded, borrow.owner, 1, &packet, &sample) != KH02_MEMBER_OK)
+             goto done;
++        if (!Kh02UE4SSTransportAttach(&packet, sample.provider, &reflected_adapter,
++                                      &reflected_request)) {
++            status = 0x273u;
++            goto done; /* Not ready: no receipt operation or fallback grant. */
++        }
+         status = Kh02ReceiptSessionExecute(borrow.owner, guarded.session, &packet.lease, sequence,
+                                            &sample, owned, size, Kh02ReceiptGrantExecute, &packet);
+         out->entered = packet.entered;
+--- original/kh02_controlled_session_transport_candidate.c
++++ ue4ss/kh02_controlled_session_transport_candidate.c
+@@ -1,4 +1,6 @@
+ #include "resume_bounds_v254.h"
++#include "sdk_pump_api.h"
++#include "sdk_pump_policy.h"
+ /* Additive history-command effects-off transport. Reuses the existing owner-thread message-hook
+    protocol; no item commands or world-routing rules are accepted. */
+ #ifdef KH02_CONTROLLED_FRESH_REPLAY_SETUP
+@@ -51,6 +53,8 @@
+ static uint64_t fresh_cookie;
+ static uint32_t fresh_served, fresh_spent;
+ static volatile LONG fresh_servicing;
++static Kh02SdkDispatch sdk_dispatch;
++static uint32_t sdk_setup_ok;
+ static uint64_t accepted_authority, active_authority;
+ 
+ static uint32_t controlled_transport_permit(void *unused) {
+@@ -197,6 +201,7 @@
+         }
+         VirtualFree(copy, 0, MEM_RELEASE);
+         status = KH02_CONTROLLED_AFTER_SETUP(status);
++        sdk_setup_ok = (status == 1);
+     } else if (command == 4 && fresh_spent) {
+         status = history_command(b);
+     } else if ((command == 3 || command == 5) && fresh_spent) {
+@@ -274,7 +279,13 @@
+                 fresh_map =
+                     MapViewOfFile(fresh_mapping, FILE_MAP_ALL_ACCESS, 0, 0, sizeof(*fresh_map));
+         }
+-        fresh_service(fresh_map);
++        if (Kh02SdkWindowAllowed(&sdk_dispatch, fresh_map ? fresh_map->transport.command : 0)) {
++            uint32_t before = fresh_served;
++            fresh_service(fresh_map);
++            if (fresh_served != before)
++                ++sdk_dispatch.window_commands;
++        } else if (sdk_dispatch.bound)
++            ++sdk_dispatch.ignored_wakes;
+     }
+     return CallNextHookEx(NULL, code, w, l);
+ }
+@@ -303,3 +314,5 @@
+     return sizeof(Kh02FreshTransportBlock);
+ }
+ #endif
++
++#include "sdk_core_pump.inc"
+--- original/kh02_wardrobe_award_candidate.c
++++ ue4ss/kh02_wardrobe_award_candidate.c
+@@ -75,6 +75,8 @@
+            p->session->gate.busy && !memcmp(&p->session->gate.current, &a->lease, sizeof(a->lease));
+ }
+ 
++#include "registration_award.inc"
++
+ static uint32_t effect(void *context) {
+     Award *a = context;
+     Kh02CosmeticAttempt *p = a->attempt;
+@@ -82,13 +84,8 @@
+     if (!valid(a, &observed) || memcmp(&observed, &p->before, sizeof(observed)))
+         return 0;
+ #if KH02_COSMETIC_GAME_CALLS
+-    /* Microsoft x64 ABI: context/code/amount/show in RCX/EDX/R8D/R9B,
+-       player 0 is the fifth stack argument. Return value is not an award ack.
+-       Use the native registration method, never the raw count writer. */
+-    typedef void (*NativeAward)(void *, uint32_t, int32_t, unsigned char, uint32_t);
+-    p->entered = 1;
+-    ((NativeAward)(uintptr_t)(a->game->base + 0x446aa0))(
+-        (void *)(uintptr_t)a->game->session->context, a->descriptor.code, 1, 1, 0);
++    if (!registration_award(a))
++        return 0;
+ #else
+     return 0;
+ #endif
+--- original/kh02_area_map_award_v101.c
++++ ue4ss/kh02_area_map_award_v101.c
+@@ -75,6 +75,8 @@
+            p->session->gate.busy && !memcmp(&p->session->gate.current, &a->lease, sizeof(a->lease));
+ }
+ 
++#include "registration_award.inc"
++
+ static uint32_t effect(void *context) {
+     Award *a = context;
+     Kh02CosmeticAttempt *p = a->attempt;
+@@ -82,13 +84,8 @@
+     if (!valid(a, &observed) || memcmp(&observed, &p->before, sizeof(observed)))
+         return 0;
+ #if KH02_COSMETIC_GAME_CALLS
+-    /* Microsoft x64 ABI: context/code/amount/show in RCX/EDX/R8D/R9B,
+-       player 0 is the fifth stack argument. Return value is not an award ack.
+-       Use the native registration method, never the raw count writer. */
+-    typedef void (*NativeAward)(void *, uint32_t, int32_t, unsigned char, uint32_t);
+-    p->entered = 1;
+-    ((NativeAward)(uintptr_t)(a->game->base + 0x446aa0))(
+-        (void *)(uintptr_t)a->game->session->context, a->descriptor.code, 1, 1, 0);
++    if (!registration_award(a))
++        return 0;
+ #else
+     return 0;
+ #endif

@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-
 OBJECTIVE_LOCATION_ID_BASE = 0x020280
 
 
@@ -21,4 +20,6 @@ def objective_location_id(number: int) -> int:
 
 
 def completed_objective_location_ids(objective_bytes: bytes) -> set[int]:
-    return {objective_location_id(number) for number in completed_objective_numbers(objective_bytes)}
+    return {
+        objective_location_id(number) for number in completed_objective_numbers(objective_bytes)
+    }

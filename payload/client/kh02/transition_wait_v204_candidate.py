@@ -3,6 +3,7 @@
 Command 3 can reconcile rewards: it is never resent. Identity validation,
 pending-request exclusion and cleanup deadlines remain inherited unchanged.
 """
+
 from .progress_overlap_v196_candidate import ProgressTransport
 
 

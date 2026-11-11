@@ -4,7 +4,7 @@ An Archipelago multiworld randomizer for **Kingdom Hearts 0.2 Birth by Sleep –
 
 Find abilities, magic, world access, wardrobe pieces, and other rewards throughout your game—or receive them from friends playing other games in the same multiworld.
 
-**Public beta · Windows/Steam only.** Epic Games Store support is planned separately. A full seeded playthrough and focused feature tests have passed; bug reports from public testing are welcome.
+**Steam public beta · Windows/Steam only.** Epic Games Store support is planned separately. The earlier build passed a full seeded playthrough. This UE4SS update has partial playthrough and focused regression coverage, including the final Wayfinder, Forest retry, and save-point access checks. The maintainer has reviewed the main implementation paths. It remains a public beta; please report problems.
 
 ## Features
 
@@ -33,13 +33,14 @@ Download these files from this repository's **Releases** page:
 
 | File | Purpose |
 | --- | --- |
-| `kh02.apworld` | World generation, the KH client, and its required mod |
-| `kh02-poptracker-0.4.11.zip` | Optional PopTracker pack |
-| `START-HERE.txt` | Offline setup instructions |
+| `kh02.apworld` | World generation and the KH client |
+| `kh02-steam-mod.zip` | Manually installed game mod |
+| `kh02-poptracker-0.4.13.zip` | Optional PopTracker pack |
+| `PLAYER-INSTALL.txt` | Offline setup instructions |
 
-You need the **Windows Steam version of KH 2.8**, [Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases), and optionally [PopTracker](https://github.com/black-sliver/PopTracker/releases). The installed client was tested with Archipelago **0.6.7**. This world does not require 0.6.8.
+You need the **Windows Steam version of KH 2.8**, [Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases), and optionally [PopTracker](https://github.com/black-sliver/PopTracker/releases). The client has been tested with Archipelago **0.6.7 and 0.6.8**. This world does not require 0.6.8.
 
-You do **not** need to download a separate client executable or install a mod manually. The APWorld includes both. GitHub's automatic **Source code** downloads are not the player installation package.
+The APWorld includes the client. Install the game mod separately using the steps below. GitHub's automatic **Source code** downloads are not the player installation package. These instructions describe the UE4SS candidate; older public builds used a different installation method.
 
 ## Installation and seed generation
 
@@ -49,12 +50,14 @@ You do **not** need to download a separate client executable or install a mod ma
 4. Host the generated seed and keep the server address, port, and your exact player name.
 5. For PopTracker, put its ZIP in your PopTracker `packs` folder without extracting it, then select the KH 0.2 pack.
 
+With the game closed, use Steam's **Browse local files**, then open the **KINGDOM HEARTS 0.2 Birth by Sleep** folder inside the collection. Extract `kh02-steam-mod.zip` here, merging its `Binaries` and `Content` folders with the existing ones. If asked to replace an existing file, stop and check which mod owns it. Keep the ZIP as a record of the files you installed.
+
 ## Starting a session
 
 1. Open **Steam** and sign into the account you use for KH. Keep **0.2 closed**.
 2. Open **KH 0.2 Client** from Archipelago Launcher.
 3. Connect using your server address and player name.
-4. Wait for **“AP is prepared.”** The client automatically detects the supported Steam installation and prepares the mod and isolated saves.
+4. Wait for **“AP is prepared.”** The client detects the supported Steam installation, checks the installed mod, and prepares isolated saves.
 5. Launch **Kingdom Hearts HD 2.8 Final Chapter Prologue** through Steam, then select **0.2**.
 6. Once the client says it is attached, start a **New Game** for a new seed or load one of that seed's AP saves.
 7. If using PopTracker, connect it to the same room and player.
@@ -65,11 +68,39 @@ Keep the client open while playing. You do not need to enter a Steam ID or locat
 
 AP uses its own seed-specific saves. Existing vanilla saves are not used for an AP run. If you see your vanilla saves, stop before loading one and check that the client was prepared and attached.
 
-When finished, **close the game normally, then close the client**. It restores normal startup automatically; you do not need to remove the mod afterward.
+When finished, **close the game normally, then close the client**. The mod stays installed for your next AP session. Closing the client alone does **not** disable the mod.
 
 If you close the client first, its window stays open while it waits for the game to close. Close the game normally and let cleanup finish. If cleanup reports an error, keep the message and recovery files for troubleshooting.
 
 **Open a fresh KH client window for each new game session.** Reconnecting an old window does not prepare another game launch.
+
+## Switching between AP and vanilla
+
+To play vanilla, first close the game normally, let the client finish cleanup, and close the client. Open the **KINGDOM HEARTS 0.2 Birth by Sleep** installation folder.
+
+Create a folder **outside the game installation**, such as `KH02 AP disabled` on your Desktop. Make `paks` and `loaders` folders inside it, then move these four files:
+
+| From | File | Move into |
+| --- | --- | --- |
+| `Content\Paks\~mods` | `KH02_AP_RestartPrototype_P.pak` | Your backup's `paks` folder |
+| `Content\Paks\~mods` | `TresGame-WindowsNoEditor_99_P.pak` | Your backup's `paks` folder |
+| `Binaries\Win64` | `dinput8.dll` | Your backup's `loaders` folder |
+| `Binaries\Win64` | `dwmapi.dll` | Your backup's `loaders` folder |
+
+Launch normally **without the KH client** to use your vanilla saves. Move the files rather than deleting them, and leave all saves, AP profiles, and other files alone. Removing only the paks does not disable the native AP loaders. If another mod shares these loaders, disabling them may disable that mod too.
+
+**To return to AP:** with the game closed, move each file back to its original folder. Don't overwrite an unexpected existing file. Open a fresh KH client, connect to your seed, and wait for **“AP is prepared”** before launching. Your AP saves remain in their seed profile throughout.
+
+## Removing old seed saves
+
+Each seed and player slot has its own profile. Reconnecting to the same seed reuses it; playing new seeds adds more folders. The client never deletes old profiles automatically.
+
+1. Close the game normally, let cleanup finish, then close the KH client.
+2. Paste `%LOCALAPPDATA%\KH02AP\profiles` into File Explorer's address bar.
+3. Find the seed you no longer want. Folder names start with the seed name, followed by the player slot (`P1`, for example) and an identifier. Open `profile.json` in Notepad and check its `label` for the seed and player name. Don't edit it.
+4. Move the **entire seed folder** somewhere else to keep a backup, or delete that folder if you are finished with it.
+
+Keep the folder intact when backing it up: saves and item-receipt history belong together. Don't delete individual files inside a profile to troubleshoot a run you want to keep. Removing a profile removes that seed's local progress, not its server-side checks, and does not affect vanilla saves or other seed profiles. To resume a backed-up profile, restore the whole folder to its original location while the game and client are closed; don't merge it with a newly created profile.
 
 ## Changing difficulty
 
@@ -83,6 +114,8 @@ Enter one of these commands in the KH client:
 ```
 
 Wait for confirmation, then **reload your AP save**. Difficulty changes apply on loading, not immediately during gameplay. Use `/difficulty status` to check your selection and `/help` for available commands.
+
+The Mines entrance requires Doubleflight. Before you receive it, the entrance stays locked and displays a reminder when you approach.
 
 ## Known limitations
 
@@ -99,16 +132,18 @@ Open an issue on this repository with your settings, world and location, what ha
 
 ## Credits
 
-Developed with assistance from OpenAI Codex, with extensive manual in-game testing.
+OpenAI Codex generated most of the implementation and assisted with investigation, testing tools, and debugging. The maintainer designed the randomizer settings and logic and performed extensive manual in-game testing. The maintainer reviewed the main implementation paths and discussed their behavior, safety checks, and failure handling. The scope and limits are recorded in [the code walkthrough](docs/CODE-WALKTHROUGH.md); this was not a line-by-line audit of every helper or third-party dependency.
 
 Built for [Archipelago](https://archipelago.gg/) and [PopTracker](https://github.com/black-sliver/PopTracker). Wardrobe and Wayfinder reference artwork was sourced from [KHWiki](https://www.khwiki.com/). Kingdom Hearts and its game assets belong to their respective owners. This is an unofficial fan project.
 
-Magic and map icons in PopTracker 0.4.12 are sourced from [Kingdom Hearts Re:Collection](https://televo.github.io/kingdom-hearts-recollection/), maintained by Televo. Individual asset sources are recorded in the pack; underlying game artwork remains the property of its respective owners.
+Magic and map icons in PopTracker are sourced from [Kingdom Hearts Re:Collection](https://televo.github.io/kingdom-hearts-recollection/), maintained by Televo. Individual asset sources are recorded in the pack; underlying game artwork remains the property of its respective owners.
 
 ## License
 
 Original project code is available under the [MIT License](LICENSE). Third-party code retains its own license. Kingdom Hearts artwork, names, and other game assets are not covered by this project's MIT license and remain the property of their respective owners.
 
 ## Source and contributions
+
+For a quick guide to the implementation, see the [code-review cheatsheet](docs/CODE-REVIEW-CHEATSHEET.md).
 
 See [BUILDING.md](docs/BUILDING.md) for source layout and build instructions, [CONTRIBUTING.md](CONTRIBUTING.md) for development guidelines, and [third-party notices](THIRD_PARTY_NOTICES.md) for attribution.

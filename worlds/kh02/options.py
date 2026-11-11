@@ -2,7 +2,6 @@ from dataclasses import dataclass
 
 from Options import Choice, PerGameCommonOptions, Toggle
 
-
 STARTING_WORLD_NAMES = (
     "Castle Town",
     "The World Within",

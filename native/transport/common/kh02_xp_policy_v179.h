@@ -1,10 +1,10 @@
 #ifndef KH02_XP_POLICY_V179_H
 #define KH02_XP_POLICY_V179_H
 #include <stdint.h>
-/* Offline candidate only. No reads/writes/hooks. Scale the earned delta after
+
+/* Pure arithmetic helper. Scale the earned delta after
    native XP-zero/chance rules; preserve total cap and prevent signed overflow. */
-static int32_t kh02_xp_delta179(int authorized, uint32_t halves,
-                               int32_t current, int32_t earned) {
+static int32_t kh02_xp_delta179(int authorized, uint32_t halves, int32_t current, int32_t earned) {
     uint64_t scaled, room;
     if (!authorized || earned <= 0 || current < 0 || current > 9999999 ||
         (halves != 2 && halves != 3 && halves != 4 && halves != 6 && halves != 8))

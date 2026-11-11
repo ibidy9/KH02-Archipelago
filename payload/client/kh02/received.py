@@ -6,7 +6,6 @@ import os
 from pathlib import Path
 from typing import Iterable
 
-
 LEDGER_VERSION = 1
 
 

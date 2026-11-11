@@ -3,6 +3,7 @@
 The distributed candidate DLL refuses attachment before any game handle opens.
 Policy input must come from the future bounded, process-local name/phase adapter.
 """
+
 from __future__ import annotations
 
 import ctypes as c
@@ -18,24 +19,47 @@ MAGIC, VERSION, MESSAGE = 0x4B435254, 1, 0x8260
 
 class RouteRule(c.Structure):
     _fields_ = [(n, c.c_uint32) for n in ("kind", "caller_rva", "enabled", "once")] + [
-        (n, c.c_uint64) for n in ("source_map", "source_spawn", "target_map", "target_spawn")]
+        (n, c.c_uint64) for n in ("source_map", "source_spawn", "target_map", "target_spawn")
+    ]
 
 
 class RoutePolicy(c.Structure):
-    _fields_ = [("owner_cookie", c.c_uint64), ("generation", c.c_uint64),
-                ("count", c.c_uint32), ("reserved", c.c_uint32), ("rules", RouteRule * 8)]
+    _fields_ = [
+        ("owner_cookie", c.c_uint64),
+        ("generation", c.c_uint64),
+        ("count", c.c_uint32),
+        ("reserved", c.c_uint32),
+        ("rules", RouteRule * 8),
+    ]
 
 
 class NativeReceipt(c.Structure):
-    _fields_ = [(n, c.c_uint32) for n in ("magic", "version", "size", "sequence")] + [
-        (n, c.c_uint64) for n in ("owner_cookie", "generation")] + [
-        (n, c.c_uint32) for n in ("status", "active", "entry_restored", "in_flight")]
+    _fields_ = (
+        [(n, c.c_uint32) for n in ("magic", "version", "size", "sequence")]
+        + [(n, c.c_uint64) for n in ("owner_cookie", "generation")]
+        + [(n, c.c_uint32) for n in ("status", "active", "entry_restored", "in_flight")]
+    )
 
 
 class RouteBlock(c.Structure):
-    _fields_ = [(n, c.c_uint32) for n in ("magic", "version", "size", "request_sequence",
-        "response_sequence", "command", "status", "active")] + [
-        ("policy", RoutePolicy), ("cleanup", NativeReceipt), ("matched", c.c_uint32), ("refused", c.c_uint32)]
+    _fields_ = [
+        (n, c.c_uint32)
+        for n in (
+            "magic",
+            "version",
+            "size",
+            "request_sequence",
+            "response_sequence",
+            "command",
+            "status",
+            "active",
+        )
+    ] + [
+        ("policy", RoutePolicy),
+        ("cleanup", NativeReceipt),
+        ("matched", c.c_uint32),
+        ("refused", c.c_uint32),
+    ]
 
 
 def sha256(path: Path) -> str:
@@ -57,8 +81,17 @@ class WindowsRouteTransport:
     validate_export = "Kh02ValidateRoutePolicy"
     hook_export = "Kh02CombinedRouteCandidateHook"
 
-    def __init__(self, dll: Path, *, dll_sha256: str, pid: int, creation_time: int,
-                 window: int, policy: RoutePolicy, timeout: float = 2.0):
+    def __init__(
+        self,
+        dll: Path,
+        *,
+        dll_sha256: str,
+        pid: int,
+        creation_time: int,
+        window: int,
+        policy: RoutePolicy,
+        timeout: float = 2.0,
+    ):
         if pid <= 0 or creation_time <= 0 or window <= 0 or not 0 < timeout <= 10:
             raise ValueError("Fresh process/window identity and bounded timeout required")
         self.dll_path, self.dll_hash = dll.resolve(), dll_sha256.upper()
@@ -81,17 +114,47 @@ class WindowsRouteTransport:
             (self.kernel, "OpenProcess", c.c_void_p, [c.c_uint32, c.c_int, c.c_uint32]),
             (self.kernel, "CloseHandle", c.c_int, [c.c_void_p]),
             (self.kernel, "GetProcessTimes", c.c_int, [c.c_void_p] + [c.POINTER(c.c_uint64)] * 4),
-            (self.kernel, "QueryFullProcessImageNameW", c.c_int, [c.c_void_p, c.c_uint32, c.c_wchar_p, c.POINTER(c.c_uint32)]),
+            (
+                self.kernel,
+                "QueryFullProcessImageNameW",
+                c.c_int,
+                [c.c_void_p, c.c_uint32, c.c_wchar_p, c.POINTER(c.c_uint32)],
+            ),
             (self.kernel, "WaitForSingleObject", c.c_uint32, [c.c_void_p, c.c_uint32]),
             (self.kernel, "CreateMutexW", c.c_void_p, [c.c_void_p, c.c_int, c.c_wchar_p]),
-            (self.kernel, "CreateFileMappingW", c.c_void_p, [c.c_void_p, c.c_void_p, c.c_uint32, c.c_uint32, c.c_uint32, c.c_wchar_p]),
-            (self.kernel, "MapViewOfFile", c.c_void_p, [c.c_void_p, c.c_uint32, c.c_uint32, c.c_uint32, c.c_size_t]),
+            (
+                self.kernel,
+                "CreateFileMappingW",
+                c.c_void_p,
+                [c.c_void_p, c.c_void_p, c.c_uint32, c.c_uint32, c.c_uint32, c.c_wchar_p],
+            ),
+            (
+                self.kernel,
+                "MapViewOfFile",
+                c.c_void_p,
+                [c.c_void_p, c.c_uint32, c.c_uint32, c.c_uint32, c.c_size_t],
+            ),
             (self.kernel, "UnmapViewOfFile", c.c_int, [c.c_void_p]),
             (self.kernel, "FreeLibrary", c.c_int, [c.c_void_p]),
-            (self.user, "GetWindowThreadProcessId", c.c_uint32, [c.c_void_p, c.POINTER(c.c_uint32)]),
-            (self.user, "SetWindowsHookExW", c.c_void_p, [c.c_int, c.c_void_p, c.c_void_p, c.c_uint32]),
+            (
+                self.user,
+                "GetWindowThreadProcessId",
+                c.c_uint32,
+                [c.c_void_p, c.POINTER(c.c_uint32)],
+            ),
+            (
+                self.user,
+                "SetWindowsHookExW",
+                c.c_void_p,
+                [c.c_int, c.c_void_p, c.c_void_p, c.c_uint32],
+            ),
             (self.user, "UnhookWindowsHookEx", c.c_int, [c.c_void_p]),
-            (self.user, "PostThreadMessageW", c.c_int, [c.c_uint32, c.c_uint32, c.c_size_t, c.c_ssize_t]),
+            (
+                self.user,
+                "PostThreadMessageW",
+                c.c_int,
+                [c.c_uint32, c.c_uint32, c.c_size_t, c.c_ssize_t],
+            ),
         )
         for library, name, result, args in declarations:
             function = getattr(library, name)
@@ -116,7 +179,9 @@ class WindowsRouteTransport:
         if not self.process:
             raise c.WinError(c.get_last_error())
         created, exited, kernel, user = (c.c_uint64() for _ in range(4))
-        if not self.kernel.GetProcessTimes(self.process, c.byref(created), c.byref(exited), c.byref(kernel), c.byref(user)):
+        if not self.kernel.GetProcessTimes(
+            self.process, c.byref(created), c.byref(exited), c.byref(kernel), c.byref(user)
+        ):
             raise c.WinError(c.get_last_error())
         if created.value != self.creation_time:
             raise RuntimeError("PID now belongs to another process")
@@ -136,15 +201,27 @@ class WindowsRouteTransport:
         if not self.mutex or c.get_last_error() == 183:
             raise RuntimeError("Another candidate route controller owns this process")
         c.set_last_error(0)
-        self.mapping = self.kernel.CreateFileMappingW(c.c_void_p(-1), None, 4, 0, c.sizeof(self.block_type),
-            f"Local\\{self.mapping_prefix}-{self.pid}")
+        self.mapping = self.kernel.CreateFileMappingW(
+            c.c_void_p(-1),
+            None,
+            4,
+            0,
+            c.sizeof(self.block_type),
+            f"Local\\{self.mapping_prefix}-{self.pid}",
+        )
         if not self.mapping or c.get_last_error() == 183:
             raise RuntimeError("Candidate mapping already exists or could not be created")
-        self.view = self.kernel.MapViewOfFile(self.mapping, 0xF001F, 0, 0, c.sizeof(self.block_type))
+        self.view = self.kernel.MapViewOfFile(
+            self.mapping, 0xF001F, 0, 0, c.sizeof(self.block_type)
+        )
         if not self.view:
             raise c.WinError(c.get_last_error())
         self.block = self.block_type.from_address(self.view)
-        self.block.magic, self.block.version, self.block.size = MAGIC, VERSION, c.sizeof(self.block_type)
+        self.block.magic, self.block.version, self.block.size = (
+            MAGIC,
+            VERSION,
+            c.sizeof(self.block_type),
+        )
         self.block.policy = self.policy
         callback = c.cast(getattr(self.native, self.hook_export), c.c_void_p)
         self.hook = self.user.SetWindowsHookExW(3, callback, self.native._handle, self.thread)
@@ -152,14 +229,48 @@ class WindowsRouteTransport:
             raise c.WinError(c.get_last_error())
         self.sequence = 1
         self.arm_sent = True  # Even a posting timeout may race a later native callback.
-        self.cleanup = VerifiedControllerCleanup(self, cookie=self.policy.owner_cookie,
-            generation=self.policy.generation, last_sequence=self.sequence)
+        self.cleanup = VerifiedControllerCleanup(
+            self,
+            cookie=self.policy.owner_cookie,
+            generation=self.policy.generation,
+            last_sequence=self.sequence,
+        )
         reply = self._request(1, self.sequence)
-        if (reply is None or reply.magic != MAGIC or reply.version != VERSION or reply.size != 48
-            or reply.sequence != 1 or reply.owner_cookie != self.policy.owner_cookie
-            or reply.generation != self.policy.generation or reply.status != 1
-            or reply.active != 1 or reply.entry_restored != 0):
-            raise RuntimeError("Native ARM not confirmed; cleanup required")
+        if (
+            reply is None
+            or reply.magic != MAGIC
+            or reply.version != VERSION
+            or reply.size != 48
+            or reply.sequence != 1
+            or reply.owner_cookie != self.policy.owner_cookie
+            or reply.generation != self.policy.generation
+            or reply.status != 1
+            or reply.active != 1
+            or reply.entry_restored != 0
+        ):
+            diagnostic = getattr(self, "arm_diagnostic", {})
+            outcome = diagnostic.get("outcome", "unconfirmed")
+            if reply is not None:
+                identity_ok = (
+                    reply.magic,
+                    reply.version,
+                    reply.size,
+                    reply.sequence,
+                    reply.owner_cookie,
+                    reply.generation,
+                ) == (MAGIC, VERSION, 48, 1, self.policy.owner_cookie, self.policy.generation)
+                outcome = "native_rejected" if identity_ok else "reply_mismatch"
+                diagnostic["outcome"] = outcome
+                detail = f"{outcome}; status={reply.status}, active={reply.active}, entry_restored={reply.entry_restored}"
+            elif outcome == "timeout":
+                detail = f"no reply within {diagnostic['timeout_seconds']:g} seconds"
+            elif outcome == "post_failed":
+                detail = f"Windows could not post attachment request (error {diagnostic.get('winerror')})"
+            elif outcome == "game_exited":
+                detail = "game exited while waiting for attachment"
+            else:
+                detail = "no confirmed attachment reply"
+            raise RuntimeError("Native ARM not confirmed: " + detail + "; cleanup required")
         self.started = True
 
     def _request(self, command: int, sequence: int) -> CleanupReceipt | None:

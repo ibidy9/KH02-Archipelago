@@ -1,0 +1,13 @@
+# UE4SS context lifecycle and read-only scheduling passed
+
+Follow-up: the next unarmed candidate moves post-startup owner dispatch to UE4SS; see `ue4ss-owner-dispatch-ready-2026-10-31.md`. This passed version remains preserved.
+
+Closed capture: workspace research/ue4ss-receipt-live-20261101T041520548217Z. This supersedes r5 readiness in ue4ss-context-lifecycle-ready-2026-10-31.md.
+
+The exact ClientRestart pre-hook invalidated context revisions 1,2,4,5; post-load/post-reload accepted revisions 3,6 with both weak references ready. Title/non-Aqua refusals left no accepted hint. All three bounded ExecuteInGameThread read-only probes ran on OS thread 33120, matching the game's actual window thread: startup without context, then loaded contexts at revisions 3 and 6. They performed no gameplay writes or receipt acknowledgement. The 32-event cutoff removal has offline 80-event/10000-generation evidence, not 33 live reloads or a long-session memory test.
+
+One Potion through the unchanged owner/UE4SS call bridge was smooth and acknowledged at index 9, inventory 2 to 3. Sync and save/title/reload produced no repeat. The final copied save decoded Potion 3, Ether 2 and Hi-Potion 1. This regression item protected the lifecycle change; item delivery itself was already proven. The private history now has TEN identities. Do not reconnect any old truncated fixture.
+
+Normal coordinator cleanup finished. Eleven unchanged owned additions were removed, existing XInput/prototype were preserved and exact original stable runtime/metadata restored under RuntimeLease. Development KH0.2 save container is byte-identical. Collection system data changed and was copied/preserved without restoration. All captures/profile copies are hashed. No save was adopted, deleted or restored. Nothing is installed, armed, watching, pushed or released.
+
+User feedback: repeated load/Potion/save/reload sessions feel indistinguishable and costly. Before another live session state the concrete changed subsystem and completion criteria. Do not add another baseline Potion/scheduling observation without a specific unresolved requirement. The next substantive milestone should be actual UE4SS-driven dispatch integration with the proven owner/receipt rules, supported by offline work and a batched meaningful regression session. The current owner still uses its original dispatch mechanism; three read-only thread checks do not establish a production scheduler. Per-action Lua thread/wrapper bookkeeping, callback lifetime, reentry, paused/title behavior, shutdown and bounded queues still require design. Preserve passed versions alongside any replacement.

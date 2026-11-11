@@ -1,9 +1,10 @@
 """Per-seed conservative wardrobe logic; actual game still accepts any sets."""
+
 from dataclasses import dataclass
 import json
 from importlib.resources import files
 
-CATEGORIES = ('head', 'arms', 'back', 'pattern')
+CATEGORIES = ("head", "arms", "back", "pattern")
 
 
 @dataclass(frozen=True)
@@ -24,27 +25,27 @@ class WardrobeSelection:
 
     def goal_sets(self, has):
         if not self.sets_required:
-            raise ValueError('This seed did not select wardrobe-set goal logic')
+            raise ValueError("This seed did not select wardrobe-set goal logic")
         return all(has(name) for name in self.progression)
 
 
 def select(rng, *, requirement, categories=None):
-    if requirement not in ('wayfinders', 'zodiacs', 'wardrobe_sets'):
-        raise ValueError('Unknown goal requirement')
+    if requirement not in ("wayfinders", "zodiacs", "wardrobe_sets"):
+        raise ValueError("Unknown goal requirement")
     if categories is None:
-        path = files(__package__).joinpath('data/wardrobe-goal-sets.json')
-        categories = json.loads(path.read_text())['categories']
+        path = files(__package__).joinpath("data/wardrobe-goal-sets.json")
+        categories = json.loads(path.read_text())["categories"]
     if set(categories) != set(CATEGORIES):
-        raise ValueError('Exactly four wardrobe categories required')
+        raise ValueError("Exactly four wardrobe categories required")
     names = []
     for category, count in zip(CATEGORIES, (4, 3, 3, 7)):
         groups = categories[category]
         if len(groups) != count or any(len(group) != 3 for group in groups):
-            raise ValueError('Wardrobe set structure differs')
+            raise ValueError("Wardrobe set structure differs")
         names.extend(name for group in groups for name in group)
     if len(set(names)) != 51 or any(type(name) is not str or not name for name in names):
-        raise ValueError('51 distinct wardrobe names required')
-    sets_required = requirement == 'wardrobe_sets'
+        raise ValueError("51 distinct wardrobe names required")
+    sets_required = requirement == "wardrobe_sets"
     selected = []
     for category in CATEGORIES:
         groups = categories[category]

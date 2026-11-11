@@ -1,4 +1,4 @@
-# Kingdom Hearts 0.2 PopTracker 0.4.12
+# Kingdom Hearts 0.2 PopTracker 0.4.13
 
 An optional tracker for the KH 0.2 Archipelago world. Put the ZIP in PopTracker's `packs` folder and connect to the same Archipelago room and player as the game client.
 
@@ -15,3 +15,6 @@ The pack uses bounded state tables and registers its AP callbacks once. It does 
 Air Slide is from Televo’s Re:Collection; Doubleflight is sourced from SilentBrow’s BBS PopTracker; the Spellweaver logo is 0.2 artwork hosted by KHWiki. See `ability-replacement-sources.json` for individual sources.
 
 Cartwheel, Barrier, Counter Blast, and Aerial Recovery use symbols extracted from Dream Drop Distance HD. Shotlock uses a targeting graphic extracted from Birth by Sleep HD. These are repurposed game symbols, credited to Disney / Square Enix; extraction used OpenKH. See `ability-replacement-sources.json`.
+
+
+Version 0.4.13 corrects The World Within chests 12 and 13 to require Doubleflight. Compatible with existing seeds; item and location IDs are unchanged.

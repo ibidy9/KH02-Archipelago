@@ -1,0 +1,13 @@
+# UE4SS owner dispatch passed: idle, pause and reload
+
+Follow-up: the unarmed mixed-item/travel/Retry regression is documented in `ue4ss-dispatch-regression-ready-2026-10-31.md`. This passed dispatcher remains unchanged alongside it.
+
+Closed capture: workspace research/ue4ss-receipt-live-20261101T050107700053Z. This supersedes r6 readiness in ue4ss-owner-dispatch-ready-2026-10-31.md.
+
+Original bootstrap attached normally at title. After private slot1 loaded, the approved already-loaded core was verified and UE4SS post-event dispatch bound. The bootstrap service count stayed exactly 63 throughout subsequent idle/paused operation, return to title, reload and normal closing; SDK service counters advanced and Windows wake messages were ignored. This proves the requests were actually dispatched on the new path, rather than silently falling back to the old message handler.
+
+Potion delivery while standing was smooth and acknowledged at index10, inventory3 to4. Ether delivery while paused was acknowledged at index11, inventory2 to3; user saw the normal popup on unpause. Sync and save/title/reload did not repeat either grant or popup. Exactly two native grants occurred. The final copied save decoded manual slot1 Potion4/Ether3/HiPotion1. Context replacement and SDK servicing continued across title/reload. Current private history contains TWELVE identities: never reconnect an older truncated fixture.
+
+Normal coordinator cleanup completed and exited0. Eleven unchanged owned additions were removed, existing XInput/prototype preserved, and exact previous stable runtime DLL/runtime.json restored under RuntimeLease. The development KH0.2 save container is byte-identical; collection system data changed and was copied/preserved without restoration. No save was adopted, deleted or restored. Complete capture/private-profile/source/binary/config and final saved decode are hash-verified. No test remains installed, armed or watching. Nothing pushed/released.
+
+Scope: actual post-startup owner dispatch through one native SDK callback is now proven for idle, pause and title/reload. Original authenticated startup attachment, Windows bootstrap and gameplay/save hooks remain; this is not full loader/early-storage migration. Combat/travel/retry, extended-session pacing and final end-user installation still need integration review. The diagnostic currently logs every serviced request; reduce/rate-limit this alongside the passed version before long sessions. Maintain the original owner/receipt rules and keep working versions recoverable. Batch further meaningful regressions rather than repeating a basic idle Potion check without a new requirement.

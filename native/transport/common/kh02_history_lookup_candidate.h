@@ -5,7 +5,8 @@
    game calls, blocking waits, journal I/O or recursion into this lookup.
    Any callback failure closes lookup admission; a partial commit cannot be
    mistaken for an unchanged BUSY result. Caller closes the remaining graph. */
-typedef uint32_t (*Kh02HistoryCommit)(void*,const Kh02ReceiptIdentity*,uint32_t,uint32_t);
-KH02_RECEIPT_API uint32_t Kh02SessionLookupHistory(Kh02DiskLookup*,const Kh02ReceiptScope*,
-    const Kh02ReceiptIdentity*,uint32_t,Kh02HistoryCommit,void*);
+typedef uint32_t (*Kh02HistoryCommit)(void *, const Kh02ReceiptIdentity *, uint32_t, uint32_t);
+KH02_RECEIPT_API uint32_t Kh02SessionLookupHistory(Kh02DiskLookup *, const Kh02ReceiptScope *,
+                                                   const Kh02ReceiptIdentity *, uint32_t,
+                                                   Kh02HistoryCommit, void *);
 #endif

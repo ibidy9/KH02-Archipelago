@@ -13,12 +13,17 @@
    transition, and retain this pipeline. Never wait inside the game callback. */
 MEMBER_API uint32_t Kh02SavePipelineQuiesce(Kh02SavePipeline *p) {
     Kh02PublicationGate *gate;
-    if(!p || GetCurrentThreadId()!=p->thread || p->drained)return KH02_BIND_REFUSED;
-    InterlockedExchange(&p->stopped,1);
-    for(uint32_t i=0;i<8;++i) {
-        gate=InterlockedCompareExchangePointer((void*volatile*)&p->attempts[i].gate,NULL,NULL);
-        if(gate)Kh02PublicationRevoke(gate);
+    if (!p || GetCurrentThreadId() != p->thread || p->drained)
+        return KH02_BIND_REFUSED;
+    InterlockedExchange(&p->stopped, 1);
+    for (uint32_t i = 0; i < 8; ++i) {
+        gate =
+            InterlockedCompareExchangePointer((void *volatile *)&p->attempts[i].gate, NULL, NULL);
+        if (gate)
+            Kh02PublicationRevoke(gate);
     }
-    if(InterlockedCompareExchange(&p->flight,0,0))return KH02_BIND_BUSY;
-    return Kh02ReceiptOwnerCheck(p->config.owner)==KH02_MEMBER_OK?KH02_BIND_OK:KH02_BIND_REFUSED;
+    if (InterlockedCompareExchange(&p->flight, 0, 0))
+        return KH02_BIND_BUSY;
+    return Kh02ReceiptOwnerCheck(p->config.owner) == KH02_MEMBER_OK ? KH02_BIND_OK
+                                                                    : KH02_BIND_REFUSED;
 }
